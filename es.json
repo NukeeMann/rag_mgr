@@ -1,0 +1,31 @@
+PUT /mgr_test_1_embedded
+{
+  "mappings": {
+    "properties": {
+      "source": {
+        "type": "keyword"
+      },
+      "source_text": {
+        "type": "text"
+      },
+      "cleaned_text": {
+        "type": "text"
+      },
+      "embedding": {
+        "type": "dense_vector",
+        "dims": 768
+      },
+      "entities": {
+        "type": "nested",
+        "properties": {
+          "entity_name": {
+            "type": "keyword"
+          },
+          "entity_type": {
+            "type": "keyword"
+          }
+        }
+      }
+    }
+  }
+}
