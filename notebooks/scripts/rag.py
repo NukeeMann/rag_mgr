@@ -6,7 +6,6 @@ import re
 import nltk
 from nltk.corpus import stopwords
 import morfeusz2
-import openai
 from elasticsearch import Elasticsearch
 from transformers import AutoModelForCausalLM, AutoTokenizer, AutoModel, TextStreamer
 import torch
@@ -235,9 +234,7 @@ class RAG:
         text = self.replace_polish_letters(text)
 
         # Look for entities
-        print(text)
         query_entities = self.ner(text)
-        print(query_entities)
 
         # Convert to lower case
         text = text.lower()
