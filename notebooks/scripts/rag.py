@@ -7,7 +7,7 @@ import nltk
 from nltk.corpus import stopwords
 import morfeusz2
 from elasticsearch import Elasticsearch
-from transformers import AutoModelForCausalLM, AutoTokenizer, AutoModel, TextStreamer
+from transformers import AutoModelForCausalLM, AutoTokenizer, AutoModel, TextStreamer, TextIteratorStreamer
 import torch
 from typing import List
 from langchain_core.documents.base import Document
@@ -15,6 +15,7 @@ import spacy
 from sentence_transformers import util
 from tqdm import tqdm
 import time
+from threading import Thread
 
 
 class RAG:
@@ -282,7 +283,8 @@ class RAG:
         model_name = "speakleash/Bielik-11B-v2.3-Instruct"
         tokenizer = AutoTokenizer.from_pretrained(model_name)
         llm = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype=torch.bfloat16)
-        streamer = TextStreamer(tokenizer, skip_prompt=True, skip_special_tokens=True)
+        #streamer = TextStreamer(tokenizer, skip_prompt=True, skip_special_tokens=True)
+        streamer = TextIteratorStreamer(tokenizer, skip_prompt=True, skip_special_tokens=True)
 
         # Construct prompt template
         messages = []
@@ -293,7 +295,16 @@ class RAG:
 
         # Generate answer
         input_ids = tokenizer.apply_chat_template(messages, return_tensors="pt")
-        llm.generate(input_ids, streamer=streamer, max_new_tokens=1000, do_sample=True)
+        #llm.generate(input_ids, streamer=streamer, max_new_tokens=1000, do_sample=False)
+
+        generation_kwargs = dict(input_ids, streamer=streamer)
+        thread = Thread(target=llm.generate, kwargs=generation_kwargs)
+        thread.start()
+        generated_text = ""
+        for new_text in streamer:
+            generated_text += new_text
+        
+        return generated_text
 
     # Rerank retrieved documents based on amount of keywords from the query in the cleaned text
     def rerank_keywords(self, documents, query):
