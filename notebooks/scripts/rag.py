@@ -278,7 +278,7 @@ class RAG:
 
         return retrieved_docs, query
 
-    def generate_answer(self, query, documents):
+    def generate_answer(self, query, documents, max_new_tokens=1000):
         # Define and load the models
         model_name = "speakleash/Bielik-11B-v2.3-Instruct"
         tokenizer = AutoTokenizer.from_pretrained(model_name)
@@ -297,7 +297,7 @@ class RAG:
         input_ids = tokenizer.apply_chat_template(messages, return_tensors="pt")
         #llm.generate(input_ids, streamer=streamer, max_new_tokens=1000, do_sample=False)
 
-        generation_kwargs = dict(input_ids, streamer=streamer)
+        generation_kwargs = dict(inputs=input_ids, streamer=streamer, max_new_tokens=max_new_tokens, do_sample=False)
         thread = Thread(target=llm.generate, kwargs=generation_kwargs)
         thread.start()
         generated_text = ""
@@ -329,7 +329,7 @@ class RAG:
             # Calculate score based on matched entities
             for entity in doc_entities:
                 if entity['entity_name'] in query_entity_names:
-                    matching_entities_score += 1
+                    matching_entities_score += 0.2
             
             # Adjust the score by adding the matching entity score
             doc['_score'] += matching_entities_score
@@ -355,4 +355,13 @@ class RAG:
 
         # Sort documents by the updated similarity score
         return sorted(reranked_docs_semantic, key=lambda x: -x['_score'])
+    
+    def rerank(self, documents, query):
 
+        reranked_documents = self.rerank_semantic(documents, query)
+
+        if query['entities']:
+            reranked_documents = self.rerank_entities(reranked_documents, query)
+        
+        return reranked_documents
+        
