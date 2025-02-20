@@ -279,29 +279,31 @@ class RAG:
 
         return retrieved_docs, query
     
-    def initiate_llm(self, model_name="speakleash/Bielik-11B-v2.3-Instruct"):
+    def initiate_llm(self, device, model_name="speakleash/Bielik-11B-v2.3-Instruct"):
         self.chat_tokenizer = AutoTokenizer.from_pretrained(model_name)
-        self.chat_llm = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype=torch.bfloat16)
+        self.chat_llm = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype=torch.bfloat16).to(device)
         #self.chat_streamer = TextStreamer(self.chat_tokenizer, skip_prompt=True, skip_special_tokens=True)
         self.chat_streamer = TextIteratorStreamer(self.chat_tokenizer, skip_prompt=True, skip_special_tokens=True)
         self.llm_loaded = True
+  
+    def generate_answer(self, query, documents, max_new_tokens_v=1000, additional_instruct=""):
+        device = "cuda:0" if torch.cuda.is_available() else "cpu"
 
-    def generate_answer(self, query, documents, max_new_tokens=1000):
         # Define and load the models
         if not self.llm_loaded:
-            self.initiate_llm()
+            self.initiate_llm(device)
 
         # Construct prompt template
         messages = []
-        messages.append({"role": "system", "content": "Jesteś asystentem AI specjalizującym się w analizie tekstu, który odpowiada na pytania korzystając z dostarczonych poniżej dokumentów. Twoje odpowiedzi powinny być krótkie, precyzyjne i w języku polskim. Jeżeli nie jesteś w stanie odpowiedzieć na pytanie na bazie dostarczonych dokumentów odpowiedz, że nie wiesz. Nie wymyślaj odpowiedzi jeżeli jej nie ma w tekście. Nie cytuj fragmentów z dostarczonych dokumentów."})
+        messages.append({"role": "system", "content": "Jesteś asystentem AI specjalizującym się w analizie tekstu, który odpowiada na pytania korzystając z dostarczonych poniżej dokumentów. Twoje odpowiedzi powinny być krótkie, precyzyjne i w języku polskim. Jeżeli nie jesteś w stanie odpowiedzieć na pytanie na bazie dostarczonych dokumentów odpowiedz, że nie wiesz. Nie wymyślaj odpowiedzi jeżeli jej nie ma w tekście. Nie cytuj fragmentów z dostarczonych dokumentów. {additional_instruct}"})
         for id, doc in enumerate(documents):
             messages.append({"role": "system", "content": f"Dokument {id}: {doc['_source'].get('source_text')}"})
         messages.append({"role": "user", "content": query['source_text']})
 
         # Generate answer
-        input_ids = self.chat_tokenizer.apply_chat_template(messages, return_tensors="pt")
+        input_ids = self.chat_tokenizer.apply_chat_template(messages, return_tensors="pt").to(device)
 
-        generation_kwargs = dict(inputs=input_ids, streamer=self.chat_streamer, max_new_tokens=max_new_tokens, do_sample=False)
+        generation_kwargs = dict(inputs=input_ids, streamer=self.chat_streamer, max_new_tokens=max_new_tokens_v, do_sample=False)
         thread = Thread(target=self.chat_llm.generate, kwargs=generation_kwargs)
         thread.start()
         generated_text = ""
@@ -368,4 +370,16 @@ class RAG:
             reranked_documents = self.rerank_entities(reranked_documents, query)
         
         return reranked_documents
+    
+    def infer(self, query_text, additional_instruct=""):
+        # Retrieve documents
+        retrieved_docs, query = self.retrieve(query_text)
+
+        # Re-rank documents
+        reranked_docs = self.rerank(retrieved_docs, query)
+
+        # Generate answer
+        answer = self.generate_answer(query, reranked_docs, additional_instruct)
+
+        return answer
         
