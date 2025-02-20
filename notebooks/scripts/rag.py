@@ -34,8 +34,9 @@ class RAG:
         self.nlp_pl = spacy.load("pl_core_news_sm")
 
         # Load tokenizer and embedding model
-        self.tokenizer = AutoTokenizer.from_pretrained("Voicelab/sbert-base-cased-pl")
+        self.processing_tokenizer = AutoTokenizer.from_pretrained("Voicelab/sbert-base-cased-pl")
         self.embedding_model = AutoModel.from_pretrained("Voicelab/sbert-base-cased-pl")
+        self.llm_loaded = False
 
     # List recursivly all documents in the directory
     def list_files_recursive(self, directory):
@@ -151,7 +152,7 @@ class RAG:
 
     # Tokenize and embedd the document content using LLM
     def embedd_doc(self, preprocessed_doc):
-        inputs = self.tokenizer(preprocessed_doc['cleaned_text'], return_tensors="pt", truncation=True, padding=True)
+        inputs = self.processing_tokenizer(preprocessed_doc['cleaned_text'], return_tensors="pt", truncation=True, padding=True)
         outputs = self.embedding_model(**inputs)
 
         embedding = outputs.pooler_output.detach().numpy()[0]
@@ -250,7 +251,7 @@ class RAG:
 
     # Embedd the query
     def embedd_query(self, text):
-        inputs = self.tokenizer(text, return_tensors='pt', truncation=True, padding=True)
+        inputs = self.processing_tokenizer(text, return_tensors='pt', truncation=True, padding=True)
         with torch.no_grad():
             outputs = self.embedding_model(**inputs)
         return outputs.pooler_output.detach().numpy()[0]
@@ -277,14 +278,18 @@ class RAG:
         retrieved_docs = retrieved_docs['hits']['hits']
 
         return retrieved_docs, query
+    
+    def initiate_llm(self, model_name="speakleash/Bielik-11B-v2.3-Instruct"):
+        self.chat_tokenizer = AutoTokenizer.from_pretrained(model_name)
+        self.chat_llm = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype=torch.bfloat16)
+        #self.chat_streamer = TextStreamer(self.chat_tokenizer, skip_prompt=True, skip_special_tokens=True)
+        self.chat_streamer = TextIteratorStreamer(self.chat_tokenizer, skip_prompt=True, skip_special_tokens=True)
+        self.llm_loaded = True
 
     def generate_answer(self, query, documents, max_new_tokens=1000):
         # Define and load the models
-        model_name = "speakleash/Bielik-11B-v2.3-Instruct"
-        tokenizer = AutoTokenizer.from_pretrained(model_name)
-        llm = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype=torch.bfloat16)
-        #streamer = TextStreamer(tokenizer, skip_prompt=True, skip_special_tokens=True)
-        streamer = TextIteratorStreamer(tokenizer, skip_prompt=True, skip_special_tokens=True)
+        if not self.llm_loaded:
+            self.initiate_llm()
 
         # Construct prompt template
         messages = []
@@ -294,14 +299,13 @@ class RAG:
         messages.append({"role": "user", "content": query['source_text']})
 
         # Generate answer
-        input_ids = tokenizer.apply_chat_template(messages, return_tensors="pt")
-        #llm.generate(input_ids, streamer=streamer, max_new_tokens=1000, do_sample=False)
+        input_ids = self.chat_tokenizer.apply_chat_template(messages, return_tensors="pt")
 
-        generation_kwargs = dict(inputs=input_ids, streamer=streamer, max_new_tokens=max_new_tokens, do_sample=False)
-        thread = Thread(target=llm.generate, kwargs=generation_kwargs)
+        generation_kwargs = dict(inputs=input_ids, streamer=self.chat_streamer, max_new_tokens=max_new_tokens, do_sample=False)
+        thread = Thread(target=self.chat_llm.generate, kwargs=generation_kwargs)
         thread.start()
         generated_text = ""
-        for new_text in streamer:
+        for new_text in self.chat_streamer:
             generated_text += new_text
         
         return generated_text
