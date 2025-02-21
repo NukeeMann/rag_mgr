@@ -38,6 +38,9 @@ class RAG:
         self.embedding_model = AutoModel.from_pretrained("Voicelab/sbert-base-cased-pl")
         self.llm_loaded = False
 
+    def change_index(self, index_name):
+        self.index_name = index_name
+
     # List recursivly all documents in the directory
     def list_files_recursive(self, directory):
         documents = []
@@ -286,7 +289,7 @@ class RAG:
         self.chat_streamer = TextIteratorStreamer(self.chat_tokenizer, skip_prompt=True, skip_special_tokens=True)
         self.llm_loaded = True
   
-    def generate_answer(self, query, documents, additional_instruct="", max_new_tokens_v=1000):
+    def generate_answer(self, query, documents, additional_instruct="", max_new_tokens_v=1000, use_rag=True):
         device = "cuda:0" if torch.cuda.is_available() else "cpu"
 
         # Define and load the models
@@ -295,9 +298,12 @@ class RAG:
 
         # Construct prompt template
         messages = []
-        messages.append({"role": "system", "content": f"Jesteś asystentem AI specjalizującym się w analizie tekstu, który odpowiada na pytania korzystając z dostarczonych poniżej dokumentów. Twoje odpowiedzi powinny być krótkie, precyzyjne i w języku polskim. Jeżeli nie jesteś w stanie odpowiedzieć na pytanie na bazie dostarczonych dokumentów odpowiedz, że nie wiesz. Nie wymyślaj odpowiedzi jeżeli jej nie ma w tekście. Nie cytuj fragmentów z dostarczonych dokumentów. {additional_instruct}"})
-        for id, doc in enumerate(documents):
-            messages.append({"role": "system", "content": f"Dokument {id}: {doc['_source'].get('source_text')}"})
+        if use_rag:
+            messages.append({"role": "system", "content": f"Jesteś asystentem AI specjalizującym się w analizie tekstu, który odpowiada na pytania korzystając z dostarczonych poniżej dokumentów. Twoje odpowiedzi powinny być krótkie, precyzyjne i w języku polskim. Jeżeli nie jesteś w stanie odpowiedzieć na pytanie na bazie dostarczonych dokumentów odpowiedz, że nie wiesz. Nie wymyślaj odpowiedzi jeżeli jej nie ma w tekście. Nie cytuj fragmentów z dostarczonych dokumentów. {additional_instruct}"})
+            for id, doc in enumerate(documents):
+                messages.append({"role": "system", "content": f"Dokument {id}: {doc['_source'].get('source_text')}"})
+        else:
+            messages.append({"role": "system", "content": f"Jesteś asystentem AI który spcejalizuje się w krótkich i precyzyjnych odpowiedziach w języku Polskim. {additional_instruct}"})
         messages.append({"role": "user", "content": query['source_text']})
 
         # Generate answer
@@ -306,6 +312,8 @@ class RAG:
         generation_kwargs = dict(inputs=input_ids, streamer=self.chat_streamer, max_new_tokens=max_new_tokens_v, do_sample=False)
         thread = Thread(target=self.chat_llm.generate, kwargs=generation_kwargs)
         thread.start()
+
+        time.sleep(2)
         generated_text = ""
         for new_text in self.chat_streamer:
             generated_text += new_text
@@ -371,7 +379,7 @@ class RAG:
         
         return reranked_documents
     
-    def infer(self, query_text, additional_instruct=""):
+    def infer(self, query_text, additional_instruct="", max_new_tokens_v=1000, use_rag=True):
         # Retrieve documents
         retrieved_docs, query = self.retrieve(query_text)
 
@@ -379,7 +387,7 @@ class RAG:
         reranked_docs = self.rerank(retrieved_docs, query)
 
         # Generate answer
-        answer = self.generate_answer(query, reranked_docs, additional_instruct)
+        answer = self.generate_answer(query, reranked_docs, additional_instruct=additional_instruct, max_new_tokens_v=max_new_tokens_v, use_rag=use_rag)
 
         return answer
         

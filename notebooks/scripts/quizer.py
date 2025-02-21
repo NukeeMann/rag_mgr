@@ -31,7 +31,7 @@ class QuizerLLM:
                     current_question = {'text': line[2:], 'answers': [], 'correct_answer': None, 'article': None}
                 elif line.startswith('[P]'):
                     current_question['answers'].append((line[4:], True))
-                    current_question['correct_answer'] = line[4]
+                    current_question['correct_answer'] = line[4:]
                 elif line.startswith('a)') or line.startswith('b)') or line.startswith('c)') or line.startswith('d)') or line.startswith('e)'):
                     current_question['answers'].append((line, False))
                 elif line.startswith("Prawidłowa odpowiedź:"):
@@ -43,7 +43,7 @@ class QuizerLLM:
 
     def check_answer(self, answers, gen_ans):
         if self.openai:
-            prompt_assistant = "Jesteś prostym systemem ewaluacyjnym testu ABCD który dostaje odpowiedź prawidłową i odpowiedź udzieloną przez użytkownika. Twoim jednym zadaniem jest odpisać 'Tak' jeżeli się one zgadzają lub 'Nie' jeżeli jest inaczej. Nie masz generowac żadnego innego tekstu poza jednym z tych dwóch wyrazów - [Tak, Nie]"
+            prompt_assistant = "Jesteś prostym systemem ewaluacyjnym testu który otrzymuje poprawną odpowiedź i odpowiedź udzieloną przez użytkownika. Twoim jednym zadaniem jest odpisać 'Tak' jeżeli użytkownik odpowiedział poprawnie lub 'Nie' jeżeli jest inaczej. Nie masz generowac żadnego innego tekstu poza jednym z tych dwóch wyrazów - [Tak, Nie]"
             prompt_qestion = f"POPRAWNA ODPOWIEDŹ:\n{answers}\nUDZIELONA ODPOWIEDŹ:\n{gen_ans}"
 
             messages = []
@@ -81,7 +81,7 @@ class QuizerLLM:
 
         print(f"# Pytanie {id+1}\n{question_text_with_answers}")
         print(f"### Udzielona odpowiedz: {answer}")
-        print(f"### Poprawna odpowiedz: {question['answers']}, {question['article']}")
+        print(f"### Poprawna odpowiedz: {question['correct_answer']}, {question['article']}")
         print(f"### Wyniki: {results}")
         print('-'*20)
 
@@ -90,11 +90,11 @@ class QuizerLLM:
             file.write(f"# Pytanie {id+1}\n")
             file.write(f"{question_text_with_answers}\n")
             file.write(f"### Udzielona odpowiedz: {answer}\n")
-            file.write(f"### Poprawna odpowiedz: {question['answers']}, {question['article']}\n")
+            file.write(f"### Poprawna odpowiedz: {question['correct_answer']}, {question['article']}\n")
             file.write(f"### Wyniki: {results}\n")
             file.write('-'*20 + '\n')
 
-    def evaluate(self, file_path, additional_instruct, res_save_path='results.txt'):
+    def evaluate(self, file_path, additional_instruct="", res_save_path='results.txt', use_rag=True):
         # Load questions
         self.load_questions_from_file(file_path)
         results = {'correct' : 0, 'incorrect': 0, "article_correct": 0}
@@ -102,12 +102,12 @@ class QuizerLLM:
         for id, question in enumerate(self.questions):
             question_text_with_answers = question['text']
             for answer, _ in question['answers']:
-                question_text_with_answers += answer
+                question_text_with_answers += "\n" + answer
             
             # Generate answer
-            answer = self.rag_system.infer(question_text_with_answers, additional_instruct)
+            answer = self.rag_system.infer(question_text_with_answers, additional_instruct=additional_instruct, use_rag=use_rag)
 
-            if self.check_answer(question['answers'], answer):
+            if self.check_answer(question['correct_answer'], answer):
                 results['correct'] += 1
                 if 'kodeks_cywilny' in file_path.lower():
                     if self.check_article(question['article'], answer):
