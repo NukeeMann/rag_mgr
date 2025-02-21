@@ -286,7 +286,7 @@ class RAG:
         self.chat_streamer = TextIteratorStreamer(self.chat_tokenizer, skip_prompt=True, skip_special_tokens=True)
         self.llm_loaded = True
   
-    def generate_answer(self, query, documents, max_new_tokens_v=1000, additional_instruct=""):
+    def generate_answer(self, query, documents, additional_instruct="", max_new_tokens_v=1000):
         device = "cuda:0" if torch.cuda.is_available() else "cpu"
 
         # Define and load the models
@@ -295,7 +295,7 @@ class RAG:
 
         # Construct prompt template
         messages = []
-        messages.append({"role": "system", "content": "Jesteś asystentem AI specjalizującym się w analizie tekstu, który odpowiada na pytania korzystając z dostarczonych poniżej dokumentów. Twoje odpowiedzi powinny być krótkie, precyzyjne i w języku polskim. Jeżeli nie jesteś w stanie odpowiedzieć na pytanie na bazie dostarczonych dokumentów odpowiedz, że nie wiesz. Nie wymyślaj odpowiedzi jeżeli jej nie ma w tekście. Nie cytuj fragmentów z dostarczonych dokumentów. {additional_instruct}"})
+        messages.append({"role": "system", "content": f"Jesteś asystentem AI specjalizującym się w analizie tekstu, który odpowiada na pytania korzystając z dostarczonych poniżej dokumentów. Twoje odpowiedzi powinny być krótkie, precyzyjne i w języku polskim. Jeżeli nie jesteś w stanie odpowiedzieć na pytanie na bazie dostarczonych dokumentów odpowiedz, że nie wiesz. Nie wymyślaj odpowiedzi jeżeli jej nie ma w tekście. Nie cytuj fragmentów z dostarczonych dokumentów. {additional_instruct}"})
         for id, doc in enumerate(documents):
             messages.append({"role": "system", "content": f"Dokument {id}: {doc['_source'].get('source_text')}"})
         messages.append({"role": "user", "content": query['source_text']})
