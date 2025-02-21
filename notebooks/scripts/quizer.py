@@ -76,16 +76,30 @@ class QuizerLLM:
                 return True
             else:
                 return False
+    
+    def print_and_save_results(self, id, question_text_with_answers, answer, question, results, file_path):
 
-    def evaluate(self, file_path, additional_instruct):
+        print(f"# Pytanie {id+1}\n{question_text_with_answers}")
+        print(f"### Udzielona odpowiedz: {answer}")
+        print(f"### Poprawna odpowiedz: {question['answers']}, {question['article']}")
+        print(f"### Wyniki: {results}")
+        print('-'*20)
+
+        with open(file_path, 'a', encoding='utf-8') as file:
+            # Dopisujemy treść do pliku
+            file.write(f"# Pytanie {id+1}\n")
+            file.write(f"{question_text_with_answers}\n")
+            file.write(f"### Udzielona odpowiedz: {answer}\n")
+            file.write(f"### Poprawna odpowiedz: {question['answers']}, {question['article']}\n")
+            file.write(f"### Wyniki: {results}\n")
+            file.write('-'*20 + '\n')
+
+    def evaluate(self, file_path, additional_instruct, res_save_path='results.txt'):
         # Load questions
         self.load_questions_from_file(file_path)
         results = {'correct' : 0, 'incorrect': 0, "article_correct": 0}
         
         for id, question in enumerate(self.questions):
-            print(f"Pytanie {id+1} {results}")
-            print(f"Udzielona odpowiedz: {answer}")
-            print(f"Poprawna odpowiedz: {question['answers']}, {question['article']}")
             question_text_with_answers = question['text']
             for answer, _ in question['answers']:
                 question_text_with_answers += answer
@@ -100,5 +114,7 @@ class QuizerLLM:
                         results['article_correct'] += 1
             else:
                 results['incorrect'] += 1
+            
+            self.print_and_save_results(id, question_text_with_answers, answer, question, results, res_save_path)
         
         return results
