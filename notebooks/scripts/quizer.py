@@ -1,5 +1,6 @@
 from openai import OpenAI
 import os
+import time
 
 class QuizerLLM:
     def __init__(self, rag_system, evaluator):
@@ -43,8 +44,8 @@ class QuizerLLM:
 
     def check_answer(self, answers, gen_ans):
         if self.openai:
-            prompt_assistant = "Jesteś prostym systemem ewaluacyjnym testu który otrzymuje poprawną odpowiedź i odpowiedź udzieloną przez użytkownika. Twoim jednym zadaniem jest odpisać 'Tak' jeżeli użytkownik odpowiedział poprawnie lub 'Nie' jeżeli jest inaczej. Nie masz generowac żadnego innego tekstu poza jednym z tych dwóch wyrazów - [Tak, Nie]"
-            prompt_qestion = f"POPRAWNA ODPOWIEDŹ:\n{answers}\nUDZIELONA ODPOWIEDŹ:\n{gen_ans}"
+            prompt_assistant = "Jesteś prostym agentem ewaluacyjnym testu który otrzymuje odpowiedź udzieloną przez użytkownika oraz poprawną odpowiedź. Twoim jednym zadaniem jest odpisać 'Tak' jeżeli użytkownik odpowiedział poprawnie lub 'Nie' jeżeli odpowiedzi się nie pokrywają. Nie masz generowac żadnego innego tekstu poza jednym z tych dwóch wyrazów - [Tak, Nie]. Nie podawaj wyjaśnień ani uzasadnień."
+            prompt_qestion = f"# Odpowiedź użytkownika: \n {answers} \n # Poprawna odpowiedź:\ n {gen_ans}"
 
             messages = []
             messages.append({"role": "system", "content": prompt_assistant})
@@ -61,8 +62,8 @@ class QuizerLLM:
             
     def check_article(self, answers, gen_ans):
         if self.openai:
-            prompt_assistant = "Jesteś prostym systemem ewaluacyjnym który dostaje prawidłowe odniesienie do artykułu kodeksu cywilnego i odpowiedź udzieloną przez użytkownika. Twoim jednym zadaniem jest odpisać 'Tak' jeżeli użytkownik podał ten sam artykuł który jest poprawną odpowiedzią lub 'Nie' jeżeli jest inaczej. Nie masz generowac żadnego innego tekstu poza jednym z tych dwóch wyrazów - [Tak, Nie]"
-            prompt_qestion = f"POPRAWNY ARTYKUŁ:\n{answers}\nUDZIELONA ODPOWIEDŹ:\n{gen_ans}"
+            prompt_assistant = "Jesteś prostym agentem ewaluacyjnym który dostaje prawidłowe odniesienie do artykułu kodeksu cywilnego i odniesienie do artykułu według użytkownika. Twoim jednym zadaniem jest odpisać 'Tak' jeżeli użytkownik podał ten sam artykuł który jest poprawną odpowiedzią lub 'Nie' jeżeli jest inaczej. Nie masz generowac żadnego innego tekstu poza jednym z tych dwóch wyrazów - [Tak, Nie]"
+            prompt_qestion = f"# Odpowiedź użytkownika: \n {gen_ans} # Poprawny artykuł: \n {answers} \n "
 
             messages = []
             messages.append({"role": "system", "content": prompt_assistant})
@@ -72,6 +73,8 @@ class QuizerLLM:
                 messages=messages
             )
 
+            print(f"### GPT4o: {completion.choices[0].message.content}")
+
             if 'tak' in completion.choices[0].message.content.lower():
                 return True
             else:
@@ -79,7 +82,8 @@ class QuizerLLM:
     
     def print_and_save_results(self, id, question_text_with_answers, answer, question, results, file_path):
 
-        print(f"# Pytanie {id+1}\n{question_text_with_answers}")
+        #print(f"# Pytanie {id+1}\n{question_text_with_answers}")
+        print(f"# Pytanie {id+1}")
         print(f"### Udzielona odpowiedz: {answer}")
         print(f"### Poprawna odpowiedz: {question['correct_answer']}, {question['article']}")
         print(f"### Wyniki: {results}")
@@ -88,7 +92,7 @@ class QuizerLLM:
         with open(file_path, 'a', encoding='utf-8') as file:
             # Dopisujemy treść do pliku
             file.write(f"# Pytanie {id+1}\n")
-            file.write(f"{question_text_with_answers}\n")
+            # file.write(f"{question_text_with_answers}\n")
             file.write(f"### Udzielona odpowiedz: {answer}\n")
             file.write(f"### Poprawna odpowiedz: {question['correct_answer']}, {question['article']}\n")
             file.write(f"### Wyniki: {results}\n")
@@ -101,11 +105,12 @@ class QuizerLLM:
         
         for id, question in enumerate(self.questions):
             question_text_with_answers = question['text']
-            for answer, _ in question['answers']:
-                question_text_with_answers += "\n" + answer
+            for option, _ in question['answers']:
+                question_text_with_answers += "\n" + option
             
             # Generate answer
             answer = self.rag_system.infer(question_text_with_answers, additional_instruct=additional_instruct, use_rag=use_rag)
+            time.sleep(2)
 
             if self.check_answer(question['correct_answer'], answer):
                 results['correct'] += 1

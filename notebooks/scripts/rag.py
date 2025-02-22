@@ -299,15 +299,20 @@ class RAG:
         # Construct prompt template
         messages = []
         if use_rag:
-            messages.append({"role": "system", "content": f"Jesteś asystentem AI specjalizującym się w analizie tekstu, który odpowiada na pytania korzystając z dostarczonych poniżej dokumentów. Twoje odpowiedzi powinny być krótkie, precyzyjne i w języku polskim. Jeżeli nie jesteś w stanie odpowiedzieć na pytanie na bazie dostarczonych dokumentów odpowiedz, że nie wiesz. Nie wymyślaj odpowiedzi jeżeli jej nie ma w tekście. Nie cytuj fragmentów z dostarczonych dokumentów. {additional_instruct}"})
+            messages.append({"role": "system", "content": f"Jesteś asystentem AI specjalizującym się w analizie tekstu, który odpowiada na pytania korzystając z dostarczonych poniżej dokumentów. . Twoje odpowiedzi powinny być krótkie, precyzyjne i w języku polskim. Jeżeli nie jesteś w stanie odpowiedzieć na pytanie na podstawie dostarczonych dokumentów odpowiedz, że nie znasz odpowiedzi."})
             for id, doc in enumerate(documents):
                 messages.append({"role": "system", "content": f"Dokument {id}: {doc['_source'].get('source_text')}"})
         else:
             messages.append({"role": "system", "content": f"Jesteś asystentem AI który spcejalizuje się w krótkich i precyzyjnych odpowiedziach w języku Polskim. {additional_instruct}"})
+
+        if additional_instruct:
+            messages.append({"role": "system", "content": f"{additional_instruct}"})
+        
         messages.append({"role": "user", "content": query['source_text']})
 
         # Generate answer
         input_ids = self.chat_tokenizer.apply_chat_template(messages, return_tensors="pt").to(device)
+        
 
         generation_kwargs = dict(inputs=input_ids, streamer=self.chat_streamer, max_new_tokens=max_new_tokens_v, do_sample=False)
         thread = Thread(target=self.chat_llm.generate, kwargs=generation_kwargs)
