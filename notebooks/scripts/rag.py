@@ -297,16 +297,14 @@ class RAG:
         # Construct prompt template
         messages = []
         if use_rag:
-            messages.append({"role": "system", "content": f"Jesteś asystentem AI specjalizującym się w analizie tekstu, który odpowiada na pytania korzystając z dostarczonych poniżej dokumentów. . Twoje odpowiedzi powinny być krótkie, precyzyjne i w języku polskim. Jeżeli nie jesteś w stanie odpowiedzieć na pytanie na podstawie dostarczonych dokumentów odpowiedz, że nie znasz odpowiedzi."})
+            messages.append({"role": "system", "content": f"Na podstawie dostarczonych poniżej dokumentów odpowiedz na pytanie użytkownika które znajduję się na samym dole. Wnioskuj wyłącznie na podstawie dostarczonego kontekstu. Jeżeli nie jesteś w stanie odpowiedzieć na podstawie otrzymanych dokumentów uczciwie to powiedz."})
             for id, doc in enumerate(documents):
                 messages.append({"role": "system", "content": f"Dokument {id}: {doc['_source'].get('source_text')}"})
+            messages.append({"role": "assistant", "content": f"Odpowiedz na poniższe pytanie użytkownika wyłącznie na podstawie dostarczonych dokumentów. {additional_instruct}"})
         else:
-            messages.append({"role": "system", "content": f"Jesteś asystentem AI który spcejalizuje się w krótkich i precyzyjnych odpowiedziach w języku Polskim. {additional_instruct}"})
-
-        if additional_instruct:
-            messages.append({"role": "system", "content": f"{additional_instruct}"})
+            messages.append({"role": "system", "content": f"Odpowiedz na pytanie użytkownika. Jeżeli nie znasz odpowiedzi uczciwie to powiedz. {additional_instruct}"})
         
-        messages.append({"role": "user", "content": query['source_text']})
+        messages.append({"role": "user", "content": f"Odpowiedz na poniższe pytanie: {query['source_text']}"})
 
         # Generate answer
         input_ids = self.chat_tokenizer.apply_chat_template(messages, return_tensors="pt")

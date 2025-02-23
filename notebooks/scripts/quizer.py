@@ -45,7 +45,8 @@ class QuizerLLM:
     def check_answer(self, answers, gen_ans):
         if self.openai:
             prompt_assistant = "Jesteś prostym agentem ewaluacyjnym testu który otrzymuje odpowiedź udzieloną przez użytkownika oraz poprawną odpowiedź. Twoim jednym zadaniem jest odpisać 'Tak' jeżeli użytkownik odpowiedział poprawnie lub 'Nie' jeżeli odpowiedzi się nie pokrywają. Nie masz generowac żadnego innego tekstu poza jednym z tych dwóch wyrazów - [Tak, Nie]. Nie podawaj wyjaśnień ani uzasadnień."
-            prompt_qestion = f"# Odpowiedź użytkownika: \n {answers} \n # Poprawna odpowiedź:\ n {gen_ans}"
+            prompt_assistant = "Twoim zadaniem jest zakomunikować czy przytoczona odpowiedź jest zgodna z poprawną odpowiedzią. Generujesz jedynie słowa 'Tak' lub 'Nie'"
+            prompt_qestion = f"# Odpowiedź: \n {answers} \n # Poprawna odpowiedź:\ n {gen_ans}"
 
             messages = []
             messages.append({"role": "system", "content": prompt_assistant})
@@ -62,8 +63,8 @@ class QuizerLLM:
             
     def check_article(self, answers, gen_ans):
         if self.openai:
-            prompt_assistant = "Jesteś prostym agentem ewaluacyjnym który dostaje prawidłowe odniesienie do artykułu kodeksu cywilnego i odniesienie do artykułu według użytkownika. Twoim jednym zadaniem jest odpisać 'Tak' jeżeli użytkownik podał ten sam artykuł który jest poprawną odpowiedzią lub 'Nie' jeżeli jest inaczej. Nie masz generowac żadnego innego tekstu poza jednym z tych dwóch wyrazów - [Tak, Nie]"
-            prompt_qestion = f"# Odpowiedź użytkownika: \n {gen_ans} # Poprawny artykuł: \n {answers} \n "
+            prompt_assistant = "Twoim zadaniem jest odpowiedzieć czy przytoczony przez użytkownika artykuł kodeksu cywilnego jest zgodny z prawidłowym artykułem.  Generujesz jedynie słowa 'Tak' lub 'Nie'"
+            prompt_qestion = f"# Odpowiedź: \n {gen_ans} # Poprawny artykuł: \n {answers} \n "
 
             messages = []
             messages.append({"role": "system", "content": prompt_assistant})
