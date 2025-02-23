@@ -56,9 +56,9 @@ class QuizerLLM:
             )
 
             if 'tak' in completion.choices[0].message.content.lower():
-                return True
+                return True, completion.choices[0].message.content
             else:
-                return False
+                return False, completion.choices[0].message.content
             
     def check_article(self, answers, gen_ans):
         if self.openai:
@@ -80,11 +80,11 @@ class QuizerLLM:
             else:
                 return False
     
-    def print_and_save_results(self, id, question_text_with_answers, answer, question, results, file_path):
-
+    def print_and_save_results(self, id, question_text_with_answers, answer, judge_ans, question, results, file_path):
         #print(f"# Pytanie {id+1}\n{question_text_with_answers}")
         print(f"# Pytanie {id+1}")
         print(f"### Udzielona odpowiedz: {answer}")
+        print(f"### Judge: {judge_ans}")
         print(f"### Poprawna odpowiedz: {question['correct_answer']}, {question['article']}")
         print(f"### Wyniki: {results}")
         print('-'*20)
@@ -94,6 +94,7 @@ class QuizerLLM:
             file.write(f"# Pytanie {id+1}\n")
             # file.write(f"{question_text_with_answers}\n")
             file.write(f"### Udzielona odpowiedz: {answer}\n")
+            file.write(f"### Judge: {judge_ans}\n")
             file.write(f"### Poprawna odpowiedz: {question['correct_answer']}, {question['article']}\n")
             file.write(f"### Wyniki: {results}\n")
             file.write('-'*20 + '\n')
@@ -112,7 +113,9 @@ class QuizerLLM:
             answer = self.rag_system.infer(question_text_with_answers, additional_instruct=additional_instruct, use_rag=use_rag)
             time.sleep(2)
 
-            if self.check_answer(question['correct_answer'], answer):
+            corect_res, judge_ans = self.check_answer(question['correct_answer'], answer)
+
+            if corect_res:
                 results['correct'] += 1
                 if 'kodeks_cywilny' in file_path.lower():
                     if self.check_article(question['article'], answer):
@@ -120,6 +123,6 @@ class QuizerLLM:
             else:
                 results['incorrect'] += 1
             
-            self.print_and_save_results(id, question_text_with_answers, answer, question, results, res_save_path)
+            self.print_and_save_results(id, question_text_with_answers, answer, judge_ans, question, results, res_save_path)
         
         return results

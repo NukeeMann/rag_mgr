@@ -282,19 +282,17 @@ class RAG:
 
         return retrieved_docs, query
     
-    def initiate_llm(self, device, model_name="speakleash/Bielik-11B-v2.3-Instruct"):
+    def initiate_llm(self, model_name="speakleash/Bielik-11B-v2.3-Instruct"):
         self.chat_tokenizer = AutoTokenizer.from_pretrained(model_name)
-        self.chat_llm = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype=torch.bfloat16).to(device)
-        #self.chat_streamer = TextStreamer(self.chat_tokenizer, skip_prompt=True, skip_special_tokens=True)
+        self.chat_llm = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype=torch.bfloat16, device_map="auto")
         self.chat_streamer = TextIteratorStreamer(self.chat_tokenizer, skip_prompt=True, skip_special_tokens=True)
         self.llm_loaded = True
   
     def generate_answer(self, query, documents, additional_instruct="", max_new_tokens_v=1000, use_rag=True):
-        device = "cuda:0" if torch.cuda.is_available() else "cpu"
 
         # Define and load the models
         if not self.llm_loaded:
-            self.initiate_llm(device)
+            self.initiate_llm()
 
         # Construct prompt template
         messages = []
@@ -311,8 +309,7 @@ class RAG:
         messages.append({"role": "user", "content": query['source_text']})
 
         # Generate answer
-        input_ids = self.chat_tokenizer.apply_chat_template(messages, return_tensors="pt").to(device)
-        
+        input_ids = self.chat_tokenizer.apply_chat_template(messages, return_tensors="pt")
 
         generation_kwargs = dict(inputs=input_ids, streamer=self.chat_streamer, max_new_tokens=max_new_tokens_v, do_sample=False)
         thread = Thread(target=self.chat_llm.generate, kwargs=generation_kwargs)
@@ -385,11 +382,14 @@ class RAG:
         return reranked_documents
     
     def infer(self, query_text, additional_instruct="", max_new_tokens_v=1000, use_rag=True):
-        # Retrieve documents
-        retrieved_docs, query = self.retrieve(query_text)
 
-        # Re-rank documents
-        reranked_docs = self.rerank(retrieved_docs, query)
+        if use_rag:
+            # Retrieve documents
+            retrieved_docs, query = self.retrieve(query_text)
+            # Re-rank documents
+            reranked_docs = self.rerank(retrieved_docs, query)
+        else:
+            reranked_docs= []
 
         # Generate answer
         answer = self.generate_answer(query, reranked_docs, additional_instruct=additional_instruct, max_new_tokens_v=max_new_tokens_v, use_rag=use_rag)
