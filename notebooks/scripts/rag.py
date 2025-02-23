@@ -381,13 +381,10 @@ class RAG:
     
     def infer(self, query_text, additional_instruct="", max_new_tokens_v=1000, use_rag=True):
 
-        if use_rag:
-            # Retrieve documents
-            retrieved_docs, query = self.retrieve(query_text)
-            # Re-rank documents
-            reranked_docs = self.rerank(retrieved_docs, query)
-        else:
-            reranked_docs= []
+        # Retrieve documents
+        retrieved_docs, query = self.retrieve(query_text)
+        # Re-rank documents
+        reranked_docs = self.rerank(retrieved_docs, query)
 
         # Generate answer
         answer = self.generate_answer(query, reranked_docs, additional_instruct=additional_instruct, max_new_tokens_v=max_new_tokens_v, use_rag=use_rag)
