@@ -16,6 +16,68 @@ from sentence_transformers import util
 from tqdm import tqdm
 import time
 from threading import Thread
+from magic_pdf.data.data_reader_writer import FileBasedDataWriter, FileBasedDataReader
+from magic_pdf.data.dataset import PymuDocDataset
+from magic_pdf.model.doc_analyze_by_custom_model import doc_analyze
+import shutil
+from bs4 import BeautifulSoup
+from io import BytesIO
+from pdfminer.high_level import extract_text_to_fp
+
+def extract_pdf_lite(pdf_path):
+    root = os.path.dirname(pdf_path)
+    name = os.path.basename(pdf_path)
+
+    # Extract pdf content to html
+    output_buffer = BytesIO()
+    with open(pdf_path, 'rb') as pdf_file:
+        extract_text_to_fp(pdf_file, output_buffer, output_type='html')
+    html_text = output_buffer.getvalue().decode('utf-8')
+
+    # Convert HTML to txt 
+    text_content = BeautifulSoup(html_text, "lxml").get_text()
+
+    # Save the .txt file 
+    text_path = os.path.join(root, f"{name}.txt")
+    content_stripped = os.linesep.join([s for s in text_content.splitlines() if s])
+    with open(text_path, "w", encoding="utf-8") as file:
+        file.write(content_stripped)
+    
+    return text_path
+
+def extract_pdf(pdf_path):
+    root = os.path.dirname(pdf_path)
+    name = os.path.basename(pdf_path)
+    local_image_dir, local_md_dir = os.path.join(root, "images"), root
+    os.makedirs(local_image_dir, exist_ok=True)
+    image_save_dir = str(os.path.basename(local_image_dir))
+
+    # if File already exists, skip
+    txt_path = os.path.join(local_md_dir, f"{name}.txt")
+    if os.path.exists(str(os.path.join(local_md_dir, f"{name}.txt"))):
+        print(f"{txt_path} file already exists!")
+        return
+
+    image_writer, md_writer = FileBasedDataWriter(local_image_dir), FileBasedDataWriter(local_md_dir)
+
+    # Read the PDF content
+    reader = FileBasedDataReader("")
+    pdf_bytes = reader.read(str(os.path.join(root, name)))
+
+    # Create dataset instance
+    ds = PymuDocDataset(pdf_bytes, lang="pl")
+
+    # Inference
+    infer_result = ds.apply(doc_analyze, ocr=False, lang="pl")
+    pipe_result = infer_result.pipe_txt_mode(image_writer)
+
+    # Save extracted content
+    pipe_result.dump_md(md_writer, f"{name}.txt", image_save_dir)
+
+    # Remove images directory
+    shutil.rmtree(local_image_dir, ignore_errors=True)
+
+    return txt_path
 
 
 class RAG:
@@ -49,12 +111,12 @@ class RAG:
                 if name.lower().endswith('.txt'):
                     documents.append(str(os.path.join(root, name)))
                 elif name.lower().endswith('.pdf'):
-                    # MinerU
-                    # Ekstrackaj txt z pdf
-                    # Usuniecie PDF
-                    # Usuniecie folderu z obrazkami
-                    extracted_name = 'TODO'
-                    documents.append(str(os.path.join(root, extracted_name)))
+                    if os.path.exists(os.path.join(root, f"{name}.txt")):
+                        #extracted_pdf_path = extract_pdf(str(os.path.join(root, name)))
+                        extracted_pdf_path = extract_pdf_lite(str(os.path.join(root, name)))
+                    else:
+                        extracted_pdf_path = os.path.join(root, f"{name}.txt")
+                    documents.append(str(extracted_pdf_path))
         return documents
 
     # Load the documents from directory tree
@@ -62,8 +124,8 @@ class RAG:
         if os.path.isdir(docs_path):
             files = self.list_files_recursive(docs_path)
         elif docs_path.lower().endswith('.pdf'):
-            # MinerU
-            extracted_pdf_path = 'TODO'
+            extracted_pdf_path = extract_pdf_lite(docs_path)
+            #extracted_pdf_path = extract_pdf(docs_path)
             files = [extracted_pdf_path]
         else:
             files = [docs_path]
