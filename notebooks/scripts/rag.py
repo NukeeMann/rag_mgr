@@ -46,13 +46,27 @@ class RAG:
         documents = []
         for root, _, files in os.walk(directory):
             for name in files:
-                if '.txt' in name:
+                if name.lower().endswith('.txt'):
                     documents.append(str(os.path.join(root, name)))
+                elif name.lower().endswith('.pdf'):
+                    # MinerU
+                    # Ekstrackaj txt z pdf
+                    # Usuniecie PDF
+                    # Usuniecie folderu z obrazkami
+                    extracted_name = 'TODO'
+                    documents.append(str(os.path.join(root, extracted_name)))
         return documents
 
     # Load the documents from directory tree
     def load_documents(self, docs_path):
-        files = self.list_files_recursive(docs_path)
+        if os.path.isdir(docs_path):
+            files = self.list_files_recursive(docs_path)
+        elif docs_path.lower().endswith('.pdf'):
+            # MinerU
+            extracted_pdf_path = 'TODO'
+            files = [extracted_pdf_path]
+        else:
+            files = [docs_path]
 
         raw_documents = 0
         for file in files:
@@ -183,28 +197,26 @@ class RAG:
         return embedded_docs_dict
 
     # Insert single document to the ElasticSearch databse
-    def index_single_document(self, documents):
+    def index_single_document(self, documents, index_name):
         self.es_client.index(
-            index=self.index_name,
+            index=index_name,
             document=documents
         )
 
-    def insert_docs_dir(self, docs_root_dir, chunk_size=300, chunk_overlap=60):
-      # Load documents
-      raw_documents = self.load_documents(docs_root_dir)
+    def insert_docs_dir(self, docs_root_dir, index_name, chunk_size=300, chunk_overlap=60):
+        raw_documents = self.load_documents(docs_root_dir)
+        # Split the documents
+        split_raw_document_list = self.split_documents(raw_documents, chunk_size, chunk_overlap)
 
-      # Split the documents
-      split_raw_document_list = self.split_documents(raw_documents, chunk_size, chunk_overlap)
+        # Process all documents
+        embedded_docs_dict = self.process_documents(split_raw_document_list)
+        
+        # Insert all documents into ElasticSearch
+        for embedded_doc in tqdm(embedded_docs_dict, desc="Inserting documents to ElasticSearch"):
+            self.index_single_document(embedded_doc, index_name)
 
-      # Process all documents
-      embedded_docs_dict = self.process_documents(split_raw_document_list)
-      
-      # Insert all documents into ElasticSearch
-      for embedded_doc in tqdm(embedded_docs_dict, desc="Inserting documents to ElasticSearch"):
-          self.index_single_document(embedded_doc)
-
-      time.sleep(1)
-      print(f"Successfully loaded {len(raw_documents)}, splited into {len(split_raw_document_list)} and inserted to ElasticSearch under '{self.index_name}' index.")
+        time.sleep(1)
+        print(f"Successfully loaded {len(raw_documents)}, splited into {len(split_raw_document_list)} and inserted to ElasticSearch under '{self.index_name}' index.")
 
     # Clear query text
     def process_query(self, query):
@@ -373,21 +385,21 @@ class RAG:
         # Sort documents by the updated similarity score
         return sorted(reranked_docs_semantic, key=lambda x: -x['_score'])
     
-    def rerank(self, documents, query):
+    def rerank(self, documents, query, top_k=5):
 
         reranked_documents = self.rerank_semantic(documents, query)
 
         if query['entities']:
             reranked_documents = self.rerank_entities(reranked_documents, query)
         
-        return reranked_documents
+        return reranked_documents[:top_k]
     
-    def infer(self, query_text, additional_instruct="", max_new_tokens_v=1000, use_rag=True):
+    def infer(self, query_text, additional_instruct="", max_new_tokens_v=1000, use_rag=True, top_k=5):
 
         # Retrieve documents
         retrieved_docs, query = self.retrieve(query_text)
         # Re-rank documents
-        reranked_docs = self.rerank(retrieved_docs, query)
+        reranked_docs = self.rerank(retrieved_docs, query, top_k)
 
         # Generate answer
         answer = self.generate_answer(query, reranked_docs, additional_instruct=additional_instruct, max_new_tokens_v=max_new_tokens_v, use_rag=use_rag)
