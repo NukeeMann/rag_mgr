@@ -338,7 +338,7 @@ class RAG:
 
         # Construct the search query using script_score for cosine similarity
         search_query = {
-            "size": 5,  # Set the number of results you want to retrieve
+            "size": 10,  # Set the number of results you want to retrieve
             "query": {
                 "script_score": {
                     "query": {"match_all": {}},
