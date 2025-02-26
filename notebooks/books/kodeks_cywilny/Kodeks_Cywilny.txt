@@ -289,7 +289,7 @@ Obejmuje ono w szczególności:
 8) tajemnice przedsiębiorstwa;   
 9) księgi i dokumenty związane z prowadzeniem działalności gospodarczej.  
 
-Art. ${\pmb5}{\pmb5}^{2}$ . Czynność prawna mająca za przedmiot przedsiębiorstwo obejmuje wszystko, co wchodzi w skład przedsiębiorstwa, chyba że co innego wynika z treści czynności prawnej albo z przepisów szczególnych.  
+Art. ${55}^{2}$ . Czynność prawna mająca za przedmiot przedsiębiorstwo obejmuje wszystko, co wchodzi w skład przedsiębiorstwa, chyba że co innego wynika z treści czynności prawnej albo z przepisów szczególnych.  
 
 Art. ${\pmb55}^{3}$ . Za gospodarstwo rolne uważa się grunty rolne wraz z gruntami leśnymi, budynkami lub ich częściami, urządzeniami i inwentarzem, jeżeli stanowią lub mogą stanowić zorganizowaną całość gospodarczą, oraz prawami związanymi z prowadzeniem gospodarstwa rolnego.  
 
@@ -1810,7 +1810,7 @@ $\S3$ . Ten, kto naprawił szkodę, za którą jest odpowiedzialny mimo braku wi
 
 Art. 442. (uchylony)  
 
-Art. 4421. $\S$ 1. Roszczenie o naprawienie szkody wyrządzonej czynem niedozwolonym ulega przedawnieniu z upływem lat trzech od dnia, w którym poszkodowany dowiedział się albo przy zachowaniu należytej staranności mógł się dowiedzieć o szkodzie i o osobie obowiązanej do jej naprawienia. Jednakże termin ten nie może być dłuższy niż dziesięć lat od dnia, w którym nastąpiło zdarzenie wywołujące szkodę.  
+Art. 442(1). $\S$ 1. Roszczenie o naprawienie szkody wyrządzonej czynem niedozwolonym ulega przedawnieniu z upływem lat trzech od dnia, w którym poszkodowany dowiedział się albo przy zachowaniu należytej staranności mógł się dowiedzieć o szkodzie i o osobie obowiązanej do jej naprawienia. Jednakże termin ten nie może być dłuższy niż dziesięć lat od dnia, w którym nastąpiło zdarzenie wywołujące szkodę.  
 
 $\S2$ . Jeżeli szkoda wynikła ze zbrodni lub występku, roszczenie o naprawienie szkody ulega przedawnieniu z upływem lat dwudziestu od dnia popełnienia przestępstwa bez względu na to, kiedy poszkodowany dowiedział się o szkodzie i o osobie obowiązanej do jej naprawienia.  
 
@@ -1840,7 +1840,7 @@ $\S3$ . Sąd może ponadto przyznać najbliższym członkom rodziny zmarłego st
 
 $\S4.$ . Sąd może także przyznać najbliższym członkom rodziny zmarłego odpowiednią sumę tytułem zadośćuczynienia pieniężnego za doznaną krzywdę.  
 
-Art. 4461.4) Z chwilą urodzenia dziecko może żądać naprawienia szkód doznanych przed urodzeniem.  
+Art. 446(1).4) Z chwilą urodzenia dziecko może żądać naprawienia szkód doznanych przed urodzeniem.  
 
 Art. $\mathbf{446}^{2}$ . W razie ciężkiego i trwałego uszkodzenia ciała lub wywołania rozstroju zdrowia, skutkującego niemożnością nawiązania lub kontynuowania więzi rodzinnej, sąd może przyznać najbliższym członkom rodziny poszkodowanego odpowiednią sumę tytułem zadośćuczynienia pieniężnego za doznaną krzywdę.  
 
@@ -1858,7 +1858,7 @@ Art. 449. Roszczenia przewidziane w art. 444–448 nie mogą być zbyte, chyba �
 
 # Odpowiedzialność za szkodę wyrządzoną przez produkt niebezpieczny  
 
-Art. 4491. $\S~1$ . Kto wytwarza w zakresie swojej działalności gospodarczej (producent) produkt niebezpieczny, odpowiada za szkodę wyrządzoną komukolwiek przez ten produkt.  
+Art. 449(1). $\S~1$ . Kto wytwarza w zakresie swojej działalności gospodarczej (producent) produkt niebezpieczny, odpowiada za szkodę wyrządzoną komukolwiek przez ten produkt.  
 
 $\S2$ . Przez produkt rozumie się rzecz ruchomą, choćby została ona połączona z inną rzeczą. Za produkt uważa się także zwierzęta i energię elektryczną.  
 
@@ -1884,17 +1884,17 @@ $\S~5$ . Jeżeli zbywca produktu nie może wskazać producenta ani osób określ
 
 Art. $\mathbf{449^{6}}$ . Jeżeli za szkodę wyrządzoną przez produkt niebezpieczny odpowiada także osoba trzecia, odpowiedzialność tej osoby i osób wymienionych w artykułach poprzedzających jest solidarna. Przepisy art. 441 $\S\O{2}\dot{1}\bar{3}$ stosuje się odpowiednio.  
 
-Art. 4497. $\S~1$ . Odszkodowanie za szkodę na mieniu nie obejmuje uszkodzenia samego produktu ani korzyści, jakie poszkodowany mógłby osiągnąć w związku z jego używaniem.  
+Art. 449(7). $\S~1$ . Odszkodowanie za szkodę na mieniu nie obejmuje uszkodzenia samego produktu ani korzyści, jakie poszkodowany mógłby osiągnąć w związku z jego używaniem.  
 
 $\S2$ . Odszkodowanie na podstawie art. $449^{1}$ nie przysługuje, gdy szkoda na mieniu nie przekracza kwoty będącej równowartością 500 euro.  
 
 Art. $\mathbf{449^{8}}$ . Roszczenie o naprawienie szkody wyrządzonej przez produkt niebezpieczny ulega przedawnieniu z upływem lat trzech od dnia, w którym poszkodowany dowiedział się lub przy zachowaniu należytej staranności mógł się dowiedzieć o szkodzie i osobie obowiązanej do jej naprawienia. Jednak w każdym wypadku roszczenie przedawnia się z upływem lat dziesięciu od wprowadzenia produktu do obrotu.  
 
-Art. 4499. Odpowiedzialności za szkodę wyrządzoną przez produkt niebezpieczny nie można wyłączyć ani ograniczyć.  
+Art. 449(9). Odpowiedzialności za szkodę wyrządzoną przez produkt niebezpieczny nie można wyłączyć ani ograniczyć.  
 
-Art. 44910. Przepisy o odpowiedzialności za szkodę wyrządzoną przez produkt niebezpieczny nie wyłączają odpowiedzialności za szkody na zasadach ogólnych, za szkody wynikłe z niewykonania lub nienależytego wykonania zobowiązania oraz odpowiedzialności z tytułu rękojmi za wady i gwarancji jakości.  
+Art. 449(10). Przepisy o odpowiedzialności za szkodę wyrządzoną przez produkt niebezpieczny nie wyłączają odpowiedzialności za szkody na zasadach ogólnych, za szkody wynikłe z niewykonania lub nienależytego wykonania zobowiązania oraz odpowiedzialności z tytułu rękojmi za wady i gwarancji jakości.  
 
-Art. 44911. (uchylony)  
+Art. 449(11). (uchylony)  
 
 # TYTUŁ VII  
 
@@ -4204,11 +4204,11 @@ $\S\O{2^{1}}$ . Jeżeli dziecko któregokolwiek z dziadków spadkodawcy nie doż
 
 $\S3$ . W braku dzieci i wnuków tego z dziadków, który nie dożył otwarcia spadku, udział spadkowy, który by mu przypadał, przypada pozostałym dziadkom w częściach równych.  
 
-Art. 9341. W braku małżonka spadkodawcy i krewnych, powołanych do dziedziczenia z ustawy, spadek przypada w częściach równych tym dzieciom małżonka spadkodawcy, których żadne z rodziców nie dożyło chwili otwarcia spadku.  
+Art. 934(1). W braku małżonka spadkodawcy i krewnych, powołanych do dziedziczenia z ustawy, spadek przypada w częściach równych tym dzieciom małżonka spadkodawcy, których żadne z rodziców nie dożyło chwili otwarcia spadku.  
 
 Art. 935. W braku małżonka spadkodawcy, jego krewnych i dzieci małżonka spadkodawcy, powołanych do dziedziczenia z ustawy, spadek przypada gminie ostatniego miejsca zamieszkania spadkodawcy jako spadkobiercy ustawowemu. Jeżeli ostatniego miejsca zamieszkania spadkodawcy w Rzeczypospolitej Polskiej nie da się ustalić albo ostatnie miejsce zamieszkania spadkodawcy znajdowało się za granicą, spadek przypada Skarbowi Państwa jako spadkobiercy ustawowemu.  
 
-Art. $\$35$ . Przepisów o powołaniu do dziedziczenia z ustawy nie stosuje się do małżonka spadkodawcy pozostającego w separacji.  
+Art. 935(1) . Przepisów o powołaniu do dziedziczenia z ustawy nie stosuje się do małżonka spadkodawcy pozostającego w separacji.  
 
 Art. 936. $\S~1$ . Przysposobiony dziedziczy po przysposabiającym i jego krewnych tak, jakby był dzieckiem przysposabiającego, a przysposabiający i jego krewni dziedziczą po przysposobionym tak, jakby przysposabiający był rodzicem przysposobionego.  
 

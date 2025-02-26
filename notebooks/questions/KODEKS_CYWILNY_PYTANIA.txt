@@ -307,11 +307,11 @@ c) wykonanie dzieła przez przyjmującego zamówienie bez wynagrodzenia.
 Prawidłowa odpowiedź: A (art. 628 § 1 KC)
 
 # 45. (N) Zgodnie z Kodeksem cywilnym, oddanie przez najemcę lokalu mieszkalnego lub jego części do bezpłatnego używania osobie, względem której najemca nie jest obciążony obowiązkiem alimentacyjnym:
-[P] a) wymaga zgody wynajmującego,
-b) nie wymaga zgody wynajmującego,
-c) nie wymaga zgody wynajmującego, jeżeli oddanie do bezpłatnego używania dotyczy części lokalu.
+a) wymaga zgody wynajmującego,
+[P] b) nie wymaga zgody wynajmującego,
+c) nie wymaga zgody wynajmującego, jeżeli oddanie do bezpłatnego używania dotyczy tylko części lokalu.
 
-Prawidłowa odpowiedź: A (art. 688² KC)
+Prawidłowa odpowiedź: B (art. 668 § 1 KC)
 
 # 46. (N) Zgodnie z Kodeksem cywilnym, za zobowiązania spółki cywilnej wobec osób trzecich jej wspólnicy odpowiedzialni są:
 a) w stosunku do wielkości ich udziałów w spółce,
@@ -430,7 +430,7 @@ a) jej nazwa,
 [P] b) jej imię i nazwisko,
 c) adres, pod którym prowadzi działalność gospodarczą.
 
-Prawidłowa odpowiedź: B (art. 434 KC)
+Prawidłowa odpowiedź: B (art. 43(4) KC)
 
 # 63. (K) Zgodnie z Kodeksem cywilnym, pożytkami naturalnymi rzeczy są:
 a) dochody, które rzecz przynosi na podstawie stosunku prawnego,

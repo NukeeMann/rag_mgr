@@ -16,9 +16,9 @@ from sentence_transformers import util
 from tqdm import tqdm
 import time
 from threading import Thread
-from magic_pdf.data.data_reader_writer import FileBasedDataWriter, FileBasedDataReader
-from magic_pdf.data.dataset import PymuDocDataset
-from magic_pdf.model.doc_analyze_by_custom_model import doc_analyze
+# from magic_pdf.data.data_reader_writer import FileBasedDataWriter, FileBasedDataReader
+# from magic_pdf.data.dataset import PymuDocDataset
+# from magic_pdf.model.doc_analyze_by_custom_model import doc_analyze
 import shutil
 from bs4 import BeautifulSoup
 from io import BytesIO
@@ -45,39 +45,39 @@ def extract_pdf_lite(pdf_path):
     
     return text_path
 
-def extract_pdf(pdf_path):
-    root = os.path.dirname(pdf_path)
-    name = os.path.basename(pdf_path)
-    local_image_dir, local_md_dir = os.path.join(root, "images"), root
-    os.makedirs(local_image_dir, exist_ok=True)
-    image_save_dir = str(os.path.basename(local_image_dir))
+# def extract_pdf(pdf_path):
+#     root = os.path.dirname(pdf_path)
+#     name = os.path.basename(pdf_path)
+#     local_image_dir, local_md_dir = os.path.join(root, "images"), root
+#     os.makedirs(local_image_dir, exist_ok=True)
+#     image_save_dir = str(os.path.basename(local_image_dir))
 
-    # if File already exists, skip
-    txt_path = os.path.join(local_md_dir, f"{name}.txt")
-    if os.path.exists(str(os.path.join(local_md_dir, f"{name}.txt"))):
-        print(f"{txt_path} file already exists!")
-        return
+#     # if File already exists, skip
+#     txt_path = os.path.join(local_md_dir, f"{name}.txt")
+#     if os.path.exists(str(os.path.join(local_md_dir, f"{name}.txt"))):
+#         print(f"{txt_path} file already exists!")
+#         return
 
-    image_writer, md_writer = FileBasedDataWriter(local_image_dir), FileBasedDataWriter(local_md_dir)
+#     image_writer, md_writer = FileBasedDataWriter(local_image_dir), FileBasedDataWriter(local_md_dir)
 
-    # Read the PDF content
-    reader = FileBasedDataReader("")
-    pdf_bytes = reader.read(str(os.path.join(root, name)))
+#     # Read the PDF content
+#     reader = FileBasedDataReader("")
+#     pdf_bytes = reader.read(str(os.path.join(root, name)))
 
-    # Create dataset instance
-    ds = PymuDocDataset(pdf_bytes, lang="pl")
+#     # Create dataset instance
+#     ds = PymuDocDataset(pdf_bytes, lang="pl")
 
-    # Inference
-    infer_result = ds.apply(doc_analyze, ocr=False, lang="pl")
-    pipe_result = infer_result.pipe_txt_mode(image_writer)
+#     # Inference
+#     infer_result = ds.apply(doc_analyze, ocr=False, lang="pl")
+#     pipe_result = infer_result.pipe_txt_mode(image_writer)
 
-    # Save extracted content
-    pipe_result.dump_md(md_writer, f"{name}.txt", image_save_dir)
+#     # Save extracted content
+#     pipe_result.dump_md(md_writer, f"{name}.txt", image_save_dir)
 
-    # Remove images directory
-    shutil.rmtree(local_image_dir, ignore_errors=True)
+#     # Remove images directory
+#     shutil.rmtree(local_image_dir, ignore_errors=True)
 
-    return txt_path
+#     return txt_path
 
 
 class RAG:
