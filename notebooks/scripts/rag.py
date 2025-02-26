@@ -278,7 +278,7 @@ class RAG:
             self.index_single_document(embedded_doc, index_name)
 
         time.sleep(1)
-        print(f"Successfully loaded {len(raw_documents)}, splited into {len(split_raw_document_list)} and inserted to ElasticSearch under '{self.index_name}' index.")
+        print(f"Successfully loaded {len(raw_documents)}, splited into {len(split_raw_document_list)} and inserted to ElasticSearch under '{index_name}' index.")
 
     # Clear query text
     def process_query(self, query):
