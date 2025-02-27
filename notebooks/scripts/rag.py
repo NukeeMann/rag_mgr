@@ -403,7 +403,7 @@ class RAG:
 
         for doc in documents:
             source_text = doc['_source']['cleaned_text']
-            score_adjustment = sum(1 for keyword in query_keywords if keyword in source_text)
+            score_adjustment = sum(0.01 for keyword in query_keywords if keyword in source_text)
             doc['_score'] += score_adjustment  # Add to the current score
 
         # Sort documents based on the adjusted score
@@ -447,21 +447,24 @@ class RAG:
         # Sort documents by the updated similarity score
         return sorted(reranked_docs_semantic, key=lambda x: -x['_score'])
     
-    def rerank(self, documents, query, top_k=5):
+    def rerank(self, documents, query, top_k=5, rr_entities=False, rr_keywords=False):
 
         reranked_documents = self.rerank_semantic(documents, query)
 
-        if query['entities']:
+        if rr_entities:
             reranked_documents = self.rerank_entities(reranked_documents, query)
         
+        if rr_keywords:
+            reranked_documents = self.rerank_keywords(reranked_documents, query)
+
         return reranked_documents[:top_k]
     
-    def infer(self, query_text, additional_instruct="", max_new_tokens_v=1000, use_rag=True, top_k=5):
+    def infer(self, query_text, additional_instruct="", max_new_tokens_v=1000, use_rag=True, top_k=5, rr_entities=False, rr_keywords=False):
 
         # Retrieve documents
         retrieved_docs, query = self.retrieve(query_text)
         # Re-rank documents
-        reranked_docs = self.rerank(retrieved_docs, query, top_k)
+        reranked_docs = self.rerank(retrieved_docs, query, top_k, rr_entities, rr_keywords)
 
         # Generate answer
         answer = self.generate_answer(query, reranked_docs, additional_instruct=additional_instruct, max_new_tokens_v=max_new_tokens_v, use_rag=use_rag)
