@@ -19,6 +19,9 @@ class QuizerLLM:
     def load_openai(self):
         client = OpenAI()
         return client
+    
+    def set_indexES(self, index_name):
+        self.rag_system.change_index(index_name)
 
     def load_questions_from_file(self, file_path):
         with open(file_path, 'r', encoding='utf-8') as file:
