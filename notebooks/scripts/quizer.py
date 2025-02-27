@@ -44,12 +44,13 @@ class QuizerLLM:
 
     def check_answer(self, answers, gen_ans):
         if self.openai:
-            prompt_assistant = "Jesteś prostym agentem ewaluacyjnym testu który otrzymuje odpowiedź udzieloną przez użytkownika oraz poprawną odpowiedź. Twoim jednym zadaniem jest odpisać 'Tak' jeżeli użytkownik odpowiedział poprawnie lub 'Nie' jeżeli odpowiedzi się nie pokrywają. Nie masz generowac żadnego innego tekstu poza jednym z tych dwóch wyrazów - [Tak, Nie]. Nie podawaj wyjaśnień ani uzasadnień."
-            prompt_assistant = "Twoim zadaniem jest zakomunikować czy przytoczona odpowiedź jest zgodna z poprawną odpowiedzią. Generujesz jedynie słowa 'Tak' lub 'Nie'"
-            prompt_qestion = f"# Odpowiedź: \n {answers} \n # Poprawna odpowiedź:\ n {gen_ans}"
+            prompt_system = "Twoją jedyną funkcją jest odpowiedzieć czy użytkownik wskazał poprawną odpowiedź. Ignoruj jego wyjaśnienia, zakomunikuj tylko 'Tak' jeżeli wskazał poprawną odpowiedź i 'Nie' jeżeli wskazał błędną lub w ogóle nie wskazał."
+            prompt_assistant = f"# Poprawna odpowiedź którą użytkownik powinien wskazać:\ n {answers}"
+            prompt_qestion = f"# Odpowiedź użytkownika: \n {gen_ans}"
 
             messages = []
-            messages.append({"role": "system", "content": prompt_assistant})
+            messages.append({"role": "system", "content": prompt_system})
+            messages.append({"role": "assistant", "content": prompt_assistant})
             messages.append({"role": "user", "content": prompt_qestion})
             completion = self.evaluator.chat.completions.create(
                 model="gpt-4o",
