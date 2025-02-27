@@ -186,8 +186,8 @@ class RAG:
         text = doc.page_content
         
         # Remove any leftover HTML tags
-        clean_html = re.compile('<.*?>')
-        text = re.sub(clean_html, '', text)
+        #clean_html = re.compile('<.*?>')
+        #text = re.sub(clean_html, '', text)
         
         # Remove new lines
         text = text.replace('\n', ' ')
