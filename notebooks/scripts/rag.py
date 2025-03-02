@@ -80,8 +80,14 @@ def extract_pdf_lite(pdf_path):
 #     return txt_path
 
 
+'''
+Suggested models for text generation:
+- speakleash/Bielik-11B-v2.3-Instruct
+- CYFRAGOVPL/Llama-PLLuM-8B-chat
+- CYFRAGOVPL/PLLuM-12B-chat
+'''
 class RAG:
-    def __init__(self, es_index='mgr_test_1'):
+    def __init__(self, es_index='mgr_test_1', gen_model='speakleash/Bielik-11B-v2.3-Instruct'):
         # Inicjalizacja zmiennych środowiskowych i załadowanie modeli
         self.morf = morfeusz2.Morfeusz()
 
@@ -99,6 +105,7 @@ class RAG:
         self.processing_tokenizer = AutoTokenizer.from_pretrained("Voicelab/sbert-base-cased-pl")
         self.embedding_model = AutoModel.from_pretrained("Voicelab/sbert-base-cased-pl")
         self.llm_loaded = False
+        self.gen_model = gen_model
 
     def change_index(self, index_name):
         self.index_name = index_name
@@ -356,9 +363,9 @@ class RAG:
 
         return retrieved_docs, query
     
-    def initiate_llm(self, model_name="speakleash/Bielik-11B-v2.3-Instruct"):
-        self.chat_tokenizer = AutoTokenizer.from_pretrained(model_name)
-        self.chat_llm = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype=torch.bfloat16, device_map="auto")
+    def initiate_llm(self):
+        self.chat_tokenizer = AutoTokenizer.from_pretrained(self.gen_model)
+        self.chat_llm = AutoModelForCausalLM.from_pretrained(self.gen_model, torch_dtype=torch.bfloat16, device_map="auto")
         self.chat_streamer = TextIteratorStreamer(self.chat_tokenizer, skip_prompt=True, skip_special_tokens=True)
         self.llm_loaded = True
   
