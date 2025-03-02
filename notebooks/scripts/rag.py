@@ -371,12 +371,12 @@ class RAG:
         # Construct prompt template
         messages = []
         if use_rag:
-            messages.append({"role": "system", "content": f"Odpowiedz na pytanie użytkownika. Poniżej jako kontekst możesz wykorzystać dostarczone powiązane z pytaniem dokumenty jako rozszerzenie Twojej wiedzy. Jeżeli nie jesteś w stanie odpowiedzieć na pytanie uczciwie to powiedz."})
+            messages.append({"role": "system", "content": f"Odpowiedz na pytanie użytkownika. Poniżej jako kontekst możesz wykorzystać dostarczone powiązane z pytaniem dokumenty w które mogą pomóc Ci poprawnie odpowiedzieć."})
             #messages.append({"role": "system", "content": f"Na podstawie dostarczonych poniżej dokumentów odpowiedz na pytanie użytkownika które znajduję się na samym dole. Wnioskuj wyłącznie na podstawie dostarczonego kontekstu. Jeżeli nie jesteś w stanie odpowiedzieć na podstawie otrzymanych dokumentów uczciwie to powiedz."})
             for id, doc in enumerate(documents):
                 messages.append({"role": "system", "content": f"Dokument {id}: {doc['_source'].get('source_text')}"})
         else:
-            messages.append({"role": "system", "content": f"Odpowiedz na pytanie użytkownika . Jeżeli nie jesteś w stanie odpowiedzieć na pytanie uczciwie to powiedz."})
+            messages.append({"role": "system", "content": f"Odpowiedz na pytanie użytkownika."})
         
         if additional_instruct:
                 messages.append({"role": "assistant", "content": f" {additional_instruct}"})
@@ -403,7 +403,7 @@ class RAG:
 
         for doc in documents:
             source_text = doc['_source']['cleaned_text']
-            score_adjustment = sum(0.01 for keyword in query_keywords if keyword in source_text)
+            score_adjustment = sum(0.1 for keyword in query_keywords if keyword in source_text)
             doc['_score'] += score_adjustment  # Add to the current score
 
         # Sort documents based on the adjusted score
