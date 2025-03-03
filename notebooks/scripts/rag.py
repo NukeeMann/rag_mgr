@@ -378,10 +378,12 @@ class RAG:
         # Construct prompt template
         messages = []
         if use_rag:
-            messages.append({"role": "system", "content": f"Odpowiedz na pytanie użytkownika. Poniżej jako kontekst możesz wykorzystać dostarczone powiązane z pytaniem dokumenty w które mogą pomóc Ci poprawnie odpowiedzieć. {additional_instruct}"})
+            sys_msg = f"Odpowiedz na pytanie użytkownika. Poniżej jako kontekst możesz wykorzystać dostarczone powiązane z pytaniem dokumenty w które mogą pomóc Ci poprawnie odpowiedzieć. {additional_instruct}"
             #messages.append({"role": "system", "content": f"Na podstawie dostarczonych poniżej dokumentów odpowiedz na pytanie użytkownika które znajduję się na samym dole. Wnioskuj wyłącznie na podstawie dostarczonego kontekstu. Jeżeli nie jesteś w stanie odpowiedzieć na podstawie otrzymanych dokumentów uczciwie to powiedz."})
             for id, doc in enumerate(documents):
-                messages.append({"role": "assistant", "content": f"Dokument {id}: {doc['_source'].get('source_text')}"})
+                #messages.append({"role": "assistant", "content": f"Dokument {id}: {doc['_source'].get('source_text')}"})
+                sys_msg += f"\n Dokument {id}: {doc['_source'].get('source_text')} "
+            messages.append({"role": "system", "content": sys_msg})
         else:
             messages.append({"role": "system", "content": f"Odpowiedz na pytanie użytkownika. {additional_instruct}"})
         
