@@ -372,7 +372,7 @@ class RAG:
     def apply_template(self, query, documents, additional_instruct, use_rag):
         messages = []
         if use_rag:
-            if self.gen_model=='speakleash/Bielik-11B-v2.3-Instruct':
+            if self.gen_model!='':#'speakleash/Bielik-11B-v2.3-Instruct':
                 messages.append({"role": "system", "content": f"Na podstawie dostarczonych poniżej dokumentów odpowiedz na pytanie użytkownika które znajduję się na samym dole. Wnioskuj wyłącznie na podstawie dostarczonego kontekstu. Jeżeli nie jesteś w stanie odpowiedzieć na podstawie otrzymanych dokumentów uczciwie to powiedz."})
                 for id, doc in enumerate(documents):
                     messages.append({"role": "system", "content": f"Dokument {id}: {doc['_source'].get('source_text')}"})
@@ -388,7 +388,7 @@ class RAG:
         else:
             messages.append({"role": "system", "content": f"Odpowiedz na pytanie użytkownika. {additional_instruct}"})
         
-        if self.gen_model=='speakleash/Bielik-11B-v2.3-Instruct':
+        if self.gen_model!='':#'speakleash/Bielik-11B-v2.3-Instruct':
             messages.append({"role": "user", "content": f"Odpowiedz na poniższe pytanie: {query['source_text']}"})
 
         return messages
