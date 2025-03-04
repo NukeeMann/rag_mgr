@@ -380,7 +380,7 @@ class RAG:
                 if additional_instruct:
                     messages.append({"role": "system", "content": additional_instruct})
             else:
-                assistant_msg = f"Odpowiedz na pytanie użytkownika. Poniżej jako kontekst możesz wykorzystać dostarczone powiązane z pytaniem dokumenty w które mogą pomóc Ci poprawnie odpowiedzieć. {additional_instruct}.\n Pyatnie na które masz odpowiedzieć: {query['source_text']} \n"
+                assistant_msg = f"{query['source_text']} . Odpowiedz na pytanie użytkownika. Poniżej jako kontekst możesz wykorzystać dostarczone powiązane z pytaniem dokumenty w które mogą pomóc Ci poprawnie odpowiedzieć. {additional_instruct}. "
                 for id, doc in enumerate(documents):
                     assistant_msg += f"\n Dokument {id}: {doc['_source'].get('source_text')} "
                 
