@@ -392,7 +392,7 @@ class RAG:
 
         return messages
   
-    def generate_answer(self, query, documents, additional_instruct="", max_new_tokens_v=1000, use_rag=True):
+    def generate_answer(self, query, documents, additional_instruct="", max_new_tokens_v=1000, use_rag=True, verbose=0):
 
         # Define and load the models
         if not self.llm_loaded:
@@ -400,6 +400,8 @@ class RAG:
 
         # Construct prompt template
         messages = self.apply_template(query, documents, additional_instruct, use_rag)
+        if verbose >= 2:
+            print(messages)
 
         # Generate answer
         inputs_tp = self.chat_tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
@@ -417,6 +419,9 @@ class RAG:
         for new_text in self.chat_streamer:
             generated_text += new_text
         
+        if verbose >= 1:
+            print(generated_text)
+
         return generated_text
 
     # Rerank retrieved documents based on amount of keywords from the query in the cleaned text
@@ -481,7 +486,7 @@ class RAG:
 
         return reranked_documents[:top_k]
     
-    def infer(self, query_text, additional_instruct="", max_new_tokens_v=1000, use_rag=True, top_k=5, rr_entities=False, rr_keywords=False):
+    def infer(self, query_text, additional_instruct="", max_new_tokens_v=1000, use_rag=True, top_k=5, rr_entities=False, rr_keywords=False, verbose=0):
 
         # Retrieve documents
         retrieved_docs, query = self.retrieve(query_text)
@@ -489,7 +494,7 @@ class RAG:
         reranked_docs = self.rerank(retrieved_docs, query, top_k, rr_entities, rr_keywords)
 
         # Generate answer
-        answer = self.generate_answer(query, reranked_docs, additional_instruct=additional_instruct, max_new_tokens_v=max_new_tokens_v, use_rag=use_rag)
+        answer = self.generate_answer(query, reranked_docs, additional_instruct=additional_instruct, max_new_tokens_v=max_new_tokens_v, use_rag=use_rag, verbose=verbose)
 
         return answer
         
