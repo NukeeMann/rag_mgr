@@ -380,16 +380,19 @@ class RAG:
                 if additional_instruct:
                     messages.append({"role": "system", "content": additional_instruct})
             else:
+                docs_text = ""
+                for id, doc in enumerate(documents):
+                    docs_text += f"Dokument {id}: {doc['_source'].get('source_text')}" + os.linesep
                 user_msg = f'''
                 Odpowiedz na pytanie użytkownika.
                 Poniżej jako kontekst możesz wykorzystać dostarczone powiązane z pytaniem dokumenty w które mogą pomóc Ci poprawnie odpowiedzieć.
                 {additional_instruct}
                 
-                Pytanie użytkownika:
+                ### Pytanie użytkownika:
                 {query['source_text']}
 
-                Powiązane dokumenty:
-                {*documents[::]['_source'].get('source_text'),}
+                ### Powiązane dokumenty:
+                {docs_text}
                 '''
                 
                 messages.append({"role": "user", "content": user_msg})
