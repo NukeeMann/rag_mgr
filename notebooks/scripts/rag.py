@@ -84,7 +84,7 @@ def extract_pdf_lite(pdf_path):
 Suggested models for text generation:
 - speakleash/Bielik-11B-v2.3-Instruct
 - CYFRAGOVPL/Llama-PLLuM-8B-chat
-- CYFRAGOVPL/PLLuM-12B-chat
+- CYFRAGOVPL/PLLuM-12B-instruct
 '''
 class RAG:
     def __init__(self, es_index='mgr_test_1', gen_model='speakleash/Bielik-11B-v2.3-Instruct'):
@@ -384,14 +384,14 @@ class RAG:
                 for id, doc in enumerate(documents):
                     docs_text += f"Dokument {id}: {doc['_source'].get('source_text')}" + os.linesep
                 user_msg = f'''
-                Odpowiedz na pytanie użytkownika.
+                Odpowiedz na pytanie wspomagając się dostarczonymi dokumentami.
                 Poniżej jako kontekst możesz wykorzystać dostarczone powiązane z pytaniem dokumenty w które mogą pomóc Ci poprawnie odpowiedzieć.
                 {additional_instruct}
                 
-                ### Pytanie użytkownika:
+                ### Pytanie na które masz odpowiedzieć:
                 {query['source_text']}
 
-                ### Powiązane dokumenty:
+                ### Powiązane dokumenty dla rozszerzenia kontekstu:
                 {docs_text}
                 '''
                 
