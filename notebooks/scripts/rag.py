@@ -368,6 +368,29 @@ class RAG:
         self.chat_llm = AutoModelForCausalLM.from_pretrained(self.gen_model, torch_dtype=torch.bfloat16, device_map="auto")
         self.chat_streamer = TextIteratorStreamer(self.chat_tokenizer, skip_prompt=True, skip_special_tokens=True)
         self.llm_loaded = True
+
+    def apply_template(self, query, documents, additional_instruct, use_rag):
+        messages = []
+        if use_rag:
+            if self.gen_model=='speakleash/Bielik-11B-v2.3-Instruct':
+                messages.append({"role": "system", "content": f"Na podstawie dostarczonych poniżej dokumentów odpowiedz na pytanie użytkownika które znajduję się na samym dole. Wnioskuj wyłącznie na podstawie dostarczonego kontekstu. Jeżeli nie jesteś w stanie odpowiedzieć na podstawie otrzymanych dokumentów uczciwie to powiedz."})
+                for id, doc in enumerate(documents):
+                    messages.append({"role": "system", "content": f"Dokument {id}: {doc['_source'].get('source_text')}"})
+
+                if additional_instruct:
+                    messages.append({"role": "system", "content": additional_instruct})
+            else:
+                assistant_msg = f"Odpowiedz na pytanie użytkownika. Poniżej jako kontekst możesz wykorzystać dostarczone powiązane z pytaniem dokumenty w które mogą pomóc Ci poprawnie odpowiedzieć. {additional_instruct}"
+                for id, doc in enumerate(documents):
+                    assistant_msg += f"\n Dokument {id}: {doc['_source'].get('source_text')} "
+                
+                messages.append({"role": "assistant", "content": assistant_msg})
+        else:
+            messages.append({"role": "system", "content": f"Odpowiedz na pytanie użytkownika. {additional_instruct}"})
+        
+        messages.append({"role": "user", "content": f"Odpowiedz na poniższe pytanie: {query['source_text']}"})
+
+        return messages
   
     def generate_answer(self, query, documents, additional_instruct="", max_new_tokens_v=1000, use_rag=True):
 
@@ -376,26 +399,16 @@ class RAG:
             self.initiate_llm()
 
         # Construct prompt template
-        messages = []
-        if use_rag:
-            sys_msg = f"Odpowiedz na pytanie użytkownika. Poniżej jako kontekst możesz wykorzystać dostarczone powiązane z pytaniem dokumenty w które mogą pomóc Ci poprawnie odpowiedzieć. {additional_instruct}"
-            #messages.append({"role": "system", "content": f"Na podstawie dostarczonych poniżej dokumentów odpowiedz na pytanie użytkownika które znajduję się na samym dole. Wnioskuj wyłącznie na podstawie dostarczonego kontekstu. Jeżeli nie jesteś w stanie odpowiedzieć na podstawie otrzymanych dokumentów uczciwie to powiedz."})
-            for id, doc in enumerate(documents):
-                #messages.append({"role": "assistant", "content": f"Dokument {id}: {doc['_source'].get('source_text')}"})
-                sys_msg += f"\n Dokument {id}: {doc['_source'].get('source_text')} "
-            messages.append({"role": "system", "content": sys_msg})
-        else:
-            messages.append({"role": "system", "content": f"Odpowiedz na pytanie użytkownika. {additional_instruct}"})
-        
-        # if additional_instruct:
-        #         messages.append({"role": "assistant", "content": f" {additional_instruct}"})
-        
-        messages.append({"role": "user", "content": f"Odpowiedz na poniższe pytanie: {query['source_text']}"})
+        messages = self.apply_template(query, documents, additional_instruct, use_rag)
 
         # Generate answer
-        input_ids = self.chat_tokenizer.apply_chat_template(messages, return_tensors="pt")
+        inputs_tp = self.chat_tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
 
-        generation_kwargs = dict(inputs=input_ids, streamer=self.chat_streamer, max_new_tokens=max_new_tokens_v, do_sample=False)
+        inputs = self.chat_tokenizer(inputs_tp, return_tensors="pt", padding=True)
+
+        attention_mask = inputs["attention_mask"]
+    
+        generation_kwargs = dict(inputs=inputs['input_ids'], attention_mask=attention_mask, pad_token_id=self.chat_tokenizer.eos_token_id, streamer=self.chat_streamer, max_new_tokens=max_new_tokens_v, do_sample=False)
         thread = Thread(target=self.chat_llm.generate, kwargs=generation_kwargs)
         thread.start()
 
