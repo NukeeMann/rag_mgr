@@ -399,7 +399,7 @@ class RAG:
         else:
             messages.append({"role": "system", "content": f"Odpowiedz na pytanie użytkownika. {additional_instruct}"})
         
-        if self.gen_model=='speakleash/Bielik-11B-v2.3-Instruct':
+        if self.gen_model=='speakleash/Bielik-11B-v2.3-Instruct' or use_rag==False:
             messages.append({"role": "user", "content": f"Odpowiedz na poniższe pytanie: {query['source_text']}"})
 
         return messages
