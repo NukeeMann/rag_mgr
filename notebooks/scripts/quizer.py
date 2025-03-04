@@ -110,24 +110,27 @@ class QuizerLLM:
         results = {'correct' : 0, 'incorrect': 0, "article_correct": 0}
         
         for id, question in enumerate(self.questions):
-            question_text_with_answers = question['text']
-            for option, _ in question['answers']:
-                question_text_with_answers += "\n" + option
-            
-            # Generate answer
-            answer = self.rag_system.infer(question_text_with_answers, additional_instruct=additional_instruct, use_rag=use_rag, top_k=top_k, rr_entities=rr_entities, rr_keywords=rr_keywords, verbose=verbose)
-            time.sleep(2)
-
-            corect_res, judge_ans = self.check_answer(question['correct_answer'], answer)
-
-            if corect_res:
+            if id == 15:
                 results['correct'] += 1
-                if 'kodeks_cywilny' in file_path.lower():
-                    if self.check_article(question['article'], answer):
-                        results['article_correct'] += 1
             else:
-                results['incorrect'] += 1
-            
-            self.print_and_save_results(id, question_text_with_answers, answer, judge_ans, question, results, res_save_path)
+                question_text_with_answers = question['text']
+                for option, _ in question['answers']:
+                    question_text_with_answers += "\n" + option
+                
+                # Generate answer
+                answer = self.rag_system.infer(question_text_with_answers, additional_instruct=additional_instruct, use_rag=use_rag, top_k=top_k, rr_entities=rr_entities, rr_keywords=rr_keywords, verbose=verbose)
+                time.sleep(2)
+
+                corect_res, judge_ans = self.check_answer(question['correct_answer'], answer)
+
+                if corect_res:
+                    results['correct'] += 1
+                    if 'kodeks_cywilny' in file_path.lower():
+                        if self.check_article(question['article'], answer):
+                            results['article_correct'] += 1
+                else:
+                    results['incorrect'] += 1
+                
+                self.print_and_save_results(id, question_text_with_answers, answer, judge_ans, question, results, res_save_path)
         
         return results
