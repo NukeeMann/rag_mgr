@@ -380,15 +380,16 @@ class RAG:
                 if additional_instruct:
                     messages.append({"role": "system", "content": additional_instruct})
             else:
-                assistant_msg = f"Odpowiedz na pytanie użytkownika. Poniżej jako kontekst możesz wykorzystać dostarczone powiązane z pytaniem dokumenty w które mogą pomóc Ci poprawnie odpowiedzieć. {additional_instruct}"
+                assistant_msg = f"Odpowiedz na pytanie użytkownika. Poniżej jako kontekst możesz wykorzystać dostarczone powiązane z pytaniem dokumenty w które mogą pomóc Ci poprawnie odpowiedzieć. {additional_instruct}.\n Pyatnie na które masz odpowiedzieć: {query['source_text']} \n"
                 for id, doc in enumerate(documents):
                     assistant_msg += f"\n Dokument {id}: {doc['_source'].get('source_text')} "
                 
-                messages.append({"role": "assistant", "content": assistant_msg})
+                messages.append({"role": "user", "content": assistant_msg})
         else:
             messages.append({"role": "system", "content": f"Odpowiedz na pytanie użytkownika. {additional_instruct}"})
         
-        messages.append({"role": "user", "content": f"Odpowiedz na poniższe pytanie: {query['source_text']}"})
+        if self.gen_model=='speakleash/Bielik-11B-v2.3-Instruct':
+            messages.append({"role": "user", "content": f"Odpowiedz na poniższe pytanie: {query['source_text']}"})
 
         return messages
   
