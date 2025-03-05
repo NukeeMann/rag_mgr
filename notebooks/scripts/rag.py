@@ -114,7 +114,6 @@ class RAG:
             model_name,
             trust_remote_code=True,
             torch_dtype=torch.bfloat16,
-            #attn_implementation="flash_attention_2",
             device_map="auto"
         )
 
@@ -369,7 +368,7 @@ class RAG:
         # Construct the search query using script_score for cosine similarity
         if search_embed:
             search_query = {
-                "size": 7,  # Set the number of results you want to retrieve
+                "size": 5,  # Set the number of results you want to retrieve
                 "query": {
                     "script_score": {
                         "query": {"match_all": {}},
@@ -382,7 +381,7 @@ class RAG:
             }
         else:
             search_query = {
-                "size": 10,  # Define the desired number of results
+                "size": 5,  # Define the desired number of results
                 "query": {
                     "match": {
                         index_search: query_text  # Search within 'cleaned_text'
