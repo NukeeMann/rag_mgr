@@ -406,7 +406,8 @@ class RAG:
         messages = []
         if use_rag:
             if self.gen_model=='speakleash/Bielik-11B-v2.3-Instruct':
-                messages.append({"role": "system", "content": f"Na podstawie dostarczonych poniżej dokumentów odpowiedz na pytanie użytkownika które znajduję się na samym dole. Wnioskuj wyłącznie na podstawie dostarczonego kontekstu. Jeżeli nie jesteś w stanie odpowiedzieć na podstawie otrzymanych dokumentów uczciwie to powiedz. {additional_instruct}"})
+                messages.append({"role": "system", "content": f"Odpowiedz na pytanie użytkownika posiłkując się dostarczonymi dla poszerzenia kontekstu dokumentami. {additional_instruct}"})
+                #messages.append({"role": "system", "content": f"Na podstawie dostarczonych poniżej dokumentów odpowiedz na pytanie użytkownika które znajduję się na samym dole. Wnioskuj wyłącznie na podstawie dostarczonego kontekstu. Jeżeli nie jesteś w stanie odpowiedzieć na podstawie otrzymanych dokumentów uczciwie to powiedz. {additional_instruct}"})
                 context_text = ""
                 for id, doc in enumerate(documents):
                     context_text += f"# Dokument {id}: {doc['_source'].get('source_text')} "
@@ -415,7 +416,7 @@ class RAG:
                 # if additional_instruct:
                 #     messages.append({"role": "system", "content": additional_instruct})
 
-                user_text=f"Odpowiedz na poniższe pytanie: {query['source_text']} \n\n ### Dla poszerzenia kontekstu: {context_text}"
+                user_text=f"Odpowiedz na poniższe pytanie: {query['source_text']} \n\n ### Dokumenty dostarczone dla poszerzenia kontekstu: {context_text}"
 
                 messages.append({"role": "user", "content": user_text})
             else:
