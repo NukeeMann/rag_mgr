@@ -7,7 +7,7 @@ import nltk
 from nltk.corpus import stopwords
 import morfeusz2
 from elasticsearch import Elasticsearch
-from transformers import AutoModelForCausalLM, AutoTokenizer, AutoModel, TextStreamer, TextIteratorStreamer
+from transformers import AutoModelForCausalLM, AutoTokenizer, AutoModel, TextStreamer, TextIteratorStreamer, AutoModelForSequenceClassification
 import torch
 from typing import List
 from langchain_core.documents.base import Document
@@ -23,6 +23,8 @@ import shutil
 from bs4 import BeautifulSoup
 from io import BytesIO
 from pdfminer.high_level import extract_text_to_fp
+from transformers import AutoTokenizer, AutoModelForSequenceClassification
+import numpy as np
 
 def extract_pdf_lite(pdf_path):
     root = os.path.dirname(pdf_path)
@@ -102,10 +104,19 @@ class RAG:
         self.nlp_pl = spacy.load("pl_core_news_sm")
 
         # Load tokenizer and embedding model
-        self.processing_tokenizer = AutoTokenizer.from_pretrained("Voicelab/sbert-base-cased-pl")
-        self.embedding_model = AutoModel.from_pretrained("Voicelab/sbert-base-cased-pl")
+        self.processing_tokenizer = AutoTokenizer.from_pretrained("Voicelab/sbert-base-cased-pl") # medicalai/ClinicalBERT
+        self.embedding_model = AutoModel.from_pretrained("Voicelab/sbert-base-cased-pl") # medicalai/ClinicalBERT
         self.llm_loaded = False
         self.gen_model = gen_model
+        model_name = "sdadas/polish-reranker-roberta-v2"
+        self.rr_tokenizer = AutoTokenizer.from_pretrained(model_name)
+        self.rr_model = AutoModelForSequenceClassification.from_pretrained(
+            model_name,
+            trust_remote_code=True,
+            torch_dtype=torch.bfloat16,
+            #attn_implementation="flash_attention_2",
+            device_map="auto"
+        )
 
     def change_index(self, index_name):
         self.index_name = index_name
@@ -340,22 +351,44 @@ class RAG:
             outputs = self.embedding_model(**inputs)
         return outputs.pooler_output.detach().numpy()[0]
 
-    def retrieve(self, query_text):
+    def retrieve(self, query_text, ret_fun='similarity', search_embed=True, query_cleaned=False):
         query = self.process_query(query_text)
 
+        if ret_fun == 'similarity':
+            search_fun = "cosineSimilarity(params.query_vector, 'embedding')"
+        elif ret_fun == 'dotproduct':
+            search_fun = "dotProduct(params.query_vector, 'embedding')"
+        
+        if query_cleaned == False:
+            index_search = "source_text"
+            query_text = query['source_text']
+        else:
+            index_search = "cleaned_text"
+            query_text = query['cleaned_text']
+
         # Construct the search query using script_score for cosine similarity
-        search_query = {
-            "size": 10,  # Set the number of results you want to retrieve
-            "query": {
-                "script_score": {
-                    "query": {"match_all": {}},
-                    "script": {
-                        "source": "cosineSimilarity(params.query_vector, 'embedding')",
-                        "params": {"query_vector": query['embedding']}
+        if search_embed:
+            search_query = {
+                "size": 7,  # Set the number of results you want to retrieve
+                "query": {
+                    "script_score": {
+                        "query": {"match_all": {}},
+                        "script": {
+                            "source": search_fun,
+                            "params": {"query_vector": query['embedding']}
+                        }
                     }
                 }
             }
-        }
+        else:
+            search_query = {
+                "size": 10,  # Define the desired number of results
+                "query": {
+                    "match": {
+                        index_search: query_text  # Search within 'cleaned_text'
+                    }
+                }
+            }
 
         # Execute the search
         retrieved_docs = self.es_client.search(index=self.index_name, body=search_query)
@@ -486,7 +519,22 @@ class RAG:
         # Sort documents by the updated similarity score
         return sorted(reranked_docs_semantic, key=lambda x: -x['_score'])
     
-    def rerank(self, documents, query, top_k=5, rr_entities=False, rr_keywords=False):
+    def rerank_llm(self, documents, query):
+        texts = [f"{query['source_text']}</s></s>{doc['_source']['source_text']}" for doc in documents]
+        tokens = self.rr_tokenizer(texts, padding="longest", truncation=True, return_tensors="pt")
+        output = self.rr_model(**tokens)
+        scores = output.logits.detach().float().numpy()
+        scores = np.squeeze(scores).tolist()
+        paired_docs_score = list(zip(documents, scores))
+        sorted_paired_docs_score = sorted(paired_docs_score, key=lambda x: x[1], reverse=True)
+        del output
+        del scores
+        del tokens
+        sorted_documents = [document for document, score in sorted_paired_docs_score]
+        del sorted_paired_docs_score
+        return sorted_documents
+    
+    def rerank(self, documents, query, top_k=5, rr_entities=False, rr_keywords=False, rr_llm=True):
 
         reranked_documents = self.rerank_semantic(documents, query)
 
@@ -495,15 +543,18 @@ class RAG:
         
         if rr_keywords:
             reranked_documents = self.rerank_keywords(reranked_documents, query)
+        
+        if rr_llm:
+            reranked_documents = self.rerank_llm(reranked_documents, query)
 
         return reranked_documents[:top_k]
     
-    def infer(self, query_text, additional_instruct="", max_new_tokens_v=1000, use_rag=True, top_k=5, rr_entities=False, rr_keywords=False, verbose=0):
+    def infer(self, query_text, additional_instruct="", max_new_tokens_v=1000, use_rag=True, top_k=5, rr_entities=False, rr_keywords=False, rr_llm=True, ret_fun='similarity', search_embed=True, query_cleaned=False, verbose=0):
 
         # Retrieve documents
-        retrieved_docs, query = self.retrieve(query_text)
+        retrieved_docs, query = self.retrieve(query_text, ret_fun=ret_fun, search_embed=search_embed, query_cleaned=query_cleaned)
         # Re-rank documents
-        reranked_docs = self.rerank(retrieved_docs, query, top_k, rr_entities, rr_keywords)
+        reranked_docs = self.rerank(retrieved_docs, query, top_k, rr_entities, rr_keywords, rr_llm)
 
         # Generate answer
         answer = self.generate_answer(query, reranked_docs, additional_instruct=additional_instruct, max_new_tokens_v=max_new_tokens_v, use_rag=use_rag, verbose=verbose)

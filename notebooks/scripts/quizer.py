@@ -104,7 +104,7 @@ class QuizerLLM:
             file.write(f"### Wyniki: {results}\n")
             file.write('-'*20 + '\n')
 
-    def evaluate(self, file_path, additional_instruct="", res_save_path='results.txt', use_rag=True, top_k=5, rr_entities=False, rr_keywords=False, verbose=0):
+    def evaluate(self, file_path, additional_instruct="", res_save_path='results.txt', use_rag=True, top_k=5, rr_entities=False, rr_keywords=False, rr_llm=True, ret_fun='similarity', search_embed=True, query_cleaned=False, verbose=0):
         # Load questions
         self.load_questions_from_file(file_path)
         results = {'correct' : 0, 'incorrect': 0, "article_correct": 0}
@@ -118,7 +118,7 @@ class QuizerLLM:
                     question_text_with_answers += "\n" + option
                 
                 # Generate answer
-                answer = self.rag_system.infer(question_text_with_answers, additional_instruct=additional_instruct, use_rag=use_rag, top_k=top_k, rr_entities=rr_entities, rr_keywords=rr_keywords, verbose=verbose)
+                answer = self.rag_system.infer(question_text_with_answers, additional_instruct=additional_instruct, use_rag=use_rag, top_k=top_k, rr_entities=rr_entities, rr_keywords=rr_keywords, rr_llm=rr_llm, ret_fun=ret_fun, search_embed=search_embed, query_cleaned=query_cleaned, verbose=verbose)
                 time.sleep(2)
 
                 corect_res, judge_ans = self.check_answer(question['correct_answer'], answer)
