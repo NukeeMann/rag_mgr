@@ -406,12 +406,18 @@ class RAG:
         messages = []
         if use_rag:
             if self.gen_model=='speakleash/Bielik-11B-v2.3-Instruct':
-                messages.append({"role": "system", "content": f"Na podstawie dostarczonych poniżej dokumentów odpowiedz na pytanie użytkownika które znajduję się na samym dole. Wnioskuj wyłącznie na podstawie dostarczonego kontekstu. Jeżeli nie jesteś w stanie odpowiedzieć na podstawie otrzymanych dokumentów uczciwie to powiedz."})
+                messages.append({"role": "system", "content": f"Na podstawie dostarczonych poniżej dokumentów odpowiedz na pytanie użytkownika które znajduję się na samym dole. Wnioskuj wyłącznie na podstawie dostarczonego kontekstu. Jeżeli nie jesteś w stanie odpowiedzieć na podstawie otrzymanych dokumentów uczciwie to powiedz. {additional_instruct}"})
+                context_text = ""
                 for id, doc in enumerate(documents):
-                    messages.append({"role": "system", "content": f"Dokument {id}: {doc['_source'].get('source_text')}"})
+                    context_text += f"# Dokument {id}: {doc['_source'].get('source_text')} "
+                    #messages.append({"role": "system", "content": f"Dokument {id}: {doc['_source'].get('source_text')}"})
 
-                if additional_instruct:
-                    messages.append({"role": "system", "content": additional_instruct})
+                # if additional_instruct:
+                #     messages.append({"role": "system", "content": additional_instruct})
+
+                user_text=f"Odpowiedz na poniższe pytanie: {query['source_text']} \n\n ### Dla poszerzenia kontekstu: {context_text}"
+
+                messages.append({"role": "user", "content": user_text})
             else:
                 docs_text = ""
                 for id, doc in enumerate(documents):
@@ -431,8 +437,6 @@ class RAG:
                 messages.append({"role": "user", "content": user_msg})
         else:
             messages.append({"role": "system", "content": f"Odpowiedz na pytanie użytkownika. {additional_instruct}"})
-        
-        if self.gen_model=='speakleash/Bielik-11B-v2.3-Instruct' or use_rag==False:
             messages.append({"role": "user", "content": f"Odpowiedz na poniższe pytanie: {query['source_text']}"})
 
         return messages
