@@ -202,10 +202,6 @@ class RAG:
     def clean_doc(self, doc):
         text = doc.page_content
         
-        # Remove any leftover HTML tags
-        #clean_html = re.compile('<.*?>')
-        #text = re.sub(clean_html, '', text)
-        
         # Remove new lines
         text = text.replace('\n', ' ')
         
@@ -531,10 +527,11 @@ class RAG:
         scores = np.squeeze(scores).tolist()
         paired_docs_score = list(zip(documents, scores))
         sorted_paired_docs_score = sorted(paired_docs_score, key=lambda x: x[1], reverse=True)
+        sorted_documents = [document for document, score in sorted_paired_docs_score]
+
         del output
         del scores
         del tokens
-        sorted_documents = [document for document, score in sorted_paired_docs_score]
         del sorted_paired_docs_score
         return sorted_documents
     
