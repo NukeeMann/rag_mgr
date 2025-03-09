@@ -364,7 +364,7 @@ class RAG:
         # Construct the search query using script_score for cosine similarity
         if search_embed:
             search_query = {
-                "size": 5,  # Set the number of results you want to retrieve
+                "size": 10,  # Set the number of results you want to retrieve
                 "query": {
                     "script_score": {
                         "query": {"match_all": {}},
@@ -377,7 +377,7 @@ class RAG:
             }
         else:
             search_query = {
-                "size": 5,  # Define the desired number of results
+                "size": 10,  # Define the desired number of results
                 "query": {
                     "match": {
                         index_search: query_text  # Search within 'cleaned_text'
@@ -417,19 +417,20 @@ class RAG:
             else:
                 docs_text = ""
                 for id, doc in enumerate(documents):
-                    docs_text += f"Dokument {id}: {doc['_source'].get('source_text')}" + os.linesep
+                    docs_text += f"Dokument {id}: {doc['_source'].get('source_text')}"
+                #                Odpowiedz na pytanie wspomagając się dostarczonymi dokumentami.
+                #Poniżej jako kontekst możesz wykorzystać dostarczone powiązane z pytaniem dokumenty w które mogą pomóc Ci poprawnie odpowiedzieć.
+                #{additional_instruct}
+                #
+                ##
                 user_msg = f'''
-                Odpowiedz na pytanie wspomagając się dostarczonymi dokumentami.
-                Poniżej jako kontekst możesz wykorzystać dostarczone powiązane z pytaniem dokumenty w które mogą pomóc Ci poprawnie odpowiedzieć.
-                {additional_instruct}
-                
                 ### Pytanie na które masz odpowiedzieć:
                 {query['source_text']}
 
                 ### Powiązane dokumenty dla rozszerzenia kontekstu:
                 {docs_text}
                 '''
-                
+                messages.append({"role": "system", "content": f"Odpowiedz na pytanie użytkownika. {additional_instruct}"})
                 messages.append({"role": "user", "content": user_msg})
         else:
             messages.append({"role": "system", "content": f"Odpowiedz na pytanie użytkownika. {additional_instruct}"})
