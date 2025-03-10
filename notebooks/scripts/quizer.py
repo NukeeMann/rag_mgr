@@ -78,8 +78,6 @@ class QuizerLLM:
                 messages=messages
             )
 
-            print(f"### GPT4o: {completion.choices[0].message.content}")
-
             if 'tak' in completion.choices[0].message.content.lower():
                 return True
             else:

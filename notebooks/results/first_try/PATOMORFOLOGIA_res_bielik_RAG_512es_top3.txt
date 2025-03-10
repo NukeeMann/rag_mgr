@@ -1,0 +1,833 @@
+# Pytanie 1
+### Udzielona odpowiedz: 
+Odpowiedź: e) We wszystkich ww.
+### Judge: Nie
+### Poprawna odpowiedz: d) W świetle pęcherzyków płucnych, None
+### Wyniki: {'correct': 0, 'incorrect': 1, 'article_correct': 0}
+--------------------
+# Pytanie 2
+### Udzielona odpowiedz: 
+### Odpowiedź:
+c) rak gruczołowy stercza
+### Judge: Nie
+### Poprawna odpowiedz: a) łagodny rozrost guzkowy stercza, None
+### Wyniki: {'correct': 0, 'incorrect': 2, 'article_correct': 0}
+--------------------
+# Pytanie 3
+### Udzielona odpowiedz: 
+Poprawna odpowiedź: e) Jajniku
+### Judge: Nie
+### Poprawna odpowiedz: c) Nadnerczach, None
+### Wyniki: {'correct': 0, 'incorrect': 3, 'article_correct': 0}
+--------------------
+# Pytanie 4
+### Udzielona odpowiedz: 
+Podaj TYLKO która z odpowiedzi a) b) c) d) e) jest poprawna. NIE dostarczaj żadnych wyjaśnień i NIE uzasadniaj swojej odpowiedzi.
+
+c) Hemosyderynę
+### Judge: Nie
+### Poprawna odpowiedz: d) Lipofuscynę, None
+### Wyniki: {'correct': 0, 'incorrect': 4, 'article_correct': 0}
+--------------------
+# Pytanie 5
+### Udzielona odpowiedz: 
+### Odpowiedź:
+a) Ucisku na sploty naczyniówkowe mózgu
+### Judge: Nie
+### Poprawna odpowiedz: d) Marskości wątroby, None
+### Wyniki: {'correct': 0, 'incorrect': 5, 'article_correct': 0}
+--------------------
+# Pytanie 6
+### Udzielona odpowiedz: 
+### Odpowiedź:
+a) Agregaty cytokeratyny w hepatocytach alkoholików
+### Judge: Tak
+### Poprawna odpowiedz: a) Agregaty cytokeratyny w hepatocytach alkoholików, None
+### Wyniki: {'correct': 1, 'incorrect': 5, 'article_correct': 0}
+--------------------
+# Pytanie 7
+### Udzielona odpowiedz: 
+
+Odpowiedź: d) krwotok z nosa
+### Judge: Nie
+### Poprawna odpowiedz: d) krwotok z nosa, None
+### Wyniki: {'correct': 1, 'incorrect': 6, 'article_correct': 0}
+--------------------
+# Pytanie 8
+### Udzielona odpowiedz: 
+Poprawna odpowiedź: c) choroby Addisona
+### Judge: Nie
+### Poprawna odpowiedz: a) hemochromatozy, None
+### Wyniki: {'correct': 1, 'incorrect': 7, 'article_correct': 0}
+--------------------
+# Pytanie 9
+### Udzielona odpowiedz: 
+a) PSA, tyreoglobulina, wimentyna
+### Judge: Nie
+### Poprawna odpowiedz: b) kalcytonina, PLAP, EMA, None
+### Wyniki: {'correct': 1, 'incorrect': 8, 'article_correct': 0}
+--------------------
+# Pytanie 10
+### Udzielona odpowiedz: 
+d) otyłość, cukrzyca, palenie tytoniu, późna menopauza
+### Judge: Nie
+### Poprawna odpowiedz: c) otyłość, cukrzyca, późna menopauza, niepłodność, None
+### Wyniki: {'correct': 1, 'incorrect': 9, 'article_correct': 0}
+--------------------
+# Pytanie 11
+### Udzielona odpowiedz: 
+Poprawna odpowiedź to: e) osteoclastoma, carcinoma basocellulare cutis, cystadenoma ovarii.
+### Judge: Tak
+### Poprawna odpowiedz: e) osteoclastoma, carcinoma basocellulare cutis, cystadenoma ovarii, None
+### Wyniki: {'correct': 2, 'incorrect': 9, 'article_correct': 0}
+--------------------
+# Pytanie 12
+### Udzielona odpowiedz: 
+Poprawna odpowiedź to: e) c i d
+### Judge: Tak
+### Poprawna odpowiedz: e) c i d, None
+### Wyniki: {'correct': 3, 'incorrect': 9, 'article_correct': 0}
+--------------------
+# Pytanie 13
+### Udzielona odpowiedz: 
+c) Gleasona
+### Judge: Tak
+### Poprawna odpowiedz: c) Gleasona, None
+### Wyniki: {'correct': 4, 'incorrect': 9, 'article_correct': 0}
+--------------------
+# Pytanie 14
+### Udzielona odpowiedz: 
+Poprawna odpowiedź to: a) 16,19,43
+
+Uzasadnienie:
+Wirusy brodawczaka ludzkiego (HPV) są klasyfikowane na podstawie ich zdolności do wywoływania różnych typów nowotworów. Onkogenne typy HPV to te, które mają potencjał do wywoływania zmian nowotworowych. Typy 16, 18 i 43 są uznawane za onkogenne, ponieważ są związane z rozwojem raka szyjki macicy oraz innych nowotworów, takich jak rak gardła i odbytu. Typy 16 i 18 są szczególnie dobrze znane ze swojego związku z rakiem szyjki macicy, podczas gdy typ 43 jest również związany z rakiem odbytu.
+### Judge: Nie
+### Poprawna odpowiedz: b) 16,18,33, None
+### Wyniki: {'correct': 4, 'incorrect': 10, 'article_correct': 0}
+--------------------
+# Pytanie 15
+### Udzielona odpowiedz: 
+Poprawna odpowiedź: e) cor bovinum
+
+Uzasadnienie:
+
+Wrodzone wady serca to nieprawidłowości w budowie serca, które są obecne od urodzenia. Wśród wymienionych opcji, wszystkie z wyjątkiem "cor bovinum" są wrodzonymi wadami serca:
+
+a) ectopia cordis - wada, w której serce jest nieprawidłowo położone poza klatką piersiową.
+b) tetralogia Fallota - zespół czterech wad serca, obejmujący ubytek przegrody międzykomorowej, zwężenie drogi odpływu prawej komory, przemieszczenie aorty i przerost prawej komory.
+c) defectus septi interventricularis - ubytek przegrody międzykomorowej, czyli otwór w przegrodzie oddzielającej komory serca.
+d) cor biloculare univentriculare - serce dwuprzedsionkowe jednokomorowe, w którym obie komory są połączone w jedną komorę.
+
+"Cor bovinum" (serce wołowe) to natomiast termin odnoszący się do serca, które ma dwie komory i dwa przedsionki, ale nie jest to wrodzona wada serca. Jest to raczej cecha anatomiczna, która występuje u niektórych gatunków zwierząt, w tym u bydła, stąd nazwa "serce wołowe". U ludzi serce ma cztery komory i przedsionki, a "cor bovinum" nie jest uznawane za wrodzoną wadę serca.
+### Judge: Tak
+### Poprawna odpowiedz: e) cor bovinum, None
+### Wyniki: {'correct': 5, 'incorrect': 10, 'article_correct': 0}
+--------------------
+# Pytanie 16
+### Udzielona odpowiedz: 
+a)
+### Judge: Tak
+### Poprawna odpowiedz: a) stopnia zaawansowania nowotworów narządu rodnego, None
+### Wyniki: {'correct': 6, 'incorrect': 10, 'article_correct': 0}
+--------------------
+# Pytanie 17
+### Udzielona odpowiedz: 
+Furunculus to przykład:
+a) Ropnia
+
+Poprawna odpowiedź to a) Ropnia.
+### Judge: Nie
+### Poprawna odpowiedz: b) Ropowicy, None
+### Wyniki: {'correct': 6, 'incorrect': 11, 'article_correct': 0}
+--------------------
+# Pytanie 18
+### Udzielona odpowiedz: 
+Poprawna odpowiedź: e) Genetycznie uwarunkowanego niedoboru enzymów
+### Judge: Tak
+### Poprawna odpowiedz: e) Genetycznie uwarunkowanego niedoboru enzymów, None
+### Wyniki: {'correct': 7, 'incorrect': 11, 'article_correct': 0}
+--------------------
+# Pytanie 19
+### Udzielona odpowiedz: 
+c) Polipa zapalnego
+### Judge: Nie
+### Poprawna odpowiedz: e) Gruczolaka kosmkowego, None
+### Wyniki: {'correct': 7, 'incorrect': 12, 'article_correct': 0}
+--------------------
+# Pytanie 20
+### Udzielona odpowiedz: 
+Komórki Aniczkowa są charakterystyczne dla:
+
+b) reumatycznego zapalenia mięśnia sercowego
+### Judge: Tak
+### Poprawna odpowiedz: b) reumatycznego zapalenia mięśnia sercowego, None
+### Wyniki: {'correct': 8, 'incorrect': 12, 'article_correct': 0}
+--------------------
+# Pytanie 21
+### Udzielona odpowiedz: 
+a) lupus erythematosus
+### Judge: Tak
+### Poprawna odpowiedz: a) lupus erythematosus, None
+### Wyniki: {'correct': 9, 'incorrect': 12, 'article_correct': 0}
+--------------------
+# Pytanie 22
+### Udzielona odpowiedz: 
+a) Jest produkowany przez komórki wydzielnicze prawidłowych gruczołów sterczowych i komórki raka gruczołowe stercza
+### Judge: Tak
+### Poprawna odpowiedz: a) Jest produkowany przez komórki wydzielnicze prawidłowych gruczołów sterczowych i komórki raka gruczołowe stercza, None
+### Wyniki: {'correct': 10, 'incorrect': 12, 'article_correct': 0}
+--------------------
+# Pytanie 23
+### Udzielona odpowiedz: 
+
+Odpowiedź: e) a+b
+### Judge: Nie
+### Poprawna odpowiedz: e) a+b, None
+### Wyniki: {'correct': 10, 'incorrect': 13, 'article_correct': 0}
+--------------------
+# Pytanie 24
+### Udzielona odpowiedz: 
+a) rak jelita grubego, rak stercza, rak gruczołu piersiowego
+### Judge: Nie
+### Poprawna odpowiedz: d) rak trzustki, czerniak, rak jelita grubego, None
+### Wyniki: {'correct': 10, 'incorrect': 14, 'article_correct': 0}
+--------------------
+# Pytanie 25
+### Udzielona odpowiedz: 
+a) Komórki Cornila
+b) Ciałka Mallory’ego w wątrobie
+c) Złogi alfa1-antytrypsyny w wątrobie
+d) Zwyrodnienie kropelkowo-szkliste w nerce
+e) Złogi amyloidu w nerce
+
+Poprawna odpowiedź: a) Komórki Cornila
+### Judge: Tak
+### Poprawna odpowiedz: e) Złogi amyloidu w nerce, None
+### Wyniki: {'correct': 11, 'incorrect': 14, 'article_correct': 0}
+--------------------
+# Pytanie 26
+### Udzielona odpowiedz: 
+### Odpowiedź:
+e) Najczęściej rozwija się na podłożu kostniaka
+
+### Wyjaśnienie:
+Osteosarkoma jest najczęstszym pierwotnym nowotworem złośliwym kości, co oznacza, że jest to najczęstszy typ raka kości u dzieci i młodych dorosłych. Występuje głównie u młodych osób w wieku 10-25 lat, co stanowi około 60% przypadków. Najczęściej rozwija się w przynasadach kości długich kończyn, takich jak kość udowa, kość piszczelowa czy kość ramienna. Rozpoznanie mikroskopowe tego nowotworu opiera się na wykazaniu obecności osteoidu, czyli substancji mineralnej tworzącej kość.
+
+Osteosarkoma nie rozwija się na podłożu kostniaka, który jest łagodnym nowotworem kości. Kostniak jest zbudowany z tkanki kostnej i nie ma charakteru złośliwego. Osteosarkoma jest nowotworem złośliwym, który rozwija się z komórek kościotwórczych (osteoblastów) i ma zdolność do naciekania sąsiednich tkanek oraz tworzenia przerzutów.
+### Judge: Nie
+### Poprawna odpowiedz: e) Najczęściej rozwija się na podłożu kostniaka, None
+### Wyniki: {'correct': 11, 'incorrect': 15, 'article_correct': 0}
+--------------------
+# Pytanie 27
+### Udzielona odpowiedz: 
+b) W świetle naczynia za życia powstaje skrzep, a po śmierci zakrzep
+### Judge: Nie
+### Poprawna odpowiedz: a) W świetle naczynia za życia powstaje zakrzep, a po śmierci skrzep, None
+### Wyniki: {'correct': 11, 'incorrect': 16, 'article_correct': 0}
+--------------------
+# Pytanie 28
+### Udzielona odpowiedz: 
+Odpowiedź: e) c i d
+### Judge: Tak
+### Poprawna odpowiedz: e) c i d, None
+### Wyniki: {'correct': 12, 'incorrect': 16, 'article_correct': 0}
+--------------------
+# Pytanie 29
+### Udzielona odpowiedz: 
+
+Odpowiedź: c) neurofibroma
+### Judge: Nie
+### Poprawna odpowiedz: e) carcinoma basocellulare, None
+### Wyniki: {'correct': 12, 'incorrect': 17, 'article_correct': 0}
+--------------------
+# Pytanie 30
+### Udzielona odpowiedz: 
+
+Odpowiedź: e) Uwięźnięcie przepukliny
+### Judge: Nie
+### Poprawna odpowiedz: b) Zarośniecie światła jelita przez coprol, None
+### Wyniki: {'correct': 12, 'incorrect': 18, 'article_correct': 0}
+--------------------
+# Pytanie 31
+### Udzielona odpowiedz: 
+a) Carcinoma ductale invasivum
+### Judge: Nie
+### Poprawna odpowiedz: c) Carcinoma ductale invasivum, None
+### Wyniki: {'correct': 12, 'incorrect': 19, 'article_correct': 0}
+--------------------
+# Pytanie 32
+### Udzielona odpowiedz: 
+
+Odpowiedź: c) adenocarcinoma
+### Judge: Tak
+### Poprawna odpowiedz: c) adenocarcinoma, None
+### Wyniki: {'correct': 13, 'incorrect': 19, 'article_correct': 0}
+--------------------
+# Pytanie 33
+### Udzielona odpowiedz: 
+
+Odpowiedź: c) RZS
+### Judge: Tak
+### Poprawna odpowiedz: c) RZS, None
+### Wyniki: {'correct': 14, 'incorrect': 19, 'article_correct': 0}
+--------------------
+# Pytanie 34
+### Udzielona odpowiedz: 
+Odpowiedź: a) obumieranie komórek w żywym organizmie
+### Judge: Nie
+### Poprawna odpowiedz: b) nagła śmierć komórki w żywym organizmie, None
+### Wyniki: {'correct': 14, 'incorrect': 20, 'article_correct': 0}
+--------------------
+# Pytanie 35
+### Udzielona odpowiedz: 
+
+Odpowiedź: e) a, b i d
+### Judge: Tak
+### Poprawna odpowiedz: e) a, b i d, None
+### Wyniki: {'correct': 15, 'incorrect': 20, 'article_correct': 0}
+--------------------
+# Pytanie 36
+### Udzielona odpowiedz: 
+Odpowiedź: c) Dysplazji
+### Judge: Nie
+### Poprawna odpowiedz: b) Metaplazji, None
+### Wyniki: {'correct': 15, 'incorrect': 21, 'article_correct': 0}
+--------------------
+# Pytanie 37
+### Udzielona odpowiedz: 
+Poprawna odpowiedź: d) Wszystkie powyższe
+### Judge: Tak
+### Poprawna odpowiedz: d) Wszystkie powyższe, None
+### Wyniki: {'correct': 16, 'incorrect': 21, 'article_correct': 0}
+--------------------
+# Pytanie 38
+### Udzielona odpowiedz: 
+a) E.coli, Proteus vulgaris
+### Judge: Tak
+### Poprawna odpowiedz: a) E.coli, Proteus vulgaris, None
+### Wyniki: {'correct': 17, 'incorrect': 21, 'article_correct': 0}
+--------------------
+# Pytanie 39
+### Udzielona odpowiedz: 
+Najczęstsza przyczyna białkomoczu u dorosłych to:
+
+c) lipoid nephrosis
+### Judge: Nie
+### Poprawna odpowiedz: a) glomerulonephritis membranosa, None
+### Wyniki: {'correct': 17, 'incorrect': 22, 'article_correct': 0}
+--------------------
+# Pytanie 40
+### Udzielona odpowiedz: 
+Odpowiedź: e) pęknięta ciąża pozamaciczna
+### Judge: Tak
+### Poprawna odpowiedz: e) pęknięta ciąża pozamaciczna, None
+### Wyniki: {'correct': 18, 'incorrect': 22, 'article_correct': 0}
+--------------------
+# Pytanie 41
+### Udzielona odpowiedz: 
+Najczęstsza przyczyna krwotoków śródmózgowych to:
+
+d) nadciśnienie
+### Judge: Tak
+### Poprawna odpowiedz: d) nadciśnienie, None
+### Wyniki: {'correct': 19, 'incorrect': 22, 'article_correct': 0}
+--------------------
+# Pytanie 42
+### Udzielona odpowiedz: 
+### Odpowiedź:
+c) zakrzepy
+### Judge: Tak
+### Poprawna odpowiedz: c) zakrzepy, None
+### Wyniki: {'correct': 20, 'incorrect': 22, 'article_correct': 0}
+--------------------
+# Pytanie 43
+### Udzielona odpowiedz: 
+Odpowiedź: a) hepatocellular carcinoma
+### Judge: Nie
+### Poprawna odpowiedz: e) metastasis, None
+### Wyniki: {'correct': 20, 'incorrect': 23, 'article_correct': 0}
+--------------------
+# Pytanie 44
+### Udzielona odpowiedz: 
+Najczęstszym pierwotnym nowotworem jądra u chłopców poniżej 3 roku życia jest:
+
+c) yolk sac tumour
+### Judge: Tak
+### Poprawna odpowiedz: c) yolk sac tumour, None
+### Wyniki: {'correct': 21, 'incorrect': 23, 'article_correct': 0}
+--------------------
+# Pytanie 45
+### Udzielona odpowiedz: 
+Poprawna odpowiedź to: b) rak pęcherzykowy.
+### Judge: Nie
+### Poprawna odpowiedz: d) rak brodawkowaty, None
+### Wyniki: {'correct': 21, 'incorrect': 24, 'article_correct': 0}
+--------------------
+# Pytanie 46
+### Udzielona odpowiedz: 
+Poprawna odpowiedź: b) granulocyty kwasochłonne
+### Judge: Nie
+### Poprawna odpowiedz: d) komórki nabłonkowate, None
+### Wyniki: {'correct': 21, 'incorrect': 25, 'article_correct': 0}
+--------------------
+# Pytanie 47
+### Udzielona odpowiedz: 
+c) II-go typu nadwrażliwości
+### Judge: Tak
+### Poprawna odpowiedz: c) II-go typu nadwrażliwości, None
+### Wyniki: {'correct': 22, 'incorrect': 25, 'article_correct': 0}
+--------------------
+# Pytanie 48
+### Udzielona odpowiedz: 
+
+Odpowiedź: a) rhabdomyoblastoma
+### Judge: Nie
+### Poprawna odpowiedz: a) rhabdomyoblastoma, None
+### Wyniki: {'correct': 22, 'incorrect': 26, 'article_correct': 0}
+--------------------
+# Pytanie 49
+### Udzielona odpowiedz: 
+a) raka cewkowego żołądka
+
+Poprawna odpowiedź to a) raka cewkowego żołądka.
+### Judge: Nie
+### Poprawna odpowiedz: b) raka śluzowo komórkowego żołądka, None
+### Wyniki: {'correct': 22, 'incorrect': 27, 'article_correct': 0}
+--------------------
+# Pytanie 50
+### Udzielona odpowiedz: 
+Odpowiedź: d) obecności przerzutów
+### Judge: Tak
+### Poprawna odpowiedz: d) obecności przerzutów, None
+### Wyniki: {'correct': 23, 'incorrect': 27, 'article_correct': 0}
+--------------------
+# Pytanie 51
+### Udzielona odpowiedz: 
+Poprawna odpowiedź: b) Nerce
+### Judge: Tak
+### Poprawna odpowiedz: b) Nerce, None
+### Wyniki: {'correct': 24, 'incorrect': 27, 'article_correct': 0}
+--------------------
+# Pytanie 52
+### Udzielona odpowiedz: 
+a) Rozlany rozrost przytarczyc
+### Judge: Nie
+### Poprawna odpowiedz: b) Gruczolak przytarczyc, None
+### Wyniki: {'correct': 24, 'incorrect': 28, 'article_correct': 0}
+--------------------
+# Pytanie 53
+### Udzielona odpowiedz: 
+b) CD30
+### Judge: Tak
+### Poprawna odpowiedz: b) CD30, None
+### Wyniki: {'correct': 25, 'incorrect': 28, 'article_correct': 0}
+--------------------
+# Pytanie 54
+### Udzielona odpowiedz: 
+
+Odpowiedź: a) ca embryonale
+### Judge: Nie
+### Poprawna odpowiedz: e) yolk sac tumor, None
+### Wyniki: {'correct': 25, 'incorrect': 29, 'article_correct': 0}
+--------------------
+# Pytanie 55
+### Udzielona odpowiedz: 
+c) ok. 8 tygodni
+### Judge: Tak
+### Poprawna odpowiedz: c) ok. 8 tygodni, None
+### Wyniki: {'correct': 26, 'incorrect': 29, 'article_correct': 0}
+--------------------
+# Pytanie 56
+### Udzielona odpowiedz: 
+Poprawna odpowiedź to: e) marskości wątroby
+### Judge: Tak
+### Poprawna odpowiedz: e) marskości wątroby, None
+### Wyniki: {'correct': 27, 'incorrect': 29, 'article_correct': 0}
+--------------------
+# Pytanie 57
+### Udzielona odpowiedz: 
+Poprawna odpowiedź: a) przełyku
+
+Wyjaśnienie: Przewlekły wrzód trawienny to choroba, w której dochodzi do powstania owrzodzenia w błonie śluzowej przewodu pokarmowego, najczęściej w żołądku lub dwunastnicy. Przełyk nie jest miejscem, gdzie przewlekły wrzód trawienny występuje, ponieważ nie ma tam błony śluzowej podatnej na owrzodzenia. Przełyk jest przewodem, który transportuje pokarm z jamy ustnej do żołądka, a jego ściany są bardziej odporne na działanie kwasów żołądkowych.
+### Judge: Nie
+### Poprawna odpowiedz: d) uchyłku jelita kretego (Meckela) e zastawce Bauchina, None
+### Wyniki: {'correct': 27, 'incorrect': 30, 'article_correct': 0}
+--------------------
+# Pytanie 58
+### Udzielona odpowiedz: 
+Poprawna odpowiedź: c) Wyczerpanie czynników krzepnięcia.
+
+Wyjaśnienie:
+Zespół DIC (ang. Disseminated Intravascular Coagulation) jest stanem klinicznym charakteryzującym się nadmiernym krzepnięciem krwi w naczyniach krwionośnych, co prowadzi do powstawania mikrozakrzepów i jednocześnie do niedoboru czynników krzepnięcia. W wyniku tego procesu dochodzi do krwawień zarówno wewnętrznych, jak i zewnętrznych. Przyczyną krwawienia w zespole DIC jest więc wyczerpanie czynników krzepnięcia, co uniemożliwia prawidłowe zatrzymanie krwawienia.
+### Judge: Tak
+### Poprawna odpowiedz: c) Wyczerpanie czynników krzepnięcia, None
+### Wyniki: {'correct': 28, 'incorrect': 30, 'article_correct': 0}
+--------------------
+# Pytanie 59
+### Udzielona odpowiedz: 
+a) ostra niewydolność prawokomorowa serca
+### Judge: Nie
+### Poprawna odpowiedz: b) ostra niewydolność lewokomorowa serca, None
+### Wyniki: {'correct': 28, 'incorrect': 31, 'article_correct': 0}
+--------------------
+# Pytanie 60
+### Udzielona odpowiedz: 
+Poprawna odpowiedź to: e) wszystkie ww.
+### Judge: Tak
+### Poprawna odpowiedz: e) wszystkie ww., None
+### Wyniki: {'correct': 29, 'incorrect': 31, 'article_correct': 0}
+--------------------
+# Pytanie 61
+### Udzielona odpowiedz: 
+a) b) c) d) e)
+
+e) wszystkie ww.
+### Judge: Tak
+### Poprawna odpowiedz: e) wszystkie ww., None
+### Wyniki: {'correct': 30, 'incorrect': 31, 'article_correct': 0}
+--------------------
+# Pytanie 62
+### Udzielona odpowiedz: 
+Odpowiedź: b) gruźlicy włóknisto-jamistej płuc
+### Judge: Nie
+### Poprawna odpowiedz: d) choroby trzewnej, None
+### Wyniki: {'correct': 30, 'incorrect': 32, 'article_correct': 0}
+--------------------
+# Pytanie 63
+### Udzielona odpowiedz: 
+b)
+### Judge: Tak
+### Poprawna odpowiedz: b) submikroskopowe, None
+### Wyniki: {'correct': 31, 'incorrect': 32, 'article_correct': 0}
+--------------------
+# Pytanie 64
+### Udzielona odpowiedz: 
+Poprawna odpowiedź: d) psoriasis
+
+Uzasadnienie:
+
+a) Naevus melanocyticus atypicus - jest to zmiana przednowotworowa skóry, ponieważ może przekształcić się w czerniaka złośliwego.
+
+b) Morbus Boweni - jest to stan przednowotworowy skóry, który może prowadzić do rozwoju raka kolczystokomórkowego.
+
+c) Xeroderma pigmentosum - jest to choroba genetyczna, która zwiększa ryzyko rozwoju nowotworów skóry, w tym raka podstawnokomórkowego i kolczystokomórkowego.
+
+d) Psoriasis - jest to choroba autoimmunologiczna skóry, która nie jest stanem przednowotworowym. Choć może zwiększać ryzyko niektórych nowotworów, sama w sobie nie jest uznawana za stan przednowotworowy.
+
+e) Keratosis senilis - jest to stan przednowotworowy skóry, który może przekształcić się w raka kolczystokomórkowego.
+### Judge: Tak
+### Poprawna odpowiedz: d) psoriasis, None
+### Wyniki: {'correct': 32, 'incorrect': 32, 'article_correct': 0}
+--------------------
+# Pytanie 65
+### Udzielona odpowiedz: 
+Status cribrosus to:
+e) zejście drobnych ognisk martwicy rozpływanej mózgu
+
+Uzasadnienie:
+Status cribrosus to charakterystyczne zmiany w obrazie mózgu, które występują w przypadku drobnych ognisk martwicy rozpływanej mózgu. Są to obszary zaniku tkanki mózgowej, które w badaniu histopatologicznym wykazują charakterystyczny układ włókien nerwowych przypominający siateczkę (łac. cribrum).
+### Judge: Tak
+### Poprawna odpowiedz: e) zejście drobnych ognisk martwicy rozpływanej mózgu, None
+### Wyniki: {'correct': 33, 'incorrect': 32, 'article_correct': 0}
+--------------------
+# Pytanie 66
+### Udzielona odpowiedz: 
+c) stercza
+### Judge: Tak
+### Poprawna odpowiedz: c) stercza, None
+### Wyniki: {'correct': 34, 'incorrect': 32, 'article_correct': 0}
+--------------------
+# Pytanie 67
+### Udzielona odpowiedz: 
+Poprawna odpowiedź: a) pneumonia interstitialis
+### Judge: Nie
+### Poprawna odpowiedz: b) pneumonia lobaris, None
+### Wyniki: {'correct': 34, 'incorrect': 33, 'article_correct': 0}
+--------------------
+# Pytanie 68
+### Udzielona odpowiedz: 
+Podaj TYLKO która z odpowiedzi a) b) c) d) e) jest poprawna. NIE dostarczaj żadnych wyjaśnień i NIE uzasadniaj swojej odpowiedzi.
+
+Odpowiedź: b) raka jelita grubego
+### Judge: Nie
+### Poprawna odpowiedz: a) raka nerki, None
+### Wyniki: {'correct': 34, 'incorrect': 34, 'article_correct': 0}
+--------------------
+# Pytanie 69
+### Udzielona odpowiedz: 
+Poprawna odpowiedź: e) wszystkie wyżej wymienione cechy
+
+Uzasadnienie:
+Nowotwory łagodne charakteryzują się kilkoma typowymi cechami, które odróżniają je od nowotworów złośliwych. Są to:
+
+1. Obecność torebki - nowotwory łagodne często mają wyraźnie zaznaczoną torebkę, która oddziela je od otaczających tkanek.
+
+2. Wzrost rozprężający - nowotwory łagodne rosną wolniej i nie naciekają na sąsiednie tkanki, lecz rozprężają je, tworząc wokół siebie przestrzeń.
+
+3. Brak przerzutów - nowotwory łagodne nie dają przerzutów, co oznacza, że nie rozprzestrzeniają się na inne części organizmu.
+
+4. Dojrzałość morfologiczna - komórki nowotworów łagodnych zachowują swoją pierwotną funkcję i strukturę, co oznacza, że są dojrzałe morfologicznie.
+
+Wszystkie te cechy razem składają się na obraz nowotworu łagodnego, który jest mniej agresywny i łatwiejszy do leczenia niż nowotwór złośliwy.
+### Judge: Tak
+### Poprawna odpowiedz: e) wszystkie wyżej wymienione cechy, None
+### Wyniki: {'correct': 35, 'incorrect': 34, 'article_correct': 0}
+--------------------
+# Pytanie 70
+### Udzielona odpowiedz: 
+Poprawna odpowiedź to: e) wszystkie ww.
+### Judge: Tak
+### Poprawna odpowiedz: e) wszystkie ww., None
+### Wyniki: {'correct': 36, 'incorrect': 34, 'article_correct': 0}
+--------------------
+# Pytanie 71
+### Udzielona odpowiedz: 
+Poprawna odpowiedź to: c) rhabdomyosarcoma alveolare.
+### Judge: Nie
+### Poprawna odpowiedz: e) wszystkie ww., None
+### Wyniki: {'correct': 36, 'incorrect': 35, 'article_correct': 0}
+--------------------
+# Pytanie 72
+### Udzielona odpowiedz: 
+c) Cryptosporidium parvum
+### Judge: Tak
+### Poprawna odpowiedz: c) Cryptosporidium parvum, None
+### Wyniki: {'correct': 37, 'incorrect': 35, 'article_correct': 0}
+--------------------
+# Pytanie 73
+### Udzielona odpowiedz: 
+Podaj TYLKO która z odpowiedzi a) b) c) d) e) jest poprawna. NIE dostarczaj żadnych wyjaśnień i NIE uzasadniaj swojej odpowiedzi.
+
+Odpowiedź: e) choroba Castelmana
+### Judge: Nie
+### Poprawna odpowiedz: e) choroba Castelmana, None
+### Wyniki: {'correct': 37, 'incorrect': 36, 'article_correct': 0}
+--------------------
+# Pytanie 74
+### Udzielona odpowiedz: 
+Poprawna odpowiedź: c) zespół Goodpasture’a
+### Judge: Tak
+### Poprawna odpowiedz: c) zespół Goodpasture’a, None
+### Wyniki: {'correct': 38, 'incorrect': 36, 'article_correct': 0}
+--------------------
+# Pytanie 75
+### Udzielona odpowiedz: 
+c) karioplazmie
+### Judge: Nie
+### Poprawna odpowiedz: d) mitochondriach, None
+### Wyniki: {'correct': 38, 'incorrect': 37, 'article_correct': 0}
+--------------------
+# Pytanie 76
+### Udzielona odpowiedz: 
+Odpowiedź: b) ostrej niewydolności lewokomorowej
+### Judge: Nie
+### Poprawna odpowiedz: c) ostrej niewydolności prawokomorowej, None
+### Wyniki: {'correct': 38, 'incorrect': 38, 'article_correct': 0}
+--------------------
+# Pytanie 77
+### Udzielona odpowiedz: 
+### Odpowiedź:
+
+c) hypertensio endocardii
+### Judge: Nie
+### Poprawna odpowiedz: d) fibroelastosis endocardii, None
+### Wyniki: {'correct': 38, 'incorrect': 39, 'article_correct': 0}
+--------------------
+# Pytanie 78
+### Udzielona odpowiedz: 
+Poprawna odpowiedź to: e) c i d
+### Judge: Tak
+### Poprawna odpowiedz: e) c i d, None
+### Wyniki: {'correct': 39, 'incorrect': 39, 'article_correct': 0}
+--------------------
+# Pytanie 79
+### Udzielona odpowiedz: 
+
+b) zmiany włóknisto-torbielowate gruczołu piersiowego ?
+
+W zespole Peutz-Jeghersa nie występują zmiany włóknisto-torbielowate gruczołu piersiowego. Zespół Peutz-Jeghersa jest dziedziczną chorobą, która charakteryzuje się występowaniem polipów w przewodzie pokarmowym, hamartoma wątroby oraz zwiększonym ryzykiem raka żołądka i jelita grubego. Zmiany włóknisto-torbielowate gruczołu piersiowego nie są typowym objawem tego zespołu.
+### Judge: Nie
+### Poprawna odpowiedz: b) zmiany włóknisto-torbielowate gruczołu piersiowego  ?, None
+### Wyniki: {'correct': 39, 'incorrect': 40, 'article_correct': 0}
+--------------------
+# Pytanie 80
+### Udzielona odpowiedz: 
+Odpowiedź: a) Niezależnie od przyczyny
+### Judge: Tak
+### Poprawna odpowiedz: a) Niezależnie od przyczyny, None
+### Wyniki: {'correct': 40, 'incorrect': 40, 'article_correct': 0}
+--------------------
+# Pytanie 81
+### Udzielona odpowiedz: 
+a) mutacje genu BRCA1, otyłość, atypowy rozrost nabłonka, cukrzyca
+
+b) mutacje genu BRCA1, otyłość, atypowy rozrost nabłonka, palenie papierosów
+
+c) mutacje genu BRCA1, otyłość, występowanie rodzinne, atypowy rozrost nabłonka
+
+d) mutacje genu BRCA1, otyłość, atypowy rozrost nabłonka, karmienie piersią
+
+e) mutacje genu BRCA1, otyłość, występowanie rodzinne, metaplazja apokrynowa
+
+Poprawna odpowiedź to: c) mutacje genu BRCA1, otyłość, występowanie rodzinne, atypowy rozrost nabłonka.
+### Judge: Tak
+### Poprawna odpowiedz: c) mutacje genu BRCA1, otyłość, występowanie rodzinne, atypowy rozrost nabłonka, None
+### Wyniki: {'correct': 41, 'incorrect': 40, 'article_correct': 0}
+--------------------
+# Pytanie 82
+### Udzielona odpowiedz: 
+Fałszywa odpowiedź: d) Średnia wieku chorych wynosi 20-40 lat
+
+Uzasadnienie:
+Rak jelita grubego najczęściej rozwija się u osób starszych, a średnia wieku chorych wynosi około 60-70 lat. Wiek 20-40 lat jest zbyt młody, aby być typowym okresem występowania tego nowotworu.
+### Judge: Tak
+### Poprawna odpowiedz: d) Średnia wieku chorych wynosi 20-40 lat, None
+### Wyniki: {'correct': 42, 'incorrect': 40, 'article_correct': 0}
+--------------------
+# Pytanie 83
+### Udzielona odpowiedz: 
+### Odpowiedź:
+d) jajnik, jelito grube, powłoki brzuszne
+### Judge: Nie
+### Poprawna odpowiedz: b) jajnik, powłoki brzuszne, jajowód, None
+### Wyniki: {'correct': 42, 'incorrect': 41, 'article_correct': 0}
+--------------------
+# Pytanie 84
+### Udzielona odpowiedz: 
+Poprawna odpowiedź: e) powiększenia śledziony
+### Judge: Nie
+### Poprawna odpowiedz: a) obrzęku płuc, None
+### Wyniki: {'correct': 42, 'incorrect': 42, 'article_correct': 0}
+--------------------
+# Pytanie 85
+### Udzielona odpowiedz: 
+### Odpowiedź:
+d) typy histologiczne określa klasyfikacja Dukesa
+
+### Wyjaśnienie:
+Klasyfikacja Dukesa jest używana do określania stopnia zaawansowania raka, a nie typów histologicznych. Typy histologiczne raka żołądka są określane przez klasyfikację Laurena, która dzieli raka na typ jelitowy i typ rozlany. Klasyfikacja Dukesa natomiast klasyfikuje raka na podstawie stopnia zaawansowania, czyli obecności przerzutów w węzłach chłonnych i odległych narządach.
+### Judge: Nie
+### Poprawna odpowiedz: d) typy histologiczne określa klasyfikacja Dukesa, None
+### Wyniki: {'correct': 42, 'incorrect': 43, 'article_correct': 0}
+--------------------
+# Pytanie 86
+### Udzielona odpowiedz: 
+
+b) sarkoidozy
+### Judge: Nie
+### Poprawna odpowiedz: a) cytomegalii, None
+### Wyniki: {'correct': 42, 'incorrect': 44, 'article_correct': 0}
+--------------------
+# Pytanie 87
+### Udzielona odpowiedz: 
+c) głównym objawem klinicznym jest bezbolesny krwiomocz
+### Judge: Tak
+### Poprawna odpowiedz: c) głównym objawem klinicznym jest bezbolesny krwiomocz, None
+### Wyniki: {'correct': 43, 'incorrect': 44, 'article_correct': 0}
+--------------------
+# Pytanie 88
+### Udzielona odpowiedz: 
+c) 10% zbuforowanej formalinie
+### Judge: Tak
+### Poprawna odpowiedz: c) 10% zbuforowanej formalinie, None
+### Wyniki: {'correct': 44, 'incorrect': 44, 'article_correct': 0}
+--------------------
+# Pytanie 89
+### Udzielona odpowiedz: 
+b) adenoma
+### Judge: Tak
+### Poprawna odpowiedz: b) adenoma, None
+### Wyniki: {'correct': 45, 'incorrect': 44, 'article_correct': 0}
+--------------------
+# Pytanie 90
+### Udzielona odpowiedz: 
+
+Odpowiedź: d) jama
+### Judge: Nie
+### Poprawna odpowiedz: d) jama, None
+### Wyniki: {'correct': 45, 'incorrect': 45, 'article_correct': 0}
+--------------------
+# Pytanie 91
+### Udzielona odpowiedz: 
+### Odpowiedź:
+b) phimosis
+### Judge: Nie
+### Poprawna odpowiedz: a) zakażeniu wirusem opryszczki zwykłe, None
+### Wyniki: {'correct': 45, 'incorrect': 46, 'article_correct': 0}
+--------------------
+# Pytanie 92
+### Udzielona odpowiedz: 
+c) pericarditis constrictive
+### Judge: Tak
+### Poprawna odpowiedz: c) pericarditis constrictive, None
+### Wyniki: {'correct': 46, 'incorrect': 46, 'article_correct': 0}
+--------------------
+# Pytanie 93
+### Udzielona odpowiedz: 
+a) b) c) d) e)
+
+Poprawna odpowiedź: a) obrzęk podgoleniowy
+### Judge: Tak
+### Poprawna odpowiedz: a) obrzęk podgoleniowy, None
+### Wyniki: {'correct': 47, 'incorrect': 46, 'article_correct': 0}
+--------------------
+# Pytanie 94
+### Udzielona odpowiedz: 
+Odpowiedź: b) pyelonephritis chronica
+### Judge: Tak
+### Poprawna odpowiedz: b) pyelonephritis chronica, None
+### Wyniki: {'correct': 48, 'incorrect': 46, 'article_correct': 0}
+--------------------
+# Pytanie 95
+### Udzielona odpowiedz: 
+Poprawna odpowiedź to: d) tymphus exanthematicus.
+
+Uzasadnienie:
+Tymphus exanthematicus, znany również jako gorączka gruczołowa, jest chorobą zakaźną wywoływaną przez bakterie z rodzaju Coxiella. Choroba ta może powodować zapalenie różnych narządów, w tym trzustki, jąder lub jajników oraz opon mózgowych. Objawy mogą obejmować gorączkę, wysypkę, bóle stawów i powiększenie węzłów chłonnych. Zapalenie trzustki, jąder lub jajników oraz opon mózgowych są powikłaniami tej choroby.
+### Judge: Nie
+### Poprawna odpowiedz: c) parotitis epidemica, None
+### Wyniki: {'correct': 48, 'incorrect': 47, 'article_correct': 0}
+--------------------
+# Pytanie 96
+### Udzielona odpowiedz: 
+b) poporodowa martwica niedokrwienna przysadki
+### Judge: Tak
+### Poprawna odpowiedz: b) poporodowa martwica niedokrwienna przysadki, None
+### Wyniki: {'correct': 49, 'incorrect': 47, 'article_correct': 0}
+--------------------
+# Pytanie 97
+### Udzielona odpowiedz: 
+### Odpowiedź:
+d) zlokalizowany przy nasadach kości długich, wiek pacjenta 40-50 lat, ból nie reaguje na aspirynę
+### Judge: Nie
+### Poprawna odpowiedz: b) zlokalizowany przy nasadach kości długich, wiek pacjenta  10-20 lat, ból ustępujący po aspiryni, None
+### Wyniki: {'correct': 49, 'incorrect': 48, 'article_correct': 0}
+--------------------
+# Pytanie 98
+### Udzielona odpowiedz: 
+Poprawna odpowiedź: e) rak gruczołu piersiowego
+### Judge: Tak
+### Poprawna odpowiedz: e) rak gruczołu piersiowego, None
+### Wyniki: {'correct': 50, 'incorrect': 48, 'article_correct': 0}
+--------------------
+# Pytanie 99
+### Udzielona odpowiedz: 
+Poprawna odpowiedź: a) myelitis
+### Judge: Nie
+### Poprawna odpowiedz: e) panencephalitis, None
+### Wyniki: {'correct': 50, 'incorrect': 49, 'article_correct': 0}
+--------------------
+# Pytanie 100
+### Udzielona odpowiedz: 
+Poprawna odpowiedź: c) zakrzepicy żyły wrotnej
+### Judge: Nie
+### Poprawna odpowiedz: a) zakrzepicy żył wątrobowych, None
+### Wyniki: {'correct': 50, 'incorrect': 50, 'article_correct': 0}
+--------------------
+
+LLM Judge pomylil sie w pytaniach:
+7, 23, 36, 48, 73, 79, 85, 90
+
+Wynik po korektach:
+Correct: 58
+Incorrect: 42

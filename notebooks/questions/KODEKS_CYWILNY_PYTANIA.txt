@@ -185,7 +185,7 @@ Prawidłowa odpowiedź: B (art. 43 KC)
 b) może być zbyta, przy czym zbycie firmy powinno być dokonane w formie pisemnej z podpisami notarialnie poświadczonymi,
 c) może być zbyta, przy czym zbycie firmy powinno być dokonane w formie aktu notarialnego.
 
-Prawidłowa odpowiedź: A (art. 439 § 1 KC)
+Prawidłowa odpowiedź: A (art. 43^{9} § 1 KC)
 
 # 28. (N) Zgodnie z Kodeksem cywilnym, w przypadku zawarcia umowy zobowiązującej do przeniesienia własności nieruchomości pod warunkiem lub z zastrzeżeniem terminu:
 a) umowa ta jest bezwzględnie nieważna,

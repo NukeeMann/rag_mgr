@@ -1,0 +1,2573 @@
+# Pytanie 1
+### Udzielona odpowiedz:                 1c
+### Judge: Nie
+### Poprawna odpowiedz: d) W świetle pęcherzyków płucnych, None
+### Wyniki: {'correct': 0, 'incorrect': 1, 'article_correct': 0}
+--------------------
+# Pytanie 2
+### Udzielona odpowiedz:                 c
+### Judge: Nie
+### Poprawna odpowiedz: a) łagodny rozrost guzkowy stercza, None
+### Wyniki: {'correct': 0, 'incorrect': 2, 'article_correct': 0}
+--------------------
+# Pytanie 3
+### Udzielona odpowiedz:                 a)
+### Judge: Nie
+### Poprawna odpowiedz: c) Nadnerczach, None
+### Wyniki: {'correct': 0, 'incorrect': 3, 'article_correct': 0}
+--------------------
+# Pytanie 4
+### Udzielona odpowiedz:                 c) Hemosyderynę
+### Judge: Nie
+### Poprawna odpowiedz: d) Lipofuscynę, None
+### Wyniki: {'correct': 0, 'incorrect': 4, 'article_correct': 0}
+--------------------
+# Pytanie 5
+### Udzielona odpowiedz: Dokument 1: Caput Medusae (głowa Meduzy) to zespół objawów klinicznych zwiastujących nadciśnienie złośliwe. Nazwa pochodzi od charakterystycznego wyglądu twarzy chorego, przypominającej twarz Meduzy z greckiej mitologii.
+### Judge: Nie.
+### Poprawna odpowiedz: d) Marskości wątroby, None
+### Wyniki: {'correct': 0, 'incorrect': 5, 'article_correct': 0}
+--------------------
+# Pytanie 6
+### Udzielona odpowiedz: Odpowiedź e) jest najbardziej zgodna z treścią dokumentu 0.
+### Judge: Nie
+### Poprawna odpowiedz: a) Agregaty cytokeratyny w hepatocytach alkoholików, None
+### Wyniki: {'correct': 0, 'incorrect': 6, 'article_correct': 0}
+--------------------
+# Pytanie 7
+### Udzielona odpowiedz: Dokument 1: Zespol rakowiaka (ang. carcinoid syndrome) – zespół objawów klinicznych związanych z obecnością guza neuroendokrynnego przewodu pokarmowego (dawniej nazywanego rakowiakiem). Zespołowi rakowiaka towarzyszy często zwłóknienie zaotrzewnowe.
+
+                d)
+### Judge: Tak
+### Poprawna odpowiedz: d) krwotok z nosa, None
+### Wyniki: {'correct': 1, 'incorrect': 6, 'article_correct': 0}
+--------------------
+# Pytanie 8
+### Udzielona odpowiedz: ### 8. Cukrzyca brunatna to synonim:
+a) hemochromatozy
+b) choroby Wilsona
+c) choroy Addisona
+d) choroby Cushinga
+e) pheochromocytoma
+### Judge: Tak.
+### Poprawna odpowiedz: a) hemochromatozy, None
+### Wyniki: {'correct': 2, 'incorrect': 6, 'article_correct': 0}
+--------------------
+# Pytanie 9
+### Udzielona odpowiedz:                 Dokument 1: Tabela 4-9 Antygeny nowotworowe i ich zastosowanie w diagnostyce nowotworów
+
+                
+                Dokument 2: Tabela 4-10 Antygeny nowotworowe i ich zastosowanie w diagnostyce nowotworów
+
+                
+                Dokument 3: Tabela 4-11 Antygeny nowotworowe i ich zastosowanie w diagnostyce nowotworów
+
+                
+                Dokument 4: Tabela 4-12 Antygeny nowotworowe i ich zastosowanie w diagnostyce nowotworów
+
+                
+                Dokument 5: Tabela 4-13 Antygeny nowotworowe i ich zastosowanie w diagnostyce nowotworów
+
+                
+                Dokument 6: Tabela 4-14 Antygeny nowotworowe i ich zastosowanie w diagnostyce nowotworów
+
+                
+                Dokument 7: Tabela 4-15 Antygeny nowotworowe i ich zastosowanie w diagnostyce nowotworów
+
+                
+                Dokument 8: Tabela 4-16 Antygeny nowotworowe i ich zastosowanie w diagnostyce nowotworów
+
+                
+                Dokument 9: Tabela 4-17 Antygeny nowotworowe i ich zastosowanie w diagnostyce nowotworów
+
+                
+                Dokument 10: Tabela 4-18 Antygeny nowotworowe i ich zastosowanie w diagnostyce nowotworów
+
+                
+                Dokument 11: Tabela 4-19 Antygeny nowotworowe i ich zastosowanie w diagnostyce nowotworów
+
+                
+                Dokument 12: Tabela 4-20 Antygeny nowotworowe i ich zastosowanie w diagnostyce nowotworów
+
+                
+                Dokument 13: Tabela 4-21 Antygeny nowotworowe i ich zastosowanie w diagnostyce nowotworów
+
+                
+                Dokument 14: Tabela 4-22 Antygeny nowotworowe i ich zastosowanie w diagnostyce nowotworów
+
+                
+                Dokument 15: Tabela 4-23 Antygeny nowotworowe i ich zastosowanie w diagnostyce nowotworów
+
+                
+                Dokument 16: Tabela 4-24 Antygeny nowotworowe i ich zastosowanie w diagnostyce nowotworów
+
+                
+                Dokument 17: Tabela 4-25 Antygeny nowotworowe i ich zastosowanie w diagnostyce nowotworów
+
+                
+                Dokument 18: Tabela 4-26 Antygeny nowotworowe i ich zastosowanie w diagnostyce nowotworów
+
+                
+                Dokument 19: Tabela 4-27 Antygeny nowotworowe i ich zastosowanie w diagnostyce nowotworów
+
+                
+                Dokument 20: Tabela 4-28 Antygeny nowotworowe i ich zastosowanie w diagnostyce nowotworów
+
+                
+                Dokument 21: Tabela 4-29 Antygeny nowotworowe i ich zastosowanie w diagnostyce nowotworów
+
+                
+                Dokument 22: Tabela 4-30 Antygeny nowotworowe i ich zastosowanie w diagnostyce nowotworów
+
+                
+                Dokument 23: Tabela 4-31 Antygeny nowotworowe i ich zastosowanie w diagnostyce nowotworów
+
+                
+                Dokument 24: Tabela 4-32 Antygeny nowotworowe i ich zastosowanie w diagnostyce nowotworów
+
+                
+                Dokument 25: Tabela 4-33 Antygeny nowotworowe i ich zastosowanie w diagnostyce nowotworów
+
+                
+                Dokument 26: Tabela 4-34 Antygeny nowotworowe i ich zastosowanie w diagnostyce nowotworów
+
+                
+                Dokument 27: Tabela 4-35 Antygeny nowotworowe i ich zastosowanie w diagnostyce nowotworów
+
+                
+                Dokument 28: Tabela 4-36 Antygeny nowotworowe i ich zastosowanie w diagnostyce nowotworów
+
+                
+                Dokument
+### Judge: Nie
+### Poprawna odpowiedz: b) kalcytonina, PLAP, EMA, None
+### Wyniki: {'correct': 2, 'incorrect': 7, 'article_correct': 0}
+--------------------
+# Pytanie 10
+### Udzielona odpowiedz: ### 10. Do najważniejszych czynników ryzyka raka endometrium należą:
+a) otyłość, cukrzyca, palenie tytoniu, nadciśnienie
+b) otyłość, cukrzyca, palenie tytoniu, infekcja HPV
+c) otyłość, cukrzyca, późna menopauza, niepłodność
+d) otyłość, cukrzyca, palenie tytoniu, późna menopauza
+e) otyłość, cukrzyca, palenie tytoniu, infekcja HPV
+
+                ### Powiązane dokumenty dla rozszerzenia kontekstu:
+                Dokument 0: Rak sutka jest najczęstszym nowotworem złośliwym u kobiet.    :ynniki ryzyka. Wiele czynników może zwiększać (tab. 24.1) lub zmniejszać 4 2) ryzyko wystąpienia raka sutka Ryzyko mozna zmniejszyć, modyfikuj ąc odpowiednio tryb zycia.    # Tabela 24.1 . Czynniki zwiększające iyzyko wystąpienia raka sutka
+
+                ### 10. Do najważniejszych czynników ryzyka raka endometrium należą:
+c) otyłość, cukrzyca, późna menopauza, niepłodność
+d) otyłość, cukrzyca, palenie tytoniu, późna menopauza
+### Judge: Tak
+### Poprawna odpowiedz: c) otyłość, cukrzyca, późna menopauza, niepłodność, None
+### Wyniki: {'correct': 3, 'incorrect': 7, 'article_correct': 0}
+--------------------
+# Pytanie 11
+### Udzielona odpowiedz: Odpowiedź b)
+### Judge: Nie
+### Poprawna odpowiedz: e) osteoclastoma, carcinoma basocellulare cutis, cystadenoma ovarii, None
+### Wyniki: {'correct': 3, 'incorrect': 8, 'article_correct': 0}
+--------------------
+# Pytanie 12
+### Udzielona odpowiedz: Dokument 1: # 25.3 Nowotwory układu krwiotwórczego w klasyfikacji WHO 2008    Klasyfikacja WHO nowotworów układu krwiotwórczego z 2008 roku oparta jest o przynależność liniową (histiogenezę) komórki nowotworowej. Poszczególne jednostki chorobowe zdefiniowane są na podstawie charakterystycznej dla nich konstelacji morfologii, cech antygenowych, klinicznych i genetycznych. Wyróżniamy trzy podstawowe grupy nowotworów układu krwiotwórczego:    # 1. Nowotwory limfoidalne
+
+                
+Dokument 2: # 25.4 Nowotwory układu krwiotwórczego w klasyfikacji WHO 2008    Klasyfikacja WHO nowotworów układu krwiotwórczego z 2008 roku oparta jest o przynależność liniową (histiogenezę) komórki nowotworowej. Poszczególne jednostki chorobowe zdefiniowane są na podstawie charakterystycznej dla nich konstelacji morfologii, cech antygenowych, klinicznych i genetycznych. Wyróżniamy trzy podstawowe grupy nowotworów układu krwiotwórczego:    # 1. Nowotwory limfoidalne
+
+                
+Dokument 3: # 25.5 Nowotwory układu krwiotwórczego w klasyfikacji WHO 2008    Klasyfikacja WHO nowotworów układu krwiotwórczego z 2008 roku oparta jest o przynależność liniową (histiogenezę) komórki nowotworowej. Poszczególne jednostki chorobowe zdefiniowane są na podstawie charakterystycznej dla nich konstelacji morfologii, cech antygenowych, klinicznych i genetycznych. Wyróżniamy trzy podstawowe grupy nowotworów układu krwiotwórczego:    # 1. Nowotwory limfoidalne
+
+                
+Dokument 4: # 25.6 Nowotwory układu krwiotwórczego w klasyfikacji WHO 2008    Klasyfikacja WHO nowotworów układu krwiotwórczego z 2008 roku oparta jest o przynależność liniową (histiogenezę) komórki nowotworowej. Poszczególne jednostki chorobowe zdefiniowane są na podstawie charakterystycznej dla nich konstelacji morfologii, cech antygenowych, klinicznych i genetycznych. Wyróżniamy trzy podstawowe grupy nowotworów układu krwiotwórczego:    # 1. Nowotwory limfoidalne
+
+                
+Dokument 5: # 25.7 Nowotwory układu krwiotwórczego w klasyfikacji WHO 2008    Klasyfikacja WHO nowotworów układu krwiotwórczego z 2008 roku oparta jest o przynależność liniową (histiogenezę) komórki nowotworowej. Poszczególne jednostki chorobowe zdefiniowane są na podstawie charakterystycznej dla nich konstelacji morfologii, cech antygenowych, klinicznych i genetycznych. Wyróżniamy trzy podstawowe grupy nowotworów układu krwiotwórczego:    # 1. Nowotwory limfoidalne
+
+                
+Dokument 6: # 25.8 Nowotwory układu krwiotwórczego w klasyfikacji WHO 2008    Klasyfikacja WHO nowotworów układu krwiotwórczego z 2008 roku oparta jest o przynależność liniową (histiogenezę) komórki nowotworowej. Poszczególne jednostki chorobowe zdefiniowane są na podstawie charakterystycznej dla nich konstelacji morfologii, cech antygenowych, klinicznych i genetycznych. Wyróżniamy trzy podstawowe grupy nowotworów układu krwiotwórczego:    # 1. Nowotwory limfoidalne
+
+                
+Dokument 7: # 25.9 Nowotwory układu krwiotwórczego w klasyfikacji WHO 2008    Klasyfikacja WHO nowot
+### Judge: Nie
+### Poprawna odpowiedz: e) c i d, None
+### Wyniki: {'correct': 3, 'incorrect': 9, 'article_correct': 0}
+--------------------
+# Pytanie 13
+### Udzielona odpowiedz: #### 13. c) Gleasona
+### Judge: Tak
+### Poprawna odpowiedz: c) Gleasona, None
+### Wyniki: {'correct': 4, 'incorrect': 9, 'article_correct': 0}
+--------------------
+# Pytanie 14
+### Udzielona odpowiedz:                 b)
+### Judge: Nie
+### Poprawna odpowiedz: b) 16,18,33, None
+### Wyniki: {'correct': 4, 'incorrect': 10, 'article_correct': 0}
+--------------------
+# Pytanie 15
+### Udzielona odpowiedz: Odpowiedź: a
+### Judge: Nie.
+### Poprawna odpowiedz: e) cor bovinum, None
+### Wyniki: {'correct': 4, 'incorrect': 11, 'article_correct': 0}
+--------------------
+# Pytanie 16
+### Udzielona odpowiedz: a) stopnia zaawansowania nowotworów narządu rodnego
+### Judge: Tak
+### Poprawna odpowiedz: a) stopnia zaawansowania nowotworów narządu rodnego, None
+### Wyniki: {'correct': 5, 'incorrect': 11, 'article_correct': 0}
+--------------------
+# Pytanie 17
+### Udzielona odpowiedz: #### 17.
+### Judge: Nie
+### Poprawna odpowiedz: b) Ropowicy, None
+### Wyniki: {'correct': 5, 'incorrect': 12, 'article_correct': 0}
+--------------------
+# Pytanie 18
+### Udzielona odpowiedz: Dokument 1: Glikogenozy – grupa chorób genetycznych związanych z nieprawidłowym działaniem enzymów uczestniczących w procesie syntezy i rozkładu glikogenu w wątrobie i mięśniach. W zależności od rodzaju glikogenozy objawy mogą być różne, ale najczęściej obejmują osłabienie mięśni, hipoglikemię, powiększenie wątroby i śledziony, a także skłonność do hiperlipidemii.
+
+                Dokument 2: Glikogenozy dziedziczone są w sposób autosomalny recesywny, co oznacza, że oboje rodzice muszą być nosicielami zmutowanego genu, aby dziecko miało objawy choroby.
+
+                Dokument 3: Glikogenozy są chorobami genetycznymi, które powodują zaburzenia w metabolizmie glikogenu, substancji zapasowej organizmu. W zależności od rodzaju glikogenozy, objawy mogą być różne, ale najczęściej obejmują osłabienie mięśni, hipoglikemię, powiększenie wątroby i śledziony, a także skłonność do hiperlipidemii.
+
+                Dokument 4: Glikogenozy dziedziczone są w sposób autosomalny recesywny, co oznacza, że oboje rodzice muszą być nosicielami zmutowanego genu, aby dziecko miało objawy choroby.
+
+                Dokument 5: Glikogenozy są chorobami genetycznymi, które powodują zaburzenia w metabolizmie glikogenu, substancji zapasowej organizmu. W zależności od rodzaju glikogenozy, objawy mogą być różne, ale najczęściej obejmują osłabienie mięśni, hipoglikemię, powiększenie wątroby i śledziony, a także skłonność do hiperlipidemii.
+
+                Dokument 6: Glikogenozy dziedziczone są w sposób autosomalny recesywny, co oznacza, że oboje rodzice muszą być nosicielami zmutowanego genu, aby dziecko miało objawy choroby.
+
+                Dokument 7: Glikogenozy są chorobami genetycznymi, które powodują zaburzenia w metabolizmie glikogenu, substancji zapasowej organizmu. W zależności od rodzaju glikogenozy, objawy mogą być różne, ale najczęściej obejmują osłabienie mięśni, hipoglikemię, powiększenie wątroby i śledziony, a także skłonność do hiperlipidemii.
+
+                Dokument 8: Glikogenozy dziedziczone są w sposób autosomalny recesywny, co oznacza, że oboje rodzice muszą być nosicielami zmutowanego genu, aby dziecko miało objawy choroby.
+
+                Dokument 9: Glikogenozy są chorobami genetycznymi, które powodują zaburzenia w metabolizmie glikogenu, substancji zapasowej organizmu. W zależności od rodzaju glikogenozy, objawy mogą być różne, ale najczęściej obejmują osłabienie mięśni, hipoglikemię, powiększenie wątroby i śledziony, a także skłonność do hiperlipidemii.
+
+                Dokument 10: Glikogenozy dziedziczone są w sposób autosomalny recesywny, co oznacza, że oboje rodzice muszą być nosicielami zmutowanego genu, aby dziecko miało objawy choroby.
+
+                Dokument 11: Glikogenozy są chorobami genetycznymi, które powodują zaburzenia w metabolizmie glikogenu, substancji zapasowej organizmu. W zależności od rodzaju glikogenozy, objawy mogą być różne, ale najczęściej obejmują osłabienie mięśni, hipoglikemię, powiększenie wątroby i śledziony, a także skłonność do hiperlipidemii.
+
+                Dokument 12: Glikogenozy dziedziczone są w sposób autosomalny recesywny, co oznacza, że oboje rodzice muszą być nosicielami zmutowanego genu, aby dzie
+### Judge: Nie
+### Poprawna odpowiedz: e) Genetycznie uwarunkowanego niedoboru enzymów, None
+### Wyniki: {'correct': 5, 'incorrect': 13, 'article_correct': 0}
+--------------------
+# Pytanie 19
+### Udzielona odpowiedz: a) choroby Crohna
+                
+                 b) wrzodziejącego zapalenia jelita grubego
+                
+                 c) polipa zapalnego
+                
+                 d) polipa hiperplastycznego
+                
+                 e) gruczolaka kosmkowego
+### Judge: Tak
+### Poprawna odpowiedz: e) Gruczolaka kosmkowego, None
+### Wyniki: {'correct': 6, 'incorrect': 13, 'article_correct': 0}
+--------------------
+# Pytanie 20
+### Udzielona odpowiedz: ### Komórki Aniczkowa są charakterystyczne dla niebakteryjnego zapalenia wsierdzia.
+### Judge: Nie
+### Poprawna odpowiedz: b) reumatycznego zapalenia mięśnia sercowego, None
+### Wyniki: {'correct': 6, 'incorrect': 14, 'article_correct': 0}
+--------------------
+# Pytanie 21
+### Udzielona odpowiedz:                 Dokument 1: 
+                1. Niedoborem wazopresyny (ADH) – moczówka prosta centralna    a. Idiopatyczna (50%) – o nieznanej etiologii i. Ostatnie badania wskazują podłoże autoimmunologiczne (uszkodzenie neuronów jąder nadwzrokowych podwzgórza, które wytwarzają wazopresynę) b. Objawowa i. Guzy okolicy podwzgórzowo-przysadkowej ii. Urazy czaszkowo-mózgowe i operacje neurochirurgiczne iii. Choroby zapalne opon MR i mózgu (sarkoidoza) 2. Utratą wrażliwości kanalików nerkowych na wazopresynę – moczówka prosta nerkowa
+
+                Dokument 2: 
+                1. Niedoborem wazopresyny (ADH) – moczówka prosta centralna    a. Idiopatyczna (50%) – o nieznanej etiologii i. Ostatnie badania wskazują podłoże autoimmunologiczne (uszkodzenie neuronów jąder nadwzrokowych podwzgórza, które wytwarzają wazopresynę) b. Objawowa i. Guzy okolicy podwzgórzowo-przysadkowej ii. Urazy czaszkowo-mózgowe i operacje neurochirurgiczne iii. Choroby zapalne opon MR i mózgu (sarkoidoza) 2. Utratą wrażliwości kanalików nerkowych na wazopresynę – moczówka prosta nerkowa
+
+                Dokument 3: 
+                1. Niedoborem wazopresyny (ADH) – moczówka prosta centralna    a. Idiopatyczna (50%) – o nieznanej etiologii i. Ostatnie badania wskazują podłoże autoimmunologiczne (uszkodzenie neuronów jąder nadwzrokowych podwzgórza, które wytwarzają wazopresynę) b. Objawowa i. Guzy okolicy podwzgórzowo-przysadkowej ii. Urazy czaszkowo-mózgowe i operacje neurochirurgiczne iii. Choroby zapalne opon MR i mózgu (sarkoidoza) 2. Utratą wrażliwości kanalików nerkowych na wazopresynę – moczówka prosta nerkowa
+
+                Dokument 4: 
+                1. Niedoborem wazopresyny (ADH) – moczówka prosta centralna    a. Idiopatyczna (50%) – o nieznanej etiologii i. Ostatnie badania wskazują podłoże autoimmunologiczne (uszkodzenie neuronów jąder nadwzrokowych podwzgórza, które wytwarzają wazopresynę) b. Objawowa i. Guzy okolicy podwzgórzowo-przysadkowej ii. Urazy czaszkowo-mózgowe i operacje neurochirurgiczne iii. Choroby zapalne opon MR i mózgu (sarkoidoza) 2. Utratą wrażliwości kanalików nerkowych na wazopresynę – moczówka prosta nerkowa
+
+                Dokument 5: 
+                1. Niedoborem wazopresyny (ADH) – moczówka prosta centralna    a. Idiopatyczna (50%) – o nieznanej etiologii i. Ostatnie badania wskazują podłoże autoimmunologiczne (uszkodzenie neuronów jąder nadwzrokowych podwzgórza, które wytwarzają wazopresynę) b. Objawowa i. Guzy okolicy podwzgórzowo-przysadkowej ii. Urazy czaszkowo-mózgowe i operacje neurochirurgiczne iii. Choroby zapalne opon MR i mózgu (sarkoidoza) 2. Utratą wrażliwości kanalików nerkowych na wazopresynę – moczówka prosta nerkowa
+
+                Dokument 6: 
+                1. Niedoborem wazopresyny (ADH) – moczówka prosta centralna    a. Idiopatyczna (50%) – o nieznanej etiologii i
+### Judge: Nie
+### Poprawna odpowiedz: a) lupus erythematosus, None
+### Wyniki: {'correct': 6, 'incorrect': 15, 'article_correct': 0}
+--------------------
+# Pytanie 22
+### Udzielona odpowiedz: Odpowiedź a) jest poprawną odpowiedzią na zadane pytanie.
+### Judge: Tak
+### Poprawna odpowiedz: a) Jest produkowany przez komórki wydzielnicze prawidłowych gruczołów sterczowych i komórki raka gruczołowe stercza, None
+### Wyniki: {'correct': 7, 'incorrect': 15, 'article_correct': 0}
+--------------------
+# Pytanie 23
+### Udzielona odpowiedz: Odpowiedź e) jest najbliższa treści dokumentu 0.
+### Judge: Tak.
+### Poprawna odpowiedz: e) a+b, None
+### Wyniki: {'correct': 8, 'incorrect': 15, 'article_correct': 0}
+--------------------
+# Pytanie 24
+### Udzielona odpowiedz:                 d)
+### Judge: Tak.
+### Poprawna odpowiedz: d) rak trzustki, czerniak, rak jelita grubego, None
+### Wyniki: {'correct': 9, 'incorrect': 15, 'article_correct': 0}
+--------------------
+# Pytanie 25
+### Udzielona odpowiedz:                 Dokument 1: W chorobie Pompego występuje niedobór enzymu o nazwie lizosomalna alfa-glukozydaza. 
+
+                Dokument 2: W chorobie von Gierkego występuje niedobór enzymu o nazwie glukozo-6-fosfataza.
+
+                Dokument 3: W chorobie McArdle'a występuje niedobór enzymu o nazwie mięśniowa fosforylaza glikogenu.
+
+                Dokument 4: W zwyrodnieniu kropelkowo-szklistym występuje niedobór enzymu o nazwie lizosomalna alfa-galaktozydaza.
+
+                Dokument 5: W chorobie Alzheimera występuje niedobór enzymu o nazwie butyrylocholinoesteraza.
+
+                Dokument 6: W chorobie Fabry’ego występuje niedobór enzymu o nazwie alfa-galaktozydaza A.
+
+                Dokument 7: W chorobie Gauchera występuje niedobór enzymu o nazwie beta-glukocerebrozydaza.
+
+                Dokument 8: W chorobie Niemanna-Picka występuje niedobór enzymu o nazwie kwaśna sfingomielinaza.
+
+                Dokument 9: W chorobie Hurler występuje niedobór enzymu o nazwie sulfataza heparanowa.
+
+                Dokument 10: W chorobie Huntera występuje niedobór enzymu o nazwie sulfataza iduronianowa.
+
+                Dokument 11: W chorobie Taya-Sachsa występuje niedobór enzymu o nazwie beta-N-acetyloheksozaminidaza A.
+
+                Dokument 12: W chorobie Sandhoffa występuje niedobór enzymu o nazwie beta-N-acetyloheksozaminidaza A.
+
+                Dokument 13: W chorobie Krabbego występuje niedobór enzymu o nazwie kwaśna palmitylo-CoA hydrolaza.
+
+                Dokument 14: W chorobie Battena występuje niedobór enzymu o nazwie tripeptydylo-peptydaza I.
+
+                Dokument 15: W chorobie Wolmana występuje niedobór enzymu o nazwie kwaśna lipaza.
+
+                Dokument 16: W chorobie Niemanna występuje niedobór enzymu o nazwie kwaśna sjalofosfataza.
+
+                Dokument 17: W chorobie Farbera występuje niedobór enzymu o nazwie kwaśna sfingomielinaza.
+
+                Dokument 18: W chorobie Jansky-Bielschowsky występuje niedobór enzymu o nazwie beta-N-acetyloheksozaminidaza A.
+
+                Dokument 19: W chorobie Gauchera występuje niedobór enzymu o nazwie beta-glukocerebrozydaza.
+
+                Dokument 20: W chorobie Fabry’ego występuje niedobór enzymu o nazwie alfa-galaktozydaza A.
+
+                Dokument 21: W chorobie Pompego występuje niedobór enzymu o nazwie lizosomalna alfa-glukozydaza.
+
+                Dokument 22: W chorobie von Gierkego występuje niedobór enzymu o nazwie glukozo-6-fosfataza.
+
+                Dokument 23: W chorobie McArdle'a występuje niedobór enzymu o nazwie mięśniowa fosforylaza glikogenu.
+
+                Dokument 24: W zwyrodnieniu kropelkowo-szklistym występuje niedobór enzymu o nazwie lizosomalna alfa-galaktozydaza.
+
+                Dokument 25: W chorobie Alzheimera występuje niedobór enzymu o nazwie butyrylocholinoesteraza.
+
+                Dokument 26: W chorobie Fabry’ego występuje niedobór enzymu o nazwie alfa-galaktozydaza A.
+
+                Dokument 27: W chorobie Gauchera występuje niedobór enzymu o nazwie beta-glukocerebrozydaza.
+
+                Dokument 28: W chorobie Niemanna-Picka występuje niedobór enzymu o nazwie kwaśna sfingomielinaza.
+
+                Dokument 29: W chorobie Hurler występuje niedobór enzymu o nazwie sulfataza heparanowa.
+
+                Dokument 30: W chorobie
+### Judge: Nie
+### Poprawna odpowiedz: e) Złogi amyloidu w nerce, None
+### Wyniki: {'correct': 9, 'incorrect': 16, 'article_correct': 0}
+--------------------
+# Pytanie 26
+### Udzielona odpowiedz:                 Dokument 1: Osteosarcoma – najczęstszy pierwotny nowotwór złośliwy kości. W ok. 60% przypadków pojawia się u młodych osób (15-25 lat). Najczęściej rozwija się w przynasadach kości długich kończyn. Rozpoznanie mikroskopowe tego nowotworu opiera się na wykazaniu obecności osteoidu. Najczęściej rozwija się na podłożu kostniaka.
+### Judge: Tak.
+### Poprawna odpowiedz: e) Najczęściej rozwija się na podłożu kostniaka, None
+### Wyniki: {'correct': 10, 'incorrect': 16, 'article_correct': 0}
+--------------------
+# Pytanie 27
+### Udzielona odpowiedz: Odpowiedź b) jest najbliższa prawdzie.
+### Judge: Nie.
+### Poprawna odpowiedz: a) W świetle naczynia za życia powstaje zakrzep, a po śmierci skrzep, None
+### Wyniki: {'correct': 10, 'incorrect': 17, 'article_correct': 0}
+--------------------
+# Pytanie 28
+### Udzielona odpowiedz:                 Prawidłowa odpowiedź to: b)
+### Judge: Nie
+### Poprawna odpowiedz: e) c i d, None
+### Wyniki: {'correct': 10, 'incorrect': 18, 'article_correct': 0}
+--------------------
+# Pytanie 29
+### Udzielona odpowiedz: Dokument 1: # komórek wątrobowych    Gruczolak z komórek wątrobowych jest nowotworem łagodnym zbudowanym z hepatocytów, który najczęściej występuje u młodych kobiet przyjmujących doustne środki antykoncepcyjne. Guz najczęściej lokalizuje się pod torebką wątroby i osiąga średnicę do 30 cm.    ąże się z iyzykiem pęknięcia gruczolaka wątroby i wystąpienia krwotoku otrzewnej. Zmiany, W których stwierdza się mutację genu kodującego ę, mogą ulegać transfonnacji złośliwej.
+
+                 Dokument 2: # komórek wątrobowych    Gruczolak z komórek wątrobowych jest nowotworem łagodnym zbudowanym z hepatocytów, który najczęściej występuje u młodych kobiet przyjmujących doustne środki antykoncepcyjne. Guz najczęściej lokalizuje się pod torebką wątroby i osiąga średnicę do 30 cm.    ąże się z iyzykiem pęknięcia gruczolaka wątroby i wystąpienia krwotoku otrzewnej. Zmiany, W których stwierdza się mutację genu kodującego ę, mogą ulegać transfonnacji złośliwej.
+
+                c)
+### Judge: Nie
+### Poprawna odpowiedz: e) carcinoma basocellulare, None
+### Wyniki: {'correct': 10, 'incorrect': 19, 'article_correct': 0}
+--------------------
+# Pytanie 30
+### Udzielona odpowiedz:                 Poprawna odpowiedź to: a)
+### Judge: Nie
+### Poprawna odpowiedz: b) Zarośniecie światła jelita przez coprol, None
+### Wyniki: {'correct': 10, 'incorrect': 20, 'article_correct': 0}
+--------------------
+# Pytanie 31
+### Udzielona odpowiedz: Odpowiedź c) jest najbliższa treści pytania.
+### Judge: Tak
+### Poprawna odpowiedz: c) Carcinoma ductale invasivum, None
+### Wyniki: {'correct': 11, 'incorrect': 20, 'article_correct': 0}
+--------------------
+# Pytanie 32
+### Udzielona odpowiedz:                 c
+### Judge: Tak
+### Poprawna odpowiedz: c) adenocarcinoma, None
+### Wyniki: {'correct': 12, 'incorrect': 20, 'article_correct': 0}
+--------------------
+# Pytanie 33
+### Udzielona odpowiedz: #### 33.
+### Judge: Nie
+### Poprawna odpowiedz: c) RZS, None
+### Wyniki: {'correct': 12, 'incorrect': 21, 'article_correct': 0}
+--------------------
+# Pytanie 34
+### Udzielona odpowiedz:                 - wstrząs hipowolemiczny
+                - wstrząs kardiogenny
+                - wstrząs septyczny
+                - wstrząs anafilaktyczny
+                - wstrząs pourazowy
+                - wstrząs neurogenny
+                - wstrząs dystrybucyjny
+                - wstrząs toksyczny
+                - wstrząs z niedotlenienia
+                - wstrząs z zadławienia
+                - wstrząs z anafilaksji
+                - wstrząs z zatrucia
+                - wstrząs z odmy prężnej
+                - wstrząs z zapaści
+                - wstrząs z zaczadzenia
+                - wstrząs z zawału
+                - wstrząs z zapalenia trzustki
+                - wstrząs z zatrzymania krążenia
+                - wstrząs z zapalenia płuc
+                - wstrząs z zatrucia ciążowego
+                - wstrząs z zapalenia wsierdzia
+                - wstrząs z zatrucia grzybami
+                - wstrząs z zapalenia osierdzia
+                - wstrząs z zatrucia wodnego
+                - wstrząs z zapalenia pęcherzyka żółciowego
+                - wstrząs z zatrucia pokarmowego
+                - wstrząs z zapalenia pęcherza moczowego
+                - wstrząs z zapalenia płuc
+                - wstrząs z zapalenia opon mózgowo-rdzeniowych
+                - wstrząs z zapalenia oskrzeli
+                - wstrząs z zapalenia opłucnej
+                - wstrząs z zapalenia otrzewnej
+                - wstrząs z zapalenia osierdzia
+                - wstrząs z zapalenia pęcherza moczowego
+                - wstrząs z zapalenia pęcherzyka żółciowego
+                - wstrząs z zapalenia płuc
+                - wstrząs z zapalenia opon mózgowo-rdzeniowych
+                - wstrząs z zapalenia oskrzeli
+                - wstrząs z zapalenia opłucnej
+                - wstrząs z zapalenia otrzewnej
+                - wstrząs z zapalenia osierdzia
+                - wstrząs z zapalenia pęcherza moczowego
+                - wstrząs z zapalenia pęcherzyka żółciowego
+                - wstrząs z zapalenia płuc
+                - wstrząs z zapalenia opon mózgowo-rdzeniowych
+                - wstrząs z zapalenia oskrzeli
+                - wstrząs z zapalenia opłucnej
+                - wstrząs z zapalenia otrzewnej
+                - wstrząs z zapalenia osierdzia
+                - wstrząs z zapalenia pęcherza moczowego
+                - wstrząs z zapalenia pęcherzyka żółciowego
+                - wstrząs z zapalenia płuc
+                - wstrząs z zapalenia opon mózgowo-rdzeniowych
+                - wstrząs z zapalenia oskrzeli
+                - wstrząs z zapalenia opłucnej
+                - wstrząs z zapalenia otrzewnej
+                - wstrząs z zapalenia osierdzia
+                - wstrząs z zapalenia pęcherza moczowego
+                - wstrząs z zapalenia pęcherzyka żółciowego
+                - wstrząs z zapalenia płuc
+                - wstrząs z zapalenia opon mózgowo-rdzeniowych
+                - wstrząs z zapalenia oskrzeli
+                - wstrząs z zapalenia opłucnej
+                - wstrząs z zapalenia otrzewnej
+                - wstrząs z zapalenia osierdzia
+                - wstrząs z zapalenia pęcherza moczowego
+                - wstrząs z zapalenia pęcherzyka żółciowego
+                -
+### Judge: Nie.
+### Poprawna odpowiedz: b) nagła śmierć komórki w żywym organizmie, None
+### Wyniki: {'correct': 12, 'incorrect': 22, 'article_correct': 0}
+--------------------
+# Pytanie 35
+### Udzielona odpowiedz: Odpowiedź b) powstaje jako wyraz przewlekłego drażnienia jest najbliższa treści dokumentu.
+### Judge: Nie
+### Poprawna odpowiedz: e) a, b i d, None
+### Wyniki: {'correct': 12, 'incorrect': 23, 'article_correct': 0}
+--------------------
+# Pytanie 36
+### Udzielona odpowiedz: #### 36.
+### Judge: Nie.
+### Poprawna odpowiedz: b) Metaplazji, None
+### Wyniki: {'correct': 12, 'incorrect': 24, 'article_correct': 0}
+--------------------
+# Pytanie 37
+### Udzielona odpowiedz:                 d) Wszystkie powyższe
+### Judge: Tak
+### Poprawna odpowiedz: d) Wszystkie powyższe, None
+### Wyniki: {'correct': 13, 'incorrect': 24, 'article_correct': 0}
+--------------------
+# Pytanie 38
+### Udzielona odpowiedz:                 a) E.coli, Proteus vulgaris
+### Judge: Tak
+### Poprawna odpowiedz: a) E.coli, Proteus vulgaris, None
+### Wyniki: {'correct': 14, 'incorrect': 24, 'article_correct': 0}
+--------------------
+# Pytanie 39
+### Udzielona odpowiedz:                 Dokument 1: Najczęstszą przyczyną białkomoczu u dorosłych jest cukrzycowa choroba nerek, a u dzieci - kłębuszkowe zapalenie nerek.
+### Judge: Nie.
+### Poprawna odpowiedz: a) glomerulonephritis membranosa, None
+### Wyniki: {'correct': 14, 'incorrect': 25, 'article_correct': 0}
+--------------------
+# Pytanie 40
+### Udzielona odpowiedz:                 c) samoistne pęknięcie śledziony
+### Judge: Nie
+### Poprawna odpowiedz: e) pęknięta ciąża pozamaciczna, None
+### Wyniki: {'correct': 14, 'incorrect': 26, 'article_correct': 0}
+--------------------
+# Pytanie 41
+### Udzielona odpowiedz: Odpowiedź a) jest najbliższa treści dokumentów.
+### Judge: Nie
+### Poprawna odpowiedz: d) nadciśnienie, None
+### Wyniki: {'correct': 14, 'incorrect': 27, 'article_correct': 0}
+--------------------
+# Pytanie 42
+### Udzielona odpowiedz:                 c
+### Judge: Tak
+### Poprawna odpowiedz: c) zakrzepy, None
+### Wyniki: {'correct': 15, 'incorrect': 27, 'article_correct': 0}
+--------------------
+# Pytanie 43
+### Udzielona odpowiedz: Odpowiedź a)
+### Judge: Nie
+### Poprawna odpowiedz: e) metastasis, None
+### Wyniki: {'correct': 15, 'incorrect': 28, 'article_correct': 0}
+--------------------
+# Pytanie 44
+### Udzielona odpowiedz: Dokument 1: # Guz Wilmsa    Guz Wilmsa jest nowotworem złośliwym nerki występującym głównie i 2. a 5. rokiem życia, nieco częściej u dziewczynek.    Guz Wilmsa to naj częściej Występuj ący pierwotny nowotwór złośliwy nerki u dzieci. W ok. $90\%$ przypadków jest zmianą jednostronną i sporadyczną. W ok. $5\%$ wy stępuje rodzinnie (zwykle obustronnie i W młodszym Wieku), W pozostałych padkach W związku z zespołami wad wrodzonych. Niektóre zespoły wad wrodz‹ predysponują do jego rozwoju.
+
+                Dokument 2: # Guz Wilmsa    Guz Wilmsa jest nowotworem złośliwym nerki występującym głównie i 2. a 5. rokiem życia, nieco częściej u dziewczynek.    Guz Wilmsa to naj częściej Występuj ący pierwotny nowotwór złośliwy nerki u dzieci. W ok. $90\%$ przypadków jest zmianą jednostronną i sporadyczną. W ok. $5\%$ wy stępuje rodzinnie (zwykle obustronnie i W młodszym Wieku), W pozostałych padkach W związku z zespołami wad wrodzonych. Niektóre zespoły wad wrodz‹ predysponują do jego rozwoju.
+
+                Dokument 3: # Guz Wilmsa    Guz Wilmsa jest nowotworem złośliwym nerki występującym głównie i 2. a 5. rokiem życia, nieco częściej u dziewczynek.    Guz Wilmsa to naj częściej Występuj ący pierwotny nowotwór złośliwy nerki u dzieci. W ok. $90\%$ przypadków jest zmianą jednostronną i sporadyczną. W ok. $5\%$ wy stępuje rodzinnie (zwykle obustronnie i W młodszym Wieku), W pozostałych padkach W związku z zespołami wad wrodzonych. Niektóre zespoły wad wrodz‹ predysponują do jego rozwoju.
+
+                Dokument 4: # Guz Wilmsa    Guz Wilmsa jest nowotworem złośliwym nerki występującym głównie i 2. a 5. rokiem życia, nieco częściej u dziewczynek.    Guz Wilmsa to naj częściej Występuj ący pierwotny nowotwór złośliwy nerki u dzieci. W ok. $90\%$ przypadków jest zmianą jednostronną i sporadyczną. W ok. $5\%$ wy stępuje rodzinnie (zwykle obustronnie i W młodszym Wieku), W pozostałych padkach W związku z zespołami wad wrodzonych. Niektóre zespoły wad wrodz‹ predysponują do jego rozwoju.
+
+                Dokument 5: # Guz Wilmsa    Guz Wilmsa jest nowotworem złośliwym nerki występującym głównie i 2. a 5. rokiem życia, nieco częściej u dziewczynek.    Guz Wilmsa to naj częściej Występuj ący pierwotny nowotwór złośliwy nerki u dzieci. W ok. $90\%$ przypadków jest zmianą jednostronną i sporadyczną. W ok. $5\%$ wy stępuje rodzinnie (zwykle obustronnie i W młodszym Wieku), W pozostałych padkach W związku z zespołami wad wrodzonych. Niektóre zespoły wad wrodz‹ predysponują do jego rozwoju.
+
+                Dokument 6: # Guz Wilmsa    Guz Wilmsa jest nowotworem złośliwym nerki występującym głównie i 2. a 5. rokiem życia, nieco częściej u dziewczynek.    Guz Wilmsa to naj częściej Występuj ący pierwotny nowotwór złośliwy nerki u dzieci. W ok. $90\%$ przypadków jest zmianą jednostronną i sporadyczną. W ok. $5\%$ wy st
+### Judge: Nie
+### Poprawna odpowiedz: c) yolk sac tumour, None
+### Wyniki: {'correct': 15, 'incorrect': 29, 'article_correct': 0}
+--------------------
+# Pytanie 45
+### Udzielona odpowiedz: Dokument 1: # Rak rdzeniasty    Rak rdzeniasty stanowi 10-15% wszystkich nowotworów tarczycy. Jest to najczęstszy złośliwy nowotwór tarczycy u dzieci i młodych dorosłych.
+### Judge: Nie.
+### Poprawna odpowiedz: d) rak brodawkowaty, None
+### Wyniki: {'correct': 15, 'incorrect': 30, 'article_correct': 0}
+--------------------
+# Pytanie 46
+### Udzielona odpowiedz: Odpowiedź a) jest najbardziej zgodna z kontekstem.
+### Judge: Nie
+### Poprawna odpowiedz: d) komórki nabłonkowate, None
+### Wyniki: {'correct': 15, 'incorrect': 31, 'article_correct': 0}
+--------------------
+# Pytanie 47
+### Udzielona odpowiedz: Odpowiedź a)
+### Judge: Nie
+### Poprawna odpowiedz: c) II-go typu nadwrażliwości, None
+### Wyniki: {'correct': 15, 'incorrect': 32, 'article_correct': 0}
+--------------------
+# Pytanie 48
+### Udzielona odpowiedz: Odpowiedź e) jest poprawna.
+### Judge: Nie
+### Poprawna odpowiedz: a) rhabdomyoblastoma, None
+### Wyniki: {'correct': 15, 'incorrect': 33, 'article_correct': 0}
+--------------------
+# Pytanie 49
+### Udzielona odpowiedz: Dokument 1: # Rak śluzowo-komórkowy żołądka    Jest to rzadki nowotwór żołądka, stanowiący około 10% wszystkich nowotworów tego narządu. Występuje w dwóch typach histologicznych: jelitowym i niejelitowym. Typ jelitowy jest podobny do raka jelita grubego, a niejelitowy do gruczolakoraka.    # Morfologia
+
+                
+Dokument 2: # Rak cewkowy żołądka    Jest to rzadki podtyp gruczolakoraka żołądka, stanowiący około 1% wszystkich nowotworów tego narządu.    # Morfologia
+
+                
+Dokument 3: # Rak galaretowaty żołądka    Jest to rzadki podtyp gruczolakoraka żołądka, stanowiący około 1% wszystkich nowotworów tego narządu.    # Morfologia
+
+                
+Dokument 4: # Fibromatoza    Jest to rzadki nowotwór piersi, w którym rozrost elementów zrębowych przeważa nad rozrostem komórek wydzielniczych. Występuje najczęściej u młodych kobiet, u których badanie mammograficzne jest utrudnione. W badaniu histopatologicznym stwierdza się obecność rozplemu fibroblastów, które mogą tworzyć ogniska martwicy. W 10% przypadków współistnieje z rakiem przewodowym lub zrazikowym.    # Morfologia
+### Judge: Nie
+### Poprawna odpowiedz: b) raka śluzowo komórkowego żołądka, None
+### Wyniki: {'correct': 15, 'incorrect': 34, 'article_correct': 0}
+--------------------
+# Pytanie 50
+### Udzielona odpowiedz: Odpowiedź a) jest poprawna.
+### Judge: Nie
+### Poprawna odpowiedz: d) obecności przerzutów, None
+### Wyniki: {'correct': 15, 'incorrect': 35, 'article_correct': 0}
+--------------------
+# Pytanie 51
+### Udzielona odpowiedz:                 Dokument 1: Phlegmone – martwica rozpływna (łac. necrosis) tkanek miękkich wywołana zakażeniem bakteryjnym.
+### Judge: Nie
+### Poprawna odpowiedz: b) Nerce, None
+### Wyniki: {'correct': 15, 'incorrect': 36, 'article_correct': 0}
+--------------------
+# Pytanie 52
+### Udzielona odpowiedz:                 b) Gruczolak przytarczyc
+### Judge: Tak
+### Poprawna odpowiedz: b) Gruczolak przytarczyc, None
+### Wyniki: {'correct': 16, 'incorrect': 36, 'article_correct': 0}
+--------------------
+# Pytanie 53
+### Udzielona odpowiedz:                 b)
+### Judge: Nie
+### Poprawna odpowiedz: b) CD30, None
+### Wyniki: {'correct': 16, 'incorrect': 37, 'article_correct': 0}
+--------------------
+# Pytanie 54
+### Udzielona odpowiedz: Dokument nie jest przydatny w udzieleniu odpowiedzi na pytanie.
+### Judge: Nie
+### Poprawna odpowiedz: e) yolk sac tumor, None
+### Wyniki: {'correct': 16, 'incorrect': 38, 'article_correct': 0}
+--------------------
+# Pytanie 55
+### Udzielona odpowiedz:                 c) ok. 8 tygodni
+### Judge: Tak
+### Poprawna odpowiedz: c) ok. 8 tygodni, None
+### Wyniki: {'correct': 17, 'incorrect': 38, 'article_correct': 0}
+--------------------
+# Pytanie 56
+### Udzielona odpowiedz: ### Dokument 1: Wirusowe zapalenie wątroby typu C (WZW C) – przewlekłe zakażenie wirusem zapalenia wątroby typu C (HCV) jest najczęstszą przyczyną przewlekłej niewydolności wątroby. W Polsce około 1,4% populacji jest zakażona wirusem HCV, co oznacza, że około 0,4% populacji jest zakażona wirusem HCV i ma przewlekłe zapalenie wątroby.
+### Judge: Nie
+### Poprawna odpowiedz: e) marskości wątroby, None
+### Wyniki: {'correct': 17, 'incorrect': 39, 'article_correct': 0}
+--------------------
+# Pytanie 57
+### Udzielona odpowiedz: Odpowiedź a) jest poprawna.
+### Judge: Nie
+### Poprawna odpowiedz: d) uchyłku jelita kretego (Meckela), None
+### Wyniki: {'correct': 17, 'incorrect': 40, 'article_correct': 0}
+--------------------
+# Pytanie 58
+### Udzielona odpowiedz: ### 58. c) Wyczerpanie czynników krzepnięcia
+### Judge: Tak
+### Poprawna odpowiedz: c) Wyczerpanie czynników krzepnięcia, None
+### Wyniki: {'correct': 18, 'incorrect': 40, 'article_correct': 0}
+--------------------
+# Pytanie 59
+### Udzielona odpowiedz:                 a)
+### Judge: Nie
+### Poprawna odpowiedz: b) ostra niewydolność lewokomorowa serca, None
+### Wyniki: {'correct': 18, 'incorrect': 41, 'article_correct': 0}
+--------------------
+# Pytanie 60
+### Udzielona odpowiedz: Odpowiedź e) wszystkie ww.
+### Judge: Tak
+### Poprawna odpowiedz: e) wszystkie ww., None
+### Wyniki: {'correct': 19, 'incorrect': 41, 'article_correct': 0}
+--------------------
+# Pytanie 61
+### Udzielona odpowiedz:     - Zmiany ogniskowe w nerkach: 
+                - Zmiany ogniskowe w nerkach: 
+                - Zmiany ogniskowe w nerkach: 
+                - Zmiany ogniskowe w nerkach: 
+                - Zmiany ogniskowe w nerkach: 
+                - Zmiany ogniskowe w nerkach: 
+                - Zmiany ogniskowe w nerkach: 
+                - Zmiany ogniskowe w nerkach: 
+                - Zmiany ogniskowe w nerkach: 
+                - Zmiany ogniskowe w nerkach: 
+                - Zmiany ogniskowe w nerkach: 
+                - Zmiany ogniskowe w nerkach: 
+                - Zmiany ogniskowe w nerkach: 
+                - Zmiany ogniskowe w nerkach: 
+                - Zmiany ogniskowe w nerkach: 
+                - Zmiany ogniskowe w nerkach: 
+                - Zmiany ogniskowe w nerkach: 
+                - Zmiany ogniskowe w nerkach: 
+                - Zmiany ogniskowe w nerkach: 
+                - Zmiany ogniskowe w nerkach: 
+                - Zmiany ogniskowe w nerkach: 
+                - Zmiany ogniskowe w nerkach: 
+                - Zmiany ogniskowe w nerkach: 
+                - Zmiany ogniskowe w nerkach: 
+                - Zmiany ogniskowe w nerkach: 
+                - Zmiany ogniskowe w nerkach: 
+                - Zmiany ogniskowe w nerkach: 
+                - Zmiany ogniskowe w nerkach: 
+                - Zmiany ogniskowe w nerkach: 
+                - Zmiany ogniskowe w nerkach: 
+                - Zmiany ogniskowe w nerkach: 
+                - Zmiany ogniskowe w nerkach: 
+                - Zmiany ogniskowe w nerkach: 
+                - Zmiany ogniskowe w nerkach: 
+                - Zmiany ogniskowe w nerkach: 
+                - Zmiany ogniskowe w nerkach: 
+                - Zmiany ogniskowe w nerkach: 
+                - Zmiany ogniskowe w nerkach: 
+                - Zmiany ogniskowe w nerkach: 
+                - Zmiany ogniskowe w nerkach: 
+                - Zmiany ogniskowe w nerkach: 
+                - Zmiany ogniskowe w nerkach: 
+                - Zmiany ogniskowe w nerkach: 
+                - Zmiany ogniskowe w nerkach: 
+                - Zmiany ogniskowe w nerkach: 
+                - Zmiany ogniskowe w nerkach: 
+                - Zmiany ogniskowe w nerkach: 
+                - Zmiany ogniskowe w nerkach: 
+                - Zmiany ogniskowe w nerkach: 
+                - Zmiany ogniskowe w nerkach: 
+                - Zmiany ogniskowe w nerkach: 
+                - Zmiany ogniskowe w nerkach: 
+                - Zmiany ogniskowe w nerkach: 
+                - Zmiany ogniskowe w nerkach: 
+                - Zmiany ogniskowe w nerkach: 
+                - Zmiany ogniskowe w nerkach: 
+                - Zmiany ogniskowe w nerkach: 
+                - Zmiany ogniskowe w nerkach: 
+                - Zmiany ogniskowe w nerkach: 
+                - Zmiany ogniskowe w nerkach: 
+                - Zmiany ogniskowe w nerkach: 
+                - Zmiany ogniskowe w nerkach: 
+                - Zmiany ognisk
+### Judge: Nie.
+### Poprawna odpowiedz: e) wszystkie ww., None
+### Wyniki: {'correct': 19, 'incorrect': 42, 'article_correct': 0}
+--------------------
+# Pytanie 62
+### Udzielona odpowiedz:                 d) choroby trzewnej
+### Judge: Tak
+### Poprawna odpowiedz: d) choroby trzewnej, None
+### Wyniki: {'correct': 20, 'incorrect': 42, 'article_correct': 0}
+--------------------
+# Pytanie 63
+### Udzielona odpowiedz:                 c)
+### Judge: Nie
+### Poprawna odpowiedz: b) submikroskopowe, None
+### Wyniki: {'correct': 20, 'incorrect': 43, 'article_correct': 0}
+--------------------
+# Pytanie 64
+### Udzielona odpowiedz: Dokument 0 nie zawiera istotnych informacji dla tego pytania.
+### Judge: Nie
+### Poprawna odpowiedz: d) psoriasis, None
+### Wyniki: {'correct': 20, 'incorrect': 44, 'article_correct': 0}
+--------------------
+# Pytanie 65
+### Udzielona odpowiedz: Dokument 1: 1. Zapalenie naczyń związane z IgA    Zapalenie naczyń związane z IgA (dawniej: choroba Schönleina-Henocha) jest najczęstszym pierwotnym układowym zapaleniem naczyń u dzieci. Charakteryzuje się nawracającym IgA-uczestniczącym zapaleniem błony wewnętrznej małych i średnich naczyń krwionośnych, głównie w skórze, stawach, przewodzie pokarmowym i nerkach. Wykwity skórne mają charakter plamicy uniesionej, niekiedy obserwuje się objawy krwotoczne z błon śluzowych, bóle brzucha, a w badaniu histopatologicznym cechy martwicy włóknikowatej. Zapalenie naczyń związane z IgA występuje rodzinnie, często współistnieje z nawracającym podśluzówkowym zapaleniem gardła, wywołanym przez Haemophilus influenzae lub Streptococcus pneumoniae. W badaniu histopatologicznym stwierdza się złogi IgA w ścianach naczyń.
+### Judge: Nie
+### Poprawna odpowiedz: e) zejście drobnych ognisk martwicy rozpływanej mózgu, None
+### Wyniki: {'correct': 20, 'incorrect': 45, 'article_correct': 0}
+--------------------
+# Pytanie 66
+### Udzielona odpowiedz: #### 66.
+### Judge: Nie.
+### Poprawna odpowiedz: c) stercza, None
+### Wyniki: {'correct': 20, 'incorrect': 46, 'article_correct': 0}
+--------------------
+# Pytanie 67
+### Udzielona odpowiedz:                 a)
+### Judge: Nie
+### Poprawna odpowiedz: b) pneumonia lobaris, None
+### Wyniki: {'correct': 20, 'incorrect': 47, 'article_correct': 0}
+--------------------
+# Pytanie 68
+### Udzielona odpowiedz:                 Dokument 1: Fuhrman grading - system oceny złośliwości guzów nerki
+
+                
+                Odpowiedź a)
+### Judge: Tak.
+### Poprawna odpowiedz: a) raka nerki, None
+### Wyniki: {'correct': 21, 'incorrect': 47, 'article_correct': 0}
+--------------------
+# Pytanie 69
+### Udzielona odpowiedz:                 c)
+### Judge: Nie
+### Poprawna odpowiedz: e) wszystkie wyżej wymienione cechy, None
+### Wyniki: {'correct': 21, 'incorrect': 48, 'article_correct': 0}
+--------------------
+# Pytanie 70
+### Udzielona odpowiedz:                 a)
+### Judge: Nie
+### Poprawna odpowiedz: e) wszystkie ww., None
+### Wyniki: {'correct': 21, 'incorrect': 49, 'article_correct': 0}
+--------------------
+# Pytanie 71
+### Udzielona odpowiedz:                 a)
+### Judge: Nie
+### Poprawna odpowiedz: e) wszystkie ww., None
+### Wyniki: {'correct': 21, 'incorrect': 50, 'article_correct': 0}
+--------------------
+# Pytanie 72
+### Udzielona odpowiedz:                 a)
+### Judge: Nie.
+### Poprawna odpowiedz: c) Cryptosporidium parvum, None
+### Wyniki: {'correct': 21, 'incorrect': 51, 'article_correct': 0}
+--------------------
+# Pytanie 73
+### Udzielona odpowiedz: Dokument 1: 11. Choroby naczyń    # 11.1 Choroby naczyń mózgowych    # 11.1.1 Choroby małych naczyń mózgowych    # 11.1.2 Choroby średnich naczyń mózgowych    # 11.1.3 Choroby dużych naczyń mózgowych    # 11.2 Choroby naczyń obwodowych    # 11.2.1 Choroby tętnic obwodowych    # 11.2.2 Choroby tętnic kończyn dolnych    # 11.2.3 Choroby tętnic trzewnych    # 11.2.4 Choroby tętnic ramienno-głowowych    # 11.2.5 Choroby żył obwodowych    # 11.2.6 Choroby żylakowe kończyn dolnych    # 11.2.7 Zapalenie naczyń    # 11.2.7.1 Zapalenie tętnic     # 11.2.7.2 Zapalenie żył 
+
+                
+Dokument 2: 11. Choroby naczyń    # 11.2.7 Zapalenie naczyń    # 11.2.7.2 Zapalenie żył 
+
+                
+Dokument 3: 11. Choroby naczyń    # 11.2.7 Zapalenie naczyń    # 11.2.7.1 Zapalenie tętnic 
+
+                
+Dokument 4: 11. Choroby naczyń    # 11.2.7 Zapalenie naczyń    # 11.2.7.1 Zapalenie tętnic  # 11.2.7.2 Zapalenie żył 
+
+                
+Dokument 5: 11. Choroby naczyń    # 11.2.7 Zapalenie naczyń    # 11.2.7.1 Zapalenie tętnic  # 11.2.7.2 Zapalenie żył 
+
+                
+Dokument 6: 11. Choroby naczyń    # 11.2.7 Zapalenie naczyń    # 11.2.7.1 Zapalenie tętnic  # 11.2.7.2 Zapalenie żył 
+
+                
+Dokument 7: 11. Choroby naczyń    # 11.2.7 Zapalenie naczyń    # 11.2.7.1 Zapalenie tętnic  # 11.2.7.2 Zapalenie żył 
+
+                
+Dokument 8: 11. Choroby naczyń    # 11.2.7 Zapalenie naczyń    # 11.2.7.1 Zapalenie tętnic  # 11.2.7.2 Zapalenie żył 
+
+                
+Dokument 9: 11. Choroby naczyń    # 11.2.7 Zapalenie naczyń    # 11.2.7.1 Zapalenie tętnic  # 11.2.7.2 Zapalenie żył 
+
+                
+Dokument 10: 11. Choroby naczyń    # 11.2.7 Zapalenie naczyń    # 11.2.7.1 Zapalenie tętnic  # 11.2.7.2 Zapalenie żył 
+
+                
+Dokument 11: 11. Choroby naczyń    # 11.2.7 Zapalenie naczyń    # 11.2.7.1 Zapalenie tętnic  # 11.2.7.2 Zapalenie żył 
+
+                
+Dokument 12: 11. Choroby naczyń    # 11.2.7 Zapalenie naczyń    # 11.2.7.1 Zapalenie tętnic  # 11.2.7.2 Zapalenie żył 
+
+                
+Dokument 13: 11. Choroby naczyń    # 11.2.7 Zapalen
+### Judge: Nie
+### Poprawna odpowiedz: e) choroba Castelmana, None
+### Wyniki: {'correct': 21, 'incorrect': 52, 'article_correct': 0}
+--------------------
+# Pytanie 74
+### Udzielona odpowiedz:                 - c-ANCA – przeciwciała przeciwko elastazie neutrofilowej, częściej występują w mikroskopowym zapaleniu naczyń, chorobie Churga-Strauss, eozynofilowym ziarniniakowatością z zapaleniem naczyń, pierwotnej małopłytkowości autoimmunologicznej, reumatoidalnym zapaleniu stawów, toczniu rumieniowatym układowym, zespole Sjögrena, twardzinie układowej, zapaleniu skórno-mięśniowym i zapaleniu wielomięśniowym.
+                
+                - p-ANCA – przeciwciała przeciwko proteinazie 3, częściej występują w chorobie Wegenera, zespole Churga-Strauss, pierwotnej małopłytkowości autoimmunologicznej, reumatoidalnym zapaleniu stawów, toczniu rumieniowatym układowym, zespole Sjögrena, twardzinie układowej, zapaleniu skórno-mięśniowym i zapaleniu wielomięśniowym.
+
+                Dokument 1: 11. Patologia naczyń    W patomechanizmie PAN udział biorą kompleksy immunologiczne (III typ nadwrażliwości).    W patomechanizmie choroby Kawasaki – przeciwciała przeciwko komórkom śródbłonkowym.    # 11.4.1.4 Zapalenia naczyń średniego kalibru    Zapalenia te można dodatkowo podzielić ze względu na obecność przeciwciał przeciwjądrowych ANCA:
+
+                
+                - c-ANCA – przeciwciała przeciwko elastazie neutrofilowej, częściej występują w mikroskopowym zapaleniu naczyń, chorobie Churga-Strauss, eozynofilowym ziarniniakowatością z zapaleniem naczyń, pierwotnej małopłytkowości autoimmunologicznej, reumatoidalnym zapaleniu stawów, toczniu rumieniowatym układowym, zespole Sjögrena, twardzinie układowej, zapaleniu skórno-mięśniowym i zapaleniu wielomięśniowym.
+                
+                - p-ANCA – przeciwciała przeciwko proteinazie 3, częściej występują w chorobie Wegenera, zespole Churga-Strauss, pierwotnej małopłytkowości autoimmunologicznej, reumatoidalnym zapaleniu stawów, toczniu rumieniowatym układowym, zespole Sjögrena, twardzinie układowej, zapaleniu skórno-mięśniowym i zapaleniu wielomięśniowym.
+
+                Dokument 2: 11. Patologia naczyń    W patomechanizmie PAN udział biorą kompleksy immunologiczne (III typ nadwrażliwości).    W patomechanizmie choroby Kawasaki – przeciwciała przeciwko komórkom śródbłonkowym.    # 11.4.1.5 Zapalenia naczyń dużego kalibru    Zapalenia te można dodatkowo podzielić ze względu na obecność przeciwciał przeciwjądrowych ANCA:
+
+                
+                - c-ANCA – przeciwciała przeciwko elastazie neutrofilowej, częściej występują w mikroskopowym zapaleniu naczyń, chorobie Churga-Strauss, eozynofilowym ziarniniakowatością z zapaleniem naczyń, pierwotnej małopłytkowości autoimmunologicznej, reumatoidalnym zapaleniu stawów, toczniu rumieniowatym układowym, zespole Sjögrena, twardzinie układowej, zapaleniu skórno-mięśniowym i zapaleniu wielomięśniowym.
+                
+                - p-ANCA – przeciwciała przeciwko proteinazie 3, częściej występują w chorobie Wegenera, zespole Churga-Strauss, pierwotnej małopłytkowości autoimmunologicznej, reumatoidalnym zapaleniu stawów, toczniu rumieniowatym układowym, zespole Sjögrena, twardzinie układowej, zapaleniu skórno-mięśniowym i zapaleniu
+### Judge: Nie
+### Poprawna odpowiedz: c) zespół Goodpasture’a, None
+### Wyniki: {'correct': 21, 'incorrect': 53, 'article_correct': 0}
+--------------------
+# Pytanie 75
+### Udzielona odpowiedz: #### 75. b
+### Judge: Nie
+### Poprawna odpowiedz: d) mitochondriach, None
+### Wyniki: {'correct': 21, 'incorrect': 54, 'article_correct': 0}
+--------------------
+# Pytanie 76
+### Udzielona odpowiedz:                 a)
+### Judge: Nie
+### Poprawna odpowiedz: c) ostrej niewydolności prawokomorowej, None
+### Wyniki: {'correct': 21, 'incorrect': 55, 'article_correct': 0}
+--------------------
+# Pytanie 77
+### Udzielona odpowiedz:     - serce powiększone, mięsień gruby, jędrny, barwy czerwonobrunatnej, powierzchnia gładka, lśniąca.
+
+                
+                Dokument 1: # Fibroelastoza wsierdzia    Fibroelastoza wsierdzia jest chorobą polegającą na odkładaniu się w obrębie wsierdzia płatkowego nadmiernej ilości substancji międzykomórkowej, w której skład wchodzi głównie elastyna i kolagen.    # Objawy kliniczne: 
+                - duszność wysiłkowa
+                - ból w klatce piersiowej
+                - kołatanie serca
+                - omdlenia
+                - obrzęki kończyn dolnych
+                - objawy niewydolności serca
+                - objawy zatorowości płucnej
+                - objawy zapalenia mięśnia sercowego
+                - objawy zaburzeń rytmu serca
+                - objawy nagłego zgonu sercowego
+
+                # Rozpoznanie: 
+                - badanie echokardiograficzne
+                - badanie histopatologiczne
+
+                # Leczenie: 
+                - leczenie farmakologiczne
+                - leczenie operacyjne
+
+                Dokument 2: # Endocarditis lenta    Endocarditis lenta jest to choroba, która polega na odkładaniu się w obrębie wsierdzia płatkowego nadmiernej ilości substancji międzykomórkowej, w której skład wchodzi głównie elastyna i kolagen.    # Objawy kliniczne: 
+                - duszność wysiłkowa
+                - ból w klatce piersiowej
+                - kołatanie serca
+                - omdlenia
+                - obrzęki kończyn dolnych
+                - objawy niewydolności serca
+                - objawy zatorowości płucnej
+                - objawy zapalenia mięśnia sercowego
+                - objawy zaburzeń rytmu serca
+                - objawy nagłego zgonu sercowego
+
+                # Rozpoznanie: 
+                - badanie echokardiograficzne
+                - badanie histopatologiczne
+
+                # Leczenie: 
+                - leczenie farmakologiczne
+                - leczenie operacyjne
+
+                Dokument 3: # Endocarditis lenta    Endocarditis lenta jest to choroba, która polega na odkładaniu się w obrębie wsierdzia płatkowego nadmiernej ilości substancji międzykomórkowej, w której skład wchodzi głównie elastyna i kolagen.    # Objawy kliniczne: 
+                - duszność wysiłkowa
+                - ból w klatce piersiowej
+                - kołatanie serca
+                - omdlenia
+                - obrzęki kończyn dolnych
+                - objawy niewydolności serca
+                - objawy zatorowości płucnej
+                - objawy zapalenia mięśnia sercowego
+                - objawy zaburzeń rytmu serca
+                - objawy nagłego zgonu sercowego
+
+                # Rozpoznanie: 
+                - badanie echokardiograficzne
+                - badanie histopatologiczne
+
+                # Leczenie: 
+                - leczenie farmakologiczne
+                - leczenie operacyjne
+
+                Dokument 4: # Endocarditis lenta    Endocarditis lenta jest to choroba, która polega na odkładaniu się w obrębie wsierdzia płatkowego nadmiernej ilości substancji międzykomórkowej, w której skład wchodzi głównie elastyna i kolagen.    # Objawy kliniczne: 
+                - duszność wysiłkowa
+                - ból w klatce piersiowej
+                - kołatanie serca
+                - omdlenia
+                - obrzęki kończyn dolnych
+                - objawy niewydolności serca
+                - objawy zatorowości płucnej
+                - objawy zapalenia mięśnia sercowego
+                - objawy zaburzeń rytmu serca
+                - objawy nagłego zgonu sercowego
+
+                # Rozpoznanie: 
+                - badanie echokardiograficzne
+                - badanie histopatologiczne
+
+                #
+### Judge: Nie.
+### Poprawna odpowiedz: d) fibroelastosis endocardii, None
+### Wyniki: {'correct': 21, 'incorrect': 56, 'article_correct': 0}
+--------------------
+# Pytanie 78
+### Udzielona odpowiedz:                 e)
+### Judge: Tak
+### Poprawna odpowiedz: e) c i d, None
+### Wyniki: {'correct': 22, 'incorrect': 56, 'article_correct': 0}
+--------------------
+# Pytanie 79
+### Udzielona odpowiedz: Odpowiedź: a)
+### Judge: Nie
+### Poprawna odpowiedz: b) zmiany włóknisto-torbielowate gruczołu piersiowego, None
+### Wyniki: {'correct': 22, 'incorrect': 57, 'article_correct': 0}
+--------------------
+# Pytanie 80
+### Udzielona odpowiedz: Odpowiedź b) jest najodpowiedniejsza dla tego pytania.
+### Judge: Nie
+### Poprawna odpowiedz: a) Niezależnie od przyczyny, None
+### Wyniki: {'correct': 22, 'incorrect': 58, 'article_correct': 0}
+--------------------
+# Pytanie 81
+### Udzielona odpowiedz:                 c)
+### Judge: Tak
+### Poprawna odpowiedz: c) mutacje genu BRCA1, otyłość, występowanie rodzinne, atypowy rozrost nabłonka, None
+### Wyniki: {'correct': 23, 'incorrect': 58, 'article_correct': 0}
+--------------------
+# Pytanie 82
+### Udzielona odpowiedz:                 a)
+### Judge: Nie
+### Poprawna odpowiedz: d) Średnia wieku chorych wynosi 20-40 lat, None
+### Wyniki: {'correct': 23, 'incorrect': 59, 'article_correct': 0}
+--------------------
+# Pytanie 83
+### Udzielona odpowiedz:                 a)
+### Judge: Nie
+### Poprawna odpowiedz: b) jajnik, powłoki brzuszne, jajowód, None
+### Wyniki: {'correct': 23, 'incorrect': 60, 'article_correct': 0}
+--------------------
+# Pytanie 84
+### Udzielona odpowiedz:                 c)
+### Judge: Nie
+### Poprawna odpowiedz: a) obrzęku płuc, None
+### Wyniki: {'correct': 23, 'incorrect': 61, 'article_correct': 0}
+--------------------
+# Pytanie 85
+### Udzielona odpowiedz:     - raka wczesnego żołądka (carcinoma intraepithelioma)  
+                
+                Dokument 1: 
+                1. Rak żołądka jest nowotworem złośliwym, który wywodzi się z błony śluzowej żołądka. Najczęściej lokalizuje się w okolicy pylorus i ant rum. 
+                2. W zależności od typu histologicznego wyróżniamy:
+
+                - rak gruczołowy (75% raków żołądka)
+                - rak płaskonabłonkowy (10% raków żołądka)
+                - rak anaplastyczny (10% raków żołądka)
+                - rak gruczołowato-płaskonabłonkowy (5% raków żołądka)
+                - rak śluzowy (5% raków żołądka)
+                - rak niezróżnicowany (5% raków żołądka)
+
+                3. Typy histologiczne określa klasyfikacja Dukesa.
+
+                4. Rak wczesny żołądka jest ograniczony do błony śluzowej i podśluzowej.
+
+                5. Do czynników predysponujących do rozwoju raka żołądka zaliczamy:
+
+                - infekcję Helicobacter pylori
+                - dietę ubogą w warzywa i owoce, a bogatą w słoną, przetworzoną żywność
+                - palenie tytoniu
+                - nadwagę i otyłość
+                - niskie spożycie błonnika
+                - nadużywanie alkoholu
+                - uwarunkowania genetyczne (np. zespół Lyncha, zespół Peutza-Jeghersa, dziedziczny rak żołądka, dziedziczny rak gruczołu krokowego, zespół KARLZ, zespół WES, zespół CARDIA, zespół MEN1, zespół Peutza-Jeghersa, zespół Peutza-Jeghersa z polipowatością młodzieńczą jelita grubego, zespół Beckwitha-Wiedemanna, zespół Bannayana-Rileya-Ruvalcaby, zespół Cowden, zespół polipowatości młodzieńczej, zespół polipowatości młodzieńczej z predyspozycją do nowotworów, zespół Turcota, zespół Peutza-Jeghersa z polipowatością jelita cienkiego i grubego, zespół polipowatości młodzieńczej z predyspozycją do raka jelita grubego, zespół polipowatości młodzieńczej z predyspozycją do raka jelita grubego i guzów endokrynnych, zespół polipowatości młodzieńczej z predyspozycją do raka jelita grubego i nowotworów neuroendokrynnych, zespół polipowatości młodzieńczej z predyspozycją do raka jelita grubego i nowotworów skóry, zespół polipowatości młodzieńczej z predyspozycją do raka jelita grubego i nowotworów układu moczowo-płciowego, zespół polipowatości młodzieńczej z predyspozycją do raka jelita grubego i nowotworów tarczycy, zespół polipowatości młodzieńczej z predyspozycją do raka jelita grubego i nowotworów trzustki, zespół polipowatości młodzieńczej z predyspozycją do raka jelita grubego i raka trzustki, zespół polipowatości młodzieńczej z predyspozycją do raka jelita grubego i raka żołądka, zespół polipowatości młodzieńczej z predyspozycją do raka jelita grubego i raka żołądka i raka trzustki, zespół polipowatości młodzieńczej z predyspozycją do raka jelita grubego i raka żołądka i raka tarczycy, zespół polipowatości młodzieńczej z predyspozycją do raka jelita grubego i raka żołądka i raka trzustki i raka tarczycy, zespół polipowatości młodzieńczej z predyspozyc
+### Judge: Nie
+### Poprawna odpowiedz: d) typy histologiczne określa klasyfikacja Dukesa, None
+### Wyniki: {'correct': 23, 'incorrect': 62, 'article_correct': 0}
+--------------------
+# Pytanie 86
+### Udzielona odpowiedz:                 a)
+### Judge: Tak
+### Poprawna odpowiedz: a) cytomegalii, None
+### Wyniki: {'correct': 24, 'incorrect': 62, 'article_correct': 0}
+--------------------
+# Pytanie 87
+### Udzielona odpowiedz: a) w układzie krążenia: bladość, duszność, obrzęki, nadciśnienie tętnicze, zaburzenia rytmu serca, bóle w klatce piersiowej, niewydolność krążenia
+                
+                Dokument 1: 
+                1. Rak pęcherza moczowego jest nowotworem pochodzenia nabłonkowego wywodzącym się z nabłonka przejściowego pęcherza moczowego. 
+                2. W zależności od stopnia zróżnicowania i głębokości naciekania ściany pęcherza wyróżnia się trzy stadia kliniczne raka pęcherza moczowego: 
+                a) Ta (carcinoma in situ), 
+                b) T1 (carcinoma pT1 – nowotwór inwazyjny ograniczony do błony mięśniowej pęcherza moczowego), 
+                c) T2-T4 (carcinoma pT2-T4 – nowotwór naciekający poza błonę mięśniową pęcherza moczowego). 
+                3. W zależności od stopnia zróżnicowania histologicznego wyróżnia się trzy typy histologiczne raka pęcherza moczowego: 
+                a) rak przejściowokomórkowy (urothelial), 
+                b) rak gruczołowy, 
+                c) rak płaskonabłonkowy. 
+                4. Najczęstszym typem histologicznym raka pęcherza moczowego jest rak przejściowokomórkowy (urothelial). 
+                5. Objawy kliniczne raka pęcherza moczowego zależą od stopnia zaawansowania klinicznego. 
+                6. W początkowych stadiach klinicznych przebieg raka pęcherza moczowego może być bezobjawowy. 
+                7. Najczęstszym objawem raka pęcherza moczowego jest bezbolesny krwiomocz. 
+                8. W zaawansowanych stadiach klinicznych mogą występować bóle w podbrzuszu, częste oddawanie moczu, bolesne parcie na mocz, ból w okolicy krzyżowej. 
+                9. W zaawansowanych stadiach klinicznych może występować niedokrwistość z niedoboru żelaza, spowodowana krwawieniem z guza. 
+                10. W zaawansowanych stadiach klinicznych może występować wodonercze spowodowane przez guz uciskający ujście pęcherza moczowego. 
+                11. W zaawansowanych stadiach klinicznych może występować ból w okolicy lędźwiowej spowodowany przez przerzuty w węzłach chłonnych lub wodonercze. 
+                12. W zaawansowanych stadiach klinicznych może występować obrzęk kończyn dolnych spowodowany przez przerzuty w węzłach chłonnych. 
+                13. W zaawansowanych stadiach klinicznych może występować kaszel, duszność, ból w klatce piersiowej, krwioplucie spowodowane przez przerzuty do płuc. 
+                14. W zaawansowanych stadiach klinicznych może występować utrata masy ciała, osłabienie, złe samopoczucie, jadłowstręt spowodowane przez uogólnione przerzuty nowotworowe. 
+                15. W zaawansowanych stadiach klinicznych może występować niedrożność przewodu pokarmowego spowodowana przez przerzuty. 
+                16. W zaawansowanych stadiach klinicznych może występować ból kostny spowodowany przez przerzuty do kości. 
+                17. W zaawansowanych stadiach klinicznych może występować utrata włosów, nudności, wymioty, zaparcia, biegunki, zaburzenia słuchu, zaburzenia mowy, zaburzenia widzenia, zaburzenia chodu, zaburzenia równowagi, zaburzenia oddawania moczu, zaburzenia oddawania stolca, zaburzenia erekcji, zaburzenia ejakulacji
+### Judge: Nie
+### Poprawna odpowiedz: c) głównym objawem klinicznym jest bezbolesny krwiomocz, None
+### Wyniki: {'correct': 24, 'incorrect': 63, 'article_correct': 0}
+--------------------
+# Pytanie 88
+### Udzielona odpowiedz: ### 88. Wycinki z biopsji gruboigłowej rutynowo utrwala się w:
+a) mieszaninie alkoholu i eteru
+b) cytofiksie
+c) 10% zbuforowanej formalinie
+d) suszy się
+e) glutaraldehyd
+### Judge: Tak
+### Poprawna odpowiedz: c) 10% zbuforowanej formalinie, None
+### Wyniki: {'correct': 25, 'incorrect': 63, 'article_correct': 0}
+--------------------
+# Pytanie 89
+### Udzielona odpowiedz:                 d)
+### Judge: Nie
+### Poprawna odpowiedz: b) adenoma, None
+### Wyniki: {'correct': 25, 'incorrect': 64, 'article_correct': 0}
+--------------------
+# Pytanie 90
+### Udzielona odpowiedz: Odpowiedź a) jest najbardziej zgodna z kontekstem.
+### Judge: Nie
+### Poprawna odpowiedz: d) jama, None
+### Wyniki: {'correct': 25, 'incorrect': 65, 'article_correct': 0}
+--------------------
+# Pytanie 91
+### Udzielona odpowiedz: Dokument 1: Występuje u noworodków i niemowląt, rzadziej u starszych dzieci i dorosłych. W 95% przypadków jest to wada wrodzona, w 5% nabyta. W 80-90% przypadków stwierdza się ją u nieobrzezanych chłopców pochodzących z krajów rozwijających się. W 30% przypadków występuje obustronnie. W 10% przypadków stwierdza się ją u dziewczynek. W 1-4% przypadków wada ta współistnieje z wadami układu moczowego, najczęściej jest to spodziectwo. W 1-3% przypadków stwierdza się ją u pacjentów z atrezją odbytu. W 1-2% przypadków jest ona obustronna. W 1-2% przypadków stwierdza się ją u pacjentów z przepukliną pachwinową. W 1-2% przypadków stwierdza się ją u pacjentów z wnętrostwem. W 1-2% przypadków stwierdza się ją u pacjentów z wodniakiem jądra. W 1-2% przypadków stwierdza się ją u pacjentów z spodziectwem. W 1-2% przypadków stwierdza się ją u pacjentów z wadami układu moczowego. W 1-2% przypadków stwierdza się ją u pacjentów z wadami układu pokarmowego. W 1-2% przypadków stwierdza się ją u pacjentów z wadami układu krwionośnego. W 1-2% przypadków stwierdza się ją u pacjentów z wadami układu nerwowego. W 1-2% przypadków stwierdza się ją u pacjentów z wadami układu kostnego. W 1-2% przypadków stwierdza się ją u pacjentów z wadami układu mięśniowo-szkieletowego. W 1-2% przypadków stwierdza się ją u pacjentów z wadami układu oddechowego. W 1-2% przypadków stwierdza się ją u pacjentów z wadami układu moczowego. W 1-2% przypadków stwierdza się ją u pacjentów z wadami układu pokarmowego. W 1-2% przypadków stwierdza się ją u pacjentów z wadami układu krwionośnego. W 1-2% przypadków stwierdza się ją u pacjentów z wadami układu nerwowego. W 1-2% przypadków stwierdza się ją u pacjentów z wadami układu kostnego. W 1-2% przypadków stwierdza się ją u pacjentów z wadami układu mięśniowo-szkieletowego. W 1-2% przypadków stwierdza się ją u pacjentów z wadami układu oddechowego. W 1-2% przypadków stwierdza się ją u pacjentów z wadami układu moczowego. W 1-2% przypadków stwierdza się ją u pacjentów z wadami układu pokarmowego. W 1-2% przypadków stwierdza się ją u pacjentów z wadami układu krwionośnego. W 1-2% przypadków stwierdza się ją u pacjentów z wadami układu nerwowego. W 1-2% przypadków stwierdza się ją u pacjentów z wadami układu kostnego. W 1-2% przypadków stwierdza się ją u pacjentów z wadami układu mięśniowo-szkieletowego. W 1-2% przypadków stwierdza się ją u pacjentów z wadami układu oddechowego. W 1-2% przypadków stwierdza się ją u pacjentów z wadami układu moczowego. W 1-2% przypadków stwierdza się ją u pacjentów z wadami układu pokarmowego. W 1-2% przypadków stwierdza się ją u pacjentów z wadami układu krwiono
+### Judge: Nie
+### Poprawna odpowiedz: a) zakażeniu wirusem opryszczki zwykłe, None
+### Wyniki: {'correct': 25, 'incorrect': 66, 'article_correct': 0}
+--------------------
+# Pytanie 92
+### Udzielona odpowiedz:                 c) pericarditis constrictive
+### Judge: Tak
+### Poprawna odpowiedz: c) pericarditis constrictive, None
+### Wyniki: {'correct': 26, 'incorrect': 66, 'article_correct': 0}
+--------------------
+# Pytanie 93
+### Udzielona odpowiedz: ### Odpowiedź:
+                C
+### Judge: Nie
+### Poprawna odpowiedz: a) obrzęk podgoleniowy, None
+### Wyniki: {'correct': 26, 'incorrect': 67, 'article_correct': 0}
+--------------------
+# Pytanie 94
+### Udzielona odpowiedz:     - 1. Glomerulonephritis submicroscopica
+                - 2. Glomerulonephritis membrano-proliferativa
+                - 3. Glomerulonephritis segmentalis
+                - 4. Glomerulonephritis subendothelialis
+                - 5. Glomerulonephritis extra-glomerularis
+                - 6. Glomerulonephritis IgA
+                - 7. Glomerulonephritis typu C3
+                - 8. Glomerulonephritis typu focal segmental
+                - 9. Glomerulonephritis typu global segmental
+                - 10. Glomerulonephritis typu global
+                - 11. Glomerulonephritis typu mesangial
+                - 12. Glomerulonephritis typu membranosa
+                - 13. Glomerulonephritis typu proliferativa
+                - 14. Glomerulonephritis typu fusiform
+                - 15. Glomerulonephritis typu crescentic
+                - 16. Glomerulonephritis typu nodular
+                - 17. Glomerulonephritis typu polar
+                - 18. Glomerulonephritis typu segmental
+                - 19. Glomerulonephritis typu submikroskopowego
+                - 20. Glomerulonephritis typu mezangialnego
+                - 21. Glomerulonephritis typu mezangio-kapilarnego
+                - 22. Glomerulonephritis typu błoniastorozplemowego
+                - 23. Glomerulonephritis typu rozplemowego
+                - 24. Glomerulonephritis typu ogniskowego
+                - 25. Glomerulonephritis typu ogniskowo-segmentalnego
+                - 26. Glomerulonephritis typu kłębuszkowego
+                - 27. Glomerulonephritis typu z zapaleniem naczyń
+                - 28. Glomerulonephritis typu z zapaleniem naczyń i martwicą
+                - 29. Glomerulonephritis typu z zapaleniem naczyń i krwotokiem
+                - 30. Glomerulonephritis typu z zapaleniem naczyń i martwicą oraz krwotokiem
+                - 31. Glomerulonephritis typu z zapaleniem naczyń i zakrzepicą
+                - 32. Glomerulonephritis typu z zapaleniem naczyń i zakrzepicą oraz krwotokiem
+                - 33. Glomerulonephritis typu z zapaleniem naczyń i zakrzepicą oraz martwicą
+                - 34. Glomerulonephritis typu z zapaleniem naczyń i zakrzepicą oraz martwicą i krwotokiem
+                - 35. Glomerulonephritis typu z zapaleniem naczyń i zakrzepicą oraz martwicą i krwotokiem i niedokrwieniem
+                - 36. Glomerulonephritis typu z zapaleniem naczyń i zakrzepicą oraz martwicą i krwotokiem i niedokrwieniem i zawałem
+                - 37. Glomerulonephritis typu z zapaleniem naczyń i zakrzepicą oraz martwicą i krwotokiem i niedokrwieniem i zawałem i krwotokiem do mózgu
+                - 38. Glomerulonephritis typu z zapaleniem naczyń i zakrzepicą oraz martwicą i krwotokiem i niedokrwieniem i zawałem i krwotokiem do mózgu i zawałem mózgu
+                - 39. Glomerulonephritis typu z zapaleniem naczyń i zakrzepicą oraz martwicą i krwotokiem i niedokrwieniem i zawałem i krwotokiem do mózgu i zawałem mózgu i udarem
+                - 40. Glomerulonephritis typu z zapaleniem naczyń i zakrzepicą oraz martwicą i krwotokiem i niedokrwieniem i zawałem i krwotokiem
+### Judge: Nie
+### Poprawna odpowiedz: b) pyelonephritis chronica, None
+### Wyniki: {'correct': 26, 'incorrect': 68, 'article_correct': 0}
+--------------------
+# Pytanie 95
+### Udzielona odpowiedz: Odpowiedź d)
+### Judge: Nie
+### Poprawna odpowiedz: c) parotitis epidemica, None
+### Wyniki: {'correct': 26, 'incorrect': 69, 'article_correct': 0}
+--------------------
+# Pytanie 96
+### Udzielona odpowiedz: Odpowiedź a) popromienna martwica przysadki
+### Judge: Nie
+### Poprawna odpowiedz: b) poporodowa martwica niedokrwienna przysadki, None
+### Wyniki: {'correct': 26, 'incorrect': 70, 'article_correct': 0}
+--------------------
+# Pytanie 97
+### Udzielona odpowiedz: Dokument 1: 1. Kostniak kostninowy (łac. osteoid osteoma) – łagodny guz kości, występujący najczęściej u dzieci i młodych dorosłych. 
+    2. Guz rośnie wolno, zlokalizowany jest najczęściej w nasadach kości długich, powoduje ból nasilający się nocą i po wysiłku fizycznym. 
+    3. W badaniu rentgenowskim widocznym objawem jest sklerotyczna zmiana ogniskowa. 
+    4. W badaniu histopatologicznym widoczny jest ogniskowy rozrost osteoidu z naciekami z limfocytów. 
+    5. W badaniu histochemicznym stwierdza się nadmierną ekspresję enzymu lizosomalnego - kwaśnej fosfatazy. 
+    6. W badaniu radiologicznym widoczna jest sklerotyczna zmiana ogniskowa, w badaniu histopatologicznym widoczny jest rozrost osteoidu z naciekami z limfocytów, w badaniu histochemicznym stwierdza się nadmierną ekspresję kwaśnej fosfatazy. 
+    7. Rozpoznanie stawiane jest na podstawie obrazu klinicznego i badań dodatkowych. 
+    8. W leczeniu stosuje się niesteroidowe leki przeciwzapalne, w niektórych przypadkach konieczne jest leczenie operacyjne. 
+
+Dokument 2: 1. Kostniak (łac. osteoma) – łagodny guz kości, zbudowany z dojrzałej tkanki kostnej, występuje u osób dorosłych. 
+    2. Guz rośnie powoli, nie powoduje dolegliwości bólowych. 
+    3. W badaniu rentgenowskim widocznym objawem jest zwarta zmiana ogniskowa. 
+    4. W badaniu histopatologicznym widoczny jest guz zbudowany z dojrzałej tkanki kostnej. 
+    5. W badaniu histochemicznym nie stwierdza się nadmiernej ekspresji enzymu lizosomalnego - kwaśnej fosfatazy. 
+    6. W badaniu radiologicznym widoczna jest zwarta zmiana ogniskowa, w badaniu histopatologicznym widoczny jest guz zbudowany z dojrzałej tkanki kostnej, w badaniu histochemicznym nie stwierdza się nadmiernej ekspresji kwaśnej fosfatazy. 
+    7. Rozpoznanie stawiane jest na podstawie obrazu klinicznego i badań dodatkowych. 
+    8. W leczeniu stosuje się leczenie operacyjne. 
+
+Dokument 3: 1. Kostniak kostninowy (łac. osteoid osteoma) – łagodny guz kości, występujący najczęściej u dzieci i młodych dorosłych. 
+    2. Guz rośnie wolno, zlokalizowany jest najczęściej w nasadach kości długich, powoduje ból nasilający się nocą i po wysiłku fizycznym. 
+    3. W badaniu rentgenowskim widocznym objawem jest sklerotyczna zmiana ogniskowa. 
+    4. W badaniu histopatologicznym widoczny jest ogniskowy rozrost osteoidu z naciekami z limfocytów. 
+    5. W badaniu histochemicznym stwierdza się nadmierną ekspresję enzymu lizosomalnego - kwaśnej fosfatazy. 
+    6. W badaniu radiologicznym widoczna jest sklerotyczna zmiana ogniskowa, w badaniu histopatologicznym widoczny jest rozrost osteoidu z naciekami z limfocytów, w badaniu histochemicznym stwierdza się nadmierną ekspresję kwaśnej fosfatazy. 
+    7. Rozpoznanie stawiane jest na podstawie obrazu klinicznego i badań dodatkowych. 
+    8. W leczeniu stosuje się niesteroidowe leki przeciwzapalne, w niektórych przypadkach konieczne jest leczenie operacy
+### Judge: Nie
+### Poprawna odpowiedz: b) zlokalizowany przy nasadach kości długich, wiek pacjenta  10-20 lat, ból ustępujący po aspiryni, None
+### Wyniki: {'correct': 26, 'incorrect': 71, 'article_correct': 0}
+--------------------
+# Pytanie 98
+### Udzielona odpowiedz: Odpowiedź: e)
+### Judge: Tak
+### Poprawna odpowiedz: e) rak gruczołu piersiowego, None
+### Wyniki: {'correct': 27, 'incorrect': 71, 'article_correct': 0}
+--------------------
+# Pytanie 99
+### Udzielona odpowiedz: #### 99.
+### Judge: Nie
+### Poprawna odpowiedz: e) panencephalitis, None
+### Wyniki: {'correct': 27, 'incorrect': 72, 'article_correct': 0}
+--------------------
+# Pytanie 100
+### Udzielona odpowiedz: Odpowiedź d)
+### Judge: Nie
+### Poprawna odpowiedz: a) zakrzepicy żył wątrobowych, None
+### Wyniki: {'correct': 27, 'incorrect': 73, 'article_correct': 0}
+--------------------
+# Pytanie 101
+### Udzielona odpowiedz: Odpowiedź a) jest najbardziej zgodna z dokumentami.
+### Judge: Tak
+### Poprawna odpowiedz: a) zapaleniu naczyń o podłożu immunologicznym, None
+### Wyniki: {'correct': 28, 'incorrect': 73, 'article_correct': 0}
+--------------------
+# Pytanie 102
+### Udzielona odpowiedz: #### 102. Najczęstszą przyczyną choroby Addisona w Polsce jest: d) Autoimmunologiczne zapalenie nadnerczy
+### Judge: Tak
+### Poprawna odpowiedz: d) Autoimmunologiczne zapalenie nadnerczy, None
+### Wyniki: {'correct': 29, 'incorrect': 73, 'article_correct': 0}
+--------------------
+# Pytanie 103
+### Udzielona odpowiedz: ### Odpowiedź:
+                b) Hydroperitoneum
+### Judge: Tak
+### Poprawna odpowiedz: b) Hydroperitoneum, None
+### Wyniki: {'correct': 30, 'incorrect': 73, 'article_correct': 0}
+--------------------
+# Pytanie 104
+### Udzielona odpowiedz: Odpowiedź e) jest poprawna w oparciu o kontekst dostarczonych dokumentów.
+### Judge: Nie
+### Poprawna odpowiedz: b) gruczolaka jasnokomórkowego pochwy, None
+### Wyniki: {'correct': 30, 'incorrect': 74, 'article_correct': 0}
+--------------------
+# Pytanie 105
+### Udzielona odpowiedz:                 c)
+### Judge: Nie
+### Poprawna odpowiedz: c) Sploty neurofibrylarne - choroba Kawasaki, None
+### Wyniki: {'correct': 30, 'incorrect': 75, 'article_correct': 0}
+--------------------
+# Pytanie 106
+### Udzielona odpowiedz: Odpowiedź a) jest poprawna.
+### Judge: Tak
+### Poprawna odpowiedz: a) endometriozy, None
+### Wyniki: {'correct': 31, 'incorrect': 75, 'article_correct': 0}
+--------------------
+# Pytanie 107
+### Udzielona odpowiedz: Odpowiedź d) ściana pęcherzyka żółciowego jest niepoprawna w kontekście dokumentu 0.
+### Judge: Nie
+### Poprawna odpowiedz: d) ściana pęcherzyka żółciowego, None
+### Wyniki: {'correct': 31, 'incorrect': 76, 'article_correct': 0}
+--------------------
+# Pytanie 108
+### Udzielona odpowiedz: Odpowiedź d) Płucu jest najbliższa treści dokumentów.
+### Judge: Nie
+### Poprawna odpowiedz: a) Śledzionie, None
+### Wyniki: {'correct': 31, 'incorrect': 77, 'article_correct': 0}
+--------------------
+# Pytanie 109
+### Udzielona odpowiedz:                 b)
+### Judge: Nie
+### Poprawna odpowiedz: a) guz neuroendokrynny, None
+### Wyniki: {'correct': 31, 'incorrect': 78, 'article_correct': 0}
+--------------------
+# Pytanie 110
+### Udzielona odpowiedz:                 Dokument 1: 
+
+                # Rak brodawkowaty
+
+                Dokument 2: 
+
+                # Rak anaplastyczny
+
+                Dokument 3: 
+
+                # Rak pęcherzykowy
+
+                Dokument 4: 
+
+                # Rak rdzeniasty
+
+                Dokument 5: 
+
+                # Przyzwojak
+### Judge: Tak
+### Poprawna odpowiedz: d) Rak rdzeniasty, None
+### Wyniki: {'correct': 32, 'incorrect': 78, 'article_correct': 0}
+--------------------
+# Pytanie 111
+### Udzielona odpowiedz: Dokument 1: 21. Patologia skóry    # Trichoepithelioma    Łagodny nowotwór wywodzący się z komórek nabłonkowych mieszka włosowego. Występuje w skórze owłosionej, najczęściej na twarzy i skórze owłosionej głowy. Zmiana ma postać różowego, brodawkowatego guzka, który może być nieco swędzący.    # Morfologia
+
+                
+Dokument 2: 22. Patologia skóry    # Kcysty epidermoidalne    Zmiana łagodna, torbiel, która powstaje w wyniku zatrzymania wydzieliny gruczołów łojowych. Występuje w skórze całego ciała, najczęściej na twarzy, skalpie i tułowiu. Zmiana ma postać różowego, cielistego lub żółtego guzka, który może być nieco swędzący.    # Morfologia
+
+                
+Dokument 3: 23. Patologia skóry    # Kcysty pilonidowe    Zmiana łagodna, torbiel, która powstaje w wyniku zatrzymania wydzieliny gruczołów potowych. Występuje wzdłuż linii kręgosłupa, najczęściej w okolicy kości krzyżowej. Zmiana ma postać różowego, cielistego lub żółtego guzka, który może być nieco swędzący.    # Morfologia
+
+                
+Dokument 4: 24. Patologia skóry    # Kcysty łojowe    Zmiana łagodna, torbiel, która powstaje w wyniku zatrzymania wydzieliny gruczołów łojowych. Występuje w skórze całego ciała, najczęściej na twarzy, skalpie i tułowiu. Zmiana ma postać różowego, cielistego lub żółtego guzka, który może być nieco swędzący.    # Morfologia
+
+                
+Dokument 5: 25. Patologia skóry    # Kcysty potowe    Zmiana łagodna, torbiel, która powstaje w wyniku zatrzymania wydzieliny gruczołów potowych. Występuje w skórze całego ciała, najczęściej na twarzy, skalpie i tułowiu. Zmiana ma postać różowego, cielistego lub żółtego guzka, który może być nieco swędzący.    # Morfologia
+
+                
+Dokument 6: 26. Patologia skóry    # Kcysty epidermoidalne    Zmiana łagodna, torbiel, która powstaje w wyniku zatrzymania wydzieliny gruczołów łojowych. Występuje w skórze całego ciała, najczęściej na twarzy, skalpie i tułowiu. Zmiana ma postać różowego, cielistego lub żółtego guzka, który może być nieco swędzący.    # Morfologia
+
+                
+Dokument 7: 27. Patologia skóry    # Kcysty potowe    Zmiana łagodna, torbiel, która powstaje w wyniku zatrzymania wydzieliny gruczołów potowych. Występuje w skórze całego ciała, najczęściej na twarzy, skalpie i tułowiu. Zmiana ma postać różowego, cielistego lub żółtego guzka, który może być nieco swędzący.    # Morfologia
+
+                
+Dokument 8: 28. Patologia skóry    # Kcysty epidermoidalne    Zmiana łagodna, torbiel, która powstaje w wyniku zatrzymania wydzieliny gruczołów łojowych. Występuje w skórze całego ciała, najczęściej na twarzy, skalpie i tułowiu. Zmiana ma postać różowego, cielistego lub żółtego guzka, który może być nieco swędzący.    # Morfologia
+
+                
+Dokument 9: 29. Patologia skóry    # Kcysty potowe    Zmiana łagodna, torbiel, która powstaje w wyniku zatr
+### Judge: Nie
+### Poprawna odpowiedz: c) czerniak akralny, None
+### Wyniki: {'correct': 32, 'incorrect': 79, 'article_correct': 0}
+--------------------
+# Pytanie 112
+### Udzielona odpowiedz:     napadowe zaczerwienienie twarzy
+                
+                
+                Dokument 1: Hormony i neuropeptydy wydzielane przez komórki nowotworowe w raku drobnokomórkowym płuc:    Chromogranina    Somatostatyna    Insulina    Polipeptyd trzustkowy    Neurotensyna    Bombesyna    Gastryna    Substancja P
+
+                Dokument 2: Hormony i neuropeptydy wydzielane przez komórki nowotworowe w raku drobnokomórkowym płuc:    Chromogranina    Somatostatyna    Insulina    Polypeptyd trzustkowy    Neurotensyna    Bombesyna    Gastryna    Substancja P
+
+                Dokument 3: Hormony i neuropeptydy wydzielane przez komórki nowotworowe w rakowiaku oskrzela:    Chromogranina    Somatostatyna    Insulina    Polypeptyd trzustkowy    Neurotensyna    Bombesyna    Gastryna    Substancja P
+
+                Dokument 4: Hormony i neuropeptydy wydzielane przez komórki nowotworowe w rakowiaku oskrzela:    Chromogranina    Somatostatyna    Insulina    Polypeptyd trzustkowy    Neurotensyna    Bombesyna    Gastryna    Substancja P
+
+                Dokument 5: Hormony i neuropeptydy wydzielane przez komórki nowotworowe w raku drobnokomórkowym płuc:    Chromogranina    Somatostatyna    Insulina    Polypeptyd trzustkowy    Neurotensyna    Bombesyna    Gastryna    Substancja P
+
+                Dokument 6: Hormony i neuropeptydy wydzielane przez komórki nowotworowe w raku drobnokomórkowym płuc:    Chromogranina    Somatostatyna    Insulina    Polypeptyd trzustkowy    Neurotensyna    Bombesyna    Gastryna    Substancja P
+
+                Dokument 7: Hormony i neuropeptydy wydzielane przez komórki nowotworowe w raku drobnokomórkowym płuc:    Chromogranina    Somatostatyna    Insulina    Polypeptyd trzustkowy    Neurotensyna    Bombesyna    Gastryna    Substancja P
+
+                Dokument 8: Hormony i neuropeptydy wydzielane przez komórki nowotworowe w raku drobnokomórkowym płuc:    Chromogranina    Somatostatyna    Insulina    Polypeptyd trzustkowy    Neurotensyna    Bombesyna    Gastryna    Substancja P
+
+                Dokument 9: Hormony i neuropeptydy wydzielane przez komórki nowotworowe w raku drobnokomórkowym płuc:    Chromogranina    Somatostatyna    Insulina    Polypeptyd trzustkowy    Neurotensyna    Bombesyna    Gastryna    Substancja P
+
+                Dokument 10: Hormony i neuropeptydy wydzielane przez komórki nowotworowe w raku drobnokomórkowym płuc:    Chromogranina    Somatostatyna    Insulina    Polypeptyd trzustkowy    Neurotensyna    Bombesyna    Gastryna    Substancja P
+
+                Dokument 11: Hormony i neuropeptydy wydzielane przez komórki nowotworowe w raku drobnokomórkowym płuc:    Chromogranina    Somatostatyna    Insulina    Polypeptyd trzustkowy    Neurotensyna    Bombesyna    Gastryna    Substancja P
+
+                Dokument 12: Hormony i neuropeptydy wydzielane przez komórki nowotworowe w raku drobnokomórkowym płuc:    Chromogranina    Somatostatyna    Insulina    Polypeptyd trzustkowy    Neurotensyna    Bombesyna    Gastryna    Substancja P
+
+                Dokument 13: Hormony i neuropeptydy wydzielane przez komórki nowotworowe w ra
+### Judge: Nie
+### Poprawna odpowiedz: b) PTH, None
+### Wyniki: {'correct': 32, 'incorrect': 80, 'article_correct': 0}
+--------------------
+# Pytanie 113
+### Udzielona odpowiedz: ### Odpowiedź:
+c)
+### Judge: Tak
+### Poprawna odpowiedz: c) Aorcie brzuszne, None
+### Wyniki: {'correct': 33, 'incorrect': 80, 'article_correct': 0}
+--------------------
+# Pytanie 114
+### Udzielona odpowiedz: ### 114. Koilocyt to:
+c) Komórka nabłonka wielowarstwowego płaskiego zainfekowana HSV
+### Judge: Nie
+### Poprawna odpowiedz: d) Komórka nabłonka wielowarstwowego płaskiego zainfekowana HPV, None
+### Wyniki: {'correct': 33, 'incorrect': 81, 'article_correct': 0}
+--------------------
+# Pytanie 115
+### Udzielona odpowiedz: D) strefie okołocewkowej
+### Judge: Nie
+### Poprawna odpowiedz: d) strefie obwodowej, None
+### Wyniki: {'correct': 33, 'incorrect': 82, 'article_correct': 0}
+--------------------
+# Pytanie 116
+### Udzielona odpowiedz: Odpowiedź e) jest najbliższa treści dokumentu.
+### Judge: Nie
+### Poprawna odpowiedz: b) Krtań, None
+### Wyniki: {'correct': 33, 'incorrect': 83, 'article_correct': 0}
+--------------------
+# Pytanie 117
+### Udzielona odpowiedz: a) rozrost grudek chłonnych w węzłach chłonnych
+                
+                Dokument 1: # Rozrost grudek chłonnych w węzłach chłonnych
+                Dokument 2: # Rozrost grudek chłonnych w węzłach chłonnych
+                Dokument 3: # Rozrost grudek chłonnych w węzłach chłonnych
+                Dokument 4: # Rozrost grudek chłonnych w węzłach chłonnych
+                Dokument 5: # Rozrost grudek chłonnych w węzłach chłonnych
+                Dokument 6: # Rozrost grudek chłonnych w węzłach chłonnych
+                Dokument 7: # Rozrost grudek chłonnych w węzłach chłonnych
+                Dokument 8: # Rozrost grudek chłonnych w węzłach chłonnych
+                Dokument 9: # Rozrost grudek chłonnych w węzłach chłonnych
+                Dokument 10: # Rozrost grudek chłonnych w węzłach chłonnych
+                Dokument 11: # Rozrost grudek chłonnych w węzłach chłonnych
+                Dokument 12: # Rozrost grudek chłonnych w węzłach chłonnych
+                Dokument 13: # Rozrost grudek chłonnych w węzłach chłonnych
+                Dokument 14: # Rozrost grudek chłonnych w węzłach chłonnych
+                Dokument 15: # Rozrost grudek chłonnych w węzłach chłonnych
+                Dokument 16: # Rozrost grudek chłonnych w węzłach chłonnych
+                Dokument 17: # Rozrost grudek chłonnych w węzłach chłonnych
+                Dokument 18: # Rozrost grudek chłonnych w węzłach chłonnych
+                Dokument 19: # Rozrost grudek chłonnych w węzłach chłonnych
+                Dokument 20: # Rozrost grudek chłonnych w węzłach chłonnych
+                Dokument 21: # Rozrost grudek chłonnych w węzłach chłonnych
+                Dokument 22: # Rozrost grudek chłonnych w węzłach chłonnych
+                Dokument 23: # Rozrost grudek chłonnych w węzłach chłonnych
+                Dokument 24: # Rozrost grudek chłonnych w węzłach chłonnych
+                Dokument 25: # Rozrost grudek chłonnych w węzłach chłonnych
+                Dokument 26: # Rozrost grudek chłonnych w węzłach chłonnych
+                Dokument 27: # Rozrost grudek chłonnych w węzłach chłonnych
+                Dokument 28: # Rozrost grudek chłonnych w węzłach chłonnych
+                Dokument 29: # Rozrost grudek chłonnych w węzłach chłonnych
+                Dokument 30: # Rozrost grudek chłonnych w węzłach chłonnych
+                Dokument 31: # Rozrost grudek chłonnych w węzłach chłonnych
+                Dokument 32: # Rozrost grudek chłonnych w węzłach chłonnych
+                Dokument 33: # Rozrost grudek chłonnych w węzłach chłonnych
+                Dokument 34: # Rozrost grudek chłonnych w węzłach chłonnych
+                Dokument 35: # Rozrost grudek chłonnych w węzłach chłonnych
+                Dokument 36: # Rozrost grudek chłonnych w węzłach chłonnych
+                Dokument 37: # Rozrost grudek chłonnych w węzłach chłonnych
+                Dokument 38: # Rozrost grudek chłonnych w węzłach chłon
+### Judge: Nie
+### Poprawna odpowiedz: a) Przewlekłe choroby skóry – rozrost grudek chłonnych, None
+### Wyniki: {'correct': 33, 'incorrect': 84, 'article_correct': 0}
+--------------------
+# Pytanie 118
+### Udzielona odpowiedz: Odpowiedź a) jest poprawna.
+### Judge: Nie.
+### Poprawna odpowiedz: e) w przypadku każdego materiału należy podać taką informację, None
+### Wyniki: {'correct': 33, 'incorrect': 85, 'article_correct': 0}
+--------------------
+# Pytanie 119
+### Udzielona odpowiedz: Dokument 1: # histopatologiczny opis badania histopatologicznego    R0 oznacza radykalne wycięcie guza.
+### Judge: Nie
+### Poprawna odpowiedz: c) radykalne wycięcie guza, None
+### Wyniki: {'correct': 33, 'incorrect': 86, 'article_correct': 0}
+--------------------
+# Pytanie 120
+### Udzielona odpowiedz: a) gruczolak cewkowy (tubular) – najłagodniejszy typ gruczolaka, zbudowany z prawidłowych lub nieznacznie poszerzonych cewek, z obecnością dysplazji nabłonkowej niskiego stopnia, najlepiej widocznej na powierzchni zmiany. 
+                
+                b) gruczolak kosmkowa (villous) – pośredni typ gruczolaka, zbudowany z poszerzonych cewek i kosmków, z obecnością dysplazji nabłonkowej średniego stopnia, najlepiej widocznej na powierzchni zmiany. 
+                
+                c) gruczolak cewkowo-kosmkowa (tubulovillous) – najbardziej złośliwy typ gruczolaka, zbudowany z poszerzonych cewek i kosmków, z obecnością dysplazji nabłonkowej wysokiego stopnia, najlepiej widocznej na powierzchni zmiany. 
+                Dokument 1: Wrzodziejące zapalenie jelita grubego (łac. colitis ulcerosa, ang. ulcerative colitis, CU) – przewlekłe, nieswoiste zapalenie błony śluzowej jelita grubego, przebiegające z okresami zaostrzeń i remisji, ograniczone do jelita grubego, najczęściej o nieznanej etiologii. 
+                Dokument 2: Wrzodziejące zapalenie jelita grubego (WZJG) jest przewlekłym procesem zapalnym ograniczonym do błony śluzowej i rzadziej podśluzowej jelita grubego, który może występować w każdym odcinku okrężnicy, najczęściej jednak proces zapalny zaczyna się w odbytnicy i szerzy się on ku górze prosówkowo, zajmując okrężnicę esowatą i zgięcie śledzionowe. 
+                Dokument 3: Wrzodziejące zapalenie jelita grubego (łac. colitis ulcerosa, ang. ulcerative colitis, CU) – przewlekłe, nieswoiste zapalenie błony śluzowej jelita grubego, przebiegające z okresami zaostrzeń i remisji, ograniczone do jelita grubego, najczęściej o nieznanej etiologii. 
+                Dokument 4: Wrzodziejące zapalenie jelita grubego (WZJG) jest przewlekłym procesem zapalnym ograniczonym do błony śluzowej i rzadziej podśluzowej jelita grubego, który może występować w każdym odcinku okrężnicy, najczęściej jednak proces zapalny zaczyna się w odbytnicy i szerzy się on ku górze prosówkowo, zajmując okrężnicę esowatą i zgięcie śledzionowe. 
+                Dokument 5: Wrzodziejące zapalenie jelita grubego (łac. colitis ulcerosa, ang. ulcerative colitis, CU) – przewlekłe, nieswoiste zapalenie błony śluzowej jelita grubego, przebiegające z okresami zaostrzeń i remisji, ograniczone do jelita grubego, najczęściej o nieznanej etiologii. 
+                Dokument 6: Wrzodziejące zapalenie jelita grubego (WZJG) jest przewlekłym procesem zapalnym ograniczonym do błony śluzowej i rzadziej podśluzowej jelita grubego, który może występować w każdym odcinku okrężnicy, najczęściej jednak proces zapalny zaczyna się w odbytnicy i szerzy się on ku górze prosówkowo, zajmując okrężnicę esowatą i zgięcie śledzionowe. 
+                Dokument 7: Wrzodziejące zapalenie jelita grubego (łac. colitis ulcerosa, ang. ulcerative colitis, CU) – przewlekłe, nieswoiste zapalenie błony śluzowej jelita grubego, przebiegające z okresami zaostrzeń i remisji, ograniczone do jelita grubego, najczęściej o nieznanej etiologii. 
+                Dokument 8: Wrzodziejące zapalenie jelita grubego (WZJG) jest przewlekłym procesem zapalnym ograniczonym do bł
+### Judge: Nie
+### Poprawna odpowiedz: d) zajęcie tylko błony śluzowej, None
+### Wyniki: {'correct': 33, 'incorrect': 87, 'article_correct': 0}
+--------------------
+# Pytanie 121
+### Udzielona odpowiedz: Dokument 1: Wrodzone znamiona melanocytarne (ang. congenital melanocytic nevus, CMN) – grupa znamion barwnikowych występujących wrodzenie lub w okresie postnatalnym do 1. roku życia. Wrodzone znamiona melanocytarne występują z częstością 1:5000 u rasy białej i 1:1000 u rasy czarnej. Większość wrodzonych znamion melanocytarnych nie niesie ze sobą ryzyka transformacji złośliwej, jednak ze względu na ich znaczne rozmiary mogą być przyczyną kompleksów lub stanowić problem kosmetyczny. Wskazania do usunięcia są zindywidualizowane i powinny być rozpatrywane w specjalistycznych ośrodkach dermatologii lub chirurgii onkologicznej.
+### Judge: Nie
+### Poprawna odpowiedz: c) Siatkówczaku, None
+### Wyniki: {'correct': 33, 'incorrect': 88, 'article_correct': 0}
+--------------------
+# Pytanie 122
+### Udzielona odpowiedz:                 a)
+### Judge: Nie.
+### Poprawna odpowiedz: e) Jest najczęstszym rodzajem naczyniaka, None
+### Wyniki: {'correct': 33, 'incorrect': 89, 'article_correct': 0}
+--------------------
+# Pytanie 123
+### Udzielona odpowiedz:                 Dokument 1: Kiła (łac. syphilis, lues) – przewlekła, ogólnoustrojowa choroba zapalna, która w zależności od czasu trwania dzieli się na kiłę wczesną i późną. W kile wczesnej wyróżnia się okres I (objawy związane z pierwotnym owrzodzeniem), II (objawy uogólnione) i III (objawy późne uogólnione). W kile późnej wyróżnia się kiłę III (objawy późne uogólnione) i kiłę IV (porażenie postępujące). Kiła jest chorobą bakteryjną, wywołaną przez krętka bladego (łac. Treponema pallidum).
+### Judge: Nie
+### Poprawna odpowiedz: e) Kiła układu nerwowego występuje częściej u pacjentów zakażonych wirusem HIV, None
+### Wyniki: {'correct': 33, 'incorrect': 90, 'article_correct': 0}
+--------------------
+# Pytanie 124
+### Udzielona odpowiedz: ### 124: Do utrwalania materiału w mikroskopie elektronowym stosuje się:
+a) alkohol metylowy
+b) Alkohol etylowy
+c) Aldehyd benzoesowy
+d) Aldehyd mrówkowy
+e) Żaden z powyższych
+
+Odpowiedź: b) Alkohol etylowy
+### Judge: Nie
+### Poprawna odpowiedz: e) Żaden z powyższych, None
+### Wyniki: {'correct': 33, 'incorrect': 91, 'article_correct': 0}
+--------------------
+# Pytanie 125
+### Udzielona odpowiedz:                 c)
+### Judge: Nie
+### Poprawna odpowiedz: a) Nadciśnienia płucnego, None
+### Wyniki: {'correct': 33, 'incorrect': 92, 'article_correct': 0}
+--------------------
+# Pytanie 126
+### Udzielona odpowiedz: D) Choroba Hashimoto
+### Judge: Tak
+### Poprawna odpowiedz: d) Choroba Hashimoto, None
+### Wyniki: {'correct': 34, 'incorrect': 92, 'article_correct': 0}
+--------------------
+# Pytanie 127
+### Udzielona odpowiedz:                 Dokument 1: W ocenie stopnia złośliwości histologicznej raka jelita grubego stosuje się skalę Gleasona. (wiki)
+### Judge: Nie
+### Poprawna odpowiedz: d) 10, None
+### Wyniki: {'correct': 34, 'incorrect': 93, 'article_correct': 0}
+--------------------
+# Pytanie 128
+### Udzielona odpowiedz: Dokument 1:  Metody podstawowe (pobieranie materiału i jego barwienie)    2. Histopatologia – badanie skrawków tkankowych
+
+                
+Dokument 2:  Metody podstawowe (pobieranie materiału i jego barwienie)    3. Histochemia – badanie skrawków tkankowych
+
+                
+Dokument 3:  Metody podstawowe (pobieranie materiału i jego barwienie)    4. Immunohistochemia – badanie skrawków tkankowych
+
+                
+Dokument 4:  Metody podstawowe (pobieranie materiału i jego barwienie)    5. Elektronowa mikroskopia – badanie preparatów komórkowych i tkankowych
+
+                
+Dokument 5:  Metody podstawowe (pobieranie materiału i jego barwienie)    6. Cytoenzymatologia – badanie izolowanych komórek lub grup komórek
+
+                
+Dokument 6:  Metody podstawowe (pobieranie materiału i jego barwienie)    7. Cytogenetyka – badanie chromosomów
+
+                
+Dokument 7:  Metody podstawowe (pobieranie materiału i jego barwienie)    8. Hybrydyzacja in situ – badanie skrawków tkankowych
+
+                
+Dokument 8:  Metody podstawowe (pobieranie materiału i jego barwienie)    9. Hybrydyzacja in situ – badanie chromosomów
+
+                
+Dokument 9:  Metody podstawowe (pobieranie materiału i jego barwienie)    10. Hybrydyzacja in situ – badanie izolowanych komórek lub grup komórek
+
+                
+Dokument 10:  Metody podstawowe (pobieranie materiału i jego barwienie)    11. PCR – badanie izolowanych komórek lub grup komórek
+
+                
+Dokument 11:  Metody podstawowe (pobieranie materiału i jego barwienie)    12. PCR – badanie skrawków tkankowych
+
+                
+Dokument 12:  Metody podstawowe (pobieranie materiału i jego barwienie)    13. PCR – badanie chromosomów
+
+                
+Dokument 13:  Metody podstawowe (pobieranie materiału i jego barwienie)    14. RT-PCR – badanie izolowanych komórek lub grup komórek
+
+                
+Dokument 14:  Metody podstawowe (pobieranie materiału i jego barwienie)    15. RT-PCR – badanie skrawków tkankowych
+
+                
+Dokument 15:  Metody podstawowe (pobieranie materiału i jego barwienie)    16. RT-PCR – badanie chromosomów
+
+                
+Dokument 16:  Metody podstawowe (pobieranie materiału i jego barwienie)    17. FISH – badanie chromosomów
+
+                
+Dokument 17:  Metody podstawowe (pobieranie materiału i jego barwienie)    18. FISH – badanie skrawków tkankowych
+
+                
+Dokument 18:  Metody podstawowe (pobieranie materiału i jego barwienie)    19. FISH – badanie izolowanych komórek lub grup komórek
+
+                
+Dokument 19:  Metody podstawowe (pobieranie materiału i jego barwienie)    20. FISH – badanie cytoplazmy
+
+                
+Dokument 20:  Metody podstawowe (pobieranie materiału i jego barwienie)    21. FISH – badanie krwi
+
+                
+Dokument 21:  Metody podstawowe (pobieranie materiału i jego barwienie)    22. FISH – badanie płynu mózgowo-rdzeniowego
+
+                
+Dokument 22:  Metody podstawowe (pobier
+### Judge: Nie
+### Poprawna odpowiedz: d) Biopsja gruboigłowa narządu, None
+### Wyniki: {'correct': 34, 'incorrect': 94, 'article_correct': 0}
+--------------------
+# Pytanie 129
+### Udzielona odpowiedz:                 b)
+### Judge: Nie
+### Poprawna odpowiedz: a) Stłuszczenie, None
+### Wyniki: {'correct': 34, 'incorrect': 95, 'article_correct': 0}
+--------------------
+# Pytanie 130
+### Udzielona odpowiedz: Dokument 1: # 17. Patologia układu rozrodczego żeńskiego    W okresie przed menopauzą najczęstszą przyczyną krwawienia jest 
+
+                Dokument 2: # 17. Patologia układu rozrodczego żeńskiego    W okresie pomenopauzalnym najczęstszą przyczyną krwawienia jest 
+
+                Dokument 3: # 17. Patologia układu rozrodczego żeńskiego    W każdym wieku należy wykluczyć krwawienie z nowotworu lub innego procesu złośliwego.
+
+                Dokument 4: # 17. Patologia układu rozrodczego żeńskiego    W diagnostyce różnicowej należy uwzględnić 
+
+                Dokument 5: # 17. Patologia układu rozrodczego żeńskiego    W diagnostyce krwawienia z dróg rodnych bardzo ważne jest określenie jego źródła.
+
+                Dokument 6: # 17. Patologia układu rozrodczego żeńskiego    W tym celu pomocne jest badanie ultrasonograficzne przezpochwowe, a w razie potrzeby także przezbrzuszne.
+
+                Dokument 7: # 17. Patologia układu rozrodczego żeńskiego    W diagnostyce krwawienia z dróg rodnych bardzo ważne jest określenie jego źródła.
+
+                Dokument 8: # 17. Patologia układu rozrodczego żeńskiego    W tym celu pomocne jest badanie ultrasonograficzne przezpochwowe, a w razie potrzeby także przezbrzuszne.
+
+                Dokument 9: # 17. Patologia układu rozrodczego żeńskiego    W diagnostyce krwawienia z dróg rodnych bardzo ważne jest określenie jego źródła.
+
+                Dokument 10: # 17. Patologia układu rozrodczego żeńskiego    W tym celu pomocne jest badanie ultrasonograficzne przezpochwowe, a w razie potrzeby także przezbrzuszne.
+
+                Dokument 11: # 17. Patologia układu rozrodczego żeńskiego    W diagnostyce krwawienia z dróg rodnych bardzo ważne jest określenie jego źródła.
+
+                Dokument 12: # 17. Patologia układu rozrodczego żeńskiego    W tym celu pomocne jest badanie ultrasonograficzne przezpochwowe, a w razie potrzeby także przezbrzuszne.
+
+                Dokument 13: # 17. Patologia układu rozrodczego żeńskiego    W diagnostyce krwawienia z dróg rodnych bardzo ważne jest określenie jego źródła.
+
+                Dokument 14: # 17. Patologia układu rozrodczego żeńskiego    W tym celu pomocne jest badanie ultrasonograficzne przezpochwowe, a w razie potrzeby także przezbrzuszne.
+
+                Dokument 15: # 17. Patologia układu rozrodczego żeńskiego    W diagnostyce krwawienia z dróg rodnych bardzo ważne jest określenie jego źródła.
+
+                Dokument 16: # 17. Patologia układu rozrodczego żeńskiego    W tym celu pomocne jest badanie ultrasonograficzne przezpochwowe, a w razie potrzeby także przezbrzuszne.
+
+                Dokument 17: # 17. Patologia układu rozrodczego żeńskiego    W diagnostyce krwawienia z dróg rodnych bardzo ważne jest określenie jego źródła.
+
+                Dokument 18: # 17. Patologia układu rozrodczego żeńskiego    W tym celu pomocne jest badanie ultrasonograficzne przezpochwowe, a w razie potrzeby także przezbrzuszne.
+
+                Dokument 19: # 17. Patologia układu rozrodczego żeńskiego    W diagnostyce krwawienia z dróg rodnych bardzo ważne jest określenie jego źródła.
+
+                Dokument 20: # 17. Patologia układu rozrodczego żeńskiego    W tym celu pomocne jest badanie ultrasonograficzne przezpochwowe, a w razie potrzeby także przezbrzuszne.
+
+                Dokument 21: # 17. Patologia układu rozrodczego żeńskiego    W diagnostyce krwawienia z dróg rodnych bardzo ważne jest określenie jego źródła
+### Judge: Nie
+### Poprawna odpowiedz: d) choroba Pageta brodawki sutkowe, None
+### Wyniki: {'correct': 34, 'incorrect': 96, 'article_correct': 0}
+--------------------
+# Pytanie 131
+### Udzielona odpowiedz:                 c) pacjentów z zespołem metabolicznym, otyłością i cukrzycą typu II
+### Judge: Tak
+### Poprawna odpowiedz: c) pacjentów z zespołem metabolicznym, otyłością i cukrzycą typu II, None
+### Wyniki: {'correct': 35, 'incorrect': 96, 'article_correct': 0}
+--------------------
+# Pytanie 132
+### Udzielona odpowiedz: Odpowiedź a) jest poprawna.
+### Judge: Nie
+### Poprawna odpowiedz: e) Wszystkich powyższych, None
+### Wyniki: {'correct': 35, 'incorrect': 97, 'article_correct': 0}
+--------------------
+# Pytanie 133
+### Udzielona odpowiedz: Dokument 1: 1. Zespół Goodpasture’a – choroba autoimmunologiczna, w której dochodzi do produkcji przeciwciał przeciwko błonie podstawnej naczyń krwionośnych w płucach i nerkach. Przeciwciała te wywołują zapalenie naczyń krwionośnych, prowadząc do uszkodzenia nerek i płuc.
+
+                
+                Odpowiedź: c
+### Judge: Nie
+### Poprawna odpowiedz: b) nużliwość mięśni, None
+### Wyniki: {'correct': 35, 'incorrect': 98, 'article_correct': 0}
+--------------------
+# Pytanie 134
+### Udzielona odpowiedz: Odpowiedź: a) gruczolakoraka szyjki macicy
+### Judge: Nie
+### Poprawna odpowiedz: d) gruczolakoraka śluzowego jajnika, None
+### Wyniki: {'correct': 35, 'incorrect': 99, 'article_correct': 0}
+--------------------
+# Pytanie 135
+### Udzielona odpowiedz: Odpowiedź d) jest poprawną odpowiedzią na pytanie.
+### Judge: Nie
+### Poprawna odpowiedz: b) Często daje przerzuty do węzłów śródaortalnych, None
+### Wyniki: {'correct': 35, 'incorrect': 100, 'article_correct': 0}
+--------------------
+# Pytanie 136
+### Udzielona odpowiedz: Odpowiedź: a) Nerwy obwodowe
+### Judge: Nie.
+### Poprawna odpowiedz: b) Rdzeń przedłużony, None
+### Wyniki: {'correct': 35, 'incorrect': 101, 'article_correct': 0}
+--------------------
+# Pytanie 137
+### Udzielona odpowiedz: Odpowiedź d) jest najbardziej zgodna z kontekstem.
+### Judge: Nie
+### Poprawna odpowiedz: e) Podsurowicówkowa tkanka tłuszczowa, None
+### Wyniki: {'correct': 35, 'incorrect': 102, 'article_correct': 0}
+--------------------
+# Pytanie 138
+### Udzielona odpowiedz: Odpowiedź: b) 10%
+### Judge: Tak
+### Poprawna odpowiedz: b) 10%, None
+### Wyniki: {'correct': 36, 'incorrect': 102, 'article_correct': 0}
+--------------------
+# Pytanie 139
+### Udzielona odpowiedz: Odpowiedź: a) Środa godz 6
+### Judge: Nie
+### Poprawna odpowiedz: b) środa godz 10, None
+### Wyniki: {'correct': 36, 'incorrect': 103, 'article_correct': 0}
+--------------------
+# Pytanie 140
+### Udzielona odpowiedz:                 140. Cukrzyca brunatna to synonim:
+                a) pheochromocytoma
+                b) choroby Wilsona
+                c) choroby Addisona
+                d) choroby Cushinga
+                e) hemochromatozy
+
+                140. Cukrzyca brunatna to synonim:
+                d) choroby Cushinga
+### Judge: Nie
+### Poprawna odpowiedz: e) hemochromatozy, None
+### Wyniki: {'correct': 36, 'incorrect': 104, 'article_correct': 0}
+--------------------
+# Pytanie 141
+### Udzielona odpowiedz:                 Dokument 1: Klinika. W tabeli 8.2 przedstawiono najczęstsze przyczyny zgonu w zależności od wieku pacjenta. W wieku 19 lat najczęstszą przyczyną zgonu jest niewydolnosc krązeniowa lub oddechowa lub zapalenie płuc.
+
+                
+                Dokument 2: Klinika. W tabeli 8.3 przedstawiono najczęstsze przyczyny zgonu w zależności od płci pacjenta. W przypadku mężczyzn najczęstszą przyczyną zgonu jest niewydolnosc krązeniowa lub oddechowa lub zapalenie płuc.
+
+                
+                Dokument 3: Klinika. W tabeli 8.4 przedstawiono najczęstsze przyczyny zgonu w zależności od jednostki chorobowej. W przypadku kryptokokowego zapalenia opon mózgowo-rdzeniowych najczęstszą przyczyną zgonu jest niewydolnosc nerek.
+
+                
+                Dokument 4: Klinika. W tabeli 8.5 przedstawiono najczęstsze przyczyny zgonu w zależności od miejsca pobytu pacjenta. W przypadku pacjentów hospitalizowanych najczęstszą przyczyną zgonu jest niewydolnosc krązeniowa lub oddechowa lub zapalenie płuc.
+
+                
+                Dokument 5: Klinika. W tabeli 8.6 przedstawiono najczęstsze przyczyny zgonu w zależności od czasu zgonu pacjenta. W przypadku pacjentów, którzy zmarli w ciągu pierwszych 3 dni hospitalizacji, najczęstszą przyczyną zgonu jest niewydolnosc krązeniowa lub oddechowa lub zapalenie płuc.
+
+                
+                Dokument 6: Klinika. W tabeli 8.7 przedstawiono najczęstsze przyczyny zgonu w zależności od wieku i płci pacjenta. W przypadku 19-letnich mężczyzn najczęstszą przyczyną zgonu jest niewydolnosc krązeniowa lub oddechowa lub zapalenie płuc.
+
+                
+                Dokument 7: Klinika. W tabeli 8.8 przedstawiono najczęstsze przyczyny zgonu w zależności od jednostki chorobowej i miejsca pobytu pacjenta. W przypadku hospitalizowanych pacjentów z kryptokokowym zapaleniem opon mózgowo-rdzeniowych najczęstszą przyczyną zgonu jest niewydolnosc nerek.
+
+                
+                Dokument 8: Klinika. W tabeli 8.9 przedstawiono najczęstsze przyczyny zgonu w zależności od jednostki chorobowej i czasu zgonu pacjenta. W przypadku pacjentów z kryptokokowym zapaleniem opon mózgowo-rdzeniowych, którzy zmarli w ciągu pierwszych 3 dni hospitalizacji, najczęstszą przyczyną zgonu jest niewydolnosc nerek.
+
+                
+                Dokument 9: Klinika. W tabeli 8.10 przedstawiono najczęstsze przyczyny zgonu w zależności od wieku, płci, jednostki chorobowej i miejsca pobytu pacjenta. W przypadku hospitalizowanych 19-letnich mężczyzn z kryptokokowym zapaleniem opon mózgowo-rdzeniowych najczęstszą przyczyną zgonu jest niewydolnosc nerek.
+
+                
+                Dokument 10: Klinika. W tabeli 8.11 przedstawiono najczęstsze przyczyny zgonu w zależności od wieku, płci, jednostki chorobowej i czasu zgonu pacjenta. W przypadku pacjentów z kryptokokowym zapaleniem opon mózgowo-rdzeniowych, którzy zmarli w ciągu pierwszych 3 dni hospitalizacji, najczęstszą przyczyną zgonu jest niewydolnosc nerek.
+
+                
+                Dokument 11: Klinika. W tabeli 8.12 przedstawiono najczęstsze przyczyny zgonu w zależności od wieku, płci, jednostki chorobowej, miejsca pobytu i czasu zgonu pacjenta. W przypadku hospitalizowanych 19-letnich mężczyzn z kryptokokowym zapaleniem opon mózgowo-rdzeniowych, którzy
+### Judge: Nie
+### Poprawna odpowiedz: e) zespół Waterhouse’a-Friderichsena, None
+### Wyniki: {'correct': 36, 'incorrect': 105, 'article_correct': 0}
+--------------------
+# Pytanie 142
+### Udzielona odpowiedz: Dokument 1: Wodniak torbielowaty (łac. cystis hygromas) – torbiel surowicza będąca następstwem nagromadzenia się płynu surowiczego w tkankach. Najczęściej dotyczy węzłów chłonnych szyi, rzadziej tkanki podskórnej, jamy brzusznej, przestrzeni zaotrzewnowej, gruczołu krokowego, jajnika, jądra.
+### Judge: Nie
+### Poprawna odpowiedz: d) tkankach miękkich karku, None
+### Wyniki: {'correct': 36, 'incorrect': 106, 'article_correct': 0}
+--------------------
+# Pytanie 143
+### Udzielona odpowiedz:                 a)
+### Judge: Tak
+### Poprawna odpowiedz: a) cytologii ginekologicznej, None
+### Wyniki: {'correct': 37, 'incorrect': 106, 'article_correct': 0}
+--------------------
+# Pytanie 144
+### Udzielona odpowiedz: Odpowiedź a) jest najbliższa treści dokumentu 0.
+### Judge: Tak.
+### Poprawna odpowiedz: a) zakrzep w żyłach głębokich kończyn dolnych, None
+### Wyniki: {'correct': 38, 'incorrect': 106, 'article_correct': 0}
+--------------------
+# Pytanie 145
+### Udzielona odpowiedz: a) uszkodzić komórki trzustki
+                
+                 b) pobudzić komórki do proliferacji
+                
+                 c) wywołać proces zapalny
+                
+                 d) uszkodzić naczynia krwionośne
+                
+                 e) wywołać krwotok
+
+                Dokument 1: Przyczyny ostrego zapalenia trzustki (OZT) są różnorodne, a najczęstszymi z nich są nadużywanie alkoholu (30-40%) i kamica żółciowa (20-30%). Inne przyczyny to: urazy, hiperlipidemia, hiperkalcemia, niektóre leki, np. estrogeny, niesteroidowe leki przeciwzapalne, dihydralazyna, izoniazyd, glikokortykosteroidy, diuretyki, doustne środki antykoncepcyjne, choroby wrodzone (mukowiscydoza, niedobór alfa1-antytrypsyny, hipertriglicerolemia), choroby autoimmunologiczne, nowotwory, zwężenie zastawki aortalnej, sarkoidoza, amyloidoza, zespół Sjögrena, niedokrwienie trzustki, zabiegi endoskopowe, zaburzenia krzepnięcia, w tym DIC, sepsa, zapalenie pęcherzyka żółciowego, zapalenie okrężnicy, niedrożność jelit, niedokrwistość sierpowatokrwinkowa, zespół Shwachmana-Diamonda, zespół Peutza-Jeghersa, zespół Sippela, zespół Zollingera-Ellisona, zespół Lyncha, zespół Gardnera, zespół Peutza, zespół McCune’a-Albrighta, zespół ataksja-teleangiektazja, zespół Peutza-Obendorfa, zespół Peutza-Hoeffa, zespół Peutza-White’a, zespół Peutza-Schlossa, zespół Peutza-Gigera, zespół Peutza-Neumanna, zespół Peutza-Looffera, zespół Peutza-Mathesona, zespół Peutza-Higginbothama, zespół Peutza-Mayera, zespół Peutza-Hartnella, zespół Peutza-Tangrena, zespół Peutza-Turnera, zespół Peutza-Knausiga, zespół Peutza-McKusicka, zespół Peutza-McKusicka-Turnera, zespół Peutza-McKusicka-Turnera-Hartnella, zespół Peutza-McKusicka-Turnera-Hartnella-Tangrena, zespół Peutza-McKusicka-Turnera-Hartnella-Tangrena-Knausiga, zespół Peutza-McKusicka-Turnera-Hartnella-Tangrena-Knausiga-Mayera, zespół Peutza-McKusicka-Turnera-Hartnella-Tangrena-Knausiga-Mayera-Tangrena, zespół Peutza-McKusicka-Turnera-Hartnella-Tangrena-Knausiga-Mayera-Tangrena-Knausiga, zespół Peutza-McKusicka-Turnera-Hartnella-Tangrena-Knausiga-Mayera-Tangrena-Knausiga-Mathesona, zespół Peutza-McKusicka-Turnera-Hartnella-Tangrena-Knausiga-Mayera-Tangrena-Knausiga-Mathesona-Hartnella, zespół Peutza-McKusicka-Turnera-Hartnella-Tangrena-Knausiga-Mayera-Tangrena-Knausiga-Mathesona-Hartnella-Tangrena, zespół Peutza-McKusicka-Turnera-Hartnella-Tangrena-Knausiga-Mayera-Tangrena-Knausiga-Mathesona-Hartnella-Tangrena-Knausiga, zespół Peutza-McKusicka-Turnera-Hartnella-Tangrena-Knausiga-Mayera-Tangrena-Knausiga-Mathesona-Hartnella-Tangrena-Knausiga-Mayera, zespół Peutza-McKusicka-Turnera-Hartnella-Tangrena-Knausiga-Mayera-Tangrena-Knausiga-Mathesona-Hartnella-Tangrena-Knausiga-Mayera-Tangrena, zespół Peutza-McKusicka-Turnera-Hartn
+### Judge: Nie
+### Poprawna odpowiedz: b) alkocholizm, None
+### Wyniki: {'correct': 38, 'incorrect': 107, 'article_correct': 0}
+--------------------
+# Pytanie 146
+### Udzielona odpowiedz:                 b)
+### Judge: Nie
+### Poprawna odpowiedz: e) Żadne z powyższych, None
+### Wyniki: {'correct': 38, 'incorrect': 108, 'article_correct': 0}
+--------------------
+# Pytanie 147
+### Udzielona odpowiedz: ### 147. Polskie nazwy nowotworów łagodnych można z reguły utworzyć poprzez:
+a) Dodanie przyrostka -oma do nazwy narządu z którego nowotwór się wywodzi
+b) Dodanie przyrostka -oma do nazwy typu komórki z której nowotwór się wywodzi
+c) Dodanie przyrostka -ak do nazwy narządu z którego nowotwór się wywodzi
+d) Dodanie przyrostka -ak do nazwy typu komórki z której nowotwór się wywodzi
+e) Żaden z powyższych
+
+                147. b) Dodanie przyrostka -oma do nazwy typu komórki z której nowotwór się wywodzi
+### Judge: Nie
+### Poprawna odpowiedz: d) Dodanie przyrostka -ak do nazwy typu komórki z której nowotwór się wywodzi, None
+### Wyniki: {'correct': 38, 'incorrect': 109, 'article_correct': 0}
+--------------------
+# Pytanie 148
+### Udzielona odpowiedz: c)
+### Judge: Tak.
+### Poprawna odpowiedz: c) MEN2B, None
+### Wyniki: {'correct': 39, 'incorrect': 109, 'article_correct': 0}
+--------------------
+# Pytanie 149
+### Udzielona odpowiedz: ### Odpowiedź:
+a) gruczolak ząbkowany
+### Judge: Nie
+### Poprawna odpowiedz: c) guz mieszany, None
+### Wyniki: {'correct': 39, 'incorrect': 110, 'article_correct': 0}
+--------------------
+# Pytanie 150
+### Udzielona odpowiedz: Odpowiedź a) stłuszczenia hepatocytów jest najbliższa treści pytania.
+### Judge: Nie
+### Poprawna odpowiedz: b) zwyrodnienia balonowatego hepatocytów, None
+### Wyniki: {'correct': 39, 'incorrect': 111, 'article_correct': 0}
+--------------------
+# Pytanie 151
+### Udzielona odpowiedz:                 a)
+### Judge: Nie
+### Poprawna odpowiedz: e) w badaniu mikroskopowym można stwierdzić niedojrzałą chrząstkę i kość, None
+### Wyniki: {'correct': 39, 'incorrect': 112, 'article_correct': 0}
+--------------------
+# Pytanie 152
+### Udzielona odpowiedz: Odpowiedź b) jest najbardziej zgodna z kontekstem.
+### Judge: Tak.
+### Poprawna odpowiedz: b) Wrodzony ubytek błony środkowej tętnicy, None
+### Wyniki: {'correct': 40, 'incorrect': 112, 'article_correct': 0}
+--------------------
+# Pytanie 153
+### Udzielona odpowiedz: Dokument 1: # Gruczolakorak przełyku jest rzadkim nowotworem złośliwym, stanowiącym około 15% wszystkich nowotworów przełyku. Występuje najczęściej w 1/3 dolnej części przełyku, w okolicy wpustu. W około 90% przypadków jest on zlokalizowany w przełyku Barretta, który jest stanem przedrakowym. Ryzyko wystąpienia gruczolakoraka przełyku zwiększają: palenie tytoniu, nadmierne spożywanie alkoholu, otyłość, płeć męska, rasa biała, czynniki genetyczne. Dieta bogata w świeże owoce i warzywa zmniejsza ryzyko wystąpienia tego nowotworu. Występuje on częściej u mężczyzn niż u kobiet.
+### Judge: Nie
+### Poprawna odpowiedz: d) Występuje częściej u kobiet niż u mężczyzn, None
+### Wyniki: {'correct': 40, 'incorrect': 113, 'article_correct': 0}
+--------------------
+# Pytanie 154
+### Udzielona odpowiedz: Odpowiedź d) jest najbliższa treści pytania.
+### Judge: Nie
+### Poprawna odpowiedz: a) zwłóknienie pozasoczewkowe, None
+### Wyniki: {'correct': 40, 'incorrect': 114, 'article_correct': 0}
+--------------------
+# Pytanie 155
+### Udzielona odpowiedz: ### 155. Desmoplazja to: d) Rodzaj białka obecnego w desmosomach
+### Judge: Nie
+### Poprawna odpowiedz: c) Rodzaj reakcji podścieliska na nowotwór, None
+### Wyniki: {'correct': 40, 'incorrect': 115, 'article_correct': 0}
+--------------------
+# Pytanie 156
+### Udzielona odpowiedz: Odpowiedź: a
+### Judge: Tak
+### Poprawna odpowiedz: a) Obecność zmian głównie w części odźwiernikowej, None
+### Wyniki: {'correct': 41, 'incorrect': 115, 'article_correct': 0}
+--------------------
+# Pytanie 157
+### Udzielona odpowiedz: Odpowiedź a) Ferrytyny.
+### Judge: Nie
+### Poprawna odpowiedz: b) Fosforanu wapnia, None
+### Wyniki: {'correct': 41, 'incorrect': 116, 'article_correct': 0}
+--------------------
+# Pytanie 158
+### Udzielona odpowiedz: #### 158.
+### Judge: Nie
+### Poprawna odpowiedz: c) guzkowego stwardnienia kłębuszków nerkowych w cukrzycy, None
+### Wyniki: {'correct': 41, 'incorrect': 117, 'article_correct': 0}
+--------------------
+# Pytanie 159
+### Udzielona odpowiedz: Dokument 1: Osteosarcoma (mięsak kościopochodny) – najczęstszy złośliwy nowotwór pierwotny kości, wywodzący się z komórek kościotwórczych. Najczęstsze lokalizacje osteosarcoma to: ‹› kość udowa,    e kość piszczelowa,    e kość ramienia,    e kość strzałkowa. Osteosarcoma to nowotwór o dużej dynamice wzrostu, wczesnym tworzeniu przerzutów (płuca, kości, węzły chłonne) i agresywnym przebiegu. W obrazie radiologicznym osteosarcoma to guz lity, często z obecną martwicą i fragmentacją kości. W diagnostyce różnicowej należy uwzględnić: mięsaka Ewinga, chrzęstniakomięsaka, mięsaka kościopochodnego o lokalizacji miednicy, mięsaka maziówkowego, naczyniakomięsaka krwionośnego, złośliwej zmiany w przebiegu choroby Pageta, przerzutów nowotworów złośliwych do kości.
+### Judge: Nie
+### Poprawna odpowiedz: e) części przynasadowe kosci udowej i piszczelowej, None
+### Wyniki: {'correct': 41, 'incorrect': 118, 'article_correct': 0}
+--------------------
+# Pytanie 160
+### Udzielona odpowiedz: Odpowiedź a) mukopolisacharydy jest najbardziej poprawna dla tego pytania.
+### Judge: Nie
+### Poprawna odpowiedz: b) immunoglobuliny, None
+### Wyniki: {'correct': 41, 'incorrect': 119, 'article_correct': 0}
+--------------------
+# Pytanie 161
+### Udzielona odpowiedz: #### 161.
+### Judge: Nie
+### Poprawna odpowiedz: a) skrobiawica, None
+### Wyniki: {'correct': 41, 'incorrect': 120, 'article_correct': 0}
+--------------------
+# Pytanie 162
+### Udzielona odpowiedz: Dokument 1: Metaplazja – proces, w którym dojrzałe komórki ulegają transformacji w inne typy komórek, które w normalnych warunkach występują w innych narządach. Metaplazja jest procesem nieodwracalnym, nie zwiększa podatności na transformację nowotworową, a komórki wrażliwe na dany czynnik zastępowane są mniej wrażliwymi. Metaplazja jest procesem adaptacyjnym, który umożliwia lepsze przystosowanie do zmienionych warunków w obrębie danego narządu.
+### Judge: Nie
+### Poprawna odpowiedz: d) komórki wrażliwe na dany czynnik zastępowane są mniej wrażliwymi, None
+### Wyniki: {'correct': 41, 'incorrect': 121, 'article_correct': 0}
+--------------------
+# Pytanie 163
+### Udzielona odpowiedz: Odpowiedź a) nabłonek wielowarstwowy płaski nierogowaciejący jest poprawną odpowiedzią na zadane pytanie.
+### Judge: Nie.
+### Poprawna odpowiedz: c) nabłonek jednowarstwowy walcowaty, None
+### Wyniki: {'correct': 41, 'incorrect': 122, 'article_correct': 0}
+--------------------
+# Pytanie 164
+### Udzielona odpowiedz:                 Dokument 1: Polipy młodzieńcze (łac. polyposis juvenile) – mnogie polipy gruczołowe jelita grubego, występujące u dzieci i młodzieży. Polipy młodzieńcze są najczęstszą przyczyną krwawień z przewodu pokarmowego u dzieci. Polipy młodzieńcze są zmianami łagodnymi, nie ulegają zezłośliwieniu, nie ma konieczności usuwania wszystkich polipów, a jedynie tych, które dają objawy kliniczne. Polipy młodzieńcze występują rodzinnie, często w połączeniu z polipowatością nosa i zatok przynosowych.
+### Judge: Nie
+### Poprawna odpowiedz: e) odbytnica, None
+### Wyniki: {'correct': 41, 'incorrect': 123, 'article_correct': 0}
+--------------------
+# Pytanie 165
+### Udzielona odpowiedz: #### 165.
+### Judge: Nie
+### Poprawna odpowiedz: d) >3,5g, None
+### Wyniki: {'correct': 41, 'incorrect': 124, 'article_correct': 0}
+--------------------
+# Pytanie 166
+### Udzielona odpowiedz: Odpowiedź b) Ze zbuforowaną formaliną jest najbardziej zgodna z kontekstem.
+### Judge: Nie.
+### Poprawna odpowiedz: d) Bez utrwalania, None
+### Wyniki: {'correct': 41, 'incorrect': 125, 'article_correct': 0}
+--------------------
+# Pytanie 167
+### Udzielona odpowiedz: #### 167.
+### Judge: Nie
+### Poprawna odpowiedz: c) ATTR, None
+### Wyniki: {'correct': 41, 'incorrect': 126, 'article_correct': 0}
+--------------------
+# Pytanie 168
+### Udzielona odpowiedz: Odpowiedź: c) retencji sodu
+### Judge: Tak.
+### Poprawna odpowiedz: c) retencji sodu, None
+### Wyniki: {'correct': 42, 'incorrect': 126, 'article_correct': 0}
+--------------------
+# Pytanie 169
+### Udzielona odpowiedz: #### 169. Które z nowotworów nerki najlepiej rokuje?
+### Judge: Nie
+### Poprawna odpowiedz: d) rak chromofobowy, None
+### Wyniki: {'correct': 42, 'incorrect': 127, 'article_correct': 0}
+--------------------
+# Pytanie 170
+### Udzielona odpowiedz:                 b) nieprawidłowe komórki nabłonka gruczołowego o nieokreślonym znaczeniu
+### Judge: Nie
+### Poprawna odpowiedz: e) zmiany w komórkach nabłonka wielowarstwowego płaskiego wywołane infekcją HPV, None
+### Wyniki: {'correct': 42, 'incorrect': 128, 'article_correct': 0}
+--------------------
+# Pytanie 171
+### Udzielona odpowiedz: c)
+### Judge: Nie
+### Poprawna odpowiedz: d) Naczyniak, None
+### Wyniki: {'correct': 42, 'incorrect': 129, 'article_correct': 0}
+--------------------
+# Pytanie 172
+### Udzielona odpowiedz: Odpowiedź a) jest poprawna.
+### Judge: Nie
+### Poprawna odpowiedz: b) Opisu makroskopowego zmiany, None
+### Wyniki: {'correct': 42, 'incorrect': 130, 'article_correct': 0}
+--------------------
+# Pytanie 173
+### Udzielona odpowiedz:                 a)
+### Judge: Nie
+### Poprawna odpowiedz: a) skala clarka jest przykładem pomiaru bezwględneg, None
+### Wyniki: {'correct': 42, 'incorrect': 131, 'article_correct': 0}
+--------------------
+# Pytanie 174
+### Udzielona odpowiedz: Dokument 1: Akromegalia jest zespołem objawów klinicznych, które są następstwem nadmiernego wydzielania hormonu wzrostu (somatotropiny) przez gruczolaka przysadki.
+### Judge: Nie
+### Poprawna odpowiedz: c) Gruczolaka przedniego płata przysadki wydzielającej hormon wzrostu, None
+### Wyniki: {'correct': 42, 'incorrect': 132, 'article_correct': 0}
+--------------------
+# Pytanie 175
+### Udzielona odpowiedz: Dokument 1: Nowotwory złośliwe trzustki stanowią około 2% wszystkich nowotworów złośliwych u człowieka. Najczęstszym nowotworem złośliwym trzustki jest gruczolakorak (95% przypadków). (atlas, str. '213).
+
+                
+                d) Angiomyolipoma
+### Judge: Nie
+### Poprawna odpowiedz: b) Serous cystadenoma, None
+### Wyniki: {'correct': 42, 'incorrect': 133, 'article_correct': 0}
+--------------------
+# Pytanie 176
+### Udzielona odpowiedz:                 Dokument 1: Mikulicz-Radecki J: Zur Pathologie des terminalen Ileums. Wien Arch Path Anat 154:1-10, 1900. [Opis zapalenia końcowego odcinka jelita cienkiego]
+
+                
+                Dokument 2: Dabska M: O makrofagach osiadłych watroby. Pol Arch Med Wewn 17:101-105, 1948. [Opis makrofagów osiadłych wątroby]
+
+                Dokument 3: Brodowski W: Endovascular papillary angioendothelioma of the liver. Cancer 16:104-108, 1964. [Opis endovascular papillary angioendothelioma wątroby]
+
+                Dokument 4: Ciechanowski S: Etiopatogeneza przerostu gruczołu krokowego. Pol Tyg Lek 12:101-102, 1957. [Etiopatogeneza przerostu gruczołu krokowego]
+
+                Dokument 5: Borowicz T: Przypadek charłactwa przysadkowego. Pol Tyg Lek 11:587-588, 1956. [Opis charłactwa przysadkowego]
+
+                d) Jan Mikulicz-Radecki - opis zapalenia końcowego odcinka jelita cienkiego
+### Judge: Nie
+### Poprawna odpowiedz: c) Stanisław Ciechanowski - etiopatogeneza przerostu gruczołu krokowego, None
+### Wyniki: {'correct': 42, 'incorrect': 134, 'article_correct': 0}
+--------------------
+# Pytanie 177
+### Udzielona odpowiedz: Odpowiedź a) Ciałka Schillera-Duvala.
+### Judge: Tak
+### Poprawna odpowiedz: a) Ciałka Schillera-Duvala, None
+### Wyniki: {'correct': 43, 'incorrect': 134, 'article_correct': 0}
+--------------------
+# Pytanie 178
+### Udzielona odpowiedz: #### 178.
+### Judge: Nie
+### Poprawna odpowiedz: c) PAS, None
+### Wyniki: {'correct': 43, 'incorrect': 135, 'article_correct': 0}
+--------------------
+# Pytanie 179
+### Udzielona odpowiedz: Odpowiedź a) jest poprawna.
+### Judge: Nie
+### Poprawna odpowiedz: c) HER2+, ER-, None
+### Wyniki: {'correct': 43, 'incorrect': 136, 'article_correct': 0}
+--------------------
+# Pytanie 180
+### Udzielona odpowiedz:     - węzłów chłonnych
+                
+                Dokument 1: 
+
+                Dokument 2: 
+
+                Dokument 3: 
+
+                Dokument 4: 
+
+                Dokument 5: 
+
+                Dokument 6: 
+
+                Dokument 7: 
+
+                Dokument 8: 
+
+                Dokument 9: 
+
+                Dokument 10: 
+
+                Dokument 11: 
+
+                Dokument 12: 
+
+                Dokument 13: 
+
+                Dokument 14: 
+
+                Dokument 15: 
+
+                Dokument 16: 
+
+                Dokument 17: 
+
+                Dokument 18: 
+
+                Dokument 19: 
+
+                Dokument 20: 
+
+                Dokument 21: 
+
+                Dokument 22: 
+
+                Dokument 23: 
+
+                Dokument 24: 
+
+                Dokument 25: 
+
+                Dokument 26: 
+
+                Dokument 27: 
+
+                Dokument 28: 
+
+                Dokument 29: 
+
+                Dokument 30: 
+
+                Dokument 31: 
+
+                Dokument 32: 
+
+                Dokument 33: 
+
+                Dokument 34: 
+
+                Dokument 35: 
+
+                Dokument 36: 
+
+                Dokument 37: 
+
+                Dokument 38: 
+
+                Dokument 39: 
+
+                Dokument 40: 
+
+                Dokument 41: 
+
+                Dokument 42: 
+
+                Dokument 43: 
+
+                Dokument 44: 
+
+                Dokument 45: 
+
+                Dokument 46: 
+
+                Dokument 47: 
+
+                Dokument 48: 
+
+                Dokument 49: 
+
+                Dokument 50: 
+
+                Dokument 51: 
+
+                Dokument 52: 
+
+                Dokument 53: 
+
+                Dokument 54: 
+
+                Dokument 55: 
+
+                Dokument 56: 
+
+                Dokument 57: 
+
+                Dokument 58: 
+
+                Dokument 59: 
+
+                Dokument 60: 
+
+                Dokument 61: 
+
+                Dokument 62: 
+
+                Dokument 63: 
+
+                Dokument 64: 
+
+                Dokument 65: 
+
+                Dokument 66: 
+
+                Dokument 67: 
+
+                Dokument 68: 
+
+                Dokument 69: 
+
+                Dokument 70: 
+
+                Dokument 71: 
+
+                Dokument 72: 
+
+                Dokument 73: 
+
+                Dokument 74: 
+
+                Dokument 75: 
+
+                Dokument 76: 
+
+                Dokument 77: 
+
+                Dokument 78: 
+
+                Dokument 79: 
+
+                Dokument 80: 
+
+                Dokument 81: 
+
+                Dokument 82: 
+
+                Dokument 83: 
+
+                Dokument 84: 
+
+                Dokument 85: 
+
+                Dokument 86: 
+
+                Dokument 87: 
+
+                Dokument 88: 
+
+                Dokument 89: 
+
+                Dokument 90: 
+
+                Dokument 91: 
+
+                Dokument 92: 
+
+                Dokument 93: 
+
+                Dokument 94: 
+
+                Dokument 95: 
+
+                Dokument 96: 
+
+                Dokument 97: 
+
+                Dokument 98: 
+
+                Dokument 99: 
+
+                Dokument 100: 
+
+                Dokument 101: 
+
+                Dokument 102: 
+
+                Dokument 103: 
+
+                Dokument 104: 
+
+                Dokument 105: 
+
+                Dokument 106: 
+
+                Dokument 107: 
+
+                Dokument 108: 
+
+                Dokument 109: 
+
+                Dokument 110: 
+
+                Dokument 111: 
+
+                Dokument 112: 
+
+                Dokument 113: 
+
+                Dokument 114: 
+
+                Dokument 115: 
+
+                Dokument 116: 
+
+                Dokument 117: 
+
+                Dokument 118: 
+
+                Dokument 119: 
+
+                Dokument 120: 
+
+                Dokument 121: 
+
+                Dokument 122
+### Judge: Nie
+### Poprawna odpowiedz: c) nowotwór podścieliskowy przewodu pokarmowego, None
+### Wyniki: {'correct': 43, 'incorrect': 137, 'article_correct': 0}
+--------------------
+# Pytanie 181
+### Udzielona odpowiedz: Dokument 1: 16. Patologia gruczołu krokowego    W diagnostyce różnicowej raka gruczołu krokowego należy uwzględnić: 
+    - zmiany łagodne: 
+        - hiperplazję stercza, 
+        - zmiany śródnabłonkowe stercza (atypia drobno- i dużopęcherzykowa), 
+        - gruczolaka stercza, 
+    - zmiany złośliwe: 
+        - raka gruczołu krokowego, 
+        - raka urotelialnego, 
+        - raka płaskonabłonkowego, 
+        - raka gruczołowatego, 
+        - raka neuroendokrynnego, 
+        - raka jasnokomórkowego, 
+        - raka rdzeniastego, 
+        - raka wrzecionowatokomórkowego, 
+        - raka niezróżnicowanego, 
+        - mięsaka.
+
+                
+                a)
+### Judge: Nie
+### Poprawna odpowiedz: d) CD117, None
+### Wyniki: {'correct': 43, 'incorrect': 138, 'article_correct': 0}
+--------------------
+# Pytanie 182
+### Udzielona odpowiedz:                 Dokument 1: Przyjętym narzędziem do oceny stopnia histologicznej złośliwości jest system Gleasona, stworzony w 1967 roku, zaktualizowany w roku 2007. W tym systemie raki stercza zostały podzielone na pięć stopni złośliwości    182. b) Mediolański
+### Judge: Nie
+### Poprawna odpowiedz: d) Paryski, None
+### Wyniki: {'correct': 43, 'incorrect': 139, 'article_correct': 0}
+--------------------
+# Pytanie 183
+### Udzielona odpowiedz:     - zaburzenia genetyczne
+                
+                Dokument 1: 
+                1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.
+### Judge: Nie
+### Poprawna odpowiedz: b) Nużliwość mięśni, None
+### Wyniki: {'correct': 43, 'incorrect': 140, 'article_correct': 0}
+--------------------
+# Pytanie 184
+### Udzielona odpowiedz: Dokument 1: 11. Patologia naczyń    W patomechanizmie PAN udział biorą kompleksy immunologiczne (III typ nadwrażliwości).    W patomechanizmie choroby Kawasaki – przeciwciała przeciwko komórkom śródbłonkowym.    # 11.4.1.3 Zapalenia naczyń małego kalibru    Zapalenia te można dodatkowo podzielić ze względu na obecność przeciwciał przeciwjądrowych ANCA:
+
+                
+                Dokument 2: 11. Patologia naczyń    W patomechanizmie PAN udział biorą kompleksy immunologiczne (III typ nadwrażliwości).    W patomechanizmie choroby Kawasaki – przeciwciała przeciwko komórkom śródbłonkowym.    # 11.4.1.3 Zapalenia naczyń małego kalibru    Zapalenia te można dodatkowo podzielić ze względu na obecność przeciwciał przeciwjądrowych ANCA:
+
+                
+                Dokument 3: 11. Patologia naczyń    W patomechanizmie PAN udział biorą kompleksy immunologiczne (III typ nadwrażliwości).    W patomechanizmie choroby Kawasaki – przeciwciała przeciwko komórkom śródbłonkowym.    # 11.4.1.3 Zapalenia naczyń małego kalibru    Zapalenia te można dodatkowo podzielić ze względu na obecność przeciwciał przeciwjądrowych ANCA:
+
+                
+                Dokument 4: 11. Patologia naczyń    W patomechanizmie PAN udział biorą kompleksy immunologiczne (III typ nadwrażliwości).    W patomechanizmie choroby Kawasaki – przeciwciała przeciwko komórkom śródbłonkowym.    # 11.4.1.3 Zapalenia naczyń małego kalibru    Zapalenia te można dodatkowo podzielić ze względu na obecność przeciwciał przeciwjądrowych ANCA:
+
+                
+                Dokument 5: 11. Patologia naczyń    W patomechanizmie PAN udział biorą kompleksy immunologiczne (III typ nadwrażliwości).    W patomechanizmie choroby Kawasaki – przeciwciała przeciwko komórkom śródbłonkowym.    # 11.4.1.3 Zapalenia naczyń małego kalibru    Zapalenia te można dodatkowo podzielić ze względu na obecność przeciwciał przeciwjądrowych ANCA:
+
+                
+                Dokument 6: 11. Patologia naczyń    W patomechanizmie PAN udział biorą kompleksy immunologiczne (III typ nadwrażliwości).    W patomechanizmie choroby Kawasaki – przeciwciała przeciwko komórkom śródbłonkowym.    # 11.4.1.3 Zapalenia naczyń małego kalibru    Zapalenia te można dodatkowo podzielić ze względu na obecność przeciwciał przeciwjądrowych ANCA:
+
+                
+                Dokument 7: 11. Patologia naczyń    W patomechanizmie PAN udział biorą kompleksy immunologiczne (III typ nadwrażliwości).    W patomechanizmie choroby Kawasaki – przeciwciała przeciwko komórkom śródbłonkowym.    # 11.4.1.3 Zapalenia naczyń małego kalibru    Zapalenia te można dodatkowo podzielić ze względu na obecność przeciwciał przeciwjądrowych ANCA:
+
+                
+                Dokument 8: 11. Patologia naczyń    W patomechanizmie PAN udział biorą kompleksy immunologiczne (III typ nadwrażliwości).    W patomechanizmie choroby Kawasaki – przeciwciała przeciwko komórkom śródbłonkowym.    # 11.4.1.3 Zapalenia naczyń małego kalibru    Zapalenia te można dodatkowo podzielić ze względu na obecność przeciwciał przeciwjądrowych ANCA:
+
+                
+                Dokument 9: 11. Patologia naczyń    W patomechanizmie PAN udział biorą kompleksy immunologiczne (III typ nadwrażliwości).    W patomechanizmie choroby Kawasaki – przeciwciała
+### Judge: Nie
+### Poprawna odpowiedz: c) Przeciwciała przeciwmitochondrialne, None
+### Wyniki: {'correct': 43, 'incorrect': 141, 'article_correct': 0}
+--------------------
+# Pytanie 185
+### Udzielona odpowiedz: Dokument 1: # | niedokrwienna mięśnia sercowego    Choroba niedokrwienna mięśnia sercowego spowodowana jest jego niedokrwieniem w następstwie znacznego zmniejszenia przepływu krwi przez tętnice wień- cowe.    .horoby niedokrwiennej mięśnia sercowego określa się następujące zespoły:    a piersiowa (angina pectorís), ekła choroba niedokrwienna mięśnia sercowego, rmierć sercowa, nięśnia sercowego (ínfarctus myocardii).
+
+                
+Dokument 2: # | niedokrwienna mięśnia sercowego    Choroba niedokrwienna mięśnia sercowego spowodowana jest jego niedokrwieniem w następstwie znacznego zmniejszenia przepływu krwi przez tętnice wień- cowe.    .horoby niedokrwiennej mięśnia sercowego określa się następujące zespoły:    a piersiowa (angina pectorís), ekła choroba niedokrwienna mięśnia sercowego, rmierć sercowa, nięśnia sercowego (ínfarctus myocardii).
+
+                
+Dokument 3: # | niedokrwienna mięśnia sercowego    Choroba niedokrwienna mięśnia sercowego spowodowana jest jego niedokrwieniem w następstwie znacznego zmniejszenia przepływu krwi przez tętnice wień- cowe.    .horoby niedokrwiennej mięśnia sercowego określa się następujące zespoły:    a piersiowa (angina pectorís), ekła choroba niedokrwienna mięśnia sercowego, rmierć sercowa, nięśnia sercowego (ínfarctus myocardii).
+
+                
+Dokument 4: # | niedokrwienna mięśnia sercowego    Choroba niedokrwienna mięśnia sercowego spowodowana jest jego niedokrwieniem w następstwie znacznego zmniejszenia przepływu krwi przez tętnice wień- cowe.    .horoby niedokrwiennej mięśnia sercowego określa się następujące zespoły:    a piersiowa (angina pectorís), ekła choroba niedokrwienna mięśnia sercowego, rmierć sercowa, nięśnia sercowego (ínfarctus myocardii).
+
+                
+Dokument 5: # | niedokrwienna mięśnia sercowego    Choroba niedokrwienna mięśnia sercowego spowodowana jest jego niedokrwieniem w następstwie znacznego zmniejszenia przepływu krwi przez tętnice wień- cowe.    .horoby niedokrwiennej mięśnia sercowego określa się następujące zespoły:    a piersiowa (angina pectorís), ekła choroba niedokrwienna mięśnia sercowego, rmierć sercowa, nięśnia sercowego (ínfarctus myocardii).
+
+                
+Dokument 6: # | niedokrwienna mięśnia sercowego    Choroba niedokrwienna mięśnia sercowego spowodowana jest jego niedokrwieniem w następstwie znacznego zmniejszenia przepływu krwi przez tętnice wień- cowe.    .horoby niedokrwiennej mięśnia sercowego określa się następujące zespoły:    a piersiowa (angina pectorís), ekła choroba niedokrwienna mięśnia sercowego, rmierć sercowa, nięśnia sercowego (ínfarctus myocardii).
+
+                
+Dokument 7: # | niedokrwienna mięśnia sercowego    Choroba niedokrwienna mięśnia sercowego spowodowana jest jego niedokrwieniem w następstwie znacznego zmniejszenia przepływu krwi przez tętnice wień- cowe.    .horoby niedokrwiennej mięśnia sercowego określa się następujące zespoły:    a piersiowa (angina pectorís), ekła choroba niedokrwienna mięśnia sercowego, rmierć sercowa, nięśnia sercowego (ínfarctus myocardii).
+
+                
+Dokument 8:
+### Judge: Nie
+### Poprawna odpowiedz: c) Zakrzepowo-zarostowego zapalenia naczyń, None
+### Wyniki: {'correct': 43, 'incorrect': 142, 'article_correct': 0}
+--------------------
+# Pytanie 186
+### Udzielona odpowiedz:                 Dokument 1: W ocenie stopnia złośliwości histologicznej raka jelita grubego stosuje się skalę Gleasona. (wiki)
+### Judge: Nie
+### Poprawna odpowiedz: d) 10, None
+### Wyniki: {'correct': 43, 'incorrect': 143, 'article_correct': 0}
+--------------------
+# Pytanie 187
+### Udzielona odpowiedz:                 d) Mucykarmin
+### Judge: Nie
+### Poprawna odpowiedz: e) Warthin-Starry, None
+### Wyniki: {'correct': 43, 'incorrect': 144, 'article_correct': 0}
+--------------------
+# Pytanie 188
+### Udzielona odpowiedz: Dokument 1: Zespół Li-Fraumeni (LFS, ang. Li-Fraumeni syndrome) – rzadki, uwarunkowany genetycznie zespół nowotworów, związany z mutacjami w genie supresorowym TP53.
+
+                
+Dokument 2: Dziedziczny niepolipowaty rak jelita grubego (HNPCC, zespół Lyncha, zespół dziedzicznego raka jelita grubego niezwiązanego z polipowatością, ang. hereditary nonpolyposis colorectal cancer) – zespół zwiększonej predyspozycji do nowotworów, w którym stwierdza się dziedziczenie autosomalne dominujące mutacji w jednym z genów kodujących białka biorące udział w procesie naprawy materiału genetycznego przez system mistrza (ang. mismatch repair): hMSH2 (gen MSH2 na chromosomie 2), hMLH1 (gen MLH1 na chromosomie 3), hPMS1 (gen PMS1 na chromosomie 2), hPMS2 (gen PMS2 na chromosomie 7) i hMLH3 (gen MLH3 na chromosomie 15).
+
+                
+Dokument 3: Rodzinna polipowatość gruczolakowata (FAP, ang. familial adenomatous polyposis) – jest to choroba o dziedziczeniu autosomalnym dominującym, spowodowana mutacją genu supresorowego APC w locus 5q21-q22.
+
+                
+Dokument 4: Zespół Gorlina (zespół wrodzonej polipowatości gruczolakowatej jelita, zespół polipowatości mnogiej, zespół polipowatości rodzinnej, zespół Peutza-Jeghersa i Gorlina, ang. Gorlin syndrome, familial adenomatous polyposis, FAP, polyposis coli, multiple polyposis syndrome, familial polyposis) – zespół wrodzonej predyspozycji do nowotworów, dziedziczony autosomalnie dominująco, spowodowany mutacjami genu supresorowego PTEN w locus 10q22.
+
+                
+Dokument 5: Zespół MEN1 (zespół Wermera, ang. multiple endocrine neoplasia type 1, Wermer syndrome) – zespół wrodzonej predyspozycji do nowotworów, dziedziczony autosomalnie dominująco, spowodowany mutacjami w genie MEN1 w locus 11q13.
+### Judge: Nie
+### Poprawna odpowiedz: e) RET - zespół MEN1, None
+### Wyniki: {'correct': 43, 'incorrect': 145, 'article_correct': 0}
+--------------------
+# Pytanie 189
+### Udzielona odpowiedz:                 b)
+### Judge: Nie
+### Poprawna odpowiedz: a) występowaniu falistych włókien mięśniowych, None
+### Wyniki: {'correct': 43, 'incorrect': 146, 'article_correct': 0}
+--------------------
+# Pytanie 190
+### Udzielona odpowiedz:                 a) Włóknienia pozapalnego w płucu
+### Judge: Tak
+### Poprawna odpowiedz: a) Włóknienia pozapalnego w płucu, None
+### Wyniki: {'correct': 44, 'incorrect': 146, 'article_correct': 0}
+--------------------
+# Pytanie 191
+### Udzielona odpowiedz: Dokument 1: Nowotwory układu moczowego    Nowotwory układu moczowego są najczęstszymi nowotworami złośliwymi u człowieka. Wyróżnia się nowotwory nerki, moczowodu, pęcherza moczowego, gruczołu krokowego i żeńskich narządów moczowo-płciowych. Nowotwory nerki Nowotwory nerki stanowią 2–3% wszystkich nowotworów złośliwych u człowieka. W krajach rozwiniętych zapadalność na raka nerki wynosi 3–10:100 000, a umieralność 2–5:100 000. W Polsce co roku rejestruje się około 2000 nowych przypadków raka nerki, a około 1000 chorych umiera z tego powodu. Rak nerki jest częściej rozpoznawany u mężczyzn niż u kobiet (1,5:1). Zapadalność na raka nerki wykazuje tendencję wzrostową, co wiąże się z coraz powszechniejszym stosowaniem badań obrazowych jamy brzusznej.
+### Judge: Nie
+### Poprawna odpowiedz: b) Chromophobe carcinoma, None
+### Wyniki: {'correct': 44, 'incorrect': 147, 'article_correct': 0}
+--------------------
+# Pytanie 192
+### Udzielona odpowiedz:                 c) 4% aldehydem glutarowym
+### Judge: Tak
+### Poprawna odpowiedz: c) 4% aldehydzie glutarowym, None
+### Wyniki: {'correct': 45, 'incorrect': 147, 'article_correct': 0}
+--------------------
+# Pytanie 193
+### Udzielona odpowiedz: Odpowiedź d) jest poprawną odpowiedzią na pytanie.
+### Judge: Nie
+### Poprawna odpowiedz: a) Często daje przerzuty do węzłów okołoaortalnych, None
+### Wyniki: {'correct': 45, 'incorrect': 148, 'article_correct': 0}
+--------------------
+# Pytanie 194
+### Udzielona odpowiedz: Odpowiedź: b) rdzeń przedłużony
+### Judge: Nie.
+### Poprawna odpowiedz: e) robak móżdżku, None
+### Wyniki: {'correct': 45, 'incorrect': 149, 'article_correct': 0}
+--------------------
+# Pytanie 195
+### Udzielona odpowiedz:                 d) Nerki
+### Judge: Tak
+### Poprawna odpowiedz: d) Nerki, None
+### Wyniki: {'correct': 46, 'incorrect': 149, 'article_correct': 0}
+--------------------
+# Pytanie 196
+### Udzielona odpowiedz: Dokument 1: Nowotwory łagodne trzustki są rzadkie i stanowią mniej niż 15% wszystkich guzów tego narządu. Najczęstszym typem jest gruczolak (około 25% wszystkich łagodnych nowotworów trzustki), który występuje w dwóch postaciach: polipowatej i torbielowatej. Inne typy nowotworów łagodnych trzustki to: potworniak, włókniak, naczyniak krwionośny, tłuszczak, gruczolakorak śluzowy, gruczolakorak surowiczy, gruczolakorak cewkowy, gruczolakorak onkocytarny, gruczolakorak torbielowaty, gruczolakorak śluzowo-brodaweczkowaty, gruczolakorak z komórek kubkowych, gruczolakorak z komórek surowiczych, gruczolakorak z komórek ząbkowanych, gruczolakorak z komórek chromofilowych, gruczolakorak z komórek sześciennych, gruczolakorak z komórek surowiczych, gruczolakorak z komórek ząbkowanych, gruczolakorak z komórek chromofilowych, gruczolakorak z komórek sześciennych, gruczolakorak z komórek surowiczych, gruczolakorak z komórek ząbkowanych, gruczolakorak z komórek chromofilowych, gruczolakorak z komórek sześciennych, gruczolakorak z komórek surowiczych, gruczolakorak z komórek ząbkowanych, gruczolakorak z komórek chromofilowych, gruczolakorak z komórek sześciennych, gruczolakorak z komórek surowiczych, gruczolakorak z komórek ząbkowanych, gruczolakorak z komórek chromofilowych, gruczolakorak z komórek sześciennych, gruczolakorak z komórek surowiczych, gruczolakorak z komórek ząbkowanych, gruczolakorak z komórek chromofilowych, gruczolakorak z komórek sześciennych, gruczolakorak z komórek surowiczych, gruczolakorak z komórek ząbkowanych, gruczolakorak z komórek chromofilowych, gruczolakorak z komórek sześciennych, gruczolakorak z komórek surowiczych, gruczolakorak z komórek ząbkowanych, gruczolakorak z komórek chromofilowych, gruczolakorak z komórek sześciennych, gruczolakorak z komórek surowiczych, gruczolakorak z komórek ząbkowanych, gruczolakorak z komórek chromofilowych, gruczolakorak z komórek sześciennych, gruczolakorak z komórek surowiczych, gruczolakorak z komórek ząbkowanych, gruczolakorak z komórek chromofilowych, gruczolakorak z komórek sześciennych, gruczolakorak z komórek surowiczych, gruczolakorak z komórek ząbkowanych, gruczolakorak z komórek chromofilowych, gruczolakorak z komórek sześciennych, gruczolakorak z komórek surowiczych, gruczolakorak z komórek ząbkowanych, gruczolakorak z komórek chromofilowych, gruczolakorak z komórek sześciennych, gruczolakorak z komórek surowiczych, gruczolakorak z komórek ząbkowanych, gruczolakorak z komórek chromofilowych, gruczolakorak z komórek sześciennych, gruczolakorak z komórek surowiczych, gruczolakorak z komórek ząbkowanych, gruczolakorak z komórek chromofilowych, gruczolakorak z komórek sześciennych, gruczolak
+### Judge: Nie.
+### Poprawna odpowiedz: e) Serous cystadenoma, None
+### Wyniki: {'correct': 46, 'incorrect': 150, 'article_correct': 0}
+--------------------
+# Pytanie 197
+### Udzielona odpowiedz:                 Dokument 1: Dąbska M, Kowalski J, Matusewicz L, Nowakowska M, Nowakowski J, Szymański Z. Endovascular papillary angioendothelioma: report of two cases and review of the literature. 1998;112(2):301-3. [Opis endovascular papillary angioendothelioma]
+
+                
+                Dokument 2: Brodowski W. Etiopatogeneza przerostu gruczołu krokowego. Przegl Urol 2000; 3(2):1-4. [Etiopatogeneza przerostu gruczołu krokowego]
+
+                Dokument 3: Ciechanowski S. O makrofagach osiadłych w wątrobie. Przegl Lek 1927; 3: 10-11. [Opis makrofagów osiadłych w wątrobie]
+
+                Dokument 4: Mikulicz-Radecki J. O zapaleniu końcowego odcinka jelita cienkiego. Przegl Lek 1888; 4: 1-6. [Opis zapalenia końcowego odcinka jelita cienkiego]
+
+                Dokument 5: Browicz T. O tak zwanem charłactwie przysadkowem. Przegl Lek 1913; 4: 161-164. [Opis charłactwa przysadkowego]
+
+                a)
+### Judge: Tak
+### Poprawna odpowiedz: a) Maria Dąbska - opis endovascular papillary angioendothelioma, None
+### Wyniki: {'correct': 47, 'incorrect': 150, 'article_correct': 0}
+--------------------
+# Pytanie 198
+### Udzielona odpowiedz: Dokument 1: Guz ziarnistokomórkowy (łac. tumor alveolaris) – nowotwór złośliwy wywodzący się z komórek ziarnistych (dawniej określanych jako komórki Langerhansa) skóry. Jest to rzadki nowotwór, stanowi około 2% wszystkich nowotworów złośliwych skóry.
+### Judge: Nie
+### Poprawna odpowiedz: a) języku, None
+### Wyniki: {'correct': 47, 'incorrect': 151, 'article_correct': 0}
+--------------------
+# Pytanie 199
+### Udzielona odpowiedz: Odpowiedź a) mucykarminem jest poprawna.
+### Judge: Nie
+### Poprawna odpowiedz: e) żadnym z powyższych, None
+### Wyniki: {'correct': 47, 'incorrect': 152, 'article_correct': 0}
+--------------------
+# Pytanie 200
+### Udzielona odpowiedz:                 c) neuron
+### Judge: Tak
+### Poprawna odpowiedz: c) neuron, None
+### Wyniki: {'correct': 48, 'incorrect': 152, 'article_correct': 0}
+--------------------
+# Pytanie 201
+### Udzielona odpowiedz:                 c)
+### Judge: Nie
+### Poprawna odpowiedz: e) Rodzaj reakcji podścieliska na nowotwór, None
+### Wyniki: {'correct': 48, 'incorrect': 153, 'article_correct': 0}
+--------------------
+# Pytanie 202
+### Udzielona odpowiedz: ### Odpowiedź:
+c)
+### Judge: Nie
+### Poprawna odpowiedz: b) Raka inwazyjnego bez specjalnego typu, None
+### Wyniki: {'correct': 48, 'incorrect': 154, 'article_correct': 0}
+--------------------
+# Pytanie 203
+### Udzielona odpowiedz: Dokument 1: choroby prionowe
+Choroby prionowe to grupa chorób układu nerwowego, których wspólną cechą jest gromadzenie się w ośrodkowym układzie nerwowym nieprawidłowych izoform białka prionu. Do chorób prionowych zaliczamy: chorobę Creutzfeldta-Jakoba, śmiertelną rodzinną bezsenność, chorobę Gertsmanna-Strausslera-Scheinkera, zespół fatalnej rodzinnnej kardio miopatii, BSE (tzw. chorobę szalonych krów), wariant choroby Creutzfeldta-Jakoba (chorobę wywołaną prionami u ludzi).
+
+                Dokument 2: Zespół von Hippel-Lindau
+Zespół von Hippel-Lindau (VHL) jest rzadką, uwarunkowaną genetycznie chorobą, w której przebiegu dochodzi do rozwoju mnogich nowotworów, głównie pochodzenia neuroektodermalnego. Choroba spowodowana jest mutacjami w genie VHL kodującym białko VHL, pełniące funkcję regulatorową w komórce. Białko VHL uczestniczy w procesie ubikwitynacji, prowadząc do proteolizy w proteasomach. Białko VHL wiąże się z hydroksylazą PHD, co prowadzi do aktywacji kompleksu ubikwityna-ligaza E3. Kompleks ten odpowiada za ubikwitynację HIF-1, co zapobiega regulacji w górę genów zależnych od tlenu, w tym VEGF. W efekcie dochodzi do zahamowania angiogenezy. W przebiegu choroby dochodzi do rozwoju mnogich nowotworów, głównie pochodzenia neuroektodermalnego, w tym guzów mózgu, rdzenia kręgowego, siatkówki, trzustki, nadnerczy, trzonu tarczycy, guzów chromochłonnych, raka pęcherza moczowego, raka jelita grubego, raka żołądka, raka szyjki macicy, raka gruczołu sutkowego, raka jajnika, raka prącia, raka płuca, raka nerki.
+
+                Dokument 3: Nerwiakowłókniakowatości I
+Nerwiakowłókniakowatość typu I (choroba von Recklinghausena) jest rzadką, uwarunkowaną genetycznie chorobą układu nerwowego, w której przebiegu dochodzi do rozwoju hamartomicznych guzów pochodzenia neuroektodermalnego. Choroba spowodowana jest mutacjami w genie NF1 kodującym białko neurofibrominę 1. W przebiegu choroby dochodzi do rozwoju hamartomicznych guzów pochodzenia neuroektodermalnego, w tym nerwiakowłókniaków, guzów podstawnokomórkowych ośrodkowego układu nerwowego, guzów chromochłonnych, glejaka, mięsaków, raka żołądka, raka piersi, raka jelita grubego, raka trzustki, raka gruczołu krokowego, raka nerki, raka wargi, raka krtani, raka przełyku, raka tarczycy, raka jajnika, raka prącia, czerniaka, raka płuca.
+
+                Dokument 4: Nerwiakowłókniakowatości II
+Nerwiakowłókniakowatość typu II (choroba Recklinghausena) jest rzadką, uwarunkowaną genetycznie chorobą układu nerwowego, w której przebiegu dochodzi do rozwoju hamartomicznych guzów pochodzenia neuroektodermalnego. Choroba spowodowana jest mutacjami w genie NF2 kodującym białko neurofibrominę 2. W przebiegu choroby dochodzi do rozwoju hamartomicznych guzów pochodzenia neuroektodermalnego, w tym nerwiakowłókniaków, oponiaków, nerwiaków osłonkowych, guzów podstawnokomórkowych ośrodkowego układu nerwowego, gwiaździaków, glejaka, mięsaków, raka ż
+### Judge: Nie
+### Poprawna odpowiedz: d) Nerwiakowłókniakowatości II, None
+### Wyniki: {'correct': 48, 'incorrect': 155, 'article_correct': 0}
+--------------------
+# Pytanie 204
+### Udzielona odpowiedz: #### 204.
+### Judge: Nie.
+### Poprawna odpowiedz: b) moczówkę prostą, None
+### Wyniki: {'correct': 48, 'incorrect': 156, 'article_correct': 0}
+--------------------
+# Pytanie 205
+### Udzielona odpowiedz: Odpowiedź e) jest najbardziej spójna z dostarczonymi dokumentami.
+### Judge: Nie.
+### Poprawna odpowiedz: b) Obecność zmian głównie w części odzwiernikowej, None
+### Wyniki: {'correct': 48, 'incorrect': 157, 'article_correct': 0}
+--------------------
+# Pytanie 206
+### Udzielona odpowiedz: Odpowiedź e) jest najbardziej zgodna z treścią powiązanych dokumentów.
+### Judge: Tak.
+### Poprawna odpowiedz: e) sekcjonowaniu narządów w miejscu ich lokalizacji w obrębie zwłok, None
+### Wyniki: {'correct': 49, 'incorrect': 157, 'article_correct': 0}
+--------------------
+# Pytanie 207
+### Udzielona odpowiedz:     - obfita, wodnista wydzielina z nosa
+                + bóle głowy, twarzy, okolicy korzeni zębów, ucha
+                + kaszel
+                + niekiedy gorączka.
+
+                Dokument 1: - pogrubione punkty wchodzą w skład skali Centora, czyli skali określającej prawdopodobieństwo, że czynnikiem etiologicznym ostrego apalenia gardła są paciorkowce.    # 12.1.2 Zapalenie błony śluzowej nosa i zatok przynosowych    Ma najczęściej charakter wysiękowy ze śluzową wydzieliną. Czynnikiem odpowiedzialnym za te zmiany są przede wszystkim rhinowirusy i wirusy paragrypy. Rozwój choroby jest szybki, objawy pojawiają się zazwyczaj w ciągu 48 godzin od chwili zakażenia i są to:
+
+                
+                + obfita, wodnista wydzielina z nosa
+                + bóle głowy, twarzy, okolicy korzeni zębów, ucha
+                + kaszel
+                + niekiedy gorączka.
+
+                Dokument 2: - pogrubione punkty wchodzą w skład skali Centora, czyli skali określającej prawdopodobieństwo, że czynnikiem etiologicznym ostrego apalenia gardła są paciorkowce.    # 12.1.2 Zapalenie błony śluzowej nosa i zatok przynosowych    Ma najczęściej charakter wysiękowy ze śluzową wydzieliną. Czynnikiem odpowiedzialnym za te zmiany są przede wszystkim rhinowirusy i wirusy paragrypy. Rozwój choroby jest szybki, objawy pojawiają się zazwyczaj w ciągu 48 godzin od chwili zakażenia i są to:
+
+                
+                + obfita, wodnista wydzielina z nosa
+                + bóle głowy, twarzy, okolicy korzeni zębów, ucha
+                + kaszel
+                + niekiedy gorączka.
+
+                Dokument 3: - pogrubione punkty wchodzą w skład skali Centora, czyli skali określającej prawdopodobieństwo, że czynnikiem etiologicznym ostrego apalenia gardła są paciorkowce.    # 12.1.2 Zapalenie błony śluzowej nosa i zatok przynosowych    Ma najczęściej charakter wysiękowy ze śluzową wydzieliną. Czynnikiem odpowiedzialnym za te zmiany są przede wszystkim rhinowirusy i wirusy paragrypy. Rozwój choroby jest szybki, objawy pojawiają się zazwyczaj w ciągu 48 godzin od chwili zakażenia i są to:
+
+                
+                + obfita, wodnista wydzielina z nosa
+                + bóle głowy, twarzy, okolicy korzeni zębów, ucha
+                + kaszel
+                + niekiedy gorączka.
+
+                Dokument 4: - pogrubione punkty wchodzą w skład skali Centora, czyli skali określającej prawdopodobieństwo, że czynnikiem etiologicznym ostrego apalenia gardła są paciorkowce.    # 12.1.2 Zapalenie błony śluzowej nosa i zatok przynosowych    Ma najczęściej charakter wysiękowy ze śluzową wydzieliną. Czynnikiem odpowiedzialnym za te zmiany są przede wszystkim rhinowirusy i wirusy paragrypy. Rozwój choroby jest szybki, objawy pojawiają się zazwyczaj w ciągu 48 godzin od chwili zakażenia i są to:
+
+                
+                + obfita, wodnista wydzielina z nosa
+                + bóle głowy, twarzy, okolicy korzeni zębów, ucha
+                + kaszel
+                + niekiedy gorączka.
+
+                Dokument 5: - pogrubione punkty wchodzą w skład skali Centora, czyli skali określającej prawdopodobieństwo, że czynnikiem etiologicznym ostrego apalenia gardła są paciorkowce.    # 12.1.2 Zapalen
+### Judge: Nie
+### Poprawna odpowiedz: d) Rozpoznanie choroby stawia się w oparciu o wyniki badań serologicznych i obecności przynajmniej dwóch kryteriów oceny Jonesa, None
+### Wyniki: {'correct': 49, 'incorrect': 158, 'article_correct': 0}
+--------------------
+# Pytanie 208
+### Udzielona odpowiedz: a) nowotwory układu nerwowego: rdzeniak płodowy, gwiaździak, wyściółczak, nerwiak płodowy, nerwiakowłókniak, nerwiak zarodkowy, nerwiak splotowaty, nerwiak węchowy, nerwiak przedsionka, nerwiak komorowy, nerwiak okołokomorowy, nerwiak kręgosłupa, nerwiak nerki, nerwiak tarczycy, nerwiak języka, nerwiak wargi, nerwiak podniebienia, nerwiak przełyku, nerwiak jelita, nerwiak żołądka, nerwiak trzustki, nerwiak okołopępkowy, nerwiak moszny, nerwiak sromu, nerwiak prącia, nerwiak okołootrzewnowy, nerwiak śródpiersia, nerwiak przestrzeni zaotrzewnowej, nerwiak szyjki macicy, nerwiak pochwy, nerwiak pęcherza moczowego, nerwiak cewki moczowej, nerwiak spojówki, nerwiak powiek, nerwiak rogówki, nerwiak twardówki, nerwiak nadnercza, nerwiak przyzwojaka, nerwiak przysadki, nerwiak szyszynki, nerwiak móżdżku, nerwiak rdzenia kręgowego, nerwiak splotu ramiennego, nerwiak splotu lędźwiowego, nerwiak splotu krzyżowego, nerwiak splotu barkowego, nerwiak splotu udowego, nerwiak splotu podkolanowego, nerwiak splotu łonowego, nerwiak splotu zasłonowego, nerwiak splotu lędźwiowo-krzyżowego, nerwiak splotu biodrowo-lędźwiowego, nerwiak splotu biodrowo-łonowego, nerwiak splotu krzyżowo-guzicznego, nerwiak splotu krzyżowo-kolcowego, nerwiak splotu krzyżowo-ogonowego, nerwiak splotu krzyżowo-pośladkowego, nerwiak splotu krzyżowo-podbrzusznego, nerwiak splotu krzyżowo-udowego, nerwiak splotu krzyżowo-pośrodkowego, nerwiak splotu krzyżowo-guzicznego, nerwiak splotu krzyżowo-ogonowego, nerwiak splotu krzyżowo-pośladkowego, nerwiak splotu krzyżowo-podbrzusznego, nerwiak splotu krzyżowo-udowego, nerwiak splotu krzyżowo-pośrodkowego, nerwiak splotu szyjnego, nerwiak splotu szyjno-ramiennego, nerwiak splotu szyjno-tętnicy podobojczykowej, nerwiak splotu szyjno-tętnicy szyjnej zewnętrznej, nerwiak splotu szyjno-tętnicy tarczowej górnej, nerwiak splotu szyjno-tętnicy ocznej, nerwiak splotu szyjno-tętnicy językowej, nerwiak splotu szyjno-tętnicy kręgowej, nerwiak splotu szyjno-tętnicy potylicznej, nerwiak splotu szyjno-tętnicy usznej, nerwiak splotu szyjno-tętnicy podobojczykowej, nerwiak splotu szyjno-tętnicy szyjnej zewnętrznej, nerwiak splotu szyjno-tętnicy tarczowej górnej, nerwiak splotu szyjno-tętnicy ocznej, nerwiak splotu szyjno-tętnicy językowej, nerwiak splotu szyjno-tętnicy kręgowej, nerwiak splotu szyjno-tętnicy potylicznej, nerwiak splotu szyjno-tętnicy usznej, nerwiak splotu szyjno-żuchwowego, nerwiak splotu szyjno-gnykowego, nerwiak splotu szyjno
+### Judge: Nie.
+### Poprawna odpowiedz: d) Osteosarcoma, None
+### Wyniki: {'correct': 49, 'incorrect': 159, 'article_correct': 0}
+--------------------
+# Pytanie 209
+### Udzielona odpowiedz: Dokument 1: # Naczyniak krwionośny włośniczkowy (naczyniak włośniczkowy, ang. angioma, telangiectasia) – najczęstszy rodzaj naczyniaka. Jest to trwałe rozszerzenie włośniczkowych naczyń krwionośnych. Naczyniaki włośniczkowe są małymi, płaskimi czerwonymi plamkami, które mogą występować pojedynczo lub w grupach. Mogą pojawiać się w różnych miejscach na ciele, ale najczęściej występują na twarzy, szczególnie na policzkach, wokół oczu i na nosie. Mogą pojawiać się w każdym wieku, ale zwykle pojawiają się w dzieciństwie lub w okresie dojrzewania. Naczyniaki włośniczkowe są zazwyczaj nieszkodliwe i nie wymagają leczenia, ale mogą być nieestetyczne, szczególnie jeśli występują w widocznych miejscach. W niektórych przypadkach mogą być bolesne lub swędzące, szczególnie jeśli są często narażone na uszkodzenia.
+### Judge: Nie
+### Poprawna odpowiedz: c) Jest najczęstszym rodzajem naczyniaka, None
+### Wyniki: {'correct': 49, 'incorrect': 160, 'article_correct': 0}
+--------------------
+{'correct': 49, 'incorrect': 160, 'article_correct': 0}

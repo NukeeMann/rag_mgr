@@ -463,7 +463,7 @@ a) ocena mutacji w genie BRCA1
 b) Ocena poziomu LDH w surowicy
 c) Ocena poziomu PSA w surowicy
 [P] d) Biopsja gruboigłowa narządu
-e) Biopsja aspiracyjna cienkoigłowa narządu (Wykrywania to biopsja, bo z markerami to różnie jest, ale monitorowania to psa wiec idk)  
+e) Biopsja aspiracyjna cienkoigłowa narządu
 
 # 68. Niealkoholowe stłuszczenie wątroby (NASH) występuje u:  
 a) nałogowych palaczy

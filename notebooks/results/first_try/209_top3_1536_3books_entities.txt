@@ -1,0 +1,1964 @@
+# Pytanie 1
+### Udzielona odpowiedz: 
+
+
+a) W tkance śródmiąższowej mięśnia sercowego w przebiegu zapalenia reumatycznego
+
+W badaniu mikroskopowym komórki wad sercowych stwierdza się w tkance śródmiąższowej mięśnia sercowego w przebiegu zapalenia reumatycznego. Zapalenie reumatyczne jest chorobą autoimmunologiczną, która może prowadzić do uszkodzenia zastawek serca i mięśnia sercowego. W badaniu histopatologicznym można zaobserwować nacieki zapalne w tkance śródmiąższowej mięśnia sercowego, co jest charakterystyczne dla tej choroby.
+### Judge: Nie
+### Poprawna odpowiedz: d) W świetle pęcherzyków płucnych, None
+### Wyniki: {'correct': 0, 'incorrect': 1, 'article_correct': 0}
+--------------------
+# Pytanie 2
+### Udzielona odpowiedz: 
+
+
+c) rak gruczołowy stercza
+### Judge: Nie
+### Poprawna odpowiedz: a) łagodny rozrost guzkowy stercza, None
+### Wyniki: {'correct': 0, 'incorrect': 2, 'article_correct': 0}
+--------------------
+# Pytanie 3
+### Udzielona odpowiedz: 
+### Odpowiedź:
+c) Nadnerczach
+### Judge: Tak
+### Poprawna odpowiedz: c) Nadnerczach, None
+### Wyniki: {'correct': 1, 'incorrect': 2, 'article_correct': 0}
+--------------------
+# Pytanie 4
+### Udzielona odpowiedz: 
+
+c) Hemosyderynę
+### Judge: Nie
+### Poprawna odpowiedz: d) Lipofuscynę, None
+### Wyniki: {'correct': 1, 'incorrect': 3, 'article_correct': 0}
+--------------------
+# Pytanie 5
+### Udzielona odpowiedz: 
+
+Caput Medusae to skutek:
+a) Ucisku na sploty naczyniówkowe mózgu
+
+Odpowiedź: a) Ucisku na sploty naczyniówkowe mózgu
+### Judge: Nie
+### Poprawna odpowiedz: d) Marskości wątroby, None
+### Wyniki: {'correct': 1, 'incorrect': 4, 'article_correct': 0}
+--------------------
+# Pytanie 6
+### Udzielona odpowiedz: 
+
+a) Agregaty cytokeratyny w hepatocytach alkoholików
+
+Ciałka Mallory’ego to agregaty cytokeratyny, które występują w hepatocytach u osób z marskością wątroby, często spowodowaną nadużywaniem alkoholu. Są to charakterystyczne struktury, które można zaobserwować podczas badania histopatologicznego wątroby.
+### Judge: Tak
+### Poprawna odpowiedz: a) Agregaty cytokeratyny w hepatocytach alkoholików, None
+### Wyniki: {'correct': 2, 'incorrect': 4, 'article_correct': 0}
+--------------------
+# Pytanie 7
+### Udzielona odpowiedz: 
+
+d) krwotok z nosa
+### Judge: Tak
+### Poprawna odpowiedz: d) krwotok z nosa, None
+### Wyniki: {'correct': 3, 'incorrect': 4, 'article_correct': 0}
+--------------------
+# Pytanie 8
+### Udzielona odpowiedz: 
+
+c) choroby Addisona
+### Judge: Nie.
+### Poprawna odpowiedz: a) hemochromatozy, None
+### Wyniki: {'correct': 3, 'incorrect': 5, 'article_correct': 0}
+--------------------
+# Pytanie 9
+### Udzielona odpowiedz: 
+
+a) PSA, tyreoglobulina, wimentyna
+
+Odpowiedź a) jest poprawna. Antygeny narządowo specyficzne to białka, które są charakterystyczne dla określonych tkanek lub narządów. W tym przypadku:
+
+- PSA (Prostate-Specific Antigen) jest markerem specyficznym dla gruczołu krokowego (prostaty).
+- Tyreoglobulina jest markerem specyficznym dla tarczycy.
+- Wimentyna jest białkiem występującym w komórkach nabłonkowych, w tym w komórkach nabłonka płaskiego.
+
+Te antygeny są często używane w diagnostyce i monitorowaniu nowotworów związanych z tymi narządami.
+### Judge: Nie.
+### Poprawna odpowiedz: b) kalcytonina, PLAP, EMA, None
+### Wyniki: {'correct': 3, 'incorrect': 6, 'article_correct': 0}
+--------------------
+# Pytanie 10
+### Udzielona odpowiedz: 
+### Poprawna odpowiedź:
+c) otyłość, cukrzyca, późna menopauza, niepłodność
+
+### Uzasadnienie:
+Zgodnie z podanym dokumentem, do najważniejszych czynników ryzyka raka endometrium należą:
+- otyłość
+- cukrzyca
+- nadciśnienie
+- niepłodność (cykle bezowulacyjne)
+- późna menopauza
+
+Wśród podanych opcji, tylko opcja c) zawiera wszystkie wymienione czynniki ryzyka.
+### Judge: Tak
+### Poprawna odpowiedz: c) otyłość, cukrzyca, późna menopauza, niepłodność, None
+### Wyniki: {'correct': 4, 'incorrect': 6, 'article_correct': 0}
+--------------------
+# Pytanie 11
+### Udzielona odpowiedz: 
+### Odpowiedź:
+e) osteoclastoma, carcinoma basocellulare cutis, cystadenoma ovarii
+### Judge: Tak
+### Poprawna odpowiedz: e) osteoclastoma, carcinoma basocellulare cutis, cystadenoma ovarii, None
+### Wyniki: {'correct': 5, 'incorrect': 6, 'article_correct': 0}
+--------------------
+# Pytanie 12
+### Udzielona odpowiedz: 
+
+
+Odpowiedź: e) c i d
+
+Wyjaśnienie:
+
+Według klasyfikacji WHO (Światowej Organizacji Zdrowia), nowotwory ośrodkowego układu nerwowego są podzielone na cztery grupy złośliwości. Grupa IV obejmuje najbardziej złośliwe nowotwory.
+
+1. Oponiak fibroblastyczny - należy do grupy I, która obejmuje najmniej złośliwe nowotwory.
+2. Glejak anaplastyczny - należy do grupy III, która obejmuje umiarkowanie złośliwe nowotwory.
+3. Glejak wielopostaciowy - należy do grupy IV, co oznacza, że jest to jeden z najbardziej złośliwych nowotworów ośrodkowego układu nerwowego.
+4. Rdzeniak - również należy do grupy IV, co czyni go jednym z najbardziej złośliwych nowotworów ośrodkowego układu nerwowego.
+
+Zatem, odpowiedź e) c i d jest poprawna, ponieważ zarówno glejak wielopostaciowy, jak i rdzeniak należą do grupy IV złośliwości według klasyfikacji WHO.
+### Judge: Tak
+### Poprawna odpowiedz: e) c i d, None
+### Wyniki: {'correct': 6, 'incorrect': 6, 'article_correct': 0}
+--------------------
+# Pytanie 13
+### Udzielona odpowiedz: 
+
+c) Gleasona
+### Judge: Tak
+### Poprawna odpowiedz: c) Gleasona, None
+### Wyniki: {'correct': 7, 'incorrect': 6, 'article_correct': 0}
+--------------------
+# Pytanie 14
+### Udzielona odpowiedz: 
+Odpowiedź: a) 16,19,43
+### Judge: Nie
+### Poprawna odpowiedz: b) 16,18,33, None
+### Wyniki: {'correct': 7, 'incorrect': 7, 'article_correct': 0}
+--------------------
+# Pytanie 15
+### Udzielona odpowiedz: 
+
+Odpowiedź: e) cor bovinum
+### Judge: Tak
+### Poprawna odpowiedz: e) cor bovinum, None
+### Wyniki: {'correct': 8, 'incorrect': 7, 'article_correct': 0}
+--------------------
+# Pytanie 16
+### Udzielona odpowiedz: 
+
+a) stopnia zaawansowania nowotworów narządu rodnego
+### Judge: Tak
+### Poprawna odpowiedz: a) stopnia zaawansowania nowotworów narządu rodnego, None
+### Wyniki: {'correct': 9, 'incorrect': 7, 'article_correct': 0}
+--------------------
+# Pytanie 17
+### Udzielona odpowiedz: 
+
+
+Furunculus to przykład:
+a) Ropnia
+
+Furunculus, czyli czyrak, jest to zakażenie mieszka włosowego, które prowadzi do powstania ropnia. Jest to ograniczona infekcja bakteryjna, która powoduje powstanie ropnej zmiany skórnej.
+### Judge: Nie
+### Poprawna odpowiedz: b) Ropowicy, None
+### Wyniki: {'correct': 9, 'incorrect': 8, 'article_correct': 0}
+--------------------
+# Pytanie 18
+### Udzielona odpowiedz: 
+
+e) Genetycznie uwarunkowanego niedoboru enzymów
+### Judge: Tak
+### Poprawna odpowiedz: e) Genetycznie uwarunkowanego niedoboru enzymów, None
+### Wyniki: {'correct': 10, 'incorrect': 8, 'article_correct': 0}
+--------------------
+# Pytanie 19
+### Udzielona odpowiedz: 
+
+a) Choroby Crohna
+
+19. Gruczolakorak jelita grubego najczęściej rozwija się na podłożu choroby Crohna.
+### Judge: Nie
+### Poprawna odpowiedz: e) Gruczolaka kosmkowego, None
+### Wyniki: {'correct': 10, 'incorrect': 9, 'article_correct': 0}
+--------------------
+# Pytanie 20
+### Udzielona odpowiedz: 
+
+
+b) reumatycznego zapalenia mięśnia sercowego
+### Judge: Tak
+### Poprawna odpowiedz: b) reumatycznego zapalenia mięśnia sercowego, None
+### Wyniki: {'correct': 11, 'incorrect': 9, 'article_correct': 0}
+--------------------
+# Pytanie 21
+### Udzielona odpowiedz: 
+
+a) lupus erythematosus
+### Judge: Tak
+### Poprawna odpowiedz: a) lupus erythematosus, None
+### Wyniki: {'correct': 12, 'incorrect': 9, 'article_correct': 0}
+--------------------
+# Pytanie 22
+### Udzielona odpowiedz: 
+### Odpowiedź:
+a) Jest produkowany przez komórki wydzielnicze prawidłowych gruczołów sterczowych i komórki raka gruczołowe stercza
+
+### Wyjaśnienie:
+Specyficzny antygen sterczowy (PSA) jest białkiem produkowanym przez komórki wydzielnicze prawidłowych gruczołów sterczowych oraz komórki raka gruczołowego stercza. Jest to marker, który może być podwyższony zarówno w przypadku łagodnych chorób stercza, jak i w raku stercza. Jednakże, PSA nie jest czułym i specyficznym markerem nowotworowym oznaczanym w surowicy ani immunohistochemicznie w wycinkach z gruczołu krokowego. Ponadto, znaczenie PSA w wykrywaniu raka stercza nie jest ograniczone do mężczyzn w określonym wieku, ale jest ważne dla mężczyzn w różnym wieku, zwłaszcza po 50. roku życia.
+### Judge: Tak
+### Poprawna odpowiedz: a) Jest produkowany przez komórki wydzielnicze prawidłowych gruczołów sterczowych i komórki raka gruczołowe stercza, None
+### Wyniki: {'correct': 13, 'incorrect': 9, 'article_correct': 0}
+--------------------
+# Pytanie 23
+### Udzielona odpowiedz: 
+
+e) a+b
+### Judge: Tak
+### Poprawna odpowiedz: e) a+b, None
+### Wyniki: {'correct': 14, 'incorrect': 9, 'article_correct': 0}
+--------------------
+# Pytanie 24
+### Udzielona odpowiedz: 
+
+a) rak jelita grubego, rak stercza, rak gruczołu piersiowego
+
+Najczęściej przerzuty do wątroby dają rak jelita grubego, rak stercza oraz rak gruczołu piersiowego.
+### Judge: Nie
+### Poprawna odpowiedz: d) rak trzustki, czerniak, rak jelita grubego, None
+### Wyniki: {'correct': 14, 'incorrect': 10, 'article_correct': 0}
+--------------------
+# Pytanie 25
+### Udzielona odpowiedz: 
+
+a) Komórki Cornila
+
+Komórki Cornila są przykładem nieprawidłowego wewnątrzkomórkowego gromadzenia białka. Występują one w chorobie Niemanna-Picka typu C, gdzie dochodzi do gromadzenia się lipidów w lizosomach komórek.
+### Judge: Nie
+### Poprawna odpowiedz: e) Złogi amyloidu w nerce, None
+### Wyniki: {'correct': 14, 'incorrect': 11, 'article_correct': 0}
+--------------------
+# Pytanie 26
+### Udzielona odpowiedz: 
+
+
+e) Najczęściej rozwija się na podłożu kostniaka
+
+To zdanie jest fałszywe. Osteosarkoma to pierwotny nowotwór złośliwy kości, który nie rozwija się na podłożu kostniaka. Kostniak jest łagodnym guzem kości, który może być obecny przed rozwojem osteosarkomy, ale nie jest jej bezpośrednią przyczyną.
+### Judge: Tak
+### Poprawna odpowiedz: e) Najczęściej rozwija się na podłożu kostniaka, None
+### Wyniki: {'correct': 15, 'incorrect': 11, 'article_correct': 0}
+--------------------
+# Pytanie 27
+### Udzielona odpowiedz: 
+### Odpowiedź:
+a) W świetle naczynia za życia powstaje zakrzep, a po śmierci skrzep
+### Judge: Tak
+### Poprawna odpowiedz: a) W świetle naczynia za życia powstaje zakrzep, a po śmierci skrzep, None
+### Wyniki: {'correct': 16, 'incorrect': 11, 'article_correct': 0}
+--------------------
+# Pytanie 28
+### Udzielona odpowiedz: 
+### Odpowiedź:
+e) c i d
+### Judge: Tak
+### Poprawna odpowiedz: e) c i d, None
+### Wyniki: {'correct': 17, 'incorrect': 11, 'article_correct': 0}
+--------------------
+# Pytanie 29
+### Udzielona odpowiedz: 
+
+Odpowiedź: c) neurofibroma
+### Judge: Nie
+### Poprawna odpowiedz: e) carcinoma basocellulare, None
+### Wyniki: {'correct': 17, 'incorrect': 12, 'article_correct': 0}
+--------------------
+# Pytanie 30
+### Udzielona odpowiedz: 
+
+a) Skręt pętli jelita
+
+Skręt pętli jelita nie jest przyczyną zawału krwotocznego jelita. Zawał krwotoczny jelita jest spowodowany niedokrwieniem, które prowadzi do martwicy tkanek jelitowych. Skręt pętli jelita może prowadzić do niedokrwienia, ale nie jest bezpośrednią przyczyną zawału krwotocznego. Zawał krwotoczny jelita jest związany z uszkodzeniem naczyń krwionośnych i krwawieniem do światła jelita, co nie jest typowym skutkiem skrętu pętli jelita.
+### Judge: Nie
+### Poprawna odpowiedz: b) Zarośniecie światła jelita przez coprol, None
+### Wyniki: {'correct': 17, 'incorrect': 13, 'article_correct': 0}
+--------------------
+# Pytanie 31
+### Udzielona odpowiedz: 
+
+a) Carcinoma ductale invasivum
+
+Wyjaśnienie:
+Carcinoma ductale invasivum (inwazyjny rak przewodowy) jest najczęstszym typem raka piersi u kobiet. Występuje w przewodach mlecznych gruczołu piersiowego i charakteryzuje się inwazyjnym wzrostem. Pozostałe typy wymienione w pytaniu są rzadsze lub mają inne cechy kliniczne.
+### Judge: Nie.
+### Poprawna odpowiedz: c) Carcinoma ductale invasivum, None
+### Wyniki: {'correct': 17, 'incorrect': 14, 'article_correct': 0}
+--------------------
+# Pytanie 32
+### Udzielona odpowiedz: 
+
+a) ca planoepitheliale
+
+32. Który z poniższych nowotworów rozwija się najczęściej w obwodowej części płuca?
+
+a) ca planoepitheliale
+b) ca macrocellulare
+c) adenocarcinoma
+d) żaden z ww.
+
+Odpowiedź: a) ca planoepitheliale
+
+Uzasadnienie: Rak płaskonabłonkowy (ca planoepitheliale) jest najczęstszym typem raka płuca, który rozwija się w obwodowej części płuca. Jest to spowodowane tym, że większość palaczy tytoniu, którzy są głównym czynnikiem ryzyka rozwoju raka płuca, ma tendencję do inhalowania dymu tytoniowego do obwodowych części płuc. Ponadto, rak płaskonabłonkowy często rozwija się w obwodowych drogach oddechowych, gdzie narażenie na dym tytoniowy jest największe.
+### Judge: Nie
+### Poprawna odpowiedz: c) adenocarcinoma, None
+### Wyniki: {'correct': 17, 'incorrect': 15, 'article_correct': 0}
+--------------------
+# Pytanie 33
+### Udzielona odpowiedz: 
+
+
+a) Osteoarthritis chronica
+
+Łuszczka (łac. osteophyte) to wyrośla kostne powstające w przebiegu przewlekłego zapalenia stawów, w tym osteoarthritis chronica (przewlekłego zapalenia stawów). Łuszczki są wynikiem procesów naprawczych i degeneracyjnych w chrząstce stawowej, które prowadzą do tworzenia się wyrośli kostnych na powierzchniach stawowych kości.
+### Judge: Nie
+### Poprawna odpowiedz: c) RZS, None
+### Wyniki: {'correct': 17, 'incorrect': 16, 'article_correct': 0}
+--------------------
+# Pytanie 34
+### Udzielona odpowiedz: 
+
+a) obumieranie komórek w żywym organizmie
+### Judge: Nie
+### Poprawna odpowiedz: b) nagła śmierć komórki w żywym organizmie, None
+### Wyniki: {'correct': 17, 'incorrect': 17, 'article_correct': 0}
+--------------------
+# Pytanie 35
+### Udzielona odpowiedz: 
+
+Odpowiedź: e) a, b i d
+### Judge: Tak
+### Poprawna odpowiedz: e) a, b i d, None
+### Wyniki: {'correct': 18, 'incorrect': 17, 'article_correct': 0}
+--------------------
+# Pytanie 36
+### Udzielona odpowiedz: 
+
+
+c) Dysplazji
+
+Myositis ossificans jest przykładem dysplazji, ponieważ jest to stan charakteryzujący się nieprawidłowym rozwojem i wzrostem tkanki kostnej, co prowadzi do zniekształceń i deformacji kości.
+### Judge: Nie
+### Poprawna odpowiedz: b) Metaplazji, None
+### Wyniki: {'correct': 18, 'incorrect': 18, 'article_correct': 0}
+--------------------
+# Pytanie 37
+### Udzielona odpowiedz: 
+
+a) Doustne środki antykoncepcyjne
+b) Palenie papierosów
+c) Choroba nowotworowa
+d) Wszystkie powyższe
+
+Poprawna odpowiedź to: d) Wszystkie powyższe
+### Judge: Tak
+### Poprawna odpowiedz: d) Wszystkie powyższe, None
+### Wyniki: {'correct': 19, 'incorrect': 18, 'article_correct': 0}
+--------------------
+# Pytanie 38
+### Udzielona odpowiedz: 
+### Odpowiedź:
+a) E.coli, Proteus vulgaris
+### Judge: Tak
+### Poprawna odpowiedz: a) E.coli, Proteus vulgaris, None
+### Wyniki: {'correct': 20, 'incorrect': 18, 'article_correct': 0}
+--------------------
+# Pytanie 39
+### Udzielona odpowiedz: 
+Najczęstsza przyczyna białkomoczu u dorosłych to:
+
+c) lipoid nephrosis
+### Judge: Nie
+### Poprawna odpowiedz: a) glomerulonephritis membranosa, None
+### Wyniki: {'correct': 20, 'incorrect': 19, 'article_correct': 0}
+--------------------
+# Pytanie 40
+### Udzielona odpowiedz: 
+Najczęstsza przyczyna krwiaka otrzewnej u młodej kobiety to:
+
+e) pęknięta ciąża pozamaciczna
+### Judge: Tak
+### Poprawna odpowiedz: e) pęknięta ciąża pozamaciczna, None
+### Wyniki: {'correct': 21, 'incorrect': 19, 'article_correct': 0}
+--------------------
+# Pytanie 41
+### Udzielona odpowiedz: 
+
+Najczęstsza przyczyna krwotoków śródmózgowych to:
+
+d) nadciśnienie
+### Judge: Tak.
+### Poprawna odpowiedz: d) nadciśnienie, None
+### Wyniki: {'correct': 22, 'incorrect': 19, 'article_correct': 0}
+--------------------
+# Pytanie 42
+### Udzielona odpowiedz: 
+
+Najczęstszy rodzaj materiału zatorowego to:
+
+c) zakrzepy
+
+Uzasadnienie:
+Zakrzepy są najczęstszym rodzajem materiału zatorowego, ponieważ powstają w wyniku procesu krzepnięcia krwi, który może być wywołany różnymi czynnikami, takimi jak uszkodzenie ściany naczynia krwionośnego, zaburzenia krzepnięcia krwi czy obecność czynników prozakrzepowych. Zakrzepy mogą powstawać w różnych miejscach układu krwionośnego, w tym w żyłach (zakrzepica żylna) i tętnicach (zakrzepica tętnicza), i mogą przemieszczać się do różnych narządów, powodując zatory. Inne rodzaje materiału zatorowego, takie jak krople tłuszczu, wody płodowe, pęcherzyki powietrza czy fragmenty blaszek miażdżycowych, są rzadsze i występują w specyficznych sytuacjach klinicznych.
+### Judge: Tak.
+### Poprawna odpowiedz: c) zakrzepy, None
+### Wyniki: {'correct': 23, 'incorrect': 19, 'article_correct': 0}
+--------------------
+# Pytanie 43
+### Udzielona odpowiedz: 
+
+a) hepatocellular carcinoma
+### Judge: Nie
+### Poprawna odpowiedz: e) metastasis, None
+### Wyniki: {'correct': 23, 'incorrect': 20, 'article_correct': 0}
+--------------------
+# Pytanie 44
+### Udzielona odpowiedz: 
+Odpowiedź: b) carcinoma embryonale
+### Judge: Nie.
+### Poprawna odpowiedz: c) yolk sac tumour, None
+### Wyniki: {'correct': 23, 'incorrect': 21, 'article_correct': 0}
+--------------------
+# Pytanie 45
+### Udzielona odpowiedz: 
+a) rak rdzeniasty
+### Judge: Nie
+### Poprawna odpowiedz: d) rak brodawkowaty, None
+### Wyniki: {'correct': 23, 'incorrect': 22, 'article_correct': 0}
+--------------------
+# Pytanie 46
+### Udzielona odpowiedz: 
+Najważniejszymi komórkami w zapaleniach ziarniniakowych są:
+
+b) granulocyty kwasochłonne
+
+Wyjaśnienie:
+Zapalenia ziarniniakowe to rodzaj zapaleń, w których dochodzi do tworzenia się ziarniniaków, czyli skupisk komórek zapalnych. Najważniejszymi komórkami w tych procesach są granulocyty kwasochłonne (eozynofile), które odgrywają kluczową rolę w odpowiedzi immunologicznej na infekcje pasożytnicze oraz w reakcjach alergicznych. Eozynofile są zdolne do fagocytozy i wydzielania substancji toksycznych dla patogenów.
+### Judge: Nie.
+### Poprawna odpowiedz: d) komórki nabłonkowate, None
+### Wyniki: {'correct': 23, 'incorrect': 23, 'article_correct': 0}
+--------------------
+# Pytanie 47
+### Udzielona odpowiedz: 
+Niedokrwistość hemolityczna powstaje w mechanizmie:
+
+a) III-go typu nadwrażliwości
+### Judge: Nie
+### Poprawna odpowiedz: c) II-go typu nadwrażliwości, None
+### Wyniki: {'correct': 23, 'incorrect': 24, 'article_correct': 0}
+--------------------
+# Pytanie 48
+### Udzielona odpowiedz: 
+
+Odpowiedź: a) rhabdomyoblastoma
+
+Wyjaśnienie:
+Nowotwory neuroendokrynne to grupa rzadkich nowotworów, które wywodzą się z komórek neuroendokrynnych, czyli komórek zdolnych do wydzielania hormonów. Wśród wymienionych opcji, rhabdomyoblastoma nie jest nowotworem neuroendokrynnym. Jest to rzadki nowotwór złośliwy wywodzący się z tkanki mięśniowej, a nie z komórek neuroendokrynnych. Pozostałe opcje (b) carcinoid, (c) Merkell cell carcinoma i (d) carcinoma microcellulare pulmonis są przykładami nowotworów neuroendokrynnych.
+### Judge: Tak
+### Poprawna odpowiedz: a) rhabdomyoblastoma, None
+### Wyniki: {'correct': 24, 'incorrect': 24, 'article_correct': 0}
+--------------------
+# Pytanie 49
+### Udzielona odpowiedz: 
+Odpowiedź: b) raka śluzowo komórkowego żołądka
+### Judge: Tak
+### Poprawna odpowiedz: b) raka śluzowo komórkowego żołądka, None
+### Wyniki: {'correct': 25, 'incorrect': 24, 'article_correct': 0}
+--------------------
+# Pytanie 50
+### Udzielona odpowiedz: 
+### Odpowiedź:
+d) obecności przerzutów
+### Judge: Tak
+### Poprawna odpowiedz: d) obecności przerzutów, None
+### Wyniki: {'correct': 26, 'incorrect': 24, 'article_correct': 0}
+--------------------
+# Pytanie 51
+### Udzielona odpowiedz: 
+Odpowiedź: b) Nerce
+### Judge: Tak
+### Poprawna odpowiedz: b) Nerce, None
+### Wyniki: {'correct': 27, 'incorrect': 24, 'article_correct': 0}
+--------------------
+# Pytanie 52
+### Udzielona odpowiedz: 
+Odpowiedź: a) Rozlany rozrost przytarczyc
+### Judge: Nie
+### Poprawna odpowiedz: b) Gruczolak przytarczyc, None
+### Wyniki: {'correct': 27, 'incorrect': 25, 'article_correct': 0}
+--------------------
+# Pytanie 53
+### Udzielona odpowiedz: 
+
+b) CD30
+### Judge: Tak
+### Poprawna odpowiedz: b) CD30, None
+### Wyniki: {'correct': 28, 'incorrect': 25, 'article_correct': 0}
+--------------------
+# Pytanie 54
+### Udzielona odpowiedz: 
+
+a) ca embryonale
+
+Poprawna odpowiedź to: a) ca embryonale.
+### Judge: Nie
+### Poprawna odpowiedz: e) yolk sac tumor, None
+### Wyniki: {'correct': 28, 'incorrect': 26, 'article_correct': 0}
+--------------------
+# Pytanie 55
+### Udzielona odpowiedz: 
+
+c) ok. 8 tygodni
+### Judge: Tak
+### Poprawna odpowiedz: c) ok. 8 tygodni, None
+### Wyniki: {'correct': 29, 'incorrect': 26, 'article_correct': 0}
+--------------------
+# Pytanie 56
+### Udzielona odpowiedz: 
+### Odpowiedź:
+e) marskości wątroby
+### Judge: Tak
+### Poprawna odpowiedz: e) marskości wątroby, None
+### Wyniki: {'correct': 30, 'incorrect': 26, 'article_correct': 0}
+--------------------
+# Pytanie 57
+### Udzielona odpowiedz: 
+
+c) pierwszej części dwunastnicy
+### Judge: Nie
+### Poprawna odpowiedz: d) uchyłku jelita kretego (Meckela), None
+### Wyniki: {'correct': 30, 'incorrect': 27, 'article_correct': 0}
+--------------------
+# Pytanie 58
+### Udzielona odpowiedz: 
+
+c) Wyczerpanie czynników krzepnięcia
+### Judge: Tak
+### Poprawna odpowiedz: c) Wyczerpanie czynników krzepnięcia, None
+### Wyniki: {'correct': 31, 'incorrect': 27, 'article_correct': 0}
+--------------------
+# Pytanie 59
+### Udzielona odpowiedz: 
+Odpowiedź: a) ostra niewydolność prawokomorowa serca
+### Judge: Nie
+### Poprawna odpowiedz: b) ostra niewydolność lewokomorowa serca, None
+### Wyniki: {'correct': 31, 'incorrect': 28, 'article_correct': 0}
+--------------------
+# Pytanie 60
+### Udzielona odpowiedz: 
+
+a) e) wszystkie ww.
+### Judge: Tak
+### Poprawna odpowiedz: e) wszystkie ww., None
+### Wyniki: {'correct': 32, 'incorrect': 28, 'article_correct': 0}
+--------------------
+# Pytanie 61
+### Udzielona odpowiedz: 
+### Odpowiedź:
+
+e) wszystkie ww.
+### Judge: Tak
+### Poprawna odpowiedz: e) wszystkie ww., None
+### Wyniki: {'correct': 33, 'incorrect': 28, 'article_correct': 0}
+--------------------
+# Pytanie 62
+### Udzielona odpowiedz: 
+
+b) gruźlicy włóknisto-jamistej płuc
+### Judge: Nie
+### Poprawna odpowiedz: d) choroby trzewnej, None
+### Wyniki: {'correct': 33, 'incorrect': 29, 'article_correct': 0}
+--------------------
+# Pytanie 63
+### Udzielona odpowiedz: 
+
+
+b) submikroskopowe
+
+Najlepiej rokuje zapalenie kłębuszków nerkowych o typie submikroskopowym. Jest to postać choroby, w której zmiany w nerkach są trudne do wykrycia pod mikroskopem świetlnym, ale mogą być widoczne pod mikroskopem elektronowym. W tej postaci choroby, przebieg jest zazwyczaj łagodniejszy i często nie prowadzi do poważnych powikłań, takich jak niewydolność nerek.
+### Judge: Tak
+### Poprawna odpowiedz: b) submikroskopowe, None
+### Wyniki: {'correct': 34, 'incorrect': 29, 'article_correct': 0}
+--------------------
+# Pytanie 64
+### Udzielona odpowiedz: 
+
+Odpowiedź: d) psoriasis
+
+Uzasadnienie:
+
+Stan przednowotworowy skóry to stan, który może prowadzić do rozwoju nowotworu złośliwego. Wśród wymienionych opcji, psoriasis (łuszczyca) nie jest uważana za stan przednowotworowy skóry. Pozostałe opcje są związane z większym ryzykiem rozwoju nowotworów złośliwych skóry:
+
+a) Naevus melanocyticus atypicus (atypowy znamion melanocytowy) - jest to rodzaj znamienia, które może przekształcić się w czerniaka.
+
+b) Morbus Boweni - jest to stan przednowotworowy skóry, który może prowadzić do rozwoju raka kolczystokomórkowego.
+
+c) Xeroderma pigmentosum - jest to rzadka choroba genetyczna, która znacznie zwiększa ryzyko rozwoju nowotworów złośliwych skóry.
+
+e) Keratosis senilis - jest to łagodna zmiana skórna związana z wiekiem, ale może być prekursorem raka kolczystokomórkowego.
+
+Dlatego prawidłową odpowiedzią jest d) psoriasis, ponieważ nie jest uważana za stan przednowotworowy skóry.
+### Judge: Tak
+### Poprawna odpowiedz: d) psoriasis, None
+### Wyniki: {'correct': 35, 'incorrect': 29, 'article_correct': 0}
+--------------------
+# Pytanie 65
+### Udzielona odpowiedz: 
+Odpowiedź: d) jedna z cech mikroskopowych przewlekłego odmiedniczkowego zapalenia nerek
+### Judge: Nie
+### Poprawna odpowiedz: e) zejście drobnych ognisk martwicy rozpływanej mózgu, None
+### Wyniki: {'correct': 35, 'incorrect': 30, 'article_correct': 0}
+--------------------
+# Pytanie 66
+### Udzielona odpowiedz: 
+
+c) stercza
+
+Stwierdzenie osteoblastycznych przerzutów nowotworowych do kości u 63-letniego mężczyzny nakazuje w pierwszym rzędzie diagnostykę raka stercza. Jest to najczęstszy nowotwór złośliwy u mężczyzn, a przerzuty do kości są częstym zjawiskiem w jego przebiegu.
+### Judge: Tak
+### Poprawna odpowiedz: c) stercza, None
+### Wyniki: {'correct': 36, 'incorrect': 30, 'article_correct': 0}
+--------------------
+# Pytanie 67
+### Udzielona odpowiedz: 
+Odpowiedź: a) pneumonia interstitialis
+### Judge: Nie
+### Poprawna odpowiedz: b) pneumonia lobaris, None
+### Wyniki: {'correct': 36, 'incorrect': 31, 'article_correct': 0}
+--------------------
+# Pytanie 68
+### Udzielona odpowiedz: 
+Odpowiedź: b) raka jelita grubego
+### Judge: Nie.
+### Poprawna odpowiedz: a) raka nerki, None
+### Wyniki: {'correct': 36, 'incorrect': 32, 'article_correct': 0}
+--------------------
+# Pytanie 69
+### Udzielona odpowiedz: 
+
+e) wszystkie wyżej wymienione cechy
+### Judge: Tak
+### Poprawna odpowiedz: e) wszystkie wyżej wymienione cechy, None
+### Wyniki: {'correct': 37, 'incorrect': 32, 'article_correct': 0}
+--------------------
+# Pytanie 70
+### Udzielona odpowiedz: 
+
+e) wszystkie ww.
+### Judge: Tak
+### Poprawna odpowiedz: e) wszystkie ww., None
+### Wyniki: {'correct': 38, 'incorrect': 32, 'article_correct': 0}
+--------------------
+# Pytanie 71
+### Udzielona odpowiedz: 
+
+
+Odpowiedź: a) Ewing sarcoma
+### Judge: Nie
+### Poprawna odpowiedz: e) wszystkie ww., None
+### Wyniki: {'correct': 38, 'incorrect': 33, 'article_correct': 0}
+--------------------
+# Pytanie 72
+### Udzielona odpowiedz: 
+### Odpowiedź:
+c) Cryptosporidium parvum
+### Judge: Tak
+### Poprawna odpowiedz: c) Cryptosporidium parvum, None
+### Wyniki: {'correct': 39, 'incorrect': 33, 'article_correct': 0}
+--------------------
+# Pytanie 73
+### Udzielona odpowiedz: 
+
+Odpowiedź: e) choroba Castelmana
+### Judge: Tak
+### Poprawna odpowiedz: e) choroba Castelmana, None
+### Wyniki: {'correct': 40, 'incorrect': 33, 'article_correct': 0}
+--------------------
+# Pytanie 74
+### Udzielona odpowiedz: 
+
+Odpowiedź: c) zespół Goodpasture’a
+### Judge: Tak
+### Poprawna odpowiedz: c) zespół Goodpasture’a, None
+### Wyniki: {'correct': 41, 'incorrect': 33, 'article_correct': 0}
+--------------------
+# Pytanie 75
+### Udzielona odpowiedz: 
+
+
+c) karioplazmie
+### Judge: Nie
+### Poprawna odpowiedz: d) mitochondriach, None
+### Wyniki: {'correct': 41, 'incorrect': 34, 'article_correct': 0}
+--------------------
+# Pytanie 76
+### Udzielona odpowiedz: 
+
+Odpowiedź: b) ostrej niewydolności lewokomorowej
+### Judge: Nie
+### Poprawna odpowiedz: c) ostrej niewydolności prawokomorowej, None
+### Wyniki: {'correct': 41, 'incorrect': 35, 'article_correct': 0}
+--------------------
+# Pytanie 77
+### Udzielona odpowiedz: 
+
+c) hypertensio endocardii
+### Judge: Nie
+### Poprawna odpowiedz: d) fibroelastosis endocardii, None
+### Wyniki: {'correct': 41, 'incorrect': 36, 'article_correct': 0}
+--------------------
+# Pytanie 78
+### Udzielona odpowiedz: 
+
+Odpowiedź: e) c i d
+### Judge: Tak
+### Poprawna odpowiedz: e) c i d, None
+### Wyniki: {'correct': 42, 'incorrect': 36, 'article_correct': 0}
+--------------------
+# Pytanie 79
+### Udzielona odpowiedz: 
+
+
+c) gruczolak tarczycy
+
+W zespole Peutz-Jeghersa nie występuje gruczolak tarczycy.
+### Judge: Nie
+### Poprawna odpowiedz: b) zmiany włóknisto-torbielowate gruczołu piersiowego, None
+### Wyniki: {'correct': 42, 'incorrect': 37, 'article_correct': 0}
+--------------------
+# Pytanie 80
+### Udzielona odpowiedz: 
+
+a) Niezależnie od przyczyny
+### Judge: Tak
+### Poprawna odpowiedz: a) Niezależnie od przyczyny, None
+### Wyniki: {'correct': 43, 'incorrect': 37, 'article_correct': 0}
+--------------------
+# Pytanie 81
+### Udzielona odpowiedz: 
+
+
+a) mutacje genu BRCA1, otyłość, atypowy rozrost nabłonka, cukrzyca
+
+To jest poprawna odpowiedź na pytanie.
+### Judge: Nie.
+### Poprawna odpowiedz: c) mutacje genu BRCA1, otyłość, występowanie rodzinne, atypowy rozrost nabłonka, None
+### Wyniki: {'correct': 43, 'incorrect': 38, 'article_correct': 0}
+--------------------
+# Pytanie 82
+### Udzielona odpowiedz: 
+### Odpowiedź:
+d) Średnia wieku chorych wynosi 20-40 lat
+
+### Wyjaśnienie:
+Rak jelita grubego najczęściej rozwija się na podłożu gruczolaka (polipów gruczolakowatych), co jest zgodne z odpowiedzią b). Dieta ubogo resztkowa i bogato białkowa sprzyja rozwojowi tego nowotworu, co odpowiada odpowiedzi c). Jednak średnia wieku chorych na raka jelita grubego wynosi około 60-70 lat, a nie 20-40 lat, co czyni odpowiedź d) fałszywą.
+### Judge: Tak
+### Poprawna odpowiedz: d) Średnia wieku chorych wynosi 20-40 lat, None
+### Wyniki: {'correct': 44, 'incorrect': 38, 'article_correct': 0}
+--------------------
+# Pytanie 83
+### Udzielona odpowiedz: 
+### Odpowiedź:
+a) jajnik, pęcherz moczowy, jelito grube
+### Judge: Nie
+### Poprawna odpowiedz: b) jajnik, powłoki brzuszne, jajowód, None
+### Wyniki: {'correct': 44, 'incorrect': 39, 'article_correct': 0}
+--------------------
+# Pytanie 84
+### Udzielona odpowiedz: 
+### Odpowiedź:
+e) powiększenia śledziony
+### Judge: Nie
+### Poprawna odpowiedz: a) obrzęku płuc, None
+### Wyniki: {'correct': 44, 'incorrect': 40, 'article_correct': 0}
+--------------------
+# Pytanie 85
+### Udzielona odpowiedz: 
+### Odpowiedź:
+d) typy histologiczne określa klasyfikacja Dukesa
+
+### Wyjaśnienie:
+Klasyfikacja Dukesa jest używana do określania stopnia zaawansowania raka, a nie typów histologicznych. Klasyfikacja Laurena jest natomiast stosowana do klasyfikacji typów histologicznych raka żołądka.
+### Judge: Tak.
+### Poprawna odpowiedz: d) typy histologiczne określa klasyfikacja Dukesa, None
+### Wyniki: {'correct': 45, 'incorrect': 40, 'article_correct': 0}
+--------------------
+# Pytanie 86
+### Udzielona odpowiedz: 
+
+
+b) sarkoidozy
+
+### Wyjaśnienie:
+Wtręty jądrowe, znane również jako „sowie oczka”, są charakterystycznymi strukturami obserwowanymi w obrazie mikroskopowym w przypadku sarkoidozy. Sarkoidoza to choroba zapalna, która może dotyczyć różnych narządów, w tym płuc, węzłów chłonnych, skóry i oczu. Wtręty jądrowe są wynikiem uszkodzenia jądra komórkowego przez proces zapalny i są jednym z kluczowych elementów diagnostycznych tej choroby.
+### Judge: Nie
+### Poprawna odpowiedz: a) cytomegalii, None
+### Wyniki: {'correct': 45, 'incorrect': 41, 'article_correct': 0}
+--------------------
+# Pytanie 87
+### Udzielona odpowiedz: 
+### Odpowiedź:
+c) głównym objawem klinicznym jest bezbolesny krwiomocz
+
+### Uzasadnienie:
+W przypadku raka pęcherza moczowego, głównym objawem klinicznym jest bezbolesny krwiomocz (krwiomocz makroskopowy). Jest to spowodowane obecnością guza w ścianie pęcherza moczowego, który powoduje uszkodzenie naczyń krwionośnych i wydostawanie się krwi do moczu. Bolesność przy oddawaniu moczu (dysuria) oraz białkomocz nie są typowymi głównymi objawami tego nowotworu. Rak jasnokomórkowy nie jest głównym typem histologicznym raka pęcherza moczowego. Przebieg kliniczny raka pęcherza moczowego rzeczywiście zależy od stopnia zróżnicowania i głębokości naciekania, co jest istotnym czynnikiem prognostycznym.
+### Judge: Tak
+### Poprawna odpowiedz: c) głównym objawem klinicznym jest bezbolesny krwiomocz, None
+### Wyniki: {'correct': 46, 'incorrect': 41, 'article_correct': 0}
+--------------------
+# Pytanie 88
+### Udzielona odpowiedz: 
+Odpowiedź: c) 10% zbuforowanej formalinie
+### Judge: Tak
+### Poprawna odpowiedz: c) 10% zbuforowanej formalinie, None
+### Wyniki: {'correct': 47, 'incorrect': 41, 'article_correct': 0}
+--------------------
+# Pytanie 89
+### Udzielona odpowiedz: 
+### Odpowiedź:
+b) adenoma
+### Judge: Tak
+### Poprawna odpowiedz: b) adenoma, None
+### Wyniki: {'correct': 48, 'incorrect': 41, 'article_correct': 0}
+--------------------
+# Pytanie 90
+### Udzielona odpowiedz: 
+
+a) blizna glejowa
+### Judge: Nie
+### Poprawna odpowiedz: d) jama, None
+### Wyniki: {'correct': 48, 'incorrect': 42, 'article_correct': 0}
+--------------------
+# Pytanie 91
+### Udzielona odpowiedz: 
+
+b) phimosis
+### Judge: Nie
+### Poprawna odpowiedz: a) zakażeniu wirusem opryszczki zwykłe, None
+### Wyniki: {'correct': 48, 'incorrect': 43, 'article_correct': 0}
+--------------------
+# Pytanie 92
+### Udzielona odpowiedz: a) pericarditis adhesiva
+
+Poprawna odpowiedź: a) pericarditis adhesiva.
+### Judge: Nie.
+### Poprawna odpowiedz: c) pericarditis constrictive, None
+### Wyniki: {'correct': 48, 'incorrect': 44, 'article_correct': 0}
+--------------------
+# Pytanie 93
+### Udzielona odpowiedz: 
+Odpowiedź: a) obrzęk podgoleniowy
+### Judge: Tak
+### Poprawna odpowiedz: a) obrzęk podgoleniowy, None
+### Wyniki: {'correct': 49, 'incorrect': 44, 'article_correct': 0}
+--------------------
+# Pytanie 94
+### Udzielona odpowiedz: 
+Odpowiedź: b) pyelonephritis chronica
+### Judge: Tak
+### Poprawna odpowiedz: b) pyelonephritis chronica, None
+### Wyniki: {'correct': 50, 'incorrect': 44, 'article_correct': 0}
+--------------------
+# Pytanie 95
+### Udzielona odpowiedz: 
+### Odpowiedź:
+d) tymphus exanthematicus
+### Judge: Nie
+### Poprawna odpowiedz: c) parotitis epidemica, None
+### Wyniki: {'correct': 50, 'incorrect': 45, 'article_correct': 0}
+--------------------
+# Pytanie 96
+### Udzielona odpowiedz: 
+
+b) poporodowa martwica niedokrwienna przysadki
+### Judge: Tak
+### Poprawna odpowiedz: b) poporodowa martwica niedokrwienna przysadki, None
+### Wyniki: {'correct': 51, 'incorrect': 45, 'article_correct': 0}
+--------------------
+# Pytanie 97
+### Udzielona odpowiedz: 
+### Odpowiedź:
+d) zlokalizowany przy nasadach kości długich, wiek pacjenta 40-50 lat, ból nie reaguje na aspirynę
+### Judge: Nie
+### Poprawna odpowiedz: b) zlokalizowany przy nasadach kości długich, wiek pacjenta  10-20 lat, ból ustępujący po aspiryni, None
+### Wyniki: {'correct': 51, 'incorrect': 46, 'article_correct': 0}
+--------------------
+# Pytanie 98
+### Udzielona odpowiedz: 
+### Odpowiedź:
+e) rak gruczołu piersiowego
+### Judge: Tak
+### Poprawna odpowiedz: e) rak gruczołu piersiowego, None
+### Wyniki: {'correct': 52, 'incorrect': 46, 'article_correct': 0}
+--------------------
+# Pytanie 99
+### Udzielona odpowiedz: 
+### Odpowiedź:
+a) myelitis
+### Judge: Nie
+### Poprawna odpowiedz: e) panencephalitis, None
+### Wyniki: {'correct': 52, 'incorrect': 47, 'article_correct': 0}
+--------------------
+# Pytanie 100
+### Udzielona odpowiedz: 
+
+a) Zespół Budda-Chariego powstaje na tle zakrzepicy żyły wrotnej.
+### Judge: Nie
+### Poprawna odpowiedz: a) zakrzepicy żył wątrobowych, None
+### Wyniki: {'correct': 52, 'incorrect': 48, 'article_correct': 0}
+--------------------
+# Pytanie 101
+### Udzielona odpowiedz: 
+
+a) zapaleniu naczyń o podłożu immunologicznym
+
+Fibrinoid necrosis to zmiana typowo obserwowana w zapaleniu naczyń o podłożu immunologicznym, takich jak ziarniniakowatość z zapaleniem naczyń (ZZN) czy zapalenie wielonaczyniowe mikroskopowe. W tych chorobach dochodzi do martwicy włóknistej, która jest charakterystyczna dla tego typu zmian.
+### Judge: Tak
+### Poprawna odpowiedz: a) zapaleniu naczyń o podłożu immunologicznym, None
+### Wyniki: {'correct': 53, 'incorrect': 48, 'article_correct': 0}
+--------------------
+# Pytanie 102
+### Udzielona odpowiedz: 
+### Odpowiedź:
+d) Autoimmunologiczne zapalenie nadnerczy
+### Judge: Tak
+### Poprawna odpowiedz: d) Autoimmunologiczne zapalenie nadnerczy, None
+### Wyniki: {'correct': 54, 'incorrect': 48, 'article_correct': 0}
+--------------------
+# Pytanie 103
+### Udzielona odpowiedz: 
+
+b) Hydroperitoneum
+### Judge: Tak
+### Poprawna odpowiedz: b) Hydroperitoneum, None
+### Wyniki: {'correct': 55, 'incorrect': 48, 'article_correct': 0}
+--------------------
+# Pytanie 104
+### Udzielona odpowiedz: 
+Odpowiedź: d) raka płaskonabłonkowego szyjki macicy
+### Judge: Nie
+### Poprawna odpowiedz: b) gruczolaka jasnokomórkowego pochwy, None
+### Wyniki: {'correct': 55, 'incorrect': 49, 'article_correct': 0}
+--------------------
+# Pytanie 105
+### Udzielona odpowiedz: 
+
+
+Odpowiedź: c) Sploty neurofibrylarne - choroba Kawasaki
+
+Uzasadnienie:
+
+a) Kreatyna - róg skórny: Kreatyna jest produktem ubocznym metabolizmu mięśniowego, a jej nadmiar może prowadzić do uszkodzenia nerek. Rogi skórne są zmianami skórnymi, które nie są związane z patologicznym gromadzeniem kreatyny.
+
+b) "Hialina alkoholowa" - alkoholowe zapalenie wątroby: Hialina alkoholowa to charakterystyczne zmiany w wątrobie spowodowane nadużywaniem alkoholu. Alkoholowe zapalenie wątroby jest chorobą, w której występuje patologiczne gromadzenie hialiny.
+
+c) Sploty neurofibrylarne - choroba Kawasaki: Sploty neurofibrylarne są charakterystyczne dla choroby Alzheimera, a nie dla choroby Kawasaki. Choroba Kawasaki jest ostrą chorobą zapalną naczyń, która dotyka głównie dzieci.
+
+d) Ciałka Russella - przewlekłe zapalenia: Ciałka Russella są charakterystyczne dla przewlekłych zapaleń, takich jak reumatoidalne zapalenie stawów. Nie są one specyficzne tylko dla przewlekłych zapaleń, ale mogą występować w różnych stanach zapalnych.
+
+e) zwyrodnienie kropelkowo szkliste - zespół nerczycowy: Zwyrodnienie kropelkowo szkliste jest charakterystyczne dla zespołu nerczycowego, który jest związany z uszkodzeniem nerek i patologicznym gromadzeniem białka w moczu.
+
+Zatem, odpowiedź c) jest nieprawidłowa, ponieważ sploty neurofibrylarne nie są charakterystyczne dla choroby Kawasaki, ale dla choroby Alzheimera.
+### Judge: Nie.
+### Poprawna odpowiedz: c) Sploty neurofibrylarne - choroba Kawasaki, None
+### Wyniki: {'correct': 55, 'incorrect': 50, 'article_correct': 0}
+--------------------
+# Pytanie 106
+### Udzielona odpowiedz: 
+Odpowiedź: a) endometriozy
+### Judge: Tak
+### Poprawna odpowiedz: a) endometriozy, None
+### Wyniki: {'correct': 56, 'incorrect': 50, 'article_correct': 0}
+--------------------
+# Pytanie 107
+### Udzielona odpowiedz: 
+### Odpowiedź:
+c) powierzchnia wątroby
+### Judge: Nie
+### Poprawna odpowiedz: d) ściana pęcherzyka żółciowego, None
+### Wyniki: {'correct': 56, 'incorrect': 51, 'article_correct': 0}
+--------------------
+# Pytanie 108
+### Udzielona odpowiedz: 
+
+
+a) Śledzionie
+
+Zawał blady występuje w śledzionie.
+### Judge: Tak
+### Poprawna odpowiedz: a) Śledzionie, None
+### Wyniki: {'correct': 57, 'incorrect': 51, 'article_correct': 0}
+--------------------
+# Pytanie 109
+### Udzielona odpowiedz: 
+### Odpowiedź:
+b) gruczolakorak
+### Judge: Nie
+### Poprawna odpowiedz: a) guz neuroendokrynny, None
+### Wyniki: {'correct': 57, 'incorrect': 52, 'article_correct': 0}
+--------------------
+# Pytanie 110
+### Udzielona odpowiedz: 
+
+d) Rak rdzeniasty wywodzi się z komórek C tarczycy.
+### Judge: Tak
+### Poprawna odpowiedz: d) Rak rdzeniasty, None
+### Wyniki: {'correct': 58, 'incorrect': 52, 'article_correct': 0}
+--------------------
+# Pytanie 111
+### Udzielona odpowiedz: 
+### Odpowiedź:
+c) czerniak akralny
+### Judge: Tak
+### Poprawna odpowiedz: c) czerniak akralny, None
+### Wyniki: {'correct': 59, 'incorrect': 52, 'article_correct': 0}
+--------------------
+# Pytanie 112
+### Udzielona odpowiedz: 
+
+a) ADH
+
+Poprawna odpowiedź to a) ADH (hormon antydiuretyczny). W przebiegu raka płaskonabłonkowego płuc może dochodzić do wydzielania ADH, co może prowadzić do zespołu nieadekwatnego wydzielania hormonu antydiuretycznego (SIADH).
+### Judge: Nie.
+### Poprawna odpowiedz: b) PTH, None
+### Wyniki: {'correct': 59, 'incorrect': 53, 'article_correct': 0}
+--------------------
+# Pytanie 113
+### Udzielona odpowiedz: 
+### Odpowiedź:
+a) Łuku aorty
+### Judge: Nie
+### Poprawna odpowiedz: c) Aorcie brzuszne, None
+### Wyniki: {'correct': 59, 'incorrect': 54, 'article_correct': 0}
+--------------------
+# Pytanie 114
+### Udzielona odpowiedz: 
+
+
+b) Komórka nabłonka gruczołowego zainfekowana HPV
+
+Koilocyt to komórka nabłonka gruczołowego zainfekowana wirusem brodawczaka ludzkiego (HPV). Jest to charakterystyczna komórka, która powstaje w wyniku infekcji HPV i wykazuje zmiany morfologiczne, takie jak wydłużone jądro komórkowe i zwiększona liczba mitoz. Koilocyty są często obserwowane w przypadku zmian przedrakowych i rakowych szyjki macicy, a ich obecność w badaniu cytologicznym może wskazywać na infekcję HPV.
+### Judge: Nie
+### Poprawna odpowiedz: d) Komórka nabłonka wielowarstwowego płaskiego zainfekowana HPV, None
+### Wyniki: {'correct': 59, 'incorrect': 55, 'article_correct': 0}
+--------------------
+# Pytanie 115
+### Udzielona odpowiedz: 
+
+c) strefie okołocewkowej
+### Judge: Nie
+### Poprawna odpowiedz: d) strefie obwodowej, None
+### Wyniki: {'correct': 59, 'incorrect': 56, 'article_correct': 0}
+--------------------
+# Pytanie 116
+### Udzielona odpowiedz: 
+
+a) Płuca
+
+Mukowiscydoza jest chorobą genetyczną, która wpływa na wiele narządów, ale najbardziej charakterystyczne objawy dotyczą układu oddechowego, w tym płuc. W płucach dochodzi do nadmiernego wydzielania gęstego i lepkiego śluzu, co prowadzi do nawracających infekcji i uszkodzenia tkanki płucnej.
+
+b) Krtań
+
+Chociaż mukowiscydoza może wpływać na różne narządy, w tym na krtań, to nie jest to typowa lokalizacja dla tej choroby. W przypadku mukowiscydozy, krtani mogą towarzyszyć problemy z oddychaniem, ale nie jest to główny objaw tej choroby.
+
+c) Nasieniowody
+
+Mukowiscydoza może wpływać na układ rozrodczy mężczyzn, prowadząc do niedrożności nasieniowodów i bezpłodności. Jest to jedna z typowych lokalizacji narządowych w mukowiscydozie.
+
+d) Zatoki przynosowe
+
+Mukowiscydoza może również wpływać na zatoki przynosowe, prowadząc do ich przewlekłego zapalenia i infekcji. Jest to jedna z typowych lokalizacji narządowych w mukowiscydozie.
+
+e) Trzustka
+
+Trzustka jest jednym z głównych narządów dotkniętych w mukowiscydozie. Choroba prowadzi do niedrożności przewodów trzustkowych, co skutkuje niewydolnością zewnątrzwydzielniczą trzustki i problemami z trawieniem.
+
+Podsumowując, krtani nie jest typową lokalizacją narządową w mukowiscydozie, w przeciwieństwie do płuc, nasieniowodów, zatok przynosowych i trzustki.
+### Judge: Nie
+### Poprawna odpowiedz: b) Krtań, None
+### Wyniki: {'correct': 59, 'incorrect': 57, 'article_correct': 0}
+--------------------
+# Pytanie 117
+### Udzielona odpowiedz: 
+a) Przewlekłe choroby skóry – rozrost grudek chłonnych
+
+Odpowiedź: a)
+### Judge: Tak
+### Poprawna odpowiedz: a) Przewlekłe choroby skóry – rozrost grudek chłonnych, None
+### Wyniki: {'correct': 60, 'incorrect': 57, 'article_correct': 0}
+--------------------
+# Pytanie 118
+### Udzielona odpowiedz: 
+### Odpowiedź:
+b) guza tarczycy
+### Judge: Nie
+### Poprawna odpowiedz: e) w przypadku każdego materiału należy podać taką informację, None
+### Wyniki: {'correct': 60, 'incorrect': 58, 'article_correct': 0}
+--------------------
+# Pytanie 119
+### Udzielona odpowiedz: 
+### Odpowiedź:
+c) radykalne wycięcie guza
+### Judge: Tak
+### Poprawna odpowiedz: c) radykalne wycięcie guza, None
+### Wyniki: {'correct': 61, 'incorrect': 58, 'article_correct': 0}
+--------------------
+# Pytanie 120
+### Udzielona odpowiedz: 
+
+
+a) obecność szczelinowatych owrzodzeń
+
+Wrzodziejące zapalenie jelita grubego (WZJG) charakteryzuje się obecnością szczelinowatych owrzodzeń w błonie śluzowej jelita grubego. Te owrzodzenia są jednym z głównych objawów choroby i mogą prowadzić do krwawienia z przewodu pokarmowego oraz innych powikłań.
+### Judge: Nie
+### Poprawna odpowiedz: d) zajęcie tylko błony śluzowej, None
+### Wyniki: {'correct': 61, 'incorrect': 59, 'article_correct': 0}
+--------------------
+# Pytanie 121
+### Udzielona odpowiedz: 
+
+a) Wrodzone naczyniaki włośniczkowe
+
+Samoistna remisja jest obserwowana w większości przypadków wrodzonych naczyniaków włośniczkowych. Zwykle ustępują one samoistnie w ciągu pierwszych kilku lat życia dziecka.
+### Judge: Nie
+### Poprawna odpowiedz: c) Siatkówczaku, None
+### Wyniki: {'correct': 61, 'incorrect': 60, 'article_correct': 0}
+--------------------
+# Pytanie 122
+### Udzielona odpowiedz: 
+
+a) Jego umiejscowienie odpowiada zakresowi unerwienia nerwu trójdzielnego
+
+Uzasadnienie:
+Naczyniak krwionośny włośniczkowy (hemangioma kapilarne) jest najczęstszym typem naczyniaka u dorosłych. Charakteryzuje się on występowaniem w obszarach skóry unerwionych przez nerw trójdzielny, co odpowiada obszarowi twarzy, szyi i górnej części klatki piersiowej. Stąd, stwierdzenie, że jego umiejscowienie odpowiada zakresowi unerwienia nerwu trójdzielnego, jest prawdziwe.
+### Judge: Nie.
+### Poprawna odpowiedz: e) Jest najczęstszym rodzajem naczyniaka, None
+### Wyniki: {'correct': 61, 'incorrect': 61, 'article_correct': 0}
+--------------------
+# Pytanie 123
+### Udzielona odpowiedz: 
+### Odpowiedź:
+c) Wrzód twardy pojawia się w kile drugorzędowej
+### Judge: Nie
+### Poprawna odpowiedz: e) Kiła układu nerwowego występuje częściej u pacjentów zakażonych wirusem HIV, None
+### Wyniki: {'correct': 61, 'incorrect': 62, 'article_correct': 0}
+--------------------
+# Pytanie 124
+### Udzielona odpowiedz: 
+### Odpowiedź:
+
+c) Aldehyd benzoesowy
+### Judge: Nie
+### Poprawna odpowiedz: e) Żaden z powyższych, None
+### Wyniki: {'correct': 61, 'incorrect': 63, 'article_correct': 0}
+--------------------
+# Pytanie 125
+### Udzielona odpowiedz: 
+### Odpowiedź:
+e) Zaawansowanego wieku
+### Judge: Nie
+### Poprawna odpowiedz: a) Nadciśnienia płucnego, None
+### Wyniki: {'correct': 61, 'incorrect': 64, 'article_correct': 0}
+--------------------
+# Pytanie 126
+### Udzielona odpowiedz: 
+### Odpowiedź:
+d) Choroba Hashimoto
+### Judge: Tak
+### Poprawna odpowiedz: d) Choroba Hashimoto, None
+### Wyniki: {'correct': 62, 'incorrect': 64, 'article_correct': 0}
+--------------------
+# Pytanie 127
+### Udzielona odpowiedz: 
+---
+
+Odpowiedź: e) 14
+### Judge: Nie
+### Poprawna odpowiedz: d) 10, None
+### Wyniki: {'correct': 62, 'incorrect': 65, 'article_correct': 0}
+--------------------
+# Pytanie 128
+### Udzielona odpowiedz: 
+### Odpowiedź:
+
+e) Biopsja aspiracyjna cienkoigłowa narządu (Wykrywania to biopsja, bo z markerami to różnie jest, ale monitorowania to psa wiec idk)
+
+### Wyjaśnienie:
+
+W kontekście podanego pytania, najważniejszym testem diagnostycznym stosowanym do wykrywania i monitorowania nowotworu jest biopsja aspiracyjna cienkoigłowa narządu (BAC). Biopsja ta jest podstawową metodą diagnostyczną, która pozwala na pobranie materiału komórkowego z podejrzanych zmian w celu wykrycia nowotworu.
+
+Ocena mutacji w genie BRCA1, ocena poziomu LDH w surowicy oraz ocena poziomu PSA w surowicy są testami, które mogą być stosowane w diagnostyce i monitorowaniu niektórych nowotworów, ale nie są one uniwersalnymi metodami wykrywania i monitorowania wszystkich nowotworów.
+
+Biopsja gruboigłowa narządu jest bardziej inwazyjną metodą i jest stosowana w przypadkach, gdy biopsja cienkoigłowa nie daje jednoznacznych wyników lub gdy konieczne jest uzyskanie większej ilości materiału do badania.
+
+Podsumowując, biopsja aspiracyjna cienkoigłowa narządu jest najważniejszym testem diagnostycznym stosowanym do wykrywania i monitorowania nowotworu, o którym mowa w kontekście pytania.
+### Judge: Nie
+### Poprawna odpowiedz: d) Biopsja gruboigłowa narządu, None
+### Wyniki: {'correct': 62, 'incorrect': 66, 'article_correct': 0}
+--------------------
+# Pytanie 129
+### Udzielona odpowiedz: 
+
+
+e) Wyraźne figury mielinowe
+### Judge: Nie
+### Poprawna odpowiedz: a) Stłuszczenie, None
+### Wyniki: {'correct': 62, 'incorrect': 67, 'article_correct': 0}
+--------------------
+# Pytanie 130
+### Udzielona odpowiedz: 
+a) gruczolistość stwardniająca
+
+Uzasadnienie:
+Gruczolistość stwardniająca (łac. sclerosing duct ectasia) jest stanem przedrakowym, który charakteryzuje się obecnością guzków w przewodach mlecznych. Może prowadzić do przewlekłego zapalenia i wysięku na skórze brodawki piersiowej. W przeciwieństwie do innych wymienionych opcji, gruczolistość stwardniająca jest najbardziej prawdopodobną przyczyną jednostronnego surowiczego wysięku na skórze brodawki piersiowej u 45-letniej pacjentki.
+### Judge: Nie
+### Poprawna odpowiedz: d) choroba Pageta brodawki sutkowe, None
+### Wyniki: {'correct': 62, 'incorrect': 68, 'article_correct': 0}
+--------------------
+# Pytanie 131
+### Udzielona odpowiedz: 
+### Odpowiedź:
+c) pacjentów z zespołem metabolicznym, otyłością i cukrzycą typu II
+### Judge: Tak
+### Poprawna odpowiedz: c) pacjentów z zespołem metabolicznym, otyłością i cukrzycą typu II, None
+### Wyniki: {'correct': 63, 'incorrect': 68, 'article_correct': 0}
+--------------------
+# Pytanie 132
+### Udzielona odpowiedz: 
+Odpowiedź: e) Wszystkich powyższych
+### Judge: Tak
+### Poprawna odpowiedz: e) Wszystkich powyższych, None
+### Wyniki: {'correct': 64, 'incorrect': 68, 'article_correct': 0}
+--------------------
+# Pytanie 133
+### Udzielona odpowiedz: 
+
+
+Odpowiedź: a) dystrofia miotoniczna
+
+Uzasadnienie:
+Dystrofia miotoniczna jest chorobą genetyczną, która nie jest związana z mechanizmem nadwrażliwości typu II. Nadwrażliwość typu II (cytotoksyczna) polega na niszczeniu komórek przez przeciwciała, które wiążą się z antygenami na powierzchni tych komórek. Pozostałe wymienione choroby (nużliwość mięśni, niedokrwistość złośliwa, pęcherzyca zwykła i zespół Goodpasture’a) są związane z mechanizmem nadwrażliwości typu II.
+### Judge: Nie
+### Poprawna odpowiedz: b) nużliwość mięśni, None
+### Wyniki: {'correct': 64, 'incorrect': 69, 'article_correct': 0}
+--------------------
+# Pytanie 134
+### Udzielona odpowiedz: 
+### Odpowiedź:
+a) gruczolakoraka szyjki macicy
+### Judge: Nie
+### Poprawna odpowiedz: d) gruczolakoraka śluzowego jajnika, None
+### Wyniki: {'correct': 64, 'incorrect': 70, 'article_correct': 0}
+--------------------
+# Pytanie 135
+### Udzielona odpowiedz: 
+
+
+a) Daje przerzuty krwiopochodne najczęściej do płuc, pochwy i mózgu
+
+Odpowiedź: a)
+### Judge: Nie
+### Poprawna odpowiedz: b) Często daje przerzuty do węzłów śródaortalnych, None
+### Wyniki: {'correct': 64, 'incorrect': 71, 'article_correct': 0}
+--------------------
+# Pytanie 136
+### Udzielona odpowiedz: 
+Najczęstsza lokalizacja rdzeniaka u dzieci to:
+
+c) Robak móżdżku
+
+Wyjaśnienie:
+Rdzeniak (medulloblastoma) jest najczęstszym pierwotnym nowotworem ośrodkowego układu nerwowego u dzieci. Występuje głównie w obrębie rdzenia kręgowego i móżdżku. U dzieci, rdzeniak najczęściej lokalizuje się w robaku móżdżku, który jest dolną częścią móżdżku. Jest to obszar, który jest bardziej podatny na rozwój tego typu nowotworu ze względu na swoją strukturę i funkcję w układzie nerwowym.
+### Judge: Nie
+### Poprawna odpowiedz: b) Rdzeń przedłużony, None
+### Wyniki: {'correct': 64, 'incorrect': 72, 'article_correct': 0}
+--------------------
+# Pytanie 137
+### Udzielona odpowiedz: 
+### Odpowiedź:
+b) Blaszka mięśniowa błony śluzowej
+### Judge: Nie
+### Poprawna odpowiedz: e) Podsurowicówkowa tkanka tłuszczowa, None
+### Wyniki: {'correct': 64, 'incorrect': 73, 'article_correct': 0}
+--------------------
+# Pytanie 138
+### Udzielona odpowiedz: 
+Odpowiedź: b) 10%
+### Judge: Tak
+### Poprawna odpowiedz: b) 10%, None
+### Wyniki: {'correct': 65, 'incorrect': 73, 'article_correct': 0}
+--------------------
+# Pytanie 139
+### Udzielona odpowiedz: 
+### Odpowiedź:
+b) środa godz 10
+### Judge: Tak
+### Poprawna odpowiedz: b) środa godz 10, None
+### Wyniki: {'correct': 66, 'incorrect': 73, 'article_correct': 0}
+--------------------
+# Pytanie 140
+### Udzielona odpowiedz: 
+
+Odpowiedź: d) choroby Cushinga
+### Judge: Nie
+### Poprawna odpowiedz: e) hemochromatozy, None
+### Wyniki: {'correct': 66, 'incorrect': 74, 'article_correct': 0}
+--------------------
+# Pytanie 141
+### Udzielona odpowiedz: 
+### Odpowiedź:
+e) zespół Waterhouse’a-Friderichsena
+### Judge: Tak
+### Poprawna odpowiedz: e) zespół Waterhouse’a-Friderichsena, None
+### Wyniki: {'correct': 67, 'incorrect': 74, 'article_correct': 0}
+--------------------
+# Pytanie 142
+### Udzielona odpowiedz: 
+
+b) osłonce pochwowej jądra
+### Judge: Nie
+### Poprawna odpowiedz: d) tkankach miękkich karku, None
+### Wyniki: {'correct': 67, 'incorrect': 75, 'article_correct': 0}
+--------------------
+# Pytanie 143
+### Udzielona odpowiedz: 
+### Odpowiedź:
+e) wszystkich powyższych
+### Judge: Nie
+### Poprawna odpowiedz: a) cytologii ginekologicznej, None
+### Wyniki: {'correct': 67, 'incorrect': 76, 'article_correct': 0}
+--------------------
+# Pytanie 144
+### Udzielona odpowiedz: 
+### Odpowiedź:
+a) zakrzep w żyłach głębokich kończyn dolnych
+### Judge: Tak
+### Poprawna odpowiedz: a) zakrzep w żyłach głębokich kończyn dolnych, None
+### Wyniki: {'correct': 68, 'incorrect': 76, 'article_correct': 0}
+--------------------
+# Pytanie 145
+### Udzielona odpowiedz: 
+
+b) alkocholizm
+### Judge: Tak
+### Poprawna odpowiedz: b) alkocholizm, None
+### Wyniki: {'correct': 69, 'incorrect': 76, 'article_correct': 0}
+--------------------
+# Pytanie 146
+### Udzielona odpowiedz: 
+
+
+c) To inaczej przerost
+
+### Wyjaśnienie:
+
+Hyperplazja to proces, w którym dochodzi do zwiększenia liczby komórek w tkance lub narządzie w wyniku ich podziałów. Jest to jeden z mechanizmów regeneracji tkanek, który może występować w różnych typach tkanek, nie tylko w tkance nabłonkowej. Hyperplazja może być odpowiedzią na uszkodzenie tkanki, infekcję lub inne czynniki stymulujące podziały komórkowe. W przeciwieństwie do hiperplazji, przerost (hypertrofia) polega na zwiększeniu objętości pojedynczych komórek, a nie na zwiększeniu ich liczby.
+### Judge: Nie
+### Poprawna odpowiedz: e) Żadne z powyższych, None
+### Wyniki: {'correct': 69, 'incorrect': 77, 'article_correct': 0}
+--------------------
+# Pytanie 147
+### Udzielona odpowiedz: 
+### Odpowiedź:
+b) Dodanie przyrostka -oma do nazwy typu komórki z której nowotwór się wywodzi
+### Judge: Nie
+### Poprawna odpowiedz: d) Dodanie przyrostka -ak do nazwy typu komórki z której nowotwór się wywodzi, None
+### Wyniki: {'correct': 69, 'incorrect': 78, 'article_correct': 0}
+--------------------
+# Pytanie 148
+### Udzielona odpowiedz: 
+
+
+d) W żadnym zespole MEN
+### Judge: Nie
+### Poprawna odpowiedz: c) MEN2B, None
+### Wyniki: {'correct': 69, 'incorrect': 79, 'article_correct': 0}
+--------------------
+# Pytanie 149
+### Udzielona odpowiedz: 
+
+b) gruczolakotorbielakowłókniak
+### Judge: Nie
+### Poprawna odpowiedz: c) guz mieszany, None
+### Wyniki: {'correct': 69, 'incorrect': 80, 'article_correct': 0}
+--------------------
+# Pytanie 150
+### Udzielona odpowiedz: 
+### Odpowiedź:
+d) nacieków z plazmocytów w zrazikach wątrobowych
+### Judge: Nie
+### Poprawna odpowiedz: b) zwyrodnienia balonowatego hepatocytów, None
+### Wyniki: {'correct': 69, 'incorrect': 81, 'article_correct': 0}
+--------------------
+# Pytanie 151
+### Udzielona odpowiedz: 
+Nie podaję wyjaśnień ani uzasadnień.
+
+Odpowiedź: d) w jego utkaniu występują pola martwicy
+
+Poprawna odpowiedź: d) w jego utkaniu występują pola martwicy
+
+Uzasadnienie:
+
+a) Rozwija się u dziewcząt około 18 roku życia - Prawda
+b) Makroskopowo jest zazwyczaj torbielowaty - Prawda
+c) O stopniu złośliwości guza decyduje ilość niedojrzałej tkanki nerwowej (neuroepitelium) - Prawda
+d) W jego utkaniu występują pola martwicy - Nieprawda
+e) W badaniu mikroskopowym można stwierdzić niedojrzałą chrząstkę i kość - Prawda
+
+Dlatego odpowiedź d) jest nieprawdziwa.
+### Judge: Nie.
+### Poprawna odpowiedz: e) w badaniu mikroskopowym można stwierdzić niedojrzałą chrząstkę i kość, None
+### Wyniki: {'correct': 69, 'incorrect': 82, 'article_correct': 0}
+--------------------
+# Pytanie 152
+### Udzielona odpowiedz: 
+
+b) Wrodzony ubytek błony środkowej tętnicy
+### Judge: Tak
+### Poprawna odpowiedz: b) Wrodzony ubytek błony środkowej tętnicy, None
+### Wyniki: {'correct': 70, 'incorrect': 82, 'article_correct': 0}
+--------------------
+# Pytanie 153
+### Udzielona odpowiedz: 
+
+d) Występuje częściej u kobiet niż u mężczyzn
+
+Uzasadnienie:
+Gruczolakorak przełyku jest nowotworem złośliwym, który najczęściej występuje u mężczyzn. Występowanie tego nowotworu u kobiet jest rzadsze niż u mężczyzn, co czyni odpowiedź d) nieprawdziwą. Pozostałe odpowiedzi są zgodne z faktami dotyczącymi gruczolakoraka przełyku.
+### Judge: Tak.
+### Poprawna odpowiedz: d) Występuje częściej u kobiet niż u mężczyzn, None
+### Wyniki: {'correct': 71, 'incorrect': 82, 'article_correct': 0}
+--------------------
+# Pytanie 154
+### Udzielona odpowiedz: 
+### Odpowiedź:
+a) zwłóknienie pozasoczewkowe
+### Judge: Tak
+### Poprawna odpowiedz: a) zwłóknienie pozasoczewkowe, None
+### Wyniki: {'correct': 72, 'incorrect': 82, 'article_correct': 0}
+--------------------
+# Pytanie 155
+### Udzielona odpowiedz: 
+
+c) Rodzaj reakcji podścieliska na nowotwór
+### Judge: Tak
+### Poprawna odpowiedz: c) Rodzaj reakcji podścieliska na nowotwór, None
+### Wyniki: {'correct': 73, 'incorrect': 82, 'article_correct': 0}
+--------------------
+# Pytanie 156
+### Udzielona odpowiedz: 
+a) Obecność zmian głównie w części odźwiernikowej
+
+b) Obecność limfocytów i makrofagów w nacieku zapalnym
+
+c) Podwyższony poziom gastryny
+
+d) Obecność przeciwciał przeciwko komórkom okładzinowym
+
+e) Zmniejszone wydzielanie kwasu solnego
+
+Poprawna odpowiedź: e) Zmniejszone wydzielanie kwasu solnego
+
+Uzasadnienie:
+Autoimmunizacyjne zapalenie żołądka (AZŻ) charakteryzuje się obecnością zmian głównie w części odźwiernikowej żołądka, obecnością limfocytów i makrofagów w nacieku zapalnym oraz podwyższonym poziomem gastryny. Jednakże, w przeciwieństwie do choroby wrzodowej żołądka, w AZŻ nie obserwuje się zmniejszonego wydzielania kwasu solnego. Wręcz przeciwnie, w AZŻ często dochodzi do nadmiernego wydzielania kwasu solnego, co prowadzi do powstawania wrzodów i nadżerek w żołądku.
+### Judge: Nie
+### Poprawna odpowiedz: a) Obecność zmian głównie w części odźwiernikowej, None
+### Wyniki: {'correct': 73, 'incorrect': 83, 'article_correct': 0}
+--------------------
+# Pytanie 157
+### Udzielona odpowiedz: 
+### Odpowiedź:
+c) Kryształów Krzemionki
+### Judge: Nie
+### Poprawna odpowiedz: b) Fosforanu wapnia, None
+### Wyniki: {'correct': 73, 'incorrect': 84, 'article_correct': 0}
+--------------------
+# Pytanie 158
+### Udzielona odpowiedz: 
+Odpowiedź: c) guzkowego stwardnienia kłębuszków nerkowych w cukrzycy
+### Judge: Tak
+### Poprawna odpowiedz: c) guzkowego stwardnienia kłębuszków nerkowych w cukrzycy, None
+### Wyniki: {'correct': 74, 'incorrect': 84, 'article_correct': 0}
+--------------------
+# Pytanie 159
+### Udzielona odpowiedz: 
+Najczęstsza lokalizacja anatomiczna osteosarcoma to:
+
+e) części przynasadowe kości udowej i piszczelowej
+
+Uzasadnienie:
+Osteosarcoma, czyli kostniakomięsak, jest rzadkim nowotworem złośliwym kości, który najczęściej występuje u dzieci i młodych dorosłych. Najczęstszą lokalizacją tego nowotworu są części przynasadowe kości udowej i piszczelowej, czyli obszary znajdujące się w pobliżu stawów biodrowego i kolanowego. Ta lokalizacja jest związana z szybkim wzrostem i aktywnością metaboliczną tych obszarów kości.
+### Judge: Tak
+### Poprawna odpowiedz: e) części przynasadowe kosci udowej i piszczelowej, None
+### Wyniki: {'correct': 75, 'incorrect': 84, 'article_correct': 0}
+--------------------
+# Pytanie 160
+### Udzielona odpowiedz: 
+Odpowiedź: a) mukopolisacharydy
+### Judge: Nie
+### Poprawna odpowiedz: b) immunoglobuliny, None
+### Wyniki: {'correct': 75, 'incorrect': 85, 'article_correct': 0}
+--------------------
+# Pytanie 161
+### Udzielona odpowiedz: 
+Odpowiedź: e) chondrokalcynozy
+### Judge: Nie
+### Poprawna odpowiedz: a) skrobiawica, None
+### Wyniki: {'correct': 75, 'incorrect': 86, 'article_correct': 0}
+--------------------
+# Pytanie 162
+### Udzielona odpowiedz: 
+
+
+a) jest zmianą nieodwracalną
+
+Metaplazja jest zmianą nieodwracalną, ponieważ polega na trwałej zmianie typu komórek w tkance pod wpływem czynników zewnętrznych lub wewnętrznych. Komórki, które uległy metaplazji, nie mogą powrócić do swojego pierwotnego typu.
+### Judge: Nie
+### Poprawna odpowiedz: d) komórki wrażliwe na dany czynnik zastępowane są mniej wrażliwymi, None
+### Wyniki: {'correct': 75, 'incorrect': 87, 'article_correct': 0}
+--------------------
+# Pytanie 163
+### Udzielona odpowiedz: 
+Odpowiedź: c) nabłonek jednowarstwowy walcowaty
+### Judge: Tak
+### Poprawna odpowiedz: c) nabłonek jednowarstwowy walcowaty, None
+### Wyniki: {'correct': 76, 'incorrect': 87, 'article_correct': 0}
+--------------------
+# Pytanie 164
+### Udzielona odpowiedz: 
+Odpowiedź: b) okrężnica wstępująca i prawa część okrężnicy poprzecznej
+### Judge: Nie
+### Poprawna odpowiedz: e) odbytnica, None
+### Wyniki: {'correct': 76, 'incorrect': 88, 'article_correct': 0}
+--------------------
+# Pytanie 165
+### Udzielona odpowiedz: 
+### Odpowiedź:
+
+a) >0,5g
+### Judge: Nie
+### Poprawna odpowiedz: d) >3,5g, None
+### Wyniki: {'correct': 76, 'incorrect': 89, 'article_correct': 0}
+--------------------
+# Pytanie 166
+### Udzielona odpowiedz: 
+### Odpowiedź:
+b) Ze zbuforowaną formaliną
+### Judge: Nie
+### Poprawna odpowiedz: d) Bez utrwalania, None
+### Wyniki: {'correct': 76, 'incorrect': 90, 'article_correct': 0}
+--------------------
+# Pytanie 167
+### Udzielona odpowiedz: 
+Odpowiedź: c) ATTR
+### Judge: Tak
+### Poprawna odpowiedz: c) ATTR, None
+### Wyniki: {'correct': 77, 'incorrect': 90, 'article_correct': 0}
+--------------------
+# Pytanie 168
+### Udzielona odpowiedz: 
+Odpowiedź: b) zwiększenia ciśnienia osmotycznego osocza
+### Judge: Nie
+### Poprawna odpowiedz: c) retencji sodu, None
+### Wyniki: {'correct': 77, 'incorrect': 91, 'article_correct': 0}
+--------------------
+# Pytanie 169
+### Udzielona odpowiedz: 
+
+b) rak jasnokomórkowy
+### Judge: Nie
+### Poprawna odpowiedz: d) rak chromofobowy, None
+### Wyniki: {'correct': 77, 'incorrect': 92, 'article_correct': 0}
+--------------------
+# Pytanie 170
+### Udzielona odpowiedz: 
+### Odpowiedź:
+e) zmiany w komórkach nabłonka wielowarstwowego płaskiego wywołane infekcją HPV
+### Judge: Tak
+### Poprawna odpowiedz: e) zmiany w komórkach nabłonka wielowarstwowego płaskiego wywołane infekcją HPV, None
+### Wyniki: {'correct': 78, 'incorrect': 92, 'article_correct': 0}
+--------------------
+# Pytanie 171
+### Udzielona odpowiedz: 
+
+d) Naczyniak
+### Judge: Tak
+### Poprawna odpowiedz: d) Naczyniak, None
+### Wyniki: {'correct': 79, 'incorrect': 92, 'article_correct': 0}
+--------------------
+# Pytanie 172
+### Udzielona odpowiedz: 
+### Odpowiedź:
+d) Oceny naciekania okołonerwowego
+### Judge: Nie
+### Poprawna odpowiedz: b) Opisu makroskopowego zmiany, None
+### Wyniki: {'correct': 79, 'incorrect': 93, 'article_correct': 0}
+--------------------
+# Pytanie 173
+### Udzielona odpowiedz: 
+
+
+a) skala clarka jest przykładem pomiaru bezwględnego
+
+Odpowiedź: a)
+### Judge: Tak
+### Poprawna odpowiedz: a) skala clarka jest przykładem pomiaru bezwględneg, None
+### Wyniki: {'correct': 80, 'incorrect': 93, 'article_correct': 0}
+--------------------
+# Pytanie 174
+### Udzielona odpowiedz: 
+### Odpowiedź:
+c) Gruczolaka przedniego płata przysadki wydzielającej hormon wzrostu
+### Judge: Tak
+### Poprawna odpowiedz: c) Gruczolaka przedniego płata przysadki wydzielającej hormon wzrostu, None
+### Wyniki: {'correct': 81, 'incorrect': 93, 'article_correct': 0}
+--------------------
+# Pytanie 175
+### Udzielona odpowiedz: 
+
+a) Brenner tumor
+
+Brenner tumor jest charakterystyczny dla trzustki.
+### Judge: Nie
+### Poprawna odpowiedz: b) Serous cystadenoma, None
+### Wyniki: {'correct': 81, 'incorrect': 94, 'article_correct': 0}
+--------------------
+# Pytanie 176
+### Udzielona odpowiedz: 
+### Odpowiedź:
+e) Tadeusz Borowicz - opis charłactwa przysadkowego
+### Judge: Nie
+### Poprawna odpowiedz: c) Stanisław Ciechanowski - etiopatogeneza przerostu gruczołu krokowego, None
+### Wyniki: {'correct': 81, 'incorrect': 95, 'article_correct': 0}
+--------------------
+# Pytanie 177
+### Udzielona odpowiedz: 
+### Odpowiedź:
+d) Rozetki Homera-Wrighta
+### Judge: Nie
+### Poprawna odpowiedz: a) Ciałka Schillera-Duvala, None
+### Wyniki: {'correct': 81, 'incorrect': 96, 'article_correct': 0}
+--------------------
+# Pytanie 178
+### Udzielona odpowiedz: 
+### Odpowiedź:
+e) Mucykarminem
+### Judge: Nie
+### Poprawna odpowiedz: c) PAS, None
+### Wyniki: {'correct': 81, 'incorrect': 97, 'article_correct': 0}
+--------------------
+# Pytanie 179
+### Udzielona odpowiedz: 
+### Odpowiedź:
+d) HER2+, ER+
+### Judge: Nie
+### Poprawna odpowiedz: c) HER2+, ER-, None
+### Wyniki: {'correct': 81, 'incorrect': 98, 'article_correct': 0}
+--------------------
+# Pytanie 180
+### Udzielona odpowiedz: 
+### Odpowiedź:
+c) nowotwór podścieliskowy przewodu pokarmowego
+### Judge: Tak
+### Poprawna odpowiedz: c) nowotwór podścieliskowy przewodu pokarmowego, None
+### Wyniki: {'correct': 82, 'incorrect': 98, 'article_correct': 0}
+--------------------
+# Pytanie 181
+### Udzielona odpowiedz: 
+### Odpowiedź:
+d) CD117
+### Judge: Tak
+### Poprawna odpowiedz: d) CD117, None
+### Wyniki: {'correct': 83, 'incorrect': 98, 'article_correct': 0}
+--------------------
+# Pytanie 182
+### Udzielona odpowiedz: 
+
+a) Kiloński
+### Judge: Nie
+### Poprawna odpowiedz: d) Paryski, None
+### Wyniki: {'correct': 83, 'incorrect': 99, 'article_correct': 0}
+--------------------
+# Pytanie 183
+### Udzielona odpowiedz: 
+
+a) Borelioza
+b) Choroba posurowicza
+c) Zespół Guillaina-Barrégo
+d) Zespół Sjögrena
+e) Zespół Kawasaki
+
+Odpowiedź: b) Choroba posurowicza
+### Judge: Tak
+### Poprawna odpowiedz: B) Nużliwość mięśni, None
+### Wyniki: {'correct': 84, 'incorrect': 99, 'article_correct': 0}
+--------------------
+# Pytanie 184
+### Udzielona odpowiedz: 
+### Odpowiedź:
+c) Przeciwciała przeciwmitochondrialne
+### Judge: Tak
+### Poprawna odpowiedz: c) Przeciwciała przeciwmitochondrialne, None
+### Wyniki: {'correct': 85, 'incorrect': 99, 'article_correct': 0}
+--------------------
+# Pytanie 185
+### Udzielona odpowiedz: 
+Odpowiedź: b) Ziarniniakowego zapalenia tętnic kończyn dolnych
+### Judge: Nie
+### Poprawna odpowiedz: c) Zakrzepowo-zarostowego zapalenia naczyń, None
+### Wyniki: {'correct': 85, 'incorrect': 100, 'article_correct': 0}
+--------------------
+# Pytanie 186
+### Udzielona odpowiedz: 
+Odpowiedź: e) 14
+### Judge: Nie
+### Poprawna odpowiedz: d) 10, None
+### Wyniki: {'correct': 85, 'incorrect': 101, 'article_correct': 0}
+--------------------
+# Pytanie 187
+### Udzielona odpowiedz: 
+### Odpowiedź:
+e) Warthin-Starry
+### Judge: Tak
+### Poprawna odpowiedz: e) Warthin-Starry, None
+### Wyniki: {'correct': 86, 'incorrect': 101, 'article_correct': 0}
+--------------------
+# Pytanie 188
+### Udzielona odpowiedz: 
+a) TP53 - zespół Li-Fraumeni
+b) MSH2 - dziedziczne niepolipowaty rak jelita grubego
+c) APC - rodzinna polipowatość jelita grubego
+d) PTCH - zespół Gorlinga
+e) RET - zespół MEN1
+
+Poprawna odpowiedź: d) PTCH - zespół Gorlinga
+
+Uzasadnienie:
+- TP53 jest związany z zespołem Li-Fraumeni.
+- MSH2 jest związany z dziedzicznym niepolipowatym rakiem jelita grubego.
+- APC jest związany z rodzinną polipowatością jelita grubego.
+- RET jest związany z zespołem MEN1, a nie MEN2, jak sugeruje pytanie.
+- PTCH nie jest bezpośrednio związany z zespołem Gorlinga. Zespół Gorlinga jest związany z mutacjami w genie SHOX, a nie PTCH.
+### Judge: Nie
+### Poprawna odpowiedz: e) RET - zespół MEN1, None
+### Wyniki: {'correct': 86, 'incorrect': 102, 'article_correct': 0}
+--------------------
+# Pytanie 189
+### Udzielona odpowiedz: 
+### Odpowiedź:
+e) nie są widoczne
+### Judge: Nie
+### Poprawna odpowiedz: a) występowaniu falistych włókien mięśniowych, None
+### Wyniki: {'correct': 86, 'incorrect': 103, 'article_correct': 0}
+--------------------
+# Pytanie 190
+### Udzielona odpowiedz: 
+Odpowiedź: a) Włóknienia pozapalnego w płucu
+
+Uzasadnienie: Barwienie metodą Van Gieson jest często stosowane w diagnostyce patomorfologicznej do oceny włóknienia i martwicy w tkankach. W przypadku włóknienia pozapalnego w płucach, barwienie to pozwala na wykrycie charakterystycznych zmian w tkance płucnej, takich jak włóknienie i martwica, które są typowe dla procesów zapalnych i gojenia się uszkodzeń płuc.
+### Judge: Tak
+### Poprawna odpowiedz: a) Włóknienia pozapalnego w płucu, None
+### Wyniki: {'correct': 87, 'incorrect': 103, 'article_correct': 0}
+--------------------
+# Pytanie 191
+### Udzielona odpowiedz: 
+Odpowiedź: d) Urothelial carcinoma
+### Judge: Nie
+### Poprawna odpowiedz: b) Chromophobe carcinoma, None
+### Wyniki: {'correct': 87, 'incorrect': 104, 'article_correct': 0}
+--------------------
+# Pytanie 192
+### Udzielona odpowiedz: 
+### Odpowiedź:
+c) 4% aldehydzie glutarowym
+### Judge: Tak
+### Poprawna odpowiedz: c) 4% aldehydzie glutarowym, None
+### Wyniki: {'correct': 88, 'incorrect': 104, 'article_correct': 0}
+--------------------
+# Pytanie 193
+### Udzielona odpowiedz: 
+
+
+a) Często daje przerzuty do węzłów okołoaortalnych - to twierdzenie jest nieprawdziwe.
+
+Uzasadnienie:
+Choriocarcinoma to złośliwy nowotwór wywodzący się z trofoblastu, który może rozwijać się w jajnikach lub jądrach. Jest to rzadki nowotwór, który często daje przerzuty krwiopochodne do płuc, pochwy i mózgu. Nie ma jednak informacji o częstych przerzutach do węzłów okołoaortalnych. Pozostałe opcje są prawdziwe:
+
+b) Daje przerzuty krwiopochodne najczęściej do płuc, pochwy i mózgu - to prawda.
+c) Ognisko pierwotne może ulegać autodestrukcji - to prawda.
+d) W jego utkaniu nie stwierdza się kosmków - to prawda.
+e) Nowotwory rozwijające się w gonadach gorzej reagują na chemioterapię - to prawda.
+### Judge: Nie
+### Poprawna odpowiedz: a) Często daje przerzuty do węzłów okołoaortalnych, None
+### Wyniki: {'correct': 88, 'incorrect': 105, 'article_correct': 0}
+--------------------
+# Pytanie 194
+### Udzielona odpowiedz: 
+Najczęstsza lokalizacja rdzeniaka u dzieci to:
+
+b) rdzeń przedłużony
+
+Uzasadnienie:
+Rdzeniak (medulloblastoma) jest najczęstszym pierwotnym nowotworem ośrodkowego układu nerwowego u dzieci. Występuje głównie w okolicy rdzenia przedłużonego, gdzie ma tendencję do naciekania na sąsiednie struktury, takie jak móżdżek i pień mózgu. W przeciwieństwie do innych lokalizacji, rdzeń przedłużony jest często zajmowany przez rdzeniaka u młodszych pacjentów.
+### Judge: Nie
+### Poprawna odpowiedz: e) robak móżdżku, None
+### Wyniki: {'correct': 88, 'incorrect': 106, 'article_correct': 0}
+--------------------
+# Pytanie 195
+### Udzielona odpowiedz: 
+
+d) Nerki
+### Judge: Tak
+### Poprawna odpowiedz: d) Nerki, None
+### Wyniki: {'correct': 89, 'incorrect': 106, 'article_correct': 0}
+--------------------
+# Pytanie 196
+### Udzielona odpowiedz: 
+
+a) Brenner tumor
+
+Brenner tumor jest typowym łagodnym nowotworem trzustki. Jest to rzadki, dobrze zróżnicowany guz, który zwykle występuje u młodych kobiet i ma charakterystyczny wygląd histologiczny.
+### Judge: Nie
+### Poprawna odpowiedz: e) Serous cystadenoma, None
+### Wyniki: {'correct': 89, 'incorrect': 107, 'article_correct': 0}
+--------------------
+# Pytanie 197
+### Udzielona odpowiedz: 
+### Odpowiedź:
+c) Stanisław Ciechanowski - opis makrofagów osiadłych w wątrobie
+### Judge: Nie
+### Poprawna odpowiedz: a) Maria Dąbska - opis endovascular papillary angioendothelioma, None
+### Wyniki: {'correct': 89, 'incorrect': 108, 'article_correct': 0}
+--------------------
+# Pytanie 198
+### Udzielona odpowiedz: 
+
+
+c) skórze
+### Judge: Nie
+### Poprawna odpowiedz: a) języku, None
+### Wyniki: {'correct': 89, 'incorrect': 109, 'article_correct': 0}
+--------------------
+# Pytanie 199
+### Udzielona odpowiedz: 
+### Odpowiedź:
+a) mucykarminem
+### Judge: Nie
+### Poprawna odpowiedz: e) żadnym z powyższych, None
+### Wyniki: {'correct': 89, 'incorrect': 110, 'article_correct': 0}
+--------------------
+# Pytanie 200
+### Udzielona odpowiedz: 
+
+a) komórka śródbłonka
+
+Komórki śródbłonka wykazują największą wrażliwość na hipoksję spośród wymienionych typów komórek. Są one szczególnie podatne na uszkodzenia spowodowane niedotlenieniem, co może prowadzić do zaburzeń w przepływie krwi i funkcjonowaniu naczyń krwionośnych.
+### Judge: Nie.
+### Poprawna odpowiedz: c) neuron, None
+### Wyniki: {'correct': 89, 'incorrect': 111, 'article_correct': 0}
+--------------------
+# Pytanie 201
+### Udzielona odpowiedz: 
+
+e) Rodzaj reakcji podścieliska na nowotwór
+### Judge: Tak
+### Poprawna odpowiedz: e) Rodzaj reakcji podścieliska na nowotwór, None
+### Wyniki: {'correct': 90, 'incorrect': 111, 'article_correct': 0}
+--------------------
+# Pytanie 202
+### Udzielona odpowiedz: 
+### Odpowiedź:
+b) Raka inwazyjnego bez specjalnego typu
+### Judge: Tak
+### Poprawna odpowiedz: b) Raka inwazyjnego bez specjalnego typu, None
+### Wyniki: {'correct': 91, 'incorrect': 111, 'article_correct': 0}
+--------------------
+# Pytanie 203
+### Udzielona odpowiedz: 
+### Odpowiedź:
+b) Zespół von Hippel-Lindau
+### Judge: Nie
+### Poprawna odpowiedz: d) Nerwiakowłókniakowatości II, None
+### Wyniki: {'correct': 91, 'incorrect': 112, 'article_correct': 0}
+--------------------
+# Pytanie 204
+### Udzielona odpowiedz: 
+### Odpowiedź:
+b) moczówkę prostą
+### Judge: Tak
+### Poprawna odpowiedz: b) moczówkę prostą, None
+### Wyniki: {'correct': 92, 'incorrect': 112, 'article_correct': 0}
+--------------------
+# Pytanie 205
+### Udzielona odpowiedz: 
+Odpowiedź: c) Podwyższony poziom gastryny
+### Judge: Nie
+### Poprawna odpowiedz: b) Obecność zmian głównie w części odzwiernikowej, None
+### Wyniki: {'correct': 92, 'incorrect': 113, 'article_correct': 0}
+--------------------
+# Pytanie 206
+### Udzielona odpowiedz: 
+### Odpowiedź:
+e) sekcjonowaniu narządów w miejscu ich lokalizacji w obrębie zwłok
+### Judge: Tak
+### Poprawna odpowiedz: e) sekcjonowaniu narządów w miejscu ich lokalizacji w obrębie zwłok, None
+### Wyniki: {'correct': 93, 'incorrect': 113, 'article_correct': 0}
+--------------------
+# Pytanie 207
+### Udzielona odpowiedz: 
+
+
+b) Objawy pojawiają się po ok. 1 tygodniu od wystąpienia infekcji bakteryjnej
+### Judge: Nie
+### Poprawna odpowiedz: d) Rozpoznanie choroby stawia się w oparciu o wyniki badań serologicznych i obecności przynajmniej dwóch kryteriów oceny Jonesa, None
+### Wyniki: {'correct': 93, 'incorrect': 114, 'article_correct': 0}
+--------------------
+# Pytanie 208
+### Udzielona odpowiedz: 
+
+Odpowiedź: d) Osteosarcoma
+### Judge: Tak
+### Poprawna odpowiedz: d) Osteosarcoma, None
+### Wyniki: {'correct': 94, 'incorrect': 114, 'article_correct': 0}
+--------------------
+# Pytanie 209
+### Udzielona odpowiedz: 
+### Odpowiedź:
+a) Jego umiejscowienie odpowiada zakresowi unerwienia nerwu trójdzielnego
+
+### Wyjaśnienie:
+Naczyniak krwionośny włośniczkowy (angiomatosis capillaris) jest rzadkim stanem, który charakteryzuje się obecnością drobnych naczyń krwionośnych w skórze i tkankach miękkich. Jego umiejscowienie często odpowiada zakresowi unerwienia nerwu trójdzielnego, co oznacza, że zmiany skórne pojawiają się w obszarze twarzy, który jest unerwiony przez ten nerw. Pozostałe opcje nie są prawidłowe w kontekście naczyniaka krwionośnego włośniczkowego.
+### Judge: Nie.
+### Poprawna odpowiedz: c) Jest najczęstszym rodzajem naczyniaka, None
+### Wyniki: {'correct': 94, 'incorrect': 115, 'article_correct': 0}
+--------------------
+{'correct': 94, 'incorrect': 115, 'article_correct': 0}
+
+LLM Judge pomylił się w następujących pytaniach:
+100, 105, 116, 193
+
+Wynik po korektach:
+Correct: 98
+Incorrect: 119

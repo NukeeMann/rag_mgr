@@ -1,0 +1,684 @@
+# Pytanie 1
+### Udzielona odpowiedz: Odpowiedź: a
+### Judge: Nie
+### Poprawna odpowiedz: c) może bez zgody przedstawiciela ustawowego rozporządzać swoim zarobkiem, chyba że sąd opiekuńczy z ważnych powodów inaczej postanowi., (art. 21 KC)
+### Wyniki: {'correct': 0, 'incorrect': 1, 'article_correct': 0}
+--------------------
+# Pytanie 2
+### Udzielona odpowiedz: Odpowiedź: c
+### Judge: Nie
+### Poprawna odpowiedz: b) koniec tego dnia,, (art. 31 § 3 KC)
+### Wyniki: {'correct': 0, 'incorrect': 2, 'article_correct': 0}
+--------------------
+### GPT4o: Nie
+# Pytanie 3
+### Udzielona odpowiedz: Odpowiedź: a
+### Judge: Tak
+### Poprawna odpowiedz: a) wszystko, co nie może być od niej odłączone bez uszkodzenia lub istotnej zmiany całości albo bez uszkodzenia lub istotnej zmiany przedmiotu odłączonego i nie jest z nią połączone tylko dla przemijającego użytku,, (art. 47 § 2 i 3 KC)
+### Wyniki: {'correct': 1, 'incorrect': 2, 'article_correct': 0}
+--------------------
+### GPT4o: Nie
+# Pytanie 4
+### Udzielona odpowiedz: Odpowiedź: c
+### Judge: Tak
+### Poprawna odpowiedz: c) wystarcza złożenie oświadczenia woli w postaci dokumentu, w sposób umożliwiający ustalenie osoby składającej oświadczenie., (art. 77² KC)
+### Wyniki: {'correct': 2, 'incorrect': 2, 'article_correct': 0}
+--------------------
+### GPT4o: Tak
+# Pytanie 5
+### Udzielona odpowiedz: #### 5. (A/R) Zgodnie z Kodeksem cywilnym, jeżeli pełnomocnik po wygaśnięciu umocowania dokona w imieniu mocodawcy czynności prawnej w granicach pierwotnego umocowania:
+a) czynność prawna jest zawsze nieważna,
+b) czynność prawna jest ważna, chyba że druga strona o wygaśnięciu umocowania wiedziała lub z łatwością mogła się dowiedzieć,
+c) czynność prawna jest zawsze ważna.
+
+#### 5. (A/R) Zgodnie z Kodeksem cywilnym, jeżeli pełnomocnik po wygaśnięciu umocowania dokona w imieniu mocodawcy czynności prawnej w granicach pierwotnego umocowania:
+a) czynność prawna jest zawsze nieważna,
+b) czynność prawna jest ważna, chyba że druga strona o wygaśnięciu umocowania wiedziała lub z łatwością mogła się dowiedzieć,
+c) czynność prawna jest zawsze ważna.
+
+#### 5. (A/R) Zgodnie z Kodeksem cywilnym, jeżeli pełnomocnik po wygaśnięciu umocowania dokona w imieniu mocodawcy czynności prawnej w granicach pierwotnego umocowania:
+a) czynność prawna jest zawsze nieważna,
+b) czynność prawna jest ważna, chyba że druga strona o wygaśnięciu umocowania wiedziała lub z łatwością mogła się dowiedzieć,
+c) czynność prawna jest zawsze ważna.
+### Judge: Tak
+### Poprawna odpowiedz: b) czynność prawna jest ważna, chyba że druga strona o wygaśnięciu umocowania wiedziała lub z łatwością mogła się dowiedzieć,, (art. 105 KC)
+### Wyniki: {'correct': 3, 'incorrect': 2, 'article_correct': 1}
+--------------------
+# Pytanie 6
+### Udzielona odpowiedz: Odpowiedź: a
+### Judge: Nie
+### Poprawna odpowiedz: c) umocowanie takie wynika z treści pełnomocnictwa, z ustawy lub ze stosunku prawnego będącego podstawą pełnomocnictwa., (art. 106 KC)
+### Wyniki: {'correct': 3, 'incorrect': 3, 'article_correct': 1}
+--------------------
+### GPT4o: Nie
+# Pytanie 7
+### Udzielona odpowiedz: Odpowiedź: a
+### Judge: Tak
+### Poprawna odpowiedz: a) wszystkich współwłaścicieli, a w braku takiej zgody współwłaściciele, których udziały wynoszą co najmniej połowę, mogą żądać rozstrzygnięcia przez sąd,, (art. 199 KC)
+### Wyniki: {'correct': 4, 'incorrect': 3, 'article_correct': 1}
+--------------------
+# Pytanie 8
+### Udzielona odpowiedz: #### 2.
+### Judge: Nie
+### Poprawna odpowiedz: c) nie ulegają przedawnieniu., (art. 223  § 1 w zw. z art. 222 § 2 KC)
+### Wyniki: {'correct': 4, 'incorrect': 4, 'article_correct': 1}
+--------------------
+### GPT4o: Nie
+# Pytanie 9
+### Udzielona odpowiedz: Odpowiedź: a)
+### Judge: Tak
+### Poprawna odpowiedz: a) wygasa najpóźniej ze śmiercią tej osoby,, (art. 266 KC)
+### Wyniki: {'correct': 5, 'incorrect': 4, 'article_correct': 1}
+--------------------
+# Pytanie 10
+### Udzielona odpowiedz: Odpowiedź: a
+### Judge: Nie
+### Poprawna odpowiedz: b) roku od dnia zwrotu rzeczy,, (art. 322 § 1 KC)
+### Wyniki: {'correct': 5, 'incorrect': 5, 'article_correct': 1}
+--------------------
+### GPT4o: Tak
+# Pytanie 11
+### Udzielona odpowiedz: Odpowiedź: c) dzierżycielem.
+### Judge: Tak
+### Poprawna odpowiedz: c) dzierżycielem., (art. 338 KC)
+### Wyniki: {'correct': 6, 'incorrect': 5, 'article_correct': 2}
+--------------------
+# Pytanie 12
+### Udzielona odpowiedz: Odpowiedź: b) nie ma skutku względem współdłużników.
+### Judge: Nie
+### Poprawna odpowiedz: a) ma skutek także względem współdłużników,, (art. 374 § 2 KC)
+### Wyniki: {'correct': 6, 'incorrect': 6, 'article_correct': 2}
+--------------------
+### GPT4o: Tak
+# Pytanie 13
+### Udzielona odpowiedz: #### b) jest nieważna
+### Judge: Tak
+### Poprawna odpowiedz: b) jest nieważna,, (art. 387 § 1 KC)
+### Wyniki: {'correct': 7, 'incorrect': 6, 'article_correct': 3}
+--------------------
+### GPT4o: Nie
+# Pytanie 14
+### Udzielona odpowiedz: Odpowiedź: a
+### Judge: Tak
+### Poprawna odpowiedz: a) nie jest odpowiedzialny za szkodę wyrządzoną napastnikowi,, (art. 423 KC)
+### Wyniki: {'correct': 8, 'incorrect': 6, 'article_correct': 3}
+--------------------
+# Pytanie 15
+### Udzielona odpowiedz: Odpowiedź: b
+### Judge: Nie
+### Poprawna odpowiedz: c) może powstrzymać się z jego spełnieniem, dopóki druga strona nie zaofiaruje świadczenia wzajemnego lub nie da zabezpieczenia; te uprawnienia nie przysługują stronie, która w chwili zawarcia umowy wiedziała o złym stanie majątkowym drugiej strony., (art. 490 § 1 i 2  KC)
+### Wyniki: {'correct': 8, 'incorrect': 7, 'article_correct': 3}
+--------------------
+### GPT4o: Nie
+# Pytanie 16
+### Udzielona odpowiedz: Odpowiedź: a
+### Judge: Tak
+### Poprawna odpowiedz: a) pod nieważnością na piśmie; to samo dotyczy zgody wierzyciela na przejęcie długu,, (art. 522 KC)
+### Wyniki: {'correct': 9, 'incorrect': 7, 'article_correct': 3}
+--------------------
+### GPT4o: Nie
+# Pytanie 17
+### Udzielona odpowiedz: Odpowiedź: b
+### Judge: Tak
+### Poprawna odpowiedz: b) sprzedaży,, (art. 604 KC)
+### Wyniki: {'correct': 10, 'incorrect': 7, 'article_correct': 3}
+--------------------
+# Pytanie 18
+### Udzielona odpowiedz: Odpowiedź: b
+### Judge: Nie
+### Poprawna odpowiedz: c) poczytuje się umowę za zawartą na czas nieoznaczony., (art. 660 KC)
+### Wyniki: {'correct': 10, 'incorrect': 8, 'article_correct': 3}
+--------------------
+### GPT4o: Nie
+# Pytanie 19
+### Udzielona odpowiedz: Odpowiedź: c
+### Judge: Tak
+### Poprawna odpowiedz: c) zezwolić biorącemu, przez czas oznaczony lub nieoznaczony, na bezpłatne używanie oddanej mu w tym celu rzeczy., (art. 710 KC)
+### Wyniki: {'correct': 11, 'incorrect': 8, 'article_correct': 3}
+--------------------
+# Pytanie 20
+### Udzielona odpowiedz: Odpowiedź: a
+### Judge: Nie
+### Poprawna odpowiedz: c) nie wolno używać rzeczy bez zgody składającego, chyba że jest to konieczne do jej zachowania w stanie niepogorszonym., (art. 839 KC)
+### Wyniki: {'correct': 11, 'incorrect': 9, 'article_correct': 3}
+--------------------
+### GPT4o: Tak
+# Pytanie 21
+### Udzielona odpowiedz: #### 21. (A/R) Zgodnie z Kodeksem cywilnym, z dniem ogłoszenia upadłości wspólnika spółki cywilnej spółka ulega rozwiązaniu.
+### Judge: Tak.
+### Poprawna odpowiedz: b) spółka ulega rozwiązaniu,, (art. 874 § 2 KC)
+### Wyniki: {'correct': 12, 'incorrect': 9, 'article_correct': 4}
+--------------------
+# Pytanie 22
+### Udzielona odpowiedz: #### 210. $\S$ 1. Każdy ze współwłaścicieli może żądać zniesienia współwłasności. Uprawnienie to może być wyłączone przez czynność prawną na czas nie dłuższy niż lat pięć. Jednakże w ostatnim roku przed upływem zastrzeżonego terminu dopuszczalne jest jego przedłużenie na dalsze lat pięć; przedłużenie można ponowić.
+### Judge: Nie.
+### Poprawna odpowiedz: a) ulega odpowiedniemu zmniejszeniu,, (art. 911 KC)
+### Wyniki: {'correct': 12, 'incorrect': 10, 'article_correct': 4}
+--------------------
+### GPT4o: Tak
+# Pytanie 23
+### Udzielona odpowiedz: #### 23. (A/R) Zgodnie z Kodeksem cywilnym, spadkobierca nie może być uznany za niegodnego, jeżeli spadkodawca mu przebaczył; jeżeli w chwili przebaczenia spadkobiercy spadkodawca nie miał zdolności do czynności prawnych, przebaczenie:
+a) jest zawsze skuteczne,
+b) jest skuteczne, gdy nastąpiło z dostatecznym rozeznaniem,
+c) jest zawsze nieskuteczne.
+
+#### 23. (A/R) Zgodnie z Kodeksem cywilnym, spadkobierca nie może być uznany za niegodnego, jeżeli spadkodawca mu przebaczył; jeżeli w chwili przebaczenia spadkobiercy spadkodawca nie miał zdolności do czynności prawnych, przebaczenie:
+a) jest zawsze skuteczne,
+b) jest skuteczne, gdy nastąpiło z dostatecznym rozeznaniem,
+c) jest zawsze nieskuteczne.
+### Judge: Tak
+### Poprawna odpowiedz: b) jest skuteczne, gdy nastąpiło z dostatecznym rozeznaniem,, (art. 930 § 1 i 2 KC)
+### Wyniki: {'correct': 13, 'incorrect': 10, 'article_correct': 5}
+--------------------
+### GPT4o: Tak
+# Pytanie 24
+### Udzielona odpowiedz: Dokument 1: Art. 3. Ustawa nie ma mocy wstecznej, chyba że to wynika z jej brzmienia lub celu.    Art. 5. Nie można czynić ze swego prawa użytku, który by był sprzeczny ze społeczno-gospodarczym przeznaczeniem tego prawa lub z zasadami współżycia społecznego. Takie działanie lub zaniechanie uprawnionego nie jest uważane za wykonywanie prawa i nie korzysta z ochrony.    Art. 6. Ciężar udowodnienia faktu spoczywa na osobie, która z faktu tego wywodzi skutki prawne.    Art. 7. Jeżeli ustawa uzależnia skutki prawne od dobrej lub złej wiary, domniemywa się istnienie dobrej wiary.
+
+                Dokument 2: Art. 3. Ustawa nie ma mocy wstecznej, chyba że to wynika z jej brzmienia lub celu.    Art. 5. Nie można czynić ze swego prawa użytku, który by był sprzeczny ze społeczno-gospodarczym przeznaczeniem tego prawa lub z zasadami współżycia społecznego. Takie działanie lub zaniechanie uprawnionego nie jest uważane za wykonywanie prawa i nie korzysta z ochrony.    Art. 6. Ciężar udowodnienia faktu spoczywa na osobie, która z faktu tego wywodzi skutki prawne.    Art. 7. Jeżeli ustawa uzależnia skutki prawne od dobrej lub złej wiary, domniemywa się istnienie dobrej wiary.
+
+                Dokument 3: Art. 3. Ustawa nie ma mocy wstecznej, chyba że to wynika z jej brzmienia lub celu.    Art. 5. Nie można czynić ze swego prawa użytku, który by był sprzeczny ze społeczno-gospodarczym przeznaczeniem tego prawa lub z zasadami współżycia społecznego. Takie działanie lub zaniechanie uprawnionego nie jest uważane za wykonywanie prawa i nie korzysta z ochrony.    Art. 6. Ciężar udowodnienia faktu spoczywa na osobie, która z faktu tego wywodzi skutki prawne.    Art. 7. Jeżeli ustawa uzależnia skutki prawne od dobrej lub złej wiary, domniemywa się istnienie dobrej wiary.
+
+Odpowiedź: b
+### Judge: Tak
+### Poprawna odpowiedz: b) ma moc wsteczną, jeżeli wynika to z jej brzmienia lub celu,, (art. 3 KC)
+### Wyniki: {'correct': 14, 'incorrect': 10, 'article_correct': 6}
+--------------------
+### GPT4o: Tak
+# Pytanie 25
+### Udzielona odpowiedz: #### 25. (N) Zgodnie z Kodeksem cywilnym, jeżeli osoba prawna nie może być reprezentowana lub prowadzić swoich spraw ze względu na brak organu albo brak w składzie organu uprawnionego do jej reprezentowania, sąd:
+a) ustanawia dla niej osoby wchodzące w skład organu,
+b) ustanawia dla niej likwidatora,
+c) ustanawia dla niej kuratora.
+### Judge: Tak
+### Poprawna odpowiedz: c) ustanawia dla niej kuratora., (art. 42 § 1 KC)
+### Wyniki: {'correct': 15, 'incorrect': 10, 'article_correct': 7}
+--------------------
+# Pytanie 26
+### Udzielona odpowiedz: Dokument 1: Art. 117. Z zastrzeżeniem wyjątków w ustawie przewidzianych, roszczenia majątkowe ulegają przedawnieniu.
+
+                
+Dokument 2: Art. 120. Bieg przedawnienia rozpoczyna się od dnia, w którym roszczenie stało się wymagalne. Jeżeli wymagalność roszczenia zależy od podjęcia określonej czynności przez uprawnionego, bieg terminu rozpoczyna się od dnia, w którym roszczenie stałoby się wymagalne, gdyby uprawniony podjął czynność w najwcześniej możliwym terminie.
+
+                
+Dokument 3: Art. 121. Bieg przedawnienia nie rozpoczyna się, a rozpoczęty ulega zawieszeniu:
+1) co do roszczeń, które przysługują dzieciom przeciwko rodzicom – przez czas trwania władzy rodzicielskiej;
+2) co do roszczeń, które przysługują osobom niemającym pełnej zdolności do czynności prawnych przeciwko osobom sprawującym opiekę lub kuratelę – przez czas sprawowania przez te osoby opieki lub kurateli;
+3) co do roszczeń, które przysługują jednemu z małżonków przeciwko drugiemu – przez czas trwania małżeństwa;
+4) co do wszelkich roszczeń, gdy z powodu siły wyższej uprawniony nie może ich dochodzić przed sądem lub innym organem powołanym do rozpoznawania spraw danego rodzaju – przez czas trwania przeszkody.
+
+                Dokument 4: Art. 122. Roszczenie stwierdzone prawomocnym orzeczeniem sądu lub innego organu powołanego do rozpoznawania spraw danego rodzaju albo orzeczeniem sądu polubownego, jak również roszczenie stwierdzone ugodą zawartą przed sądem albo sądem polubownym przedawnia się z upływem sześciu lat. Jeżeli stwierdzone w ten sposób roszczenie obejmuje świadczenia okresowe, roszczenie o świadczenia okresowe należne w przyszłości ulega przedawnieniu trzyletniemu.
+
+                Dokument 5: Art. 123. Bieg przedawnienia przerywa się:
+1) przez każdą czynność przed sądem lub innym organem powołanym do rozpoznawania spraw lub egzekwowania roszczeń danego rodzaju albo przed sądem polubownym, przedsięwziętą bezpośrednio w celu dochodzenia lub ustalenia albo zaspokojenia lub zabezpieczenia roszczenia;
+2) przez uznanie roszczenia przez osobę, przeciwko której roszczenie przysługuje;
+3) przez wszczęcie mediacji.
+
+                Dokument 6: Art. 124. Po każdym przerwaniu przedawnienia biegnie ono na nowo.
+
+                Dokument 7: Art. 125. Roszczenie stwierdzone prawomocnym orzeczeniem sądu lub innego organu powołanego do rozpoznawania spraw danego rodzaju albo orzeczeniem sądu polubownego, jak również roszczenie stwierdzone ugodą zawartą przed sądem albo sądem polubownym przedawnia się z upływem sześciu lat. Jeżeli stwierdzone w ten sposób roszczenie obejmuje świadczenia okresowe, roszczenie o świadczenia okresowe należne w przyszłości ulega przedawnieniu trzyletniemu.
+
+                Dokument 8: Art. 126. Roszczenie stwierdzone decyzją właściwego organu przedawnia się z upływem trzech lat. Roszczenie to może być dochodzone na drodze sądowej.
+
+                Dokument 9: Art. 127. O przedawnieniu roszczenia nie można się powołać na zarzut, jeżeli termin przedawnienia jest krótszy niż trzy lata. Nie można również tego zarzutu podnieść wobec konsumenta. Przedawnienie roszczeń konsumenta nie może być wyłączone ani ograniczone w umowie.
+### Judge: Nie.
+### Poprawna odpowiedz: b) stosuje się odpowiednio przepisy o ochronie dóbr osobistych osób fizycznych,, (art. 43 KC)
+### Wyniki: {'correct': 15, 'incorrect': 11, 'article_correct': 7}
+--------------------
+# Pytanie 27
+### Udzielona odpowiedz: #### 27. (N) Zgodnie z Kodeksem cywilnym, firma:
+        b) może być zbyta, przy czym zbycie firmy powinno być dokonane w formie pisemnej z podpisami notarialnie poświadczonymi,
+### Judge: Nie
+### Poprawna odpowiedz: a) nie może być zbyta,, (art. 439 § 1 KC)
+### Wyniki: {'correct': 15, 'incorrect': 12, 'article_correct': 7}
+--------------------
+# Pytanie 28
+### Udzielona odpowiedz: Dokument 1: § 1. Umowa zobowiązująca do przeniesienia własności nieruchomości powinna być zawarta w formie aktu notarialnego.
+
+                Dokument 2: § 2. Jeżeli umowa zobowiązująca do przeniesienia własności nieruchomości została zawarta w formie aktu notarialnego, do przejścia własności nieruchomości niezbędne jest zawarcie w tej formie umowy rozporządzającej.
+
+                Dokument 3: § 1. Jeżeli według ustawy własność nieruchomości nie może być przeniesiona bez zachowania szczególnej formy, to samo dotyczy umowy przenoszącej własność, która zostaje zawarta w celu wykonania istniejącego uprzednio zobowiązania do przeniesienia własności nieruchomości.
+
+                Dokument 4: § 1. Jeżeli zawarcie umowy przenoszącej własność następuje w wykonaniu zobowiązania wynikającego z uprzednio zawartej umowy zobowiązującej do przeniesienia własności nieruchomości, wówczas wykonanie takiego zobowiązania powinno być w umowie o przeniesienie własności nieruchomości stwierdzone.
+Odpowiedź: b
+### Judge: Nie.
+### Poprawna odpowiedz: c) do przeniesienia własności nieruchomości potrzebne jest dodatkowe porozumienie stron obejmujące ich bezwarunkową zgodę na niezwłoczne przejście własności., (art. 157 § 2 KC)
+### Wyniki: {'correct': 15, 'incorrect': 13, 'article_correct': 7}
+--------------------
+### GPT4o: Nie
+# Pytanie 29
+### Udzielona odpowiedz: Odpowiedź: c) z upływem dwóch lat od uzyskania pełnoletności przez właściciela.
+### Judge: Tak
+### Poprawna odpowiedz: c) z upływem dwóch lat od uzyskania pełnoletności przez właściciela., (art. 173 KC)
+### Wyniki: {'correct': 16, 'incorrect': 13, 'article_correct': 7}
+--------------------
+### GPT4o: Nie
+# Pytanie 30
+### Udzielona odpowiedz: Odpowiedź: a
+### Judge: Tak
+### Poprawna odpowiedz: a) jeżeli nie można uzyskać zgody większości współwłaścicieli w istotnych sprawach dotyczących zwykłego zarządu,, (art. 203 KC)
+### Wyniki: {'correct': 17, 'incorrect': 13, 'article_correct': 7}
+--------------------
+### GPT4o: Nie
+# Pytanie 31
+### Udzielona odpowiedz: #### 31. (N) Zgodnie z Kodeksem cywilnym, współwłaściciel sprawujący zarząd rzeczą wspólną:
+a) może żądać od pozostałych współwłaścicieli wynagrodzenia odpowiadającego uzasadnionemu nakładowi jego pracy,
+b) może żądać od pozostałych współwłaścicieli wynagrodzenia odpowiadającego stosunkowi wielkości jego udziału we współwłasności do całkowitych kosztów zarządu,
+c) nie może żądać wynagrodzenia od pozostałych współwłaścicieli.
+### Judge: Tak.
+### Poprawna odpowiedz: a) może żądać od pozostałych współwłaścicieli wynagrodzenia odpowiadającego uzasadnionemu nakładowi jego pracy,, (art. 205 KC)
+### Wyniki: {'correct': 18, 'incorrect': 13, 'article_correct': 7}
+--------------------
+# Pytanie 32
+### Udzielona odpowiedz: Odpowiedź: a
+### Judge: Nie
+### Poprawna odpowiedz: b) chyba że celem zbycia jest zapewnienie racjonalnego prowadzenia tego gospodarstwa,, (art. 217 KC)
+### Wyniki: {'correct': 18, 'incorrect': 14, 'article_correct': 7}
+--------------------
+# Pytanie 33
+### Udzielona odpowiedz: Odpowiedź: 0
+### Judge: Nie.
+### Poprawna odpowiedz: b) jeżeli nabywca o nich wiedział lub z łatwością mógł się dowiedzieć,, (art. 221 KC)
+### Wyniki: {'correct': 18, 'incorrect': 15, 'article_correct': 7}
+--------------------
+# Pytanie 34
+### Udzielona odpowiedz: Odpowiedź: a) właściciela nieruchomości obciążonej
+### Judge: Nie
+### Poprawna odpowiedz: b) właściciela nieruchomości władnącej,, (art. 289 § 1 KC)
+### Wyniki: {'correct': 18, 'incorrect': 16, 'article_correct': 7}
+--------------------
+# Pytanie 35
+### Udzielona odpowiedz: ### Dokument 1: Art. 296. Nieruchomość można obciążyć na rzecz właściciela innej nieruchomości (nieruchomości władnącej) prawem, którego treść polega na tym, że właściciel nieruchomości władnącej może korzystać w oznaczonym zakresie z nieruchomości obciążonej (służebność gruntowa). Służebność gruntowa może mieć jedynie na celu zwiększenie użyteczności nieruchomości władnącej lub jej oznaczonej części.
+
+                Dokument 2: Art. 297. Służebność gruntowa powinna być wykonywana w taki sposób, żeby jak najmniej utrudniała korzystanie z nieruchomości obciążonej.
+
+                Dokument 3: Art. 298. Służebność gruntowa powinna być wykonywana zgodnie z jej przeznaczeniem. Jeżeli służebność gruntowa utraciła dla nieruchomości władnącej wszelkie znaczenie, właściciel nieruchomości obciążonej może żądać zniesienia służebności bez wynagrodzenia.
+
+                Dokument 4: Art. 299. Jeżeli służebność gruntowa stała się potrzebna do prawidłowego korzystania z budynku lub urządzenia, które zostały wzniesione na nieruchomości po ustanowieniu służebności, właściciel nieruchomości obciążonej może żądać zmiany treści lub sposobu wykonywania służebności, chyba że wzrost wartości nieruchomości władnącej jest niewspółmiernie większy od korzyści uzyskanych z tego tytułu przez nieruchomość obciążoną.
+
+                Dokument 5: Art. 301. Służebność osobista wygasa najpóźniej ze śmiercią uprawnionego.
+
+                Dokument 6: Art. 302. Nieruchomość można obciążyć na rzecz oznaczonej osoby fizycznej prawem, którego treść odpowiada treści służebności gruntowej (służebność osobista). Do służebności osobistych stosuje się odpowiednio przepisy o służebnościach gruntowych z zachowaniem przepisów rozdziału niniejszego.
+
+                Dokument 7: Art. 303. Służebność osobista wygasa najpóźniej ze śmiercią uprawnionego. Przepisu tego nie stosuje się w wypadku, gdy służebność została ustanowiona na rzecz kilku osób, a śmierć nie wszystkich pociąga za sobą wygaśnięcie prawa.
+
+                Dokument 8: Art. 304. Służebność osobista może być wykonywana tylko przez osoby, których prawo to przysługuje.
+
+                Dokument 9: Art. 305. Służebność osobista powinna być wykonywana w taki sposób, żeby jak najmniej utrudniała korzystanie z nieruchomości obciążonej.
+
+                Dokument 10: Art. 306. Służebność osobista powinna być wykonywana zgodnie z jej przeznaczeniem. Jeżeli nieruchomość obciążona służebnością osobistą stanie się własnością osoby uprawnionej do wykonywania służebności, służebność wygasa.
+
+                Dokument 11: Art. 307. Jeżeli nieruchomość obciążona służebnością osobistą została wniesiona jako wkład do rolniczej spółdzielni produkcyjnej, prawo to może być wykonywane w stosunku do spółdzielni wobec wszystkich jej członków. W wypadku zwrotu wniesionych wkładów prawo to przechodzi ponownie na członków, którym przysługuje w częściach ułamkowych współwłasność rzeczy. Współwłaściciele ci mogą żądać zniesienia służebności osobistej, chyba że jest ona jeszcze potrzebna do korzystania z nieruchomości.
+### Judge: Nie.
+### Poprawna odpowiedz: b) nie może być przeniesione przez czynność prawną,, (art. 300 KC)
+### Wyniki: {'correct': 18, 'incorrect': 17, 'article_correct': 7}
+--------------------
+# Pytanie 36
+### Udzielona odpowiedz: Odpowiedź: b
+### Judge: Nie
+### Poprawna odpowiedz: c) należą się odsetki ustawowe w wysokości równej sumie stopy referencyjnej Narodowego Banku Polskiego i 3,5 punktów procentowych., (art. 359 § 1 i 2 KC)
+### Wyniki: {'correct': 18, 'incorrect': 18, 'article_correct': 7}
+--------------------
+# Pytanie 37
+### Udzielona odpowiedz: Dokument 1: Art. 367. $\S~1$ . Dłużnicy zobowiązani do świadczenia niepodzielnego są odpowiedzialni za spełnienie świadczenia jak dłużnicy solidarni, chyba że umówiono się inaczej.    $\S2$ . Dłużnik, który spełnił świadczenie niepodzielne, może żądać od pozostałych dłużników zwrotu wartości świadczenia według tych samych zasad, które określają ich odpowiedzialność wobec wierzyciela.
+
+                
+Dokument 2: Art. 369. $\S~1$ . Zobowiązanie jest solidarne, jeżeli to wynika z ustawy lub z czynności prawnej.    $\S2$ . Czynność prawna ustanawiająca zobowiązanie solidarnej ma na względzie wierzyciela.
+
+                Podaję odpowiedź: b) według swego wyboru, do rąk któregokolwiek z wierzycieli solidarnych.
+### Judge: Nie
+### Poprawna odpowiedz: a) do rąk wierzyciela, który wytoczył powództwo,, (art. 367 § 2 KC)
+### Wyniki: {'correct': 18, 'incorrect': 19, 'article_correct': 7}
+--------------------
+### GPT4o: Nie
+# Pytanie 38
+### Udzielona odpowiedz: Odpowiedź: b
+### Judge: Tak
+### Poprawna odpowiedz: b) może żądać naprawienia szkody, którą poniosła przez to, że liczyła na zawarcie umowy przyrzeczonej,, (art. 390 § 1 i 2 KC)
+### Wyniki: {'correct': 19, 'incorrect': 19, 'article_correct': 7}
+--------------------
+# Pytanie 39
+### Udzielona odpowiedz: Odpowiedź: 456
+### Judge: Nie
+### Poprawna odpowiedz: b) wierzyciel przez oświadczenie złożone dłużnikowi w czasie właściwym, jednakże powinien uwzględnić możliwości dłużnika oraz sposób spełnienia świadczenia,, (art. 456 KC)
+### Wyniki: {'correct': 19, 'incorrect': 20, 'article_correct': 7}
+--------------------
+### GPT4o: Nie
+# Pytanie 40
+### Udzielona odpowiedz: Odpowiedź: a
+### Judge: Tak
+### Poprawna odpowiedz: a) może żądać odsetek za czas opóźnienia, chociażby nie poniósł żadnej szkody i chociażby opóźnienie było następstwem okoliczności, za które dłużnik odpowiedzialności nie ponosi,, (art. 481 § 1 KC)
+### Wyniki: {'correct': 20, 'incorrect': 20, 'article_correct': 7}
+--------------------
+# Pytanie 41
+### Udzielona odpowiedz: Odpowiedź: Art. 492.
+### Judge: Nie
+### Poprawna odpowiedz: a) w razie zwłoki drugiej strony odstąpić od umowy bez wyznaczenia terminu dodatkowego,, (art. 492 KC)
+### Wyniki: {'correct': 20, 'incorrect': 21, 'article_correct': 7}
+--------------------
+### GPT4o: Nie
+# Pytanie 42
+### Udzielona odpowiedz: Odpowiedź: a
+### Judge: Tak
+### Poprawna odpowiedz: a) bez zgody dłużnika przenieść wierzytelność na osobę trzecią (przelew), chyba że sprzeciwiałoby się to ustawie, zastrzeżeniu umownemu albo właściwości zobowiązania,, (art. 509 § 1 KC)
+### Wyniki: {'correct': 21, 'incorrect': 21, 'article_correct': 7}
+--------------------
+### GPT4o: Nie
+# Pytanie 43
+### Udzielona odpowiedz: Odpowiedź: b
+### Judge: Tak
+### Poprawna odpowiedz: b) ponosi kupujący,, (art. 547 § 1 i 2 KC)
+### Wyniki: {'correct': 22, 'incorrect': 21, 'article_correct': 7}
+--------------------
+### GPT4o: Nie
+# Pytanie 44
+### Udzielona odpowiedz: Odpowiedź: a
+### Judge: Tak.
+### Poprawna odpowiedz: a) zwykłe wynagrodzenie za dzieło tego rodzaju,, (art. 628 § 1 KC)
+### Wyniki: {'correct': 23, 'incorrect': 21, 'article_correct': 7}
+--------------------
+### GPT4o: Tak
+# Pytanie 45
+### Udzielona odpowiedz: Odpowiedź: b) nie wymaga zgody wynajmującego
+### Judge: Tak
+### Poprawna odpowiedz: b) nie wymaga zgody wynajmującego,, (art. 668 § 1 KC)
+### Wyniki: {'correct': 24, 'incorrect': 21, 'article_correct': 8}
+--------------------
+### GPT4o: Tak
+# Pytanie 46
+### Udzielona odpowiedz: #### 46. (N) Zgodnie z Kodeksem cywilnym, za zobowiązania spółki cywilnej wobec osób trzecich jej wspólnicy odpowiedzialni są solidarnie.
+### Judge: Tak.
+### Poprawna odpowiedz: c) solidarnie., (art. 864 KC)
+### Wyniki: {'correct': 25, 'incorrect': 21, 'article_correct': 9}
+--------------------
+# Pytanie 47
+### Udzielona odpowiedz: Dokument 1: Art. 934(2). Jeżeli jedno z rodziców tych dzieci nie dożyło otwarcia spadku, udział spadkowy, który by mu przypadał, przypada jego zstępnym.
+
+                
+Dokument 2: Art. 934(3). Jeżeli jedno z rodziców tych dzieci nie dożyło otwarcia spadku i nie pozostawiło zstępnych, udział spadkowy, który by mu przypadał, przypada pozostałemu rodzicowi.
+Odpowiedź: b) jedną trzecią spadku
+### Judge: Nie
+### Poprawna odpowiedz: c) połowę spadku., (art. 932 § 1 i 2 zdanie 2 KC)
+### Wyniki: {'correct': 25, 'incorrect': 22, 'article_correct': 9}
+--------------------
+# Pytanie 48
+### Udzielona odpowiedz: Odpowiedź: Art. 951.
+### Judge: Nie
+### Poprawna odpowiedz: b) sekretarza gminy,, (art. 951 § 1 KC)
+### Wyniki: {'correct': 25, 'incorrect': 23, 'article_correct': 9}
+--------------------
+### GPT4o: Nie
+# Pytanie 49
+### Udzielona odpowiedz: Dokument 1: Art. 941. Rozrządzić majątkiem na wypadek śmierci można jedynie przez testament.
+
+                 Dokument 2: Art. 950. Testament może być sporządzony w formie aktu notarialnego.
+
+                 Dokument 3: Art. 952. Testament szczególny może być sporządzony, gdy istnieje obawa rychłej śmierci spadkodawcy albo jeżeli wskutek szczególnych okoliczności zachowanie zwykłej formy testamentu jest niemożliwe lub bardzo utrudnione.
+
+                Podaję odpowiedź: b) tylko w testamencie sporządzonym w formie aktu notarialnego.
+### Judge: Tak.
+### Poprawna odpowiedz: b) tylko w testamencie sporządzonym w formie aktu notarialnego,, (art. 981¹ § 1 KC)
+### Wyniki: {'correct': 26, 'incorrect': 23, 'article_correct': 9}
+--------------------
+### GPT4o: Nie
+# Pytanie 50
+### Udzielona odpowiedz: Odpowiedź: a)
+### Judge: Tak
+### Poprawna odpowiedz: a) może zwolnić sąd,, (art. 990 KC)
+### Wyniki: {'correct': 27, 'incorrect': 23, 'article_correct': 9}
+--------------------
+### GPT4o: Nie
+# Pytanie 51
+### Udzielona odpowiedz: #### 51. (N)  B
+### Judge: Tak.
+### Poprawna odpowiedz: b) według stanu z chwili jej dokonania, a według cen z chwili ustalania zachowku,, (art. 995 § 1 KC)
+### Wyniki: {'correct': 28, 'incorrect': 23, 'article_correct': 9}
+--------------------
+# Pytanie 52
+### Udzielona odpowiedz: Odpowiedź: a)
+### Judge: Nie
+### Poprawna odpowiedz: b) przechodzi na spadkobiercę osoby uprawnionej do zachowku tylko wtedy, gdy spadkobierca ten należy do osób uprawnionych do zachowku po pierwszym spadkodawcy,, (art. 1002 KC)
+### Wyniki: {'correct': 28, 'incorrect': 24, 'article_correct': 9}
+--------------------
+# Pytanie 53
+### Udzielona odpowiedz: Odpowiedź: a) ukończenia osiemnastu lat.
+### Judge: Nie
+### Poprawna odpowiedz: c) urodzenia., (art. 8 § 1 KC)
+### Wyniki: {'correct': 28, 'incorrect': 25, 'article_correct': 9}
+--------------------
+# Pytanie 54
+### Udzielona odpowiedz: #### 54. (K) Zgodnie z Kodeksem cywilnym, dla ubezwłasnowolnionego całkowicie ustanawia się:
+a) kuratelę,
+b) opiekę, chyba że pozostaje on jeszcze pod władzą rodzicielską,
+c) zarządcę tymczasowego.
+
+#### 54. (K) Zgodnie z Kodeksem cywilnym, dla ubezwłasnowolnionego całkowicie ustanawia się:
+a) kuratelę,
+b) opiekę, chyba że pozostaje on jeszcze pod władzą rodzicielską,
+c) zarządcę tymczasowego.
+### Judge: Nie
+### Poprawna odpowiedz: b) opiekę, chyba że pozostaje on jeszcze pod władzą rodzicielską,, (art. 13 § 2 KC)
+### Wyniki: {'correct': 28, 'incorrect': 26, 'article_correct': 9}
+--------------------
+# Pytanie 55
+### Udzielona odpowiedz: Dokument 1: Art. 15. Ograniczona zdolność do czynności prawnych polega na tym, że osoba ograniczona w zdolności do czynności prawnych może dokonywać tych czynności samodzielnie, jednak mogą one zostać podważone, a osoba ograniczona w zdolności do czynności prawnych może być ich podmiotem tylko w wypadkach wskazanych w przepisach prawa.
+        Art. 16. Osoba ograniczona w zdolności do czynności prawnych może bez zgody przedstawiciela ustawowego zawierać umowy należące do umów powszechnie zawieranych w drobnych bieżących sprawach życia codziennego.
+        Art. 17. Osoba ograniczona w zdolności do czynności prawnych może bez zgody przedstawiciela ustawowego rozporządzać swoim zarobkiem, chyba że sąd opiekuńczy z ważnych powodów inaczej postanowi.
+        Art. 18. Osoba ograniczona w zdolności do czynności prawnych może bez zgody przedstawiciela ustawowego zaciągać zobowiązania dotyczące przyszłej produkcji rolnej.
+        Art. 19. Dokument 2: Art. 15. Ograniczona zdolność do czynności prawnych polega na tym, że osoba ograniczona w zdolności do czynności prawnych może dokonywać tych czynności samodzielnie, jednak mogą one zostać podważone, a osoba ograniczona w zdolności do czynności prawnych może być ich podmiotem tylko w wypadkach wskazanych w przepisach prawa.
+        Art. 16. Osoba ograniczona w zdolności do czynności prawnych może bez zgody przedstawiciela ustawowego zawierać umowy należące do umów powszechnie zawieranych w drobnych bieżących sprawach życia codziennego.
+        Art. 17. Osoba ograniczona w zdolności do czynności prawnych może bez zgody przedstawiciela ustawowego rozporządzać swoim zarobkiem, chyba że sąd opiekuńczy z ważnych powodów inaczej postanowi.
+        Art. 18. Osoba ograniczona w zdolności do czynności prawnych może bez zgody przedstawiciela ustawowego zaciągać zobowiązania dotyczące przyszłej produkcji rolnej.
+        Art. 19.
+### Judge: Nie
+### Poprawna odpowiedz: a) lat trzynaście,, (art. 15 KC)
+### Wyniki: {'correct': 28, 'incorrect': 27, 'article_correct': 9}
+--------------------
+# Pytanie 56
+### Udzielona odpowiedz: Odpowiedź: tak
+### Judge: Nie
+### Poprawna odpowiedz: a) należące do umów powszechnie zawieranych w drobnych bieżących sprawach życia codziennego,, (art. 20 KC)
+### Wyniki: {'correct': 28, 'incorrect': 28, 'article_correct': 9}
+--------------------
+### GPT4o: Tak
+# Pytanie 57
+### Udzielona odpowiedz: Dokument 1: Art. 27. $\S~1$ . Miejscem zamieszkania osoby pozostającej pod opieką jest miejsce zamieszkania opiekuna.
+### Judge: Tak.
+### Poprawna odpowiedz: c) miejsce zamieszkania opiekuna., (art. 27 KC)
+### Wyniki: {'correct': 29, 'incorrect': 28, 'article_correct': 10}
+--------------------
+### GPT4o: Nie
+# Pytanie 58
+### Udzielona odpowiedz: Odpowiedź: a) tylko jedno miejsce zamieszkania.
+
+                Podaję na podstawie art. 26. $\S~1$.
+### Judge: Tak
+### Poprawna odpowiedz: a) tylko jedno miejsce zamieszkania,, (art. 28 KC)
+### Wyniki: {'correct': 30, 'incorrect': 28, 'article_correct': 10}
+--------------------
+# Pytanie 59
+### Udzielona odpowiedz: Dokument 1: Art. 33. $\S~1$ . Osoba prawna działa przez swoje organy w sposób przewidziany w ustawie i w opartym na niej statucie.
+
+                
+Dokument 2: Art. 34. $\S~1$ . Jednostka organizacyjna uzyskuje osobowość prawną z chwilą jej wpisu do właściwego rejestru, chyba że przepisy szczególne stanowią inaczej.
+
+                Podaję odpowiedź: a) jednostkę organizacyjną nieposiadającą osobowości prawnej.
+### Judge: Nie.
+### Poprawna odpowiedz: b) osobą prawną,, (art. 33 KC)
+### Wyniki: {'correct': 30, 'incorrect': 29, 'article_correct': 10}
+--------------------
+### GPT4o: Nie
+# Pytanie 60
+### Udzielona odpowiedz: Odpowiedź: a
+### Judge: Tak
+### Poprawna odpowiedz: a) nie ponoszą odpowiedzialności za zobowiązania Skarbu Państwa,, (art. 40 § 1 KC)
+### Wyniki: {'correct': 31, 'incorrect': 29, 'article_correct': 10}
+--------------------
+### GPT4o: Nie
+# Pytanie 61
+### Udzielona odpowiedz: Odpowiedź: b) zarządzający.
+### Judge: Tak
+### Poprawna odpowiedz: b) zarządzający,, (art. 41 KC)
+### Wyniki: {'correct': 32, 'incorrect': 29, 'article_correct': 10}
+--------------------
+### GPT4o: Tak
+# Pytanie 62
+### Udzielona odpowiedz: #### 62. (K) Zgodnie z Kodeksem cywilnym, firmą osoby fizycznej jest: 
+
+   **b) jej imię i nazwisko**
+
+#### Wyjaśnienie:
+Na podstawie Art. $43^{4}$ Kodeksu Cywilnego wnioskuję, że firmą osoby fizycznej jest jej imię i nazwisko.
+### Judge: Tak
+### Poprawna odpowiedz: b) jej imię i nazwisko,, (art. 43(4) KC)
+### Wyniki: {'correct': 33, 'incorrect': 29, 'article_correct': 11}
+--------------------
+# Pytanie 63
+### Udzielona odpowiedz: Odpowiedź: 53.
+### Judge: Nie
+### Poprawna odpowiedz: b) jej płody i inne odłączone od niej części składowe, o ile według zasad prawidłowej gospodarki stanowią normalny dochód z rzeczy,, (art. 53 § 1 KC)
+### Wyniki: {'correct': 33, 'incorrect': 30, 'article_correct': 11}
+--------------------
+# Pytanie 64
+### Udzielona odpowiedz: Dokument 1: Art. $\mathbf{68^{2}}$ . $\S$ 1. Jeżeli przedsiębiorca otrzymał od osoby, z którą pozostaje w stałych stosunkach gospodarczych, ofertę zawarcia umowy w ramach swej działalności, powinien niezwłocznie potwierdzić jej otrzymanie na piśmie.
+
+                
+Dokument 2: Art. $\mathbf{68^{3}}$ . $\S$ 1. Jeżeli przedsiębiorca nie potwierdził otrzymania oferty, a druga strona, wysyłając ofertę, nie zastrzegła, że jest ona dla niej wiążąca, może ona cofnąć ofertę względem przedsiębiorcy, który ją otrzymał, aż do chwili, w której przedsiębiorca ten oznajmił drugiej stronie, że przyjmuje ofertę.
+
+                
+Dokument 3: Art. $\mathbf{68^{4}}$ . $\S$ 1. Oferta złożona w postaci elektronicznej wiąże składającego, jeżeli druga strona niezwłocznie potwierdzi jej otrzymanie.
+
+                
+Dokument 4: Art. $\mathbf{68^{5}}$ . $\S$ 1. Oferta w postaci elektronicznej złożona w ramach aukcji albo przetargu przestaje wiązać, gdy zostanie udzielone przybicie, a oferta w postaci elektronicznej złożona w ramach oferty z zastrzeżeniem terminu przestaje wiązać, gdy upłynie termin związania ofertą.
+
+                
+Dokument 5: Art. $\mathbf{68^{6}}$ . $\S$ 1. Jeżeli umowa jest zawierana w wyniku publicznego zaproszenia do zawarcia umowy, przedsiębiorca, który otrzymał od osoby, która zgłosiła gotowość zawarcia umowy, projekt umowy z zastrzeżeniem zmian lub uzupełnień, niezmieniających istotnie treści projektu, powinien niezwłocznie przesłać jej projekt umowy potwierdzający jej otrzymanie.
+### Judge: Nie.
+### Poprawna odpowiedz: b) udzielenia przybicia,, (art. 70² § 2 KC)
+### Wyniki: {'correct': 33, 'incorrect': 31, 'article_correct': 11}
+--------------------
+# Pytanie 65
+### Udzielona odpowiedz: Odpowiedź: b
+### Judge: Nie
+### Poprawna odpowiedz: b) sześć lat,, (art. 118 KC)
+### Wyniki: {'correct': 33, 'incorrect': 32, 'article_correct': 11}
+--------------------
+# Pytanie 66
+### Udzielona odpowiedz: Odpowiedź: 66.
+### Judge: Nie
+### Poprawna odpowiedz: a) rzeczy oznaczonej co do tożsamości,, (art. 155 § 2 KC)
+### Wyniki: {'correct': 33, 'incorrect': 33, 'article_correct': 11}
+--------------------
+### GPT4o: Nie
+# Pytanie 67
+### Udzielona odpowiedz: #### 67. (K) Zgodnie z Kodeksem cywilnym, o ile przepis szczególny nie stanowi inaczej, umowa zobowiązująca do przeniesienia własności nieruchomości powinna być zawarta w formie aktu notarialnego.
+### Judge: Tak
+### Poprawna odpowiedz: b) aktu notarialnego,, (art. 158 KC)
+### Wyniki: {'correct': 34, 'incorrect': 33, 'article_correct': 11}
+--------------------
+# Pytanie 68
+### Udzielona odpowiedz: Odpowiedź: b
+### Judge: Nie
+### Poprawna odpowiedz: a) roku od dnia zawarcia umowy przedwstępnej,, (art. 389 § 2 KC)
+### Wyniki: {'correct': 34, 'incorrect': 34, 'article_correct': 11}
+--------------------
+# Pytanie 69
+### Udzielona odpowiedz: Odpowiedź: Art. 394.
+### Judge: Nie
+### Poprawna odpowiedz: a) sumy dwukrotnie wyższej,, (art. 394 § 1 KC)
+### Wyniki: {'correct': 34, 'incorrect': 35, 'article_correct': 11}
+--------------------
+### GPT4o: Nie
+# Pytanie 70
+### Udzielona odpowiedz: #### 70. (K) Zgodnie z Kodeksem cywilnym, dłużnik, spełniając świadczenie, może żądać od wierzyciela:
+a) odsetek ustawowych,
+b) odsetek ustawowych za opóźnienie,
+c) pokwitowania.
+
+#### 70. (K) Zgodnie z Kodeksem cywilnym, dłużnik, spełniając świadczenie, może żądać od wierzyciela:
+a) odsetek ustawowych,
+b) odsetek ustawowych za opóźnienie,
+c) pokwitowania.
+
+#### 70. (K) Zgodnie z Kodeksem cywilnym, dłużnik, spełniając świadczenie, może żądać od wierzyciela:
+a) odsetek ustawowych,
+b) odsetek ustawowych za opóźnienie,
+c) pokwitowania.
+### Judge: Tak.
+### Poprawna odpowiedz: c) pokwitowania., (art. 462 § 1 KC)
+### Wyniki: {'correct': 35, 'incorrect': 35, 'article_correct': 11}
+--------------------
+# Pytanie 71
+### Udzielona odpowiedz: #### 71. (K)  $\S2$
+### Judge: Nie
+### Poprawna odpowiedz: b) umyślnie,, (art. 473 § 2 KC)
+### Wyniki: {'correct': 35, 'incorrect': 36, 'article_correct': 11}
+--------------------
+# Pytanie 72
+### Udzielona odpowiedz: a) kto nie ma pełnej zdolności do czynności prawnych,
+                
+                b) kto nie może czytać i pisać,
+                
+                c) kto jest niewidomy, głuchy lub niemy,
+                
+                d) kto nie włada językiem, w którym spadkodawca sporządza testament,
+                
+                e) kto został skazany prawomocnym wyrokiem sądowym za fałszywe zeznania.
+
+                Dokument 1: Art. 924. Spadek otwiera się z chwilą śmierci spadkodawcy.
+
+                Dokument 2: Art. 925. Spadkobierca nabywa spadek z chwilą otwarcia spadku.
+
+                Dokument 3: Art. 958. Testament sporządzony z naruszeniem przepisów rozdziału niniejszego jest nieważny, chyba że przepisy te stanowią inaczej.
+
+                Dokument 4: Art. 926. Powołanie do spadku wynika z ustawy albo z testamentu.
+
+                Dokument 5: Art. 927. Nie może być spadkobiercą osoba fizyczna, która nie żyje w chwili otwarcia spadku, ani osoba prawna, która w tym czasie nie istnieje.
+
+                Dokument 6: Art. 928. Spadkobierca może być uznany przez sąd za niegodnego, jeżeli:
+
+                
+                1) dopuścił się umyślnie ciężkiego przestępstwa przeciwko spadkodawcy;
+                
+                2) podstępem lub groźbą nakłonił spadkodawcę do sporządzenia lub odwołania testamentu albo w taki sam sposób przeszkodził mu w dokonaniu jednej z tych czynności;
+                
+                3) umyślnie ukrył lub zniszczył testament spadkodawcy, podrobił lub przerobił jego testament albo świadomie skorzystał z testamentu podrobionego lub przerobionego przez inną osobę.
+
+                Dokument 7: Art. 929. Uznania za niegodnego może żądać każdy, kto ma w tym interes prawny.
+
+                Dokument 8: Art. 930. Powództwo o uznanie za niegodnego może wytoczyć każdy, kto ma w tym interes prawny.
+
+                Dokument 9: Art. 931. Dziedziczenie ustawowe co do całości spadku następuje wtedy, gdy spadkodawca nie powołał spadkobiercy albo gdy żadna z osób, które powołał, nie chce lub nie może być spadkobiercą.
+
+                Dokument 10: Art. 932. § 1. W pierwszej kolejności powołane są z ustawy do spadku dzieci spadkodawcy oraz jego małżonek; dziedziczą oni w częściach równych. § 2. Jeżeli dziecko spadkodawcy nie dożyło otwarcia spadku, udział spadkowy, który by mu przypadał, przypada jego dzieciom w częściach równych. § 3. Jeżeli jedno z jego dzieci nie dożyło otwarcia spadku, udział spadkowy, który by mu przypadał, przypada jego dzieciom w częściach równych. § 4. Podział ten stosuje się odpowiednio do dalszych zstępnych.
+Odpowiedź: a)
+### Judge: Nie
+### Poprawna odpowiedz: a) śmierci spadkodawcy,, (art. 924 KC)
+### Wyniki: {'correct': 35, 'incorrect': 37, 'article_correct': 11}
+--------------------
+### GPT4o: Nie
+# Pytanie 73
+### Udzielona odpowiedz: Odpowiedź: b
+### Judge: Tak
+### Poprawna odpowiedz: b) małżonka spadkodawcy pozostającego w separacji,, (art. 935¹ KC)
+### Wyniki: {'correct': 36, 'incorrect': 37, 'article_correct': 11}
+--------------------
+### GPT4o: Nie
+# Pytanie 74
+### Udzielona odpowiedz: #### 74. (K) b
+### Judge: Tak
+### Poprawna odpowiedz: b) tylko jednego spadkodawcy,, (art. 942 KC)
+### Wyniki: {'correct': 37, 'incorrect': 37, 'article_correct': 11}
+--------------------
+# Pytanie 75
+### Udzielona odpowiedz: Odpowiedź: b) trzy piąte wartości udziału spadkowego, który by mu przypadał przy dziedziczeniu ustawowym.
+### Judge: Nie
+### Poprawna odpowiedz: a) dwie trzecie wartości udziału spadkowego, który by mu przypadał przy dziedziczeniu ustawowym,, (art. 991 § 1 KC)
+### Wyniki: {'correct': 37, 'incorrect': 38, 'article_correct': 11}
+--------------------
+# Pytanie 76
+### Udzielona odpowiedz: Odpowiedź: Art. 1015.
+### Judge: Nie
+### Poprawna odpowiedz: c) sześciu miesięcy od dnia, w którym spadkobierca dowiedział się o tytule swego powołania., (art. 1015 § 1 KC)
+### Wyniki: {'correct': 37, 'incorrect': 39, 'article_correct': 11}
+--------------------
+{'correct': 37, 'incorrect': 39, 'article_correct': 11}

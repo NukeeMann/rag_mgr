@@ -1,0 +1,1205 @@
+### GPT4o: Tak
+# Pytanie 1
+### Udzielona odpowiedz: Odpowiedź na pytanie opiera się na art. 21 Kodeksu cywilnego, który brzmi:
+
+"Art. 21. Osoba ograniczona w zdolności do czynności prawnych może bez zgody przedstawiciela ustawowego rozporządzać swoim zarobkiem, chyba że sąd opiekuńczy z ważnych powodów inaczej postanowi."
+
+Zgodnie z tym przepisem, osoba ograniczona w zdolności do czynności prawnych może samodzielnie rozporządzać swoim zarobkiem, bez konieczności uzyskiwania zgody przedstawiciela ustawowego. Jednakże, sąd opiekuńczy może z ważnych powodów postanowić inaczej.
+
+W związku z tym, poprawna odpowiedź na pytanie to:
+
+c) może bez zgody przedstawiciela ustawowego rozporządzać swoim zarobkiem, chyba że sąd opiekuńczy z ważnych powodów inaczej postanowi.
+### Judge: Tak
+### Poprawna odpowiedz: c) może bez zgody przedstawiciela ustawowego rozporządzać swoim zarobkiem, chyba że sąd opiekuńczy z ważnych powodów inaczej postanowi., (art. 21 KC)
+### Wyniki: {'correct': 1, 'incorrect': 0, 'article_correct': 1}
+--------------------
+### GPT4o: Tak
+# Pytanie 2
+### Udzielona odpowiedz: Odpowiedź na pytanie opiera się na przepisie zawartym w Dokumencie 0, konkretnie w §3. Zgodnie z tym przepisem:
+
+"Jeżeli w orzeczeniu o uznaniu za zmarłego czas śmierci został oznaczony tylko datą dnia, za chwilę domniemanej śmierci zaginionego uważa się koniec tego dnia."
+
+Zatem poprawna odpowiedź to:
+
+b) koniec tego dnia.
+### Judge: Tak
+### Poprawna odpowiedz: b) koniec tego dnia,, (art. 31 § 3 KC)
+### Wyniki: {'correct': 2, 'incorrect': 0, 'article_correct': 2}
+--------------------
+### GPT4o: Tak
+# Pytanie 3
+### Udzielona odpowiedz: Odpowiedź na pytanie opiera się na art. 47 Kodeksu Cywilnego.
+
+Zgodnie z art. 47 § 2 Kodeksu Cywilnego, częścią składową rzeczy jest wszystko, co nie może być od niej odłączone bez uszkodzenia lub istotnej zmiany całości albo bez uszkodzenia lub istotnej zmiany przedmiotu odłączonego.
+
+Zatem poprawna odpowiedź to:
+a) wszystko, co nie może być od niej odłączone bez uszkodzenia lub istotnej zmiany całości albo bez uszkodzenia lub istotnej zmiany przedmiotu odłączonego i nie jest z nią połączone tylko dla przemijającego użytku.
+### Judge: Tak.
+### Poprawna odpowiedz: a) wszystko, co nie może być od niej odłączone bez uszkodzenia lub istotnej zmiany całości albo bez uszkodzenia lub istotnej zmiany przedmiotu odłączonego i nie jest z nią połączone tylko dla przemijającego użytku,, (art. 47 § 2 i 3 KC)
+### Wyniki: {'correct': 3, 'incorrect': 0, 'article_correct': 3}
+--------------------
+### GPT4o: Tak
+# Pytanie 4
+### Udzielona odpowiedz: Odpowiedź na pytanie opiera się na art. 77² Kodeksu Cywilnego, który brzmi:
+
+"Do zachowania dokumentowej formy czynności prawnej wystarcza złożenie oświadczenia woli w postaci dokumentu, w sposób umożliwiający ustalenie osoby składającej oświadczenie."
+
+Zatem poprawna odpowiedź to:
+
+c) wystarcza złożenie oświadczenia woli w postaci dokumentu, w sposób umożliwiający ustalenie osoby składającej oświadczenie.
+
+Art. 77² Kodeksu Cywilnego jasno określa, że do zachowania formy dokumentowej nie jest konieczne złożenie własnoręcznego podpisu ani użycie kwalifikowanego podpisu elektronicznego. Wystarczy, że oświadczenie woli zostanie złożone w postaci dokumentu, który umożliwia identyfikację osoby składającej to oświadczenie.
+### Judge: Tak
+### Poprawna odpowiedz: c) wystarcza złożenie oświadczenia woli w postaci dokumentu, w sposób umożliwiający ustalenie osoby składającej oświadczenie., (art. 77² KC)
+### Wyniki: {'correct': 4, 'incorrect': 0, 'article_correct': 4}
+--------------------
+### GPT4o: Tak
+# Pytanie 5
+### Udzielona odpowiedz: Odpowiedź na pytanie opiera się na art. 105 Kodeksu Cywilnego, który brzmi:
+
+"Jeżeli pełnomocnik po wygaśnięciu umocowania dokona w imieniu mocodawcy czynności prawnej w granicach pierwotnego umocowania, czynność prawna jest ważna, chyba że druga strona o wygaśnięciu umocowania wiedziała lub z łatwością mogła się dowiedzieć."
+
+Zgodnie z tym przepisem, jeżeli pełnomocnik dokona czynności prawnej po wygaśnięciu umocowania, ale w granicach pierwotnego umocowania, to taka czynność prawna jest ważna. Jednakże, czynność ta może być uznana za nieważną, jeśli druga strona wiedziała lub z łatwością mogła się dowiedzieć o wygaśnięciu umocowania.
+
+W związku z tym, poprawna odpowiedź na pytanie to:
+b) czynność prawna jest ważna, chyba że druga strona o wygaśnięciu umocowania wiedziała lub z łatwością mogła się dowiedzieć.
+### Judge: Tak
+### Poprawna odpowiedz: b) czynność prawna jest ważna, chyba że druga strona o wygaśnięciu umocowania wiedziała lub z łatwością mogła się dowiedzieć,, (art. 105 KC)
+### Wyniki: {'correct': 5, 'incorrect': 0, 'article_correct': 5}
+--------------------
+### GPT4o: Tak
+# Pytanie 6
+### Udzielona odpowiedz: Odpowiedź na pytanie opiera się na art. 106 Kodeksu cywilnego.
+
+Zgodnie z tym artykułem, pełnomocnik może ustanowić dla mocodawcy innych pełnomocników tylko wtedy, gdy umocowanie takie wynika z treści pełnomocnictwa, z ustawy lub ze stosunku prawnego będącego podstawą pełnomocnictwa.
+
+Zatem poprawna odpowiedź to:
+c) umocowanie takie wynika z treści pełnomocnictwa, z ustawy lub ze stosunku prawnego będącego podstawą pełnomocnictwa.
+### Judge: Tak.
+### Poprawna odpowiedz: c) umocowanie takie wynika z treści pełnomocnictwa, z ustawy lub ze stosunku prawnego będącego podstawą pełnomocnictwa., (art. 106 KC)
+### Wyniki: {'correct': 6, 'incorrect': 0, 'article_correct': 6}
+--------------------
+### GPT4o: Tak
+# Pytanie 7
+### Udzielona odpowiedz: Odpowiedź na pytanie opiera się na art. 199 Kodeksu cywilnego, który brzmi:
+
+"Art. 199. Do rozporządzania rzeczą wspólną oraz do innych czynności, które przekraczają zakres zwykłego zarządu, potrzebna jest zgoda wszystkich współwłaścicieli. W braku takiej zgody współwłaściciele, których udziały wynoszą co najmniej połowę, mogą żądać rozstrzygnięcia przez sąd, który orzeknie mając na względzie cel zamierzonej czynności oraz interesy wszystkich współwłaścicieli."
+
+Zgodnie z tym artykułem, do rozporządzania rzeczą wspólną oraz do innych czynności przekraczających zakres zwykłego zarządu potrzebna jest zgoda wszystkich współwłaścicieli. W przypadku braku takiej zgody, współwłaściciele, których udziały wynoszą co najmniej połowę, mogą żądać rozstrzygnięcia przez sąd.
+
+W związku z tym, poprawna odpowiedź na pytanie to:
+a) wszystkich współwłaścicieli, a w braku takiej zgody współwłaściciele, których udziały wynoszą co najmniej połowę, mogą żądać rozstrzygnięcia przez sąd.
+### Judge: Tak.
+### Poprawna odpowiedz: a) wszystkich współwłaścicieli, a w braku takiej zgody współwłaściciele, których udziały wynoszą co najmniej połowę, mogą żądać rozstrzygnięcia przez sąd,, (art. 199 KC)
+### Wyniki: {'correct': 7, 'incorrect': 0, 'article_correct': 7}
+--------------------
+### GPT4o: Nie
+# Pytanie 8
+### Udzielona odpowiedz: Odpowiedź na pytanie opiera się na analizie dostarczonych dokumentów, w szczególności na art. 223 Kodeksu cywilnego.
+
+Zgodnie z art. 223 § 1 Kodeksu cywilnego:
+"Roszczenia właściciela przewidziane w artykule poprzedzającym nie ulegają przedawnieniu, jeżeli dotyczą nieruchomości."
+
+Artykuł poprzedzający, czyli art. 222 Kodeksu cywilnego, mówi o roszczeniach właściciela przeciwko osobie, która narusza własność nieruchomości w inny sposób niż przez pozbawienie właściciela faktycznego władztwa nad rzeczą.
+
+Na podstawie tego przepisu, roszczenia właściciela nieruchomości o przywrócenie stanu zgodnego z prawem i o zaniechanie naruszeń przeciwko osobie, która narusza własność tej nieruchomości w inny sposób aniżeli przez pozbawienie właściciela faktycznego władztwa nad rzeczą, nie ulegają przedawnieniu.
+
+Zatem poprawna odpowiedź to:
+c) nie ulegają przedawnieniu.
+### Judge: Tak.
+### Poprawna odpowiedz: c) nie ulegają przedawnieniu., (art. 223  § 1 w zw. z art. 222 § 2 KC)
+### Wyniki: {'correct': 8, 'incorrect': 0, 'article_correct': 7}
+--------------------
+### GPT4o: Nie
+# Pytanie 9
+### Udzielona odpowiedz: Odpowiedź na pytanie:
+
+Zgodnie z Kodeksem cywilnym, użytkowanie ustanowione na rzecz osoby fizycznej:
+
+a) wygasa najpóźniej ze śmiercią tej osoby
+
+Uzasadnienie:
+
+Zgodnie z art. 247 Kodeksu cywilnego, ograniczone prawo rzeczowe, takie jak użytkowanie, wygasa, jeżeli przejdzie na właściciela rzeczy obciążonej albo jeżeli ten, komu prawo takie przysługuje, nabędzie własność rzeczy obciążonej. W przypadku użytkowania ustanowionego na rzecz osoby fizycznej, prawo to wygasa najpóźniej ze śmiercią tej osoby, ponieważ wraz ze śmiercią użytkownika, prawo użytkowania nie może być dalej wykonywane przez spadkobierców.
+
+Dokumenty dostarczone dla poszerzenia kontekstu nie zawierają bezpośrednich odniesień do wygaśnięcia użytkowania, ale potwierdzają ogólną zasadę wygasania ograniczonych praw rzeczowych, takich jak użytkowanie, w określonych sytuacjach, np. w wyniku niewykonywania przez określony czas (art. 293 §1) lub w przypadku zasiedzenia (art. 292).
+### Judge: Tak.
+### Poprawna odpowiedz: a) wygasa najpóźniej ze śmiercią tej osoby,, (art. 266 KC)
+### Wyniki: {'correct': 9, 'incorrect': 0, 'article_correct': 7}
+--------------------
+### GPT4o: Nie
+# Pytanie 10
+### Udzielona odpowiedz: Odpowiedź na pytanie opiera się na art. 322 Kodeksu cywilnego.
+
+Zgodnie z art. 322 § 1 Kodeksu cywilnego, roszczenie zastawcy przeciwko zastawnikowi o naprawienie szkody z powodu pogorszenia rzeczy przedawnia się z upływem roku od dnia zwrotu rzeczy.
+
+Zatem poprawna odpowiedź to:
+b) roku od dnia zwrotu rzeczy.
+### Judge: Tak
+### Poprawna odpowiedz: b) roku od dnia zwrotu rzeczy,, (art. 322 § 1 KC)
+### Wyniki: {'correct': 10, 'incorrect': 0, 'article_correct': 7}
+--------------------
+### GPT4o: Tak
+# Pytanie 11
+### Udzielona odpowiedz: Na podstawie dostarczonych dokumentów, a w szczególności art. 338 Kodeksu Cywilnego, można wnioskować, że kto rzeczą faktycznie włada za kogo innego, jest dzierżycielem.
+
+Art. 338 Kodeksu Cywilnego stanowi:
+"Kto rzeczą faktycznie włada za kogo innego, jest dzierżycielem."
+
+Zatem poprawna odpowiedź na pytanie to:
+c) dzierżycielem.
+### Judge: Tak
+### Poprawna odpowiedz: c) dzierżycielem., (art. 338 KC)
+### Wyniki: {'correct': 11, 'incorrect': 0, 'article_correct': 8}
+--------------------
+### GPT4o: Nie
+# Pytanie 12
+### Udzielona odpowiedz: Odpowiedź na pytanie opiera się na art. 374 § 2 Kodeksu cywilnego.
+
+Zgodnie z tym przepisem:
+
+"Zwłoka wierzyciela względem jednego z dłużników solidarnych ma skutek także względem współdłużników."
+
+Zatem poprawna odpowiedź to:
+
+a) ma skutek także względem współdłużników
+
+Wyjaśnienie:
+Zwłoka wierzyciela oznacza opóźnienie w spełnieniu świadczenia przez wierzyciela wobec dłużnika. W przypadku długu solidarnego, gdy wierzyciel zwleka z wykonaniem swojego świadczenia wobec jednego z dłużników, skutki tej zwłoki rozciągają się również na pozostałych dłużników solidarnych. Oznacza to, że wszyscy dłużnicy solidarni są zwolnieni z obowiązku spełnienia świadczenia wobec wierzyciela w tym samym stopniu, w jakim dotyczy to dłużnika, wobec którego wierzyciel zwleka.
+### Judge: Tak.
+### Poprawna odpowiedz: a) ma skutek także względem współdłużników,, (art. 374 § 2 KC)
+### Wyniki: {'correct': 12, 'incorrect': 0, 'article_correct': 8}
+--------------------
+### GPT4o: Tak
+# Pytanie 13
+### Udzielona odpowiedz: Odpowiedź na pytanie:
+
+Zgodnie z Kodeksem cywilnym, umowa o świadczenie niemożliwe jest nieważna.
+
+Podstawa prawna:
+Art. 387 § 1 Kodeksu cywilnego:
+
+"Umowa o świadczenie niemożliwe jest nieważna."
+
+Wyjaśnienie:
+Art. 387 § 1 Kodeksu cywilnego jednoznacznie stwierdza, że umowa o świadczenie niemożliwe jest nieważna. Oznacza to, że taka umowa nie może być zawarta i nie rodzi żadnych skutków prawnych. Jest to zasada mająca na celu ochronę stron przed zawieraniem umów, które z góry nie mogą być wykonane.
+### Judge: Tak
+### Poprawna odpowiedz: b) jest nieważna,, (art. 387 § 1 KC)
+### Wyniki: {'correct': 13, 'incorrect': 0, 'article_correct': 9}
+--------------------
+### GPT4o: Nie
+# Pytanie 14
+### Udzielona odpowiedz: Odpowiedź na pytanie opiera się na art. 423 Kodeksu Cywilnego, który brzmi:
+
+"Art. 423. Kto działa w obronie koniecznej, odpierając bezpośredni i bezprawny zamach na jakiekolwiek dobro własne lub innej osoby, ten nie jest odpowiedzialny za szkodę wyrządzoną napastnikowi."
+
+Z tego przepisu wynika, że osoba działająca w obronie koniecznej nie ponosi odpowiedzialności za szkodę wyrządzoną napastnikowi. Nie ma w tym przypadku wymogu, aby ratowane dobro było oczywiście ważniejsze aniżeli dobro naruszone, jak to jest w przypadku art. 424 Kodeksu Cywilnego.
+
+Zatem poprawna odpowiedź to:
+a) nie jest odpowiedzialny za szkodę wyrządzoną napastnikowi.
+### Judge: Tak.
+### Poprawna odpowiedz: a) nie jest odpowiedzialny za szkodę wyrządzoną napastnikowi,, (art. 423 KC)
+### Wyniki: {'correct': 14, 'incorrect': 0, 'article_correct': 9}
+--------------------
+### GPT4o: Nie
+# Pytanie 15
+### Udzielona odpowiedz: Odpowiedź na pytanie opiera się na art. 492 Kodeksu Cywilnego.
+
+Zgodnie z tym artykułem, jeżeli jedna ze stron obowiązana jest spełnić świadczenie wzajemne wcześniej, a spełnienie świadczenia przez drugą stronę jest wątpliwe ze względu na jej stan majątkowy, strona zobowiązana do wcześniejszego świadczenia:
+
+c) może powstrzymać się z jego spełnieniem, dopóki druga strona nie zaofiaruje świadczenia wzajemnego lub nie da zabezpieczenia; te uprawnienia nie przysługują stronie, która w chwili zawarcia umowy wiedziała o złym stanie majątkowym drugiej strony.
+
+Art. 492 Kodeksu Cywilnego reguluje sytuację, w której jedna ze stron umowy wzajemnej ma obowiązek spełnić swoje świadczenie wcześniej, a druga strona może mieć problemy z wykonaniem swojego zobowiązania ze względu na swój stan majątkowy. W takim przypadku strona zobowiązana do wcześniejszego świadczenia ma prawo powstrzymać się z jego spełnieniem, dopóki druga strona nie zaoferuje świadczenia wzajemnego lub nie da zabezpieczenia. Jednakże, jeśli strona wiedziała o złym stanie majątkowym drugiej strony w chwili zawarcia umowy, nie może skorzystać z tego uprawnienia.
+### Judge: Tak.
+### Poprawna odpowiedz: c) może powstrzymać się z jego spełnieniem, dopóki druga strona nie zaofiaruje świadczenia wzajemnego lub nie da zabezpieczenia; te uprawnienia nie przysługują stronie, która w chwili zawarcia umowy wiedziała o złym stanie majątkowym drugiej strony., (art. 490 § 1 i 2  KC)
+### Wyniki: {'correct': 15, 'incorrect': 0, 'article_correct': 9}
+--------------------
+### GPT4o: Nie
+# Pytanie 17
+### Udzielona odpowiedz: Zgodnie z Kodeksem cywilnym, do zamiany stosuje się odpowiednio przepisy o sprzedaży. Wynika to z art. 535 Kodeksu cywilnego, który stanowi, że przez umowę sprzedaży sprzedawca zobowiązuje się przenieść na kupującego własność rzeczy i wydać mu rzecz, a kupujący zobowiązuje się rzecz odebrać i zapłacić sprzedawcy cenę.
+
+W kontekście zamiany, art. 535 Kodeksu cywilnego jest stosowany odpowiednio, ponieważ obie strony umowy zamiany zobowiązują się do przeniesienia własności rzeczy na drugą stronę oraz do wydania i odbioru tych rzeczy.
+
+Dokumenty dostarczone dla poszerzenia kontekstu nie zawierają bezpośredniego odniesienia do zamiany, ale dotyczą one umów, które mogą być związane z przeniesieniem własności lub używaniem rzeczy. Art. 510 i 155 Kodeksu cywilnego dotyczą przeniesienia własności w wyniku różnych umów, w tym zamiany, ale nie są one bezpośrednio związane z zamianą jako taką.
+
+Podsumowując, odpowiedź na pytanie wynika z art. 535 Kodeksu cywilnego, który stanowi, że do zamiany stosuje się odpowiednio przepisy o sprzedaży.
+### Judge: Tak.
+### Poprawna odpowiedz: b) sprzedaży,, (art. 604 KC)
+### Wyniki: {'correct': 17, 'incorrect': 0, 'article_correct': 9}
+--------------------
+### GPT4o: Tak
+# Pytanie 18
+### Udzielona odpowiedz: Odpowiedź na pytanie opiera się na art. 660 Kodeksu cywilnego.
+
+Zgodnie z tym artykułem:
+
+Art. 660. Umowa najmu nieruchomości lub pomieszczenia na czas dłuższy niż rok powinna być zawarta na piśmie. W razie niezachowania tej formy poczytuje się umowę za zawartą na czas nieoznaczony.
+
+Zatem poprawna odpowiedź to:
+
+c) poczytuje się umowę za zawartą na czas nieoznaczony.
+
+Wyjaśnienie:
+- Art. 660 Kodeksu cywilnego wymaga, aby umowa najmu nieruchomości lub pomieszczenia na czas dłuższy niż rok była zawarta na piśmie.
+- Jeśli forma pisemna nie zostanie zachowana, umowa jest traktowana jako zawarta na czas nieoznaczony, co oznacza, że nie ma określonego końcowego terminu jej obowiązywania.
+### Judge: Tak
+### Poprawna odpowiedz: c) poczytuje się umowę za zawartą na czas nieoznaczony., (art. 660 KC)
+### Wyniki: {'correct': 18, 'incorrect': 0, 'article_correct': 10}
+--------------------
+### GPT4o: Tak
+# Pytanie 19
+### Udzielona odpowiedz: Odpowiedź na pytanie:
+
+Zgodnie z Kodeksem cywilnym, przez umowę użyczenia użyczający zobowiązuje się:
+
+c) zezwolić biorącemu, przez czas oznaczony lub nieoznaczony, na bezpłatne używanie oddanej mu w tym celu rzeczy.
+
+Podstawa prawna:
+
+Art. 710 Kodeksu cywilnego stanowi, że "Przez umowę użyczenia użyczający zobowiązuje się zezwolić biorącemu, przez czas oznaczony lub nieoznaczony, na bezpłatne używanie oddanej mu w tym celu rzeczy."
+
+Warto zauważyć, że pozostałe dokumenty (Dokument 0, 1 i 2) dotyczą szczegółowych aspektów umowy użyczenia, takich jak zakończenie umowy, warunki zwrotu rzeczy czy odpowiednie stosowanie przepisów do umów z wynagrodzeniem pieniężnym, ale nie zmieniają podstawowej zasady bezpłatności użyczenia zawartej w art. 710 Kodeksu cywilnego.
+### Judge: Tak
+### Poprawna odpowiedz: c) zezwolić biorącemu, przez czas oznaczony lub nieoznaczony, na bezpłatne używanie oddanej mu w tym celu rzeczy., (art. 710 KC)
+### Wyniki: {'correct': 19, 'incorrect': 0, 'article_correct': 11}
+--------------------
+### GPT4o: Nie
+# Pytanie 20
+### Udzielona odpowiedz: Odpowiedź na pytanie opiera się na art. 837 Kodeksu cywilnego.
+
+Zgodnie z tym artykułem:
+
+"Przechowawca powinien przechowywać rzecz w taki sposób, do jakiego się zobowiązał, a w braku umowy w tym względzie, w taki sposób, jaki wynika z właściwości przechowywanej rzeczy i z okoliczności."
+
+Na podstawie tego przepisu, przechowawca nie ma prawa używać rzeczy bez zgody składającego, chyba że jest to konieczne do jej zachowania w stanie niepogorszonym. Zatem poprawna odpowiedź to:
+
+c) nie wolno używać rzeczy bez zgody składającego, chyba że jest to konieczne do jej zachowania w stanie niepogorszonym.
+### Judge: Tak.
+### Poprawna odpowiedz: c) nie wolno używać rzeczy bez zgody składającego, chyba że jest to konieczne do jej zachowania w stanie niepogorszonym., (art. 839 KC)
+### Wyniki: {'correct': 20, 'incorrect': 0, 'article_correct': 11}
+--------------------
+### GPT4o: Tak
+# Pytanie 21
+### Udzielona odpowiedz: Odpowiedź na pytanie opiera się na art. 874 Kodeksu Cywilnego.
+
+Zgodnie z art. 874 §2 Kodeksu Cywilnego, spółka cywilna ulega rozwiązaniu z dniem ogłoszenia upadłości wspólnika. Oznacza to, że w momencie ogłoszenia upadłości jednego z wspólników spółki cywilnej, spółka przestaje istnieć.
+
+W związku z tym, poprawna odpowiedź na pytanie to:
+b) spółka ulega rozwiązaniu.
+
+Art. 874 §2 Kodeksu Cywilnego jednoznacznie określa, że ogłoszenie upadłości wspólnika spółki cywilnej prowadzi do jej rozwiązania. Pozostałe opcje (a) i (c) nie są zgodne z treścią tego przepisu.
+### Judge: Tak.
+### Poprawna odpowiedz: b) spółka ulega rozwiązaniu,, (art. 874 § 2 KC)
+### Wyniki: {'correct': 21, 'incorrect': 0, 'article_correct': 12}
+--------------------
+### GPT4o: Tak
+# Pytanie 22
+### Udzielona odpowiedz: Odpowiedź na pytanie opiera się na art. 911 Kodeksu cywilnego. Zgodnie z tym przepisem:
+
+"Art. 911. Prawo dożywocia ustanowione na rzecz kilku osób ulega w razie śmierci jednej z tych osób odpowiedniemu zmniejszeniu."
+
+Zatem poprawna odpowiedź to:
+a) ulega odpowiedniemu zmniejszeniu.
+
+Wyjaśnienie:
+Prawo dożywocia to ograniczone prawo rzeczowe, które uprawnia dożywotnika do korzystania z nieruchomości obciążonej tym prawem. Jeśli prawo dożywocia zostało ustanowione na rzecz kilku osób, a jedna z nich umrze, to prawo to ulega odpowiedniemu zmniejszeniu. Oznacza to, że pozostali dożywotnicy będą mieli mniejsze uprawnienia do korzystania z nieruchomości.
+### Judge: Tak.
+### Poprawna odpowiedz: a) ulega odpowiedniemu zmniejszeniu,, (art. 911 KC)
+### Wyniki: {'correct': 22, 'incorrect': 0, 'article_correct': 13}
+--------------------
+### GPT4o: Tak
+# Pytanie 23
+### Udzielona odpowiedz: Odpowiedź na pytanie opiera się na art. 930 Kodeksu Cywilnego.
+
+Zgodnie z art. 930 § 2 Kodeksu Cywilnego, jeżeli w chwili przebaczenia spadkodawca nie miał zdolności do czynności prawnych, przebaczenie jest skuteczne, gdy nastąpiło z dostatecznym rozeznaniem.
+
+Zatem poprawna odpowiedź to:
+b) jest skuteczne, gdy nastąpiło z dostatecznym rozeznaniem.
+### Judge: Tak
+### Poprawna odpowiedz: b) jest skuteczne, gdy nastąpiło z dostatecznym rozeznaniem,, (art. 930 § 1 i 2 KC)
+### Wyniki: {'correct': 23, 'incorrect': 0, 'article_correct': 14}
+--------------------
+### GPT4o: Tak
+# Pytanie 24
+### Udzielona odpowiedz: Odpowiedź na pytanie:
+
+b) ma moc wsteczną, jeżeli wynika to z jej brzmienia lub celu
+
+Uzasadnienie:
+
+Kodeks cywilny nie zawiera bezpośredniego przepisu dotyczącego mocy wstecznej ustaw. Jednakże, zgodnie z ogólnymi zasadami prawa cywilnego, ustawa może mieć moc wsteczną, jeżeli wynika to z jej brzmienia lub celu.
+
+W kontekście dostarczonych dokumentów, nie ma bezpośredniego odniesienia do mocy wstecznej ustaw. Jednakże, ogólne zasady prawa cywilnego i interpretacja przepisów wskazują na to, że ustawa może mieć moc wsteczną, jeśli jest to uzasadnione jej brzmieniem lub celem.
+
+Przykładowo, w przypadku zmian w prawie spadkowym, nowe przepisy mogą mieć moc wsteczną, jeśli jest to konieczne dla zapewnienia spójności i sprawiedliwości systemu prawnego.
+
+Podsumowując, odpowiedź b) jest zgodna z ogólnymi zasadami prawa cywilnego i interpretacją przepisów Kodeksu cywilnego.
+### Judge: Tak.
+### Poprawna odpowiedz: b) ma moc wsteczną, jeżeli wynika to z jej brzmienia lub celu,, (art. 3 KC)
+### Wyniki: {'correct': 24, 'incorrect': 0, 'article_correct': 15}
+--------------------
+### GPT4o: Tak
+# Pytanie 25
+### Udzielona odpowiedz: Odpowiedź na pytanie opiera się na art. 42 Kodeksu cywilnego.
+
+Zgodnie z art. 42 § 1 Kodeksu cywilnego, jeżeli osoba prawna nie może być reprezentowana lub prowadzić swoich spraw ze względu na brak organu albo brak w składzie organu uprawnionego do jej reprezentowania, sąd ustanawia dla niej kuratora. Kurator podlega nadzorowi sądu, który go ustanowił.
+
+W związku z tym, poprawna odpowiedź na pytanie to:
+c) ustanawia dla niej kuratora.
+### Judge: Tak
+### Poprawna odpowiedz: c) ustanawia dla niej kuratora., (art. 42 § 1 KC)
+### Wyniki: {'correct': 25, 'incorrect': 0, 'article_correct': 16}
+--------------------
+### GPT4o: Tak
+# Pytanie 26
+### Udzielona odpowiedz: Odpowiedź na pytanie:
+
+b) stosuje się odpowiednio przepisy o ochronie dóbr osobistych osób fizycznych
+
+Uzasadnienie:
+
+Zgodnie z art. 43 Kodeksu cywilnego, przepisy o ochronie dóbr osobistych osób fizycznych stosuje się odpowiednio do osób prawnych. Oznacza to, że osoby prawne również korzystają z ochrony swoich dóbr osobistych, ale z uwzględnieniem specyfiki ich statusu prawnego.
+
+Dokumenty dostarczone dotyczą innych aspektów prawa cywilnego i nie mają bezpośredniego związku z ochroną dóbr osobistych osób prawnych. Art. 556^4 i 556^5 odnoszą się do umów konsumenckich, a art. 328 i 329 dotyczą zastawu na prawach. Żaden z tych dokumentów nie wpływa na odpowiedź na pytanie dotyczące ochrony dóbr osobistych osób prawnych.
+### Judge: Tak
+### Poprawna odpowiedz: b) stosuje się odpowiednio przepisy o ochronie dóbr osobistych osób fizycznych,, (art. 43 KC)
+### Wyniki: {'correct': 26, 'incorrect': 0, 'article_correct': 17}
+--------------------
+# Pytanie 27
+### Udzielona odpowiedz: Odpowiedź na pytanie:
+
+Zgodnie z Kodeksem cywilnym, firma:
+b) może być zbyta, przy czym zbycie firmy powinno być dokonane w formie pisemnej z podpisami notarialnie poświadczonymi.
+
+Uzasadnienie:
+
+Kodeks cywilny w art. 435 § 1 stanowi, że "Firma jest oznaczeniem przedsiębiorcy, pod którym prowadzi on działalność gospodarczą lub zawodową". Z kolei art. 436 § 1 mówi, że "Firma podlega ochronie prawnej".
+
+Zgodnie z art. 437 § 1, "Firma może być przeniesiona na inną osobę tylko wraz z przedsiębiorstwem". Oznacza to, że firma może być zbyta, ale tylko w ramach zbycia całego przedsiębiorstwa.
+
+Co do formy zbycia firmy, art. 751 § 1 Kodeksu cywilnego stanowi, że "Umowa zbycia przedsiębiorstwa powinna być zawarta w formie pisemnej z podpisami notarialnie poświadczonymi".
+
+Zatem, zbycie firmy jest możliwe, ale musi odbyć się w formie pisemnej z podpisami notarialnie poświadczonymi, co odpowiada opcji b) w podanym pytaniu.
+### Judge: Nie
+### Poprawna odpowiedz: a) nie może być zbyta,, (art. 439 § 1 KC)
+### Wyniki: {'correct': 26, 'incorrect': 1, 'article_correct': 17}
+--------------------
+# Pytanie 28
+### Udzielona odpowiedz: Odpowiedź na pytanie opiera się na art. 157 Kodeksu cywilnego, który stanowi:
+
+"Art. 157. § 1. Własność nieruchomości nie może być przeniesiona pod warunkiem ani z zastrzeżeniem terminu."
+
+Zgodnie z tym przepisem, umowa zobowiązująca do przeniesienia własności nieruchomości pod warunkiem lub z zastrzeżeniem terminu jest nieważna. Oznacza to, że taka umowa nie przenosi własności nieruchomości z chwilą ziszczenia się warunku lub nadejścia terminu, ani nie wymaga dodatkowego porozumienia stron.
+
+W związku z tym, poprawna odpowiedź na pytanie to:
+
+a) umowa ta jest bezwzględnie nieważna.
+### Judge: Nie.
+### Poprawna odpowiedz: c) do przeniesienia własności nieruchomości potrzebne jest dodatkowe porozumienie stron obejmujące ich bezwarunkową zgodę na niezwłoczne przejście własności., (art. 157 § 2 KC)
+### Wyniki: {'correct': 26, 'incorrect': 2, 'article_correct': 17}
+--------------------
+### GPT4o: Tak
+# Pytanie 29
+### Udzielona odpowiedz: Odpowiedź na pytanie opiera się na artykule 173 Kodeksu Cywilnego.
+
+Zgodnie z tym artykułem, jeżeli właściciel nieruchomości, przeciwko któremu biegnie zasiedzenie, jest małoletni, zasiedzenie nie może skończyć się wcześniej niż z upływem dwóch lat od uzyskania pełnoletności przez właściciela.
+
+Dlatego poprawna odpowiedź to:
+c) z upływem dwóch lat od uzyskania pełnoletności przez właściciela.
+### Judge: Tak
+### Poprawna odpowiedz: c) z upływem dwóch lat od uzyskania pełnoletności przez właściciela., (art. 173 KC)
+### Wyniki: {'correct': 27, 'incorrect': 2, 'article_correct': 18}
+--------------------
+### GPT4o: Nie
+# Pytanie 30
+### Udzielona odpowiedz: Odpowiedź na pytanie opiera się na art. 201 Kodeksu cywilnego.
+
+Zgodnie z tym artykułem, do czynności zwykłego zarządu rzeczą wspólną potrzebna jest zgoda większości współwłaścicieli. W braku takiej zgody każdy ze współwłaścicieli może żądać upoważnienia sądowego do dokonania czynności.
+
+W związku z tym, prawidłowa odpowiedź na pytanie to:
+
+a) jeżeli nie można uzyskać zgody większości współwłaścicieli w istotnych sprawach dotyczących zwykłego zarządu.
+
+Art. 201 Kodeksu cywilnego pozwala współwłaścicielom na wystąpienie do sądu o wyznaczenie zarządcy w sytuacji, gdy nie można uzyskać zgody większości współwłaścicieli w sprawach dotyczących zwykłego zarządu.
+### Judge: Tak.
+### Poprawna odpowiedz: a) jeżeli nie można uzyskać zgody większości współwłaścicieli w istotnych sprawach dotyczących zwykłego zarządu,, (art. 203 KC)
+### Wyniki: {'correct': 28, 'incorrect': 2, 'article_correct': 18}
+--------------------
+### GPT4o: Nie
+# Pytanie 31
+### Udzielona odpowiedz: Odpowiedź na pytanie opiera się na art. 205 Kodeksu cywilnego. Zgodnie z tym przepisem:
+
+Art. 205. Współwłaściciel sprawujący zarząd rzeczą wspólną może żądać od pozostałych współwłaścicieli wynagrodzenia odpowiadającego uzasadnionemu nakładowi jego pracy.
+
+Zatem poprawna odpowiedź to:
+a) może żądać od pozostałych współwłaścicieli wynagrodzenia odpowiadającego uzasadnionemu nakładowi jego pracy.
+
+Pozostałe opcje są niezgodne z treścią art. 205 Kodeksu cywilnego.
+### Judge: Tak
+### Poprawna odpowiedz: a) może żądać od pozostałych współwłaścicieli wynagrodzenia odpowiadającego uzasadnionemu nakładowi jego pracy,, (art. 205 KC)
+### Wyniki: {'correct': 29, 'incorrect': 2, 'article_correct': 18}
+--------------------
+# Pytanie 32
+### Udzielona odpowiedz: Odpowiedź na pytanie opiera się na art. 217 Kodeksu cywilnego.
+
+Zgodnie z tym artykułem, współwłaściciel, który w wyniku zniesienia współwłasności otrzymał gospodarstwo rolne i zbył wchodzące w jego skład nieruchomości rolne odpłatnie przed upływem pięciu lat od chwili zniesienia współwłasności, jest obowiązany pozostałym współwłaścicielom, którym przypadły spłaty niższe od należnych, wydać – proporcjonalnie do wielkości ich udziałów – korzyści uzyskane z obniżenia spłat.
+
+Jednakże, ten obowiązek nie występuje, jeżeli celem zbycia jest zapewnienie racjonalnego prowadzenia tego gospodarstwa.
+
+Zatem, prawidłowa odpowiedź na pytanie to:
+
+c) tylko wtedy, gdy celem zbycia jest zapewnienie racjonalnego prowadzenia tego gospodarstwa.
+### Judge: Nie
+### Poprawna odpowiedz: b) chyba że celem zbycia jest zapewnienie racjonalnego prowadzenia tego gospodarstwa,, (art. 217 KC)
+### Wyniki: {'correct': 29, 'incorrect': 3, 'article_correct': 18}
+--------------------
+### GPT4o: Nie
+# Pytanie 33
+### Udzielona odpowiedz: Odpowiedź na pytanie opiera się na art. 221 Kodeksu Cywilnego.
+
+Zgodnie z tym artykułem, czynności prawne określające zarząd i sposób korzystania z rzeczy wspólnej albo wyłączające uprawnienie do zniesienia współwłasności odnoszą skutek także względem nabywcy udziału, jeżeli nabywca o nich wiedział lub z łatwością mógł się dowiedzieć.
+
+W kontekście podanego pytania, odpowiedź brzmi:
+
+b) jeżeli nabywca o nich wiedział lub z łatwością mógł się dowiedzieć.
+
+To oznacza, że czynności prawne dotyczące zarządu i sposobu korzystania z rzeczy wspólnej mają skutek wobec nabywcy udziału we współwłasności tylko wtedy, gdy nabywca był świadomy tych czynności lub mógł łatwo się o nich dowiedzieć.
+### Judge: Tak.
+### Poprawna odpowiedz: b) jeżeli nabywca o nich wiedział lub z łatwością mógł się dowiedzieć,, (art. 221 KC)
+### Wyniki: {'correct': 30, 'incorrect': 3, 'article_correct': 18}
+--------------------
+### GPT4o: Tak
+# Pytanie 34
+### Udzielona odpowiedz: Odpowiedź na pytanie opiera się na art. 289 § 1 Kodeksu cywilnego. Zgodnie z tym przepisem:
+
+"W braku odmiennej umowy obowiązek utrzymywania urządzeń potrzebnych do wykonywania służebności gruntowej obciąża właściciela nieruchomości władnącej."
+
+Zatem poprawna odpowiedź to:
+
+b) właściciela nieruchomości władnącej.
+
+Wyjaśnienie:
+Służebność gruntowa to ograniczone prawo rzeczowe, które uprawnia właściciela jednej nieruchomości (nieruchomości władnącej) do korzystania z nieruchomości należącej do innej osoby (nieruchomości obciążonej) w określony sposób. Art. 289 § 1 Kodeksu cywilnego stanowi, że w braku odmiennej umowy, obowiązek utrzymywania urządzeń potrzebnych do wykonywania tej służebności spoczywa na właścicielu nieruchomości władnącej. Oznacza to, że to on ponosi koszty związane z utrzymaniem tych urządzeń, aby służebność mogła być wykonywana.
+### Judge: Tak
+### Poprawna odpowiedz: b) właściciela nieruchomości władnącej,, (art. 289 § 1 KC)
+### Wyniki: {'correct': 31, 'incorrect': 3, 'article_correct': 19}
+--------------------
+### GPT4o: Nie
+# Pytanie 35
+### Udzielona odpowiedz: Odpowiedź na pytanie:
+
+35. (N) Zgodnie z Kodeksem cywilnym, uprawnienie do wykonywania służebności osobistej:
+
+b) nie może być przeniesione przez czynność prawną
+
+Uzasadnienie:
+
+Zgodnie z art. 304 Kodeksu cywilnego, służebności osobistej nie można nabyć przez zasiedzenie. Ponadto, służebność osobista jest prawem ściśle związanym z osobą uprawnionego, co oznacza, że nie może być przeniesiona na inne osoby przez czynność prawną. W przeciwieństwie do służebności gruntowej, która może być przenoszona wraz z własnością nieruchomości, służebność osobista jest niezbywalna i wygasa ze śmiercią uprawnionego.
+### Judge: Tak
+### Poprawna odpowiedz: b) nie może być przeniesione przez czynność prawną,, (art. 300 KC)
+### Wyniki: {'correct': 32, 'incorrect': 3, 'article_correct': 19}
+--------------------
+### GPT4o: Tak
+# Pytanie 36
+### Udzielona odpowiedz: Odpowiedź na pytanie:
+
+c) należą się odsetki ustawowe w wysokości równej sumie stopy referencyjnej Narodowego Banku Polskiego i 3,5 punktów procentowych.
+
+Uzasadnienie:
+
+Zgodnie z art. 359 § 2 Kodeksu cywilnego, jeżeli wysokość odsetek nie jest w inny sposób określona, należą się odsetki ustawowe w wysokości równej sumie stopy referencyjnej Narodowego Banku Polskiego i 3,5 punktów procentowych.
+
+Podsumowując, odpowiedź c) jest zgodna z przepisami Kodeksu cywilnego, a konkretnie z art. 359 § 2.
+### Judge: Tak
+### Poprawna odpowiedz: c) należą się odsetki ustawowe w wysokości równej sumie stopy referencyjnej Narodowego Banku Polskiego i 3,5 punktów procentowych., (art. 359 § 1 i 2 KC)
+### Wyniki: {'correct': 33, 'incorrect': 3, 'article_correct': 20}
+--------------------
+### GPT4o: Nie
+# Pytanie 37
+### Udzielona odpowiedz: Odpowiedź na pytanie:
+
+37. (N) Zgodnie z Kodeksem cywilnym, w razie wytoczenia powództwa przez jednego z wierzycieli solidarnych dłużnik powinien spełnić świadczenie:
+a) do rąk wierzyciela, który wytoczył powództwo,
+b) według swego wyboru, do rąk któregokolwiek z wierzycieli solidarnych,
+c) przez złożenie do depozytu sądowego.
+
+Odpowiedź: a) do rąk wierzyciela, który wytoczył powództwo.
+
+Uzasadnienie:
+
+Zgodnie z art. 376 § 1 Kodeksu cywilnego, wierzyciel, który wytoczył powództwo przeciwko dłużnikowi solidarnemu, ma pierwszeństwo w zaspokojeniu swojej wierzytelności przed pozostałymi wierzycielami solidarnymi. Oznacza to, że dłużnik powinien spełnić świadczenie do rąk tego wierzyciela, który wytoczył powództwo.
+
+Art. 376 § 1 Kodeksu cywilnego stanowi:
+"Jeżeli jeden z wierzycieli solidarnych przyjął świadczenie, treść istniejącego między nimi stosunku prawnego rozstrzyga, czy i w jakim zakresie jest on zobowiązany do zwrotu części świadczenia pozostałym wierzycielom."
+
+Wynika z tego, że dłużnik powinien spełnić świadczenie do rąk wierzyciela, który wytoczył powództwo, a nie według swego wyboru do rąk któregokolwiek z wierzycieli solidarnych, ani przez złożenie do depozytu sądowego.
+### Judge: Tak
+### Poprawna odpowiedz: a) do rąk wierzyciela, który wytoczył powództwo,, (art. 367 § 2 KC)
+### Wyniki: {'correct': 34, 'incorrect': 3, 'article_correct': 20}
+--------------------
+### GPT4o: Tak
+# Pytanie 38
+### Udzielona odpowiedz: Odpowiedź na pytanie opiera się na art. 390 Kodeksu Cywilnego.
+
+Zgodnie z art. 390 § 1 Kodeksu Cywilnego:
+
+"Jeżeli strona zobowiązana do zawarcia umowy przyrzeczonej uchyla się od jej zawarcia, druga strona może żądać naprawienia szkody, którą poniosła przez to, że liczyła na zawarcie umowy przyrzeczonej. Strony mogą w umowie przedwstępnej odmiennie określić zakres odszkodowania."
+
+Na podstawie tego przepisu, jeżeli umowa przedwstępna nie czyni zadość wymaganiom, od których zależy ważność umowy przyrzeczonej, a strona zobowiązana do zawarcia umowy przyrzeczonej uchyla się od jej zawarcia, druga strona może żądać naprawienia szkody, którą poniosła przez to, że liczyła na zawarcie umowy przyrzeczonej.
+
+Zatem poprawna odpowiedź to:
+b) może żądać naprawienia szkody, którą poniosła przez to, że liczyła na zawarcie umowy przyrzeczonej.
+### Judge: Tak.
+### Poprawna odpowiedz: b) może żądać naprawienia szkody, którą poniosła przez to, że liczyła na zawarcie umowy przyrzeczonej,, (art. 390 § 1 i 2 KC)
+### Wyniki: {'correct': 35, 'incorrect': 3, 'article_correct': 21}
+--------------------
+### GPT4o: Nie
+# Pytanie 39
+### Udzielona odpowiedz: Odpowiedź na pytanie opiera się na art. 456 Kodeksu Cywilnego. Zgodnie z tym przepisem:
+
+"Jeżeli strony zastrzegły w umowie, że spełnienie świadczenia następować będzie częściami w ciągu określonego czasu, ale nie ustaliły wielkości poszczególnych świadczeń częściowych albo terminów, w których ma nastąpić spełnienie każdego z tych świadczeń, wierzyciel może przez oświadczenie, złożone dłużnikowi w czasie właściwym, ustalić zarówno wielkość poszczególnych świadczeń częściowych, jak i termin spełnienia każdego z nich, jednakże powinien uwzględnić możliwości dłużnika oraz sposób."
+
+Zatem poprawna odpowiedź to:
+
+b) wierzyciel przez oświadczenie złożone dłużnikowi w czasie właściwym, jednakże powinien uwzględnić możliwości dłużnika oraz sposób spełnienia świadczenia.
+### Judge: Tak.
+### Poprawna odpowiedz: b) wierzyciel przez oświadczenie złożone dłużnikowi w czasie właściwym, jednakże powinien uwzględnić możliwości dłużnika oraz sposób spełnienia świadczenia,, (art. 456 KC)
+### Wyniki: {'correct': 36, 'incorrect': 3, 'article_correct': 21}
+--------------------
+### GPT4o: Tak
+# Pytanie 40
+### Udzielona odpowiedz: Odpowiedź na pytanie opiera się na art. 481 Kodeksu Cywilnego.
+
+Zgodnie z art. 481 § 1 Kodeksu Cywilnego:
+"Jeżeli dłużnik opóźnia się ze spełnieniem świadczenia pieniężnego, wierzyciel może żądać odsetek za czas opóźnienia, chociażby nie poniósł żadnej szkody i chociażby opóźnienie było następstwem okoliczności, za które dłużnik odpowiedzialności nie ponosi."
+
+Na podstawie tego przepisu, wierzyciel może żądać odsetek za czas opóźnienia, nawet jeśli nie poniósł żadnej szkody i niezależnie od tego, czy opóźnienie było spowodowane okolicznościami, za które dłużnik ponosi odpowiedzialność.
+
+Zatem poprawna odpowiedź to:
+a) może żądać odsetek za czas opóźnienia, chociażby nie poniósł żadnej szkody i chociażby opóźnienie było następstwem okoliczności, za które dłużnik odpowiedzialności nie ponosi.
+### Judge: Tak
+### Poprawna odpowiedz: a) może żądać odsetek za czas opóźnienia, chociażby nie poniósł żadnej szkody i chociażby opóźnienie było następstwem okoliczności, za które dłużnik odpowiedzialności nie ponosi,, (art. 481 § 1 KC)
+### Wyniki: {'correct': 37, 'incorrect': 3, 'article_correct': 22}
+--------------------
+### GPT4o: Tak
+# Pytanie 41
+### Udzielona odpowiedz: Odpowiedź na pytanie opiera się na art. 492 Kodeksu Cywilnego.
+
+Zgodnie z tym artykułem, jeżeli uprawnienie do odstąpienia od umowy wzajemnej zostało zastrzeżone na wypadek niewykonania zobowiązania w terminie ściśle określonym, strona uprawniona może w razie zwłoki drugiej strony odstąpić od umowy bez wyznaczenia terminu dodatkowego.
+
+W związku z tym, poprawna odpowiedź na pytanie to:
+a) w razie zwłoki drugiej strony odstąpić od umowy bez wyznaczenia terminu dodatkowego.
+
+Art. 492 Kodeksu Cywilnego stanowi wyraźnie, że w takiej sytuacji strona uprawniona może odstąpić od umowy bez konieczności wyznaczania dodatkowego terminu, co oznacza, że odpowiedź b) i c) są niepoprawne.
+### Judge: Tak.
+### Poprawna odpowiedz: a) w razie zwłoki drugiej strony odstąpić od umowy bez wyznaczenia terminu dodatkowego,, (art. 492 KC)
+### Wyniki: {'correct': 38, 'incorrect': 3, 'article_correct': 23}
+--------------------
+### GPT4o: Tak
+# Pytanie 42
+### Udzielona odpowiedz: Odpowiedź na pytanie opiera się na art. 509 Kodeksu Cywilnego, który stanowi:
+
+"Art. 509 § 1. Wierzyciel może bez zgody dłużnika przenieść wierzytelność na osobę trzecią (przelew), chyba że sprzeciwiałoby się to ustawie, zastrzeżeniu umownemu albo właściwości zobowiązania."
+
+Zatem poprawna odpowiedź to:
+a) bez zgody dłużnika przenieść wierzytelność na osobę trzecią (przelew), chyba że sprzeciwiałoby się to ustawie, zastrzeżeniu umownemu albo właściwości zobowiązania.
+
+Dokumenty dostarczone dla poszerzenia kontekstu nie są bezpośrednio związane z tym pytaniem, ponieważ dotyczą innych aspektów prawa cywilnego, takich jak przenoszenie wierzytelności związanych z dokumentami na okaziciela, przeniesienie własności dokumentu, prawo pierwokupu oraz zastaw na wierzytelności pieniężnej.
+### Judge: Tak
+### Poprawna odpowiedz: a) bez zgody dłużnika przenieść wierzytelność na osobę trzecią (przelew), chyba że sprzeciwiałoby się to ustawie, zastrzeżeniu umownemu albo właściwości zobowiązania,, (art. 509 § 1 KC)
+### Wyniki: {'correct': 39, 'incorrect': 3, 'article_correct': 24}
+--------------------
+### GPT4o: Nie
+# Pytanie 43
+### Udzielona odpowiedz: Odpowiedź na pytanie:
+
+Zgodnie z Kodeksem cywilnym, jeżeli w obrocie między przedsiębiorcami rzecz sprzedawana ma być przesłana do miejsca, które nie jest miejscem spełnienia świadczenia, a z umowy ani z zarządzeń określających cenę nie wynika inaczej, koszty ubezpieczenia i przesłania tej rzeczy ponosi kupujący.
+
+Podstawa prawna:
+Art. 548 § 1 Kodeksu cywilnego:
+"Jeżeli miejsce spełnienia świadczenia nie jest oznaczone ani nie wynika z właściwości zobowiązania, świadczenie powinno być spełnione w miejscu, gdzie w chwili powstania zobowiązania dłużnik miał zamieszkanie lub siedzibę. Jednakże świadczenie pieniężne powinno być spełnione w miejscu zamieszkania lub w siedzibie wierzyciela w chwili spełnienia świadczenia; jeżeli wierzyciel zmienił miejsce zamieszkania lub siedzibę po powstaniu zobowiązania, ponosi spowodowaną przez tę zmianę nadwyżkę kosztów przesłania."
+
+Art. 548 § 2 Kodeksu cywilnego:
+"Jeżeli zobowiązanie ma związek z przedsiębiorstwem dłużnika lub wierzyciela, o miejscu spełnienia świadczenia rozstrzyga siedziba przedsiębiorstwa."
+
+Art. 549 Kodeksu cywilnego:
+"Jeżeli świadczenie ma być spełnione w miejscu położonym w granicach państwa, miejsce spełnienia świadczenia może być oznaczone w umowie lub określone na podstawie przepisów szczególnych."
+
+Art. 550 Kodeksu cywilnego:
+"Jeżeli w umowie sprzedaży zastrzeżona została na rzecz kupującego wyłączność bądź w ten sposób, że sprzedawca nie będzie dostarczał rzeczy określonego rodzaju innym osobom, bądź też w ten sposób, że kupujący będzie jedynym odprzedawcą zakupionych rzeczy na oznaczonym obszarze, sprzedawca nie może w zakresie, w którym wyłączność została zastrzeżona, ani bezpośrednio, ani pośrednio zawierać umów sprzedaży, które mogłyby naruszyć wyłączność przysługującą kupującemu."
+
+W kontekście tych przepisów, jeżeli w umowie sprzedaży nie ma innych ustaleń dotyczących kosztów przesłania i ubezpieczenia, to zgodnie z art. 548 § 1 Kodeksu cywilnego, koszty te ponosi kupujący.
+### Judge: Tak.
+### Poprawna odpowiedz: b) ponosi kupujący,, (art. 547 § 1 i 2 KC)
+### Wyniki: {'correct': 40, 'incorrect': 3, 'article_correct': 24}
+--------------------
+### GPT4o: Tak
+# Pytanie 44
+### Udzielona odpowiedz: Odpowiedź na pytanie opiera się na art. 628 § 1 Kodeksu cywilnego.
+
+Zgodnie z tym przepisem, jeżeli w umowie o dzieło strony nie określiły wysokości wynagrodzenia ani nie wskazały podstaw do jego ustalenia, poczytuje się w razie wątpliwości, że strony miały na myśli zwykłe wynagrodzenie za dzieło tego rodzaju.
+
+W związku z tym, poprawna odpowiedź to:
+a) zwykłe wynagrodzenie za dzieło tego rodzaju.
+
+Pozostałe opcje (b) i (c) nie są zgodne z treścią art. 628 § 1 Kodeksu cywilnego.
+### Judge: Tak
+### Poprawna odpowiedz: a) zwykłe wynagrodzenie za dzieło tego rodzaju,, (art. 628 § 1 KC)
+### Wyniki: {'correct': 41, 'incorrect': 3, 'article_correct': 25}
+--------------------
+### GPT4o: Tak
+# Pytanie 45
+### Udzielona odpowiedz: Odpowiedź na pytanie opiera się na art. 668 § 1 Kodeksu cywilnego.
+
+Zgodnie z tym przepisem:
+
+"Najemca może rzecz najętą oddać w całości lub części osobie trzeciej do bezpłatnego używania albo w podnajem, jeżeli umowa mu tego nie zabrania."
+
+Z tego wynika, że najemca ma prawo oddać lokal mieszkalny lub jego część do bezpłatnego używania osobie trzeciej, o ile umowa najmu nie zabrania tego. Nie jest wymagana zgoda wynajmującego, chyba że umowa stanowi inaczej.
+
+Zatem poprawna odpowiedź to:
+b) nie wymaga zgody wynajmującego.
+### Judge: Tak
+### Poprawna odpowiedz: b) nie wymaga zgody wynajmującego,, (art. 668 § 1 KC)
+### Wyniki: {'correct': 42, 'incorrect': 3, 'article_correct': 26}
+--------------------
+### GPT4o: Tak
+# Pytanie 46
+### Udzielona odpowiedz: Odpowiedź na pytanie opiera się na art. 864 Kodeksu Cywilnego, który stanowi:
+
+"Art. 864. Za zobowiązania spółki wspólnicy odpowiedzialni są solidarnie."
+
+Zatem poprawna odpowiedź to:
+c) solidarnie.
+
+Wyjaśnienie:
+Artykuł 864 Kodeksu Cywilnego jednoznacznie określa, że wspólnicy spółki cywilnej odpowiadają za jej zobowiązania solidarnie. Oznacza to, że każdy wspólnik jest zobowiązany do zapłaty całego długu, a wierzyciel może żądać zapłaty od każdego z nich w całości lub częściowo.
+
+Odpowiedzi a) i b) są nieprawidłowe, ponieważ nie odzwierciedlają przepisów Kodeksu Cywilnego dotyczących odpowiedzialności wspólników spółki cywilnej.
+### Judge: Tak.
+### Poprawna odpowiedz: c) solidarnie., (art. 864 KC)
+### Wyniki: {'correct': 43, 'incorrect': 3, 'article_correct': 27}
+--------------------
+# Pytanie 47
+### Udzielona odpowiedz: Odpowiedź na pytanie opiera się na analizie przepisów Kodeksu Cywilnego, w szczególności na art. 931 § 1 i art. 934.
+
+Zgodnie z art. 931 § 1 Kodeksu Cywilnego, w pierwszej kolejności powołane są z ustawy do spadku dzieci spadkodawcy oraz jego małżonek; dziedziczą oni w częściach równych. Jednakże część przypadająca małżonkowi nie może być mniejsza niż jedna czwarta całości spadku.
+
+W sytuacji, gdy ojcostwo rodzica spadkodawcy nie zostało ustalone, a spadkodawca nie miał zstępnych, matka spadkodawcy dziedziczy w zbiegu z małżonkiem spadkodawcy. W takim przypadku, zgodnie z art. 934 Kodeksu Cywilnego, udział spadkowy matki spadkodawcy wynosi jedną trzecią spadku.
+
+Podsumowując, poprawna odpowiedź to:
+b) jedną trzecią spadku.
+### Judge: Nie
+### Poprawna odpowiedz: c) połowę spadku., (art. 932 § 1 i 2 zdanie 2 KC)
+### Wyniki: {'correct': 43, 'incorrect': 4, 'article_correct': 27}
+--------------------
+# Pytanie 48
+### Udzielona odpowiedz: Odpowiedź na pytanie opiera się na analizie dostarczonego dokumentu:
+
+Dokument 0: Art. 951. § 1. Kodeksu Cywilnego
+
+Zgodnie z tym artykułem, spadkodawca może sporządzić testament ustnie w obecności dwóch świadków, oświadczając swoją ostatnią wolę przed:
+
+a) wójtem (burmistrzem, prezydentem miasta)
+b) starostą
+c) marszałkiem województwa
+d) sekretarzem powiatu albo gminy
+e) kierownikiem urzędu stanu cywilnego
+
+Wśród podanych opcji w pytaniu, żadna z nich nie jest wymieniona w art. 951 § 1 Kodeksu Cywilnego.
+
+Zatem, żadna z podanych odpowiedzi (a, b, c) nie jest poprawna w kontekście tego artykułu.
+### Judge: Nie
+### Poprawna odpowiedz: b) sekretarza gminy,, (art. 951 § 1 KC)
+### Wyniki: {'correct': 43, 'incorrect': 5, 'article_correct': 27}
+--------------------
+# Pytanie 49
+### Udzielona odpowiedz: Odpowiedź na pytanie opiera się na art. 991 § 1 Kodeksu cywilnego, który stanowi:
+
+"Art. 991 § 1. Zstępnym, małżonkowi oraz rodzicom spadkodawcy, którzy byliby powołani do spadku z ustawy, należy się połowa wartości udziału spadkowego, który stanowi ich udział w spadku, jeżeli uprawniony jest trwale niezdolny do pracy albo jeżeli zstępny uprawniony jest małoletni; w innych wypadkach – jedna trzecia wartości tego udziału."
+
+Zgodnie z tym przepisem, zstępni, małżonek oraz rodzice spadkodawcy mają prawo do zachowku, który jest udziałem w spadku. Wysokość tego udziału zależy od sytuacji uprawnionego.
+
+W kontekście pytania, zapis windykacyjny, o którym mowa w pytaniu, jest jednym z elementów, które mogą wpływać na wysokość zachowku. Art. 996 Kodeksu cywilnego, do którego odnosi się Dokument 2, mówi o zaliczaniu zapisu windykacyjnego oraz darowizny na należny zachowek.
+
+Jednakże, pytanie dotyczy formy testamentu, w której można dokonać zapisu windykacyjnego. Kodeks cywilny nie zawiera bezpośredniego przepisu, który odpowiadałby na to pytanie. Niemniej, zgodnie z ogólnymi zasadami prawa spadkowego, zapis windykacyjny może być dokonany zarówno w testamencie sporządzonym w formie aktu notarialnego, jak i w testamencie szczególnym (np. testament własnoręczny).
+
+Podsumowując, odpowiedź na pytanie brzmi:
+
+c) zarówno w testamencie sporządzonym w formie aktu notarialnego, jak i w testamencie szczególnym.
+### Judge: Nie.
+### Poprawna odpowiedz: b) tylko w testamencie sporządzonym w formie aktu notarialnego,, (art. 981¹ § 1 KC)
+### Wyniki: {'correct': 43, 'incorrect': 6, 'article_correct': 27}
+--------------------
+### GPT4o: Nie
+# Pytanie 50
+### Udzielona odpowiedz: Odpowiedź na pytanie opiera się na analizie dostarczonego dokumentu, a konkretnie na art. 990 Kodeksu Cywilnego.
+
+Zgodnie z art. 990 Kodeksu Cywilnego:
+
+"Z ważnych powodów sąd może zwolnić wykonawcę testamentu."
+
+Na podstawie tego przepisu, można wnioskować, że z ważnych powodów wykonawcę testamentu z tego obowiązku może zwolnić wyłącznie sąd.
+
+Zatem poprawna odpowiedź to:
+a) może zwolnić sąd
+
+Inne opcje (b) i (c) nie są zgodne z treścią art. 990 Kodeksu Cywilnego.
+### Judge: Tak
+### Poprawna odpowiedz: a) może zwolnić sąd,, (art. 990 KC)
+### Wyniki: {'correct': 44, 'incorrect': 6, 'article_correct': 27}
+--------------------
+### GPT4o: Tak
+# Pytanie 51
+### Udzielona odpowiedz: Odpowiedź na pytanie opiera się na analizie podanych dokumentów, w szczególności na art. 995 Kodeksu Cywilnego.
+
+Zgodnie z art. 995 § 1 Kodeksu Cywilnego:
+
+"Wartość przedmiotu darowizny oblicza się według stanu z chwili jej dokonania, a według cen z chwili ustalania zachowku."
+
+Zatem, wartość przedmiotu darowizny doliczonej do spadku przy obliczaniu zachowku oblicza się:
+
+- według stanu z chwili jej dokonania (czyli kiedy darowizna została dokonana),
+- a według cen z chwili ustalania zachowku (czyli w momencie, kiedy ustala się wysokość zachowku).
+
+Dlatego poprawna odpowiedź to:
+
+b) według stanu z chwili jej dokonania, a według cen z chwili ustalania zachowku.
+### Judge: Tak.
+### Poprawna odpowiedz: b) według stanu z chwili jej dokonania, a według cen z chwili ustalania zachowku,, (art. 995 § 1 KC)
+### Wyniki: {'correct': 45, 'incorrect': 6, 'article_correct': 28}
+--------------------
+### GPT4o: Tak
+# Pytanie 52
+### Udzielona odpowiedz: Odpowiedź na pytanie opiera się na art. 1002 Kodeksu Cywilnego.
+
+Zgodnie z tym artykułem:
+
+"Art. 1002. Roszczenie z tytułu zachowku przechodzi na spadkobiercę osoby uprawnionej do zachowku tylko wtedy, gdy spadkobierca ten należy do osób uprawnionych do zachowku po pierwszym spadkodawcy."
+
+Zatem poprawna odpowiedź to:
+
+b) przechodzi na spadkobiercę osoby uprawnionej do zachowku tylko wtedy, gdy spadkobierca ten należy do osób uprawnionych do zachowku po pierwszym spadkodawcy.
+### Judge: Tak.
+### Poprawna odpowiedz: b) przechodzi na spadkobiercę osoby uprawnionej do zachowku tylko wtedy, gdy spadkobierca ten należy do osób uprawnionych do zachowku po pierwszym spadkodawcy,, (art. 1002 KC)
+### Wyniki: {'correct': 46, 'incorrect': 6, 'article_correct': 29}
+--------------------
+### GPT4o: Nie
+# Pytanie 53
+### Udzielona odpowiedz: Odpowiedź na pytanie:
+
+Zgodnie z Kodeksem cywilnym, zdolność prawną każdy człowiek ma od chwili:
+
+c) urodzenia.
+
+Uzasadnienie:
+
+Zgodnie z art. 11 Kodeksu cywilnego, pełną zdolność do czynności prawnych nabywa się z chwilą uzyskania pełnoletności. Jednakże, art. 12 tego samego kodeksu stanowi, że nie mają zdolności do czynności prawnych osoby, które nie ukończyły lat trzynastu, oraz osoby ubezwłasnowolnione całkowicie.
+
+Z tych przepisów wynika, że zdolność prawna rozpoczyna się od momentu urodzenia, ale pełna zdolność do czynności prawnych jest uzyskiwana dopiero po ukończeniu 13 lat (lub wcześniej, jeśli osoba zostanie ubezwłasnowolniona całkowicie).
+
+Dokumenty 0 i 1 nie mają bezpośredniego związku z pytaniem, natomiast dokument 2 dotyczy przysposobienia i dziedziczenia, co również nie ma bezpośredniego wpływu na odpowiedź na pytanie o moment nabycia zdolności prawnej.
+### Judge: Tak
+### Poprawna odpowiedz: c) urodzenia., (art. 8 § 1 KC)
+### Wyniki: {'correct': 47, 'incorrect': 6, 'article_correct': 29}
+--------------------
+### GPT4o: Nie
+# Pytanie 54
+### Udzielona odpowiedz: Odpowiedź na pytanie:
+
+Zgodnie z Kodeksem cywilnym, dla ubezwłasnowolnionego całkowicie ustanawia się:
+
+b) opiekę, chyba że pozostaje on jeszcze pod władzą rodzicielską.
+
+Podstawa prawna:
+
+Art. 16 Kodeksu cywilnego:
+
+"1. Osoba pełnoletnia może być ubezwłasnowolniona częściowo z powodu choroby psychicznej, niedorozwoju umysłowego albo innego rodzaju zaburzeń psychicznych, w szczególności pijaństwa lub narkomanii, jeżeli stan tej osoby nie uzasadnia ubezwłasnowolnienia całkowitego, lecz potrzebna jest pomoc do prowadzenia jej spraw.
+
+2. Dla osoby ubezwłasnowolnionej częściowo ustanawia się kuratelę.
+
+3. Osoba ubezwłasnowolniona całkowicie z powodu choroby psychicznej lub niedorozwoju umysłowego nie może być przedstawicielem ustawowym.
+
+4. Dla osoby ubezwłasnowolnionej całkowicie ustanawia się opiekę, chyba że pozostaje ona jeszcze pod władzą rodzicielską."
+
+Wyjaśnienie:
+
+Art. 16 Kodeksu cywilnego jednoznacznie określa, że dla osoby ubezwłasnowolnionej całkowicie ustanawia się opiekę, chyba że pozostaje ona jeszcze pod władzą rodzicielską. Dokumenty dostarczone nie zawierają informacji bezpośrednio związanych z tym zagadnieniem, dlatego podstawą do udzielenia odpowiedzi jest bezpośrednio art. 16 Kodeksu cywilnego.
+### Judge: Tak
+### Poprawna odpowiedz: b) opiekę, chyba że pozostaje on jeszcze pod władzą rodzicielską,, (art. 13 § 2 KC)
+### Wyniki: {'correct': 48, 'incorrect': 6, 'article_correct': 29}
+--------------------
+### GPT4o: Tak
+# Pytanie 55
+### Udzielona odpowiedz: Odpowiedź na pytanie opiera się na art. 15 Kodeksu cywilnego. Zgodnie z tym przepisem:
+
+"Art. 15. Ograniczoną zdolność do czynności prawnych mają małoletni, którzy ukończyli lat trzynaście, oraz osoby ubezwłasnowolnione częściowo."
+
+Zatem poprawna odpowiedź to:
+a) lat trzynaście
+
+Wyjaśnienie:
+- Art. 15 Kodeksu cywilnego jednoznacznie określa, że ograniczoną zdolność do czynności prawnych mają małoletni, którzy ukończyli lat trzynaście.
+- Pozostałe opcje (lat dwanaście i lat osiem) nie są wymienione w tym przepisie.
+- Art. 11 i 12 Kodeksu cywilnego dotyczą pełnej zdolności do czynności prawnych i braku zdolności do czynności prawnych, ale nie określają wieku, od którego małoletni nabywają ograniczoną zdolność do czynności prawnych.
+- Art. 13 Kodeksu cywilnego dotyczy ubezwłasnowolnienia całkowitego, które nie ma związku z ograniczoną zdolnością do czynności prawnych.
+### Judge: Tak.
+### Poprawna odpowiedz: a) lat trzynaście,, (art. 15 KC)
+### Wyniki: {'correct': 49, 'incorrect': 6, 'article_correct': 30}
+--------------------
+### GPT4o: Nie
+# Pytanie 56
+### Udzielona odpowiedz: Odpowiedź na pytanie opiera się na art. 20 Kodeksu cywilnego.
+
+Zgodnie z art. 20 Kodeksu cywilnego, osoba ograniczona w zdolności do czynności prawnych może bez zgody przedstawiciela ustawowego zawierać umowy należące do umów powszechnie zawieranych w drobnych bieżących sprawach życia codziennego.
+
+W kontekście podanego pytania, odpowiedź brzmi:
+
+a) należące do umów powszechnie zawieranych w drobnych bieżących sprawach życia codziennego
+
+Pozostałe opcje (b) i (c) nie są zgodne z art. 20 Kodeksu cywilnego, ponieważ umowy dożywocia i dzierżawy nie są wymienione jako te, które osoba ograniczona w zdolności do czynności prawnych może zawierać bez zgody przedstawiciela ustawowego.
+### Judge: Tak
+### Poprawna odpowiedz: a) należące do umów powszechnie zawieranych w drobnych bieżących sprawach życia codziennego,, (art. 20 KC)
+### Wyniki: {'correct': 50, 'incorrect': 6, 'article_correct': 30}
+--------------------
+### GPT4o: Tak
+# Pytanie 57
+### Udzielona odpowiedz: Odpowiedź na pytanie opiera się na art. 27 Kodeksu cywilnego.
+
+Zgodnie z art. 27 Kodeksu cywilnego:
+
+"Miejscem zamieszkania osoby pozostającej pod opieką jest miejsce zamieszkania opiekuna."
+
+Zatem poprawna odpowiedź to:
+
+c) miejsce zamieszkania opiekuna.
+### Judge: Tak.
+### Poprawna odpowiedz: c) miejsce zamieszkania opiekuna., (art. 27 KC)
+### Wyniki: {'correct': 51, 'incorrect': 6, 'article_correct': 31}
+--------------------
+### GPT4o: Tak
+# Pytanie 58
+### Udzielona odpowiedz: Na podstawie art. 28 Kodeksu cywilnego, można wnioskować, że:
+
+"Można mieć tylko jedno miejsce zamieszkania."
+
+Zatem poprawna odpowiedź na pytanie to:
+
+a) tylko jedno miejsce zamieszkania.
+
+Art. 28 Kodeksu cywilnego jednoznacznie określa, że osoba fizyczna może mieć tylko jedno miejsce zamieszkania. Jest to zasada ogólna, która ma zastosowanie w większości sytuacji prawnych związanych z miejscem zamieszkania.
+### Judge: Tak.
+### Poprawna odpowiedz: a) tylko jedno miejsce zamieszkania,, (art. 28 KC)
+### Wyniki: {'correct': 52, 'incorrect': 6, 'article_correct': 32}
+--------------------
+### GPT4o: Tak
+# Pytanie 59
+### Udzielona odpowiedz: Odpowiedź na pytanie opiera się na analizie dostarczonych dokumentów, w szczególności na artykule 33 Kodeksu cywilnego.
+
+Zgodnie z Kodeksem cywilnym, Skarb Państwa jest:
+
+b) osobą prawną
+
+Uzasadnienie:
+
+Artykuł 33 Kodeksu cywilnego stanowi:
+
+"Osobami prawnymi są Skarb Państwa i jednostki organizacyjne, którym przepisy szczególne przyznają osobowość prawną."
+
+Z tego przepisu jednoznacznie wynika, że Skarb Państwa jest osobą prawną. Pozostałe opcje (a) i (c) nie są zgodne z treścią tego artykułu.
+### Judge: Tak
+### Poprawna odpowiedz: b) osobą prawną,, (art. 33 KC)
+### Wyniki: {'correct': 53, 'incorrect': 6, 'article_correct': 33}
+--------------------
+### GPT4o: Tak
+# Pytanie 60
+### Udzielona odpowiedz: Odpowiedź na pytanie opiera się na analizie dostarczonego dokumentu, a konkretnie na art. 40 Kodeksu cywilnego.
+
+Zgodnie z art. 40 § 1 Kodeksu cywilnego:
+"Skarb Państwa nie ponosi odpowiedzialności za zobowiązania państwowych osób prawnych, chyba że przepis odrębny stanowi inaczej. Państwowe osoby prawne nie ponoszą odpowiedzialności za zobowiązania Skarbu Państwa."
+
+Na podstawie tego przepisu, można wnioskować, że państwowe osoby prawne nie ponoszą odpowiedzialności za zobowiązania Skarbu Państwa. Oznacza to, że odpowiedź "a) nie ponoszą odpowiedzialności za zobowiązania Skarbu Państwa" jest prawidłowa.
+
+Dokumenty 1 i 2 nie mają bezpośredniego związku z pytaniem i nie wpływają na odpowiedź.
+### Judge: Tak.
+### Poprawna odpowiedz: a) nie ponoszą odpowiedzialności za zobowiązania Skarbu Państwa,, (art. 40 § 1 KC)
+### Wyniki: {'correct': 54, 'incorrect': 6, 'article_correct': 34}
+--------------------
+### GPT4o: Tak
+# Pytanie 61
+### Udzielona odpowiedz: Odpowiedź na pytanie opiera się na art. 41 Kodeksu cywilnego, który stanowi:
+
+"Jeżeli ustawa lub oparty na niej statut nie stanowi inaczej, siedzibą osoby prawnej jest miejscowość, w której ma siedzibę jej organ zarządzający."
+
+Zatem poprawna odpowiedź to:
+
+b) zarządzający
+
+Wyjaśnienie:
+Zgodnie z art. 41 Kodeksu cywilnego, siedzibą osoby prawnej jest miejscowość, w której ma siedzibę jej organ zarządzający. Oznacza to, że decydującym czynnikiem przy określaniu siedziby osoby prawnej jest lokalizacja jej organu zarządzającego, chyba że ustawa lub statut stanowią inaczej.
+### Judge: Tak.
+### Poprawna odpowiedz: b) zarządzający,, (art. 41 KC)
+### Wyniki: {'correct': 55, 'incorrect': 6, 'article_correct': 35}
+--------------------
+### GPT4o: Tak
+# Pytanie 62
+### Udzielona odpowiedz: Odpowiedź na pytanie opiera się na analizie dostarczonych dokumentów, w szczególności na art. 43⁴ Kodeksu cywilnego.
+
+Zgodnie z art. 43⁴ Kodeksu cywilnego:
+
+"Firmą osoby fizycznej jest jej imię i nazwisko. Nie wyklucza to włączenia do firmy pseudonimu lub określeń wskazujących na przedmiot działalności przedsiębiorcy, miejsce jej prowadzenia oraz innych określeń dowolnie obranych."
+
+Na podstawie tego przepisu, można wnioskować, że firmą osoby fizycznej jest jej imię i nazwisko. Pozostałe elementy, takie jak pseudonim, określenia wskazujące na przedmiot działalności, miejsce jej prowadzenia oraz inne określenia, mogą być dołączone do firmy, ale nie są obowiązkowe.
+
+Zatem poprawna odpowiedź na pytanie to:
+b) jej imię i nazwisko.
+### Judge: Tak
+### Poprawna odpowiedz: b) jej imię i nazwisko,, (art. 43(4) KC)
+### Wyniki: {'correct': 56, 'incorrect': 6, 'article_correct': 36}
+--------------------
+### GPT4o: Tak
+# Pytanie 63
+### Udzielona odpowiedz: Odpowiedź na pytanie opiera się na art. 53 Kodeksu Cywilnego.
+
+Zgodnie z Kodeksem cywilnym, pożytkami naturalnymi rzeczy są jej płody i inne odłączone od niej części składowe, o ile według zasad prawidłowej gospodarki stanowią normalny dochód z rzeczy. To właśnie odpowiada opcji b) w podanym pytaniu.
+
+Art. 53 Kodeksu Cywilnego brzmi:
+
+"Pożytkami naturalnymi rzeczy są jej płody i inne odłączone od niej części składowe, o ile według zasad prawidłowej gospodarki stanowią normalny dochód z rzeczy."
+
+Zatem, zgodnie z tym przepisem, pożytkami naturalnymi są właśnie płody i inne odłączone części składowe rzeczy, które stanowią normalny dochód z rzeczy według zasad prawidłowej gospodarki.
+### Judge: Tak.
+### Poprawna odpowiedz: b) jej płody i inne odłączone od niej części składowe, o ile według zasad prawidłowej gospodarki stanowią normalny dochód z rzeczy,, (art. 53 § 1 KC)
+### Wyniki: {'correct': 57, 'incorrect': 6, 'article_correct': 37}
+--------------------
+### GPT4o: Nie
+# Pytanie 64
+### Udzielona odpowiedz: Odpowiedź na pytanie:
+
+Zgodnie z Kodeksem cywilnym, jeżeli przepis szczególny nie stanowi inaczej, zawarcie umowy w wyniku aukcji następuje z chwilą:
+
+b) udzielenia przybicia
+
+Uzasadnienie:
+
+W przypadku aukcji, czyli przetargu ustnego, zgodnie z art. 733 Kodeksu cywilnego, umowa zostaje zawarta z chwilą udzielenia przybicia. Przybicie to moment, w którym prowadzący aukcję udziela przybicia ofercie najkorzystniejszej, co oznacza, że oferta ta została przyjęta i umowa została zawarta.
+
+Dokumenty dostarczone dla poszerzenia kontekstu dotyczą ogólnych zasad zawierania umów, ale nie odnoszą się bezpośrednio do aukcji. Art. 70 Kodeksu cywilnego dotyczy ogólnych zasad zawierania umów, natomiast art. 69 i 703 odnoszą się do przetargów pisemnych, a nie aukcji.
+### Judge: Tak.
+### Poprawna odpowiedz: b) udzielenia przybicia,, (art. 70² § 2 KC)
+### Wyniki: {'correct': 58, 'incorrect': 6, 'article_correct': 37}
+--------------------
+### GPT4o: Tak
+# Pytanie 65
+### Udzielona odpowiedz: Odpowiedź na pytanie opiera się na art. 118 Kodeksu cywilnego.
+
+Zgodnie z tym przepisem, jeżeli przepis szczególny nie stanowi inaczej, termin przedawnienia wynosi sześć lat. Wyjątkiem są roszczenia o świadczenia okresowe oraz roszczenia związane z prowadzeniem działalności gospodarczej, które przedawniają się po trzech latach.
+
+W związku z tym, poprawna odpowiedź na pytanie to:
+
+b) sześć lat.
+### Judge: Tak.
+### Poprawna odpowiedz: b) sześć lat,, (art. 118 KC)
+### Wyniki: {'correct': 59, 'incorrect': 6, 'article_correct': 38}
+--------------------
+### GPT4o: Nie
+# Pytanie 66
+### Udzielona odpowiedz: Odpowiedź na pytanie:
+
+Zgodnie z Kodeksem cywilnym, przeniesienie posiadania rzeczy nie jest potrzebne do przeniesienia własności:
+
+a) rzeczy oznaczonej co do tożsamości,
+
+b) rzeczy przyszłej,
+
+c) rzeczy oznaczonej tylko co do gatunku.
+
+Odpowiedź:
+
+a) rzeczy oznaczonej co do tożsamości
+
+Uzasadnienie:
+
+Zgodnie z art. 169 § 1 Kodeksu cywilnego, jeżeli osoba nieuprawniona do rozporządzania rzeczą ruchomą zbywa rzecz i wydaje ją nabywcy, nabywca uzyskuje własność z chwilą objęcia rzeczy w posiadanie, chyba że działa w złej wierze. Jednakże, w przypadku rzeczy oznaczonej co do tożsamości, przeniesienie posiadania nie jest konieczne do przeniesienia własności. Własność rzeczy oznaczonej co do tożsamości przenosi się na nabywcę z chwilą zawarcia umowy sprzedaży, niezależnie od tego, czy rzecz została wydana nabywcy.
+
+Podsumowując, przeniesienie posiadania rzeczy nie jest potrzebne do przeniesienia własności rzeczy oznaczonej co do tożsamości, zgodnie z art. 169 § 1 Kodeksu cywilnego.
+### Judge: Tak
+### Poprawna odpowiedz: a) rzeczy oznaczonej co do tożsamości,, (art. 155 § 2 KC)
+### Wyniki: {'correct': 60, 'incorrect': 6, 'article_correct': 38}
+--------------------
+### GPT4o: Tak
+# Pytanie 67
+### Udzielona odpowiedz: Odpowiedź na pytanie:
+
+Zgodnie z Kodeksem cywilnym, o ile przepis szczególny nie stanowi inaczej, umowa zobowiązująca do przeniesienia własności nieruchomości powinna być zawarta w formie:
+
+b) aktu notarialnego
+
+Uzasadnienie:
+
+Forma aktu notarialnego dla umów zobowiązujących do przeniesienia własności nieruchomości jest wymagana przez art. 158 Kodeksu cywilnego. Zgodnie z tym przepisem:
+
+"Art. 158. Umowa zobowiązująca do przeniesienia własności nieruchomości powinna być zawarta w formie aktu notarialnego. To samo dotyczy umowy przenoszącej własność, która zostaje zawarta w celu wykonania istniejącego uprzednio zobowiązania do przeniesienia własności nieruchomości; zobowiązanie powinno być stwierdzone pismem."
+
+Dokumenty dostarczone dla poszerzenia kontekstu nie zmieniają tej zasady. Art. 7582 Kodeksu cywilnego dotyczy pisemnego potwierdzenia treści umowy, a nie formy umowy. Art. 70 §1 Kodeksu cywilnego dotyczy chwili zawarcia umowy, a nie formy, w jakiej umowa powinna być zawarta.
+
+Dokument 0 również nie zmienia wymaganej formy aktu notarialnego, a jedynie opisuje dodatkowe wymagania w przypadku umów zawartych pod warunkiem lub z zastrzeżeniem terminu.
+### Judge: Tak
+### Poprawna odpowiedz: b) aktu notarialnego,, (art. 158 KC)
+### Wyniki: {'correct': 61, 'incorrect': 6, 'article_correct': 39}
+--------------------
+### GPT4o: Tak
+# Pytanie 68
+### Udzielona odpowiedz: Odpowiedź na pytanie opiera się na art. 389 § 2 Kodeksu cywilnego.
+
+Zgodnie z tym przepisem:
+
+"Jeżeli termin, w ciągu którego ma być zawarta umowa przyrzeczona, nie został oznaczony, nie można żądać jej zawarcia po upływie roku od dnia zawarcia umowy przedwstępnej."
+
+Zatem poprawna odpowiedź to:
+
+a) roku od dnia zawarcia umowy przedwstępnej
+
+Warto zauważyć, że żaden z dostarczonych dokumentów nie zawiera bezpośrednio informacji dotyczącej terminu, po którym nie można żądać zawarcia umowy przyrzeczonej. Art. 389 § 2 Kodeksu cywilnego jest kluczowym przepisem w tej kwestii.
+### Judge: Tak.
+### Poprawna odpowiedz: a) roku od dnia zawarcia umowy przedwstępnej,, (art. 389 § 2 KC)
+### Wyniki: {'correct': 62, 'incorrect': 6, 'article_correct': 40}
+--------------------
+### GPT4o: Tak
+# Pytanie 69
+### Udzielona odpowiedz: Odpowiedź na pytanie opiera się na art. 394 Kodeksu Cywilnego.
+
+Zgodnie z treścią tego artykułu:
+
+"Art. 394. § 1. W braku odmiennego zastrzeżenia umownego albo zwyczaju zadatek dany przy zawarciu umowy ma to znaczenie, że w razie niewykonania umowy przez jedną ze stron druga strona może bez wyznaczenia terminu dodatkowego od umowy odstąpić i otrzymany zadatek zachować, a jeżeli sama go dała, może żądać sumy dwukrotnie wyższej."
+
+Zatem poprawna odpowiedź to:
+
+a) sumy dwukrotnie wyższej
+
+Wyjaśnienie:
+- Jeśli strona, która otrzymała zadatek, nie wykona umowy, druga strona może odstąpić od umowy i zachować otrzymany zadatek.
+- Jeśli strona, która dała zadatek, nie wykona umowy, druga strona może żądać sumy dwukrotnie wyższej niż otrzymany zadatek.
+
+Inne dokumenty nie mają bezpośredniego związku z tym pytaniem i nie wpływają na odpowiedź.
+### Judge: Tak
+### Poprawna odpowiedz: a) sumy dwukrotnie wyższej,, (art. 394 § 1 KC)
+### Wyniki: {'correct': 63, 'incorrect': 6, 'article_correct': 41}
+--------------------
+# Pytanie 70
+### Udzielona odpowiedz: Na podstawie art. 481 § 1 Kodeksu cywilnego, dłużnik spełniając świadczenie może żądać od wierzyciela odsetek ustawowych za opóźnienie.
+
+Wyjaśnienie:
+Art. 481 § 1 KC stanowi, że jeżeli dłużnik opóźnia się ze spełnieniem świadczenia pieniężnego, wierzyciel może żądać odsetek za czas opóźnienia, chociażby nie poniósł żadnej szkody i chociażby opóźnienie było następstwem okoliczności, za które dłużnik odpowiedzialności nie ponosi.
+
+Zatem poprawna odpowiedź to:
+b) odsetek ustawowych za opóźnienie.
+### Judge: Nie.
+### Poprawna odpowiedz: c) pokwitowania., (art. 462 § 1 KC)
+### Wyniki: {'correct': 63, 'incorrect': 7, 'article_correct': 41}
+--------------------
+### GPT4o: Tak
+# Pytanie 71
+### Udzielona odpowiedz: Odpowiedź na pytanie opiera się na analizie art. 473 Kodeksu cywilnego.
+
+Zgodnie z art. 473 § 2 Kodeksu cywilnego, nieważne jest zastrzeżenie, iż dłużnik nie będzie odpowiedzialny za szkodę, którą może wyrządzić wierzycielowi umyślnie.
+
+W kontekście tego przepisu, prawidłowa odpowiedź na pytanie brzmi:
+
+b) umyślnie
+
+Uzasadnienie:
+Art. 473 § 2 Kodeksu cywilnego jednoznacznie stwierdza, że nieważne jest zastrzeżenie wyłączające odpowiedzialność dłużnika za szkodę wyrządzoną umyślnie. Oznacza to, że dłużnik nie może umownie wyłączyć swojej odpowiedzialności za szkody spowodowane umyślnie.
+
+Pozostałe opcje (a) i (c) nie są zgodne z treścią art. 473 § 2 Kodeksu cywilnego, który dotyczy wyłącznie szkód wyrządzonych umyślnie.
+### Judge: Tak
+### Poprawna odpowiedz: b) umyślnie,, (art. 473 § 2 KC)
+### Wyniki: {'correct': 64, 'incorrect': 7, 'article_correct': 42}
+--------------------
+### GPT4o: Tak
+# Pytanie 72
+### Udzielona odpowiedz: Odpowiedź na pytanie opiera się na analizie dostarczonego dokumentu:
+
+Dokument 0:
+Art. 924. Spadek otwiera się z chwilą śmierci spadkodawcy.
+
+Na podstawie tego artykułu Kodeksu Cywilnego, można wnioskować, że spadek otwiera się z chwilą śmierci spadkodawcy. Zatem poprawna odpowiedź na pytanie to:
+
+a) śmierci spadkodawcy
+
+Pozostałe odpowiedzi (b) i (c) nie są zgodne z treścią art. 924 Kodeksu Cywilnego.
+### Judge: Tak
+### Poprawna odpowiedz: a) śmierci spadkodawcy,, (art. 924 KC)
+### Wyniki: {'correct': 65, 'incorrect': 7, 'article_correct': 43}
+--------------------
+### GPT4o: Tak
+# Pytanie 73
+### Udzielona odpowiedz: Odpowiedź na pytanie:
+
+Zgodnie z Kodeksem cywilnym, przepisów o powołaniu do dziedziczenia z ustawy nie stosuje się do:
+
+b) małżonka spadkodawcy pozostającego w separacji
+
+Uzasadnienie:
+
+Na podstawie art. 935(1) Kodeksu cywilnego, przepisów o powołaniu do dziedziczenia z ustawy nie stosuje się do małżonka spadkodawcy pozostającego w separacji.
+
+Dokument 0 zawiera właśnie ten przepis, który jednoznacznie wyklucza małżonka pozostającego w separacji z dziedziczenia ustawowego.
+### Judge: Tak
+### Poprawna odpowiedz: b) małżonka spadkodawcy pozostającego w separacji,, (art. 935¹ KC)
+### Wyniki: {'correct': 66, 'incorrect': 7, 'article_correct': 44}
+--------------------
+### GPT4o: Nie
+# Pytanie 74
+### Udzielona odpowiedz: Na podstawie dostarczonych dokumentów, a w szczególności Art. 959 Kodeksu Cywilnego, można wnioskować, że testament może zawierać rozrządzenia tylko jednego spadkodawcy.
+
+Art. 959 stanowi: "Spadkodawca może powołać do całości lub części spadku jedną lub kilka osób."
+
+Z tego przepisu wynika, że spadkodawca ma prawo powołać jednego lub więcej spadkobierców, ale tylko w ramach swojego własnego spadku. Nie ma możliwości, aby testament zawierał rozrządzenia wielu spadkodawców.
+
+Dodatkowo, Art. 958 podkreśla, że testament sporządzony z naruszeniem przepisów jest nieważny, co sugeruje, że każdy testament musi być sporządzony zgodnie z przepisami dotyczącymi jednego spadkodawcy.
+
+W związku z tym, poprawna odpowiedź na pytanie to:
+b) tylko jednego spadkodawcy.
+### Judge: Tak.
+### Poprawna odpowiedz: b) tylko jednego spadkodawcy,, (art. 942 KC)
+### Wyniki: {'correct': 67, 'incorrect': 7, 'article_correct': 44}
+--------------------
+### GPT4o: Tak
+# Pytanie 75
+### Udzielona odpowiedz: Odpowiedź na pytanie opiera się na artykule 991 Kodeksu Cywilnego.
+
+Zgodnie z tym artykułem, jeżeli zstępny uprawniony do zachowku jest małoletni, należny mu zachowek wynosi dwie trzecie wartości udziału spadkowego, który by mu przypadał przy dziedziczeniu ustawowym.
+
+Dokładnie cytując z Kodeksu Cywilnego:
+
+Art. 991 § 1. Zstępnym, małżonkowi oraz rodzicom spadkodawcy, którzy byliby powołani do spadku z ustawy, należą się, jeżeli uprawniony jest trwale niezdolny do pracy albo jeżeli zstępny uprawniony jest małoletni – dwie trzecie wartości udziału spadkowego, który by mu przypadał przy dziedziczeniu ustawowym, w innych zaś wypadkach – połowa wartości tego udziału (zachowek).
+
+Zatem poprawna odpowiedź to:
+a) dwie trzecie wartości udziału spadkowego, który by mu przypadał przy dziedziczeniu ustawowym.
+### Judge: Tak
+### Poprawna odpowiedz: a) dwie trzecie wartości udziału spadkowego, który by mu przypadał przy dziedziczeniu ustawowym,, (art. 991 § 1 KC)
+### Wyniki: {'correct': 68, 'incorrect': 7, 'article_correct': 45}
+--------------------
+### GPT4o: Tak
+# Pytanie 76
+### Udzielona odpowiedz: Odpowiedź na pytanie opiera się na art. 1015 Kodeksu Cywilnego.
+
+Zgodnie z art. 1015 § 1 Kodeksu Cywilnego, oświadczenie o przyjęciu lub o odrzuceniu spadku może być złożone w ciągu sześciu miesięcy od dnia, w którym spadkobierca dowiedział się o tytule swego powołania.
+
+Zatem poprawna odpowiedź to:
+c) sześciu miesięcy od dnia, w którym spadkobierca dowiedział się o tytule swego powołania.
+### Judge: Tak
+### Poprawna odpowiedz: c) sześciu miesięcy od dnia, w którym spadkobierca dowiedział się o tytule swego powołania., (art. 1015 § 1 KC)
+### Wyniki: {'correct': 69, 'incorrect': 7, 'article_correct': 46}
+--------------------
+{'correct': 69, 'incorrect': 7, 'article_correct': 46}
+
+LLM Judge pomylił się odnośnie oceny poprawności artykułu w:
+8,10,12,14,31,33,39,50,56
+
+Wynik po korektach:
+Correct: 69
+Incorrect: 7
+Article Correct: 55
