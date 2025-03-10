@@ -1,0 +1,498 @@
+# Pytanie 1
+### Udzielona odpowiedz: Odpowiedź: a
+### Judge: Nie.
+### Poprawna odpowiedz: c) może bez zgody przedstawiciela ustawowego rozporządzać swoim zarobkiem, chyba że sąd opiekuńczy z ważnych powodów inaczej postanowi., (art. 21 KC)
+### Wyniki: {'correct': 0, 'incorrect': 1, 'article_correct': 0}
+--------------------
+# Pytanie 2
+### Udzielona odpowiedz: Odpowiedź: z dokumentu 1
+### Judge: Nie
+### Poprawna odpowiedz: b) koniec tego dnia,, (art. 31 § 3 KC)
+### Wyniki: {'correct': 0, 'incorrect': 2, 'article_correct': 0}
+--------------------
+### GPT4o: Nie
+# Pytanie 3
+### Udzielona odpowiedz: Odpowiedź: a
+### Judge: Tak
+### Poprawna odpowiedz: a) wszystko, co nie może być od niej odłączone bez uszkodzenia lub istotnej zmiany całości albo bez uszkodzenia lub istotnej zmiany przedmiotu odłączonego i nie jest z nią połączone tylko dla przemijającego użytku,, (art. 47 § 2 i 3 KC)
+### Wyniki: {'correct': 1, 'incorrect': 2, 'article_correct': 0}
+--------------------
+### GPT4o: Nie
+# Pytanie 4
+### Udzielona odpowiedz: Odpowiedź: c
+### Judge: Tak.
+### Poprawna odpowiedz: c) wystarcza złożenie oświadczenia woli w postaci dokumentu, w sposób umożliwiający ustalenie osoby składającej oświadczenie., (art. 77² KC)
+### Wyniki: {'correct': 2, 'incorrect': 2, 'article_correct': 0}
+--------------------
+### GPT4o: Tak
+# Pytanie 5
+### Udzielona odpowiedz: B) czynność prawna jest ważna, chyba że druga strona o wygaśnięciu umocowania wiedziała lub z łatwością mogła się dowiedzieć,
+### Judge: Tak
+### Poprawna odpowiedz: b) czynność prawna jest ważna, chyba że druga strona o wygaśnięciu umocowania wiedziała lub z łatwością mogła się dowiedzieć,, (art. 105 KC)
+### Wyniki: {'correct': 3, 'incorrect': 2, 'article_correct': 1}
+--------------------
+# Pytanie 6
+### Udzielona odpowiedz: Odpowiedź: b
+### Judge: Nie
+### Poprawna odpowiedz: c) umocowanie takie wynika z treści pełnomocnictwa, z ustawy lub ze stosunku prawnego będącego podstawą pełnomocnictwa., (art. 106 KC)
+### Wyniki: {'correct': 3, 'incorrect': 3, 'article_correct': 1}
+--------------------
+### GPT4o: Tak
+# Pytanie 7
+### Udzielona odpowiedz: Odpowiedź: a) wszystkich współwłaścicieli, a w braku takiej zgody współwłaściciele, których udziały wynoszą co najmniej połowę, mogą żądać rozstrzygnięcia przez sąd,
+### Judge: Tak.
+### Poprawna odpowiedz: a) wszystkich współwłaścicieli, a w braku takiej zgody współwłaściciele, których udziały wynoszą co najmniej połowę, mogą żądać rozstrzygnięcia przez sąd,, (art. 199 KC)
+### Wyniki: {'correct': 4, 'incorrect': 3, 'article_correct': 2}
+--------------------
+### GPT4o: Tak
+# Pytanie 8
+### Udzielona odpowiedz: Odpowiedź: c) nie ulegają przedawnieniu
+### Judge: Tak
+### Poprawna odpowiedz: c) nie ulegają przedawnieniu., (art. 223  § 1 w zw. z art. 222 § 2 KC)
+### Wyniki: {'correct': 5, 'incorrect': 3, 'article_correct': 3}
+--------------------
+# Pytanie 9
+### Udzielona odpowiedz: Odpowiedź:
+a)
+### Judge: Nie
+### Poprawna odpowiedz: a) wygasa najpóźniej ze śmiercią tej osoby,, (art. 266 KC)
+### Wyniki: {'correct': 5, 'incorrect': 4, 'article_correct': 3}
+--------------------
+### GPT4o: Nie
+# Pytanie 10
+### Udzielona odpowiedz: Odpowiedź: b
+### Judge: Tak
+### Poprawna odpowiedz: b) roku od dnia zwrotu rzeczy,, (art. 322 § 1 KC)
+### Wyniki: {'correct': 6, 'incorrect': 4, 'article_correct': 3}
+--------------------
+### GPT4o: Nie
+# Pytanie 11
+### Udzielona odpowiedz: Odpowiedź: c
+### Judge: Tak
+### Poprawna odpowiedz: c) dzierżycielem., (art. 338 KC)
+### Wyniki: {'correct': 7, 'incorrect': 4, 'article_correct': 3}
+--------------------
+# Pytanie 12
+### Udzielona odpowiedz: Odpowiedź: b
+### Judge: Nie
+### Poprawna odpowiedz: a) ma skutek także względem współdłużników,, (art. 374 § 2 KC)
+### Wyniki: {'correct': 7, 'incorrect': 5, 'article_correct': 3}
+--------------------
+### GPT4o: Tak
+# Pytanie 13
+### Udzielona odpowiedz: Odpowiedź: b) jest nieważna
+### Judge: Tak
+### Poprawna odpowiedz: b) jest nieważna,, (art. 387 § 1 KC)
+### Wyniki: {'correct': 8, 'incorrect': 5, 'article_correct': 4}
+--------------------
+### GPT4o: Nie
+# Pytanie 14
+### Udzielona odpowiedz: Odpowiedź: a
+### Judge: Tak
+### Poprawna odpowiedz: a) nie jest odpowiedzialny za szkodę wyrządzoną napastnikowi,, (art. 423 KC)
+### Wyniki: {'correct': 9, 'incorrect': 5, 'article_correct': 4}
+--------------------
+# Pytanie 15
+### Udzielona odpowiedz: Odpowiedź: a)
+### Judge: Nie
+### Poprawna odpowiedz: c) może powstrzymać się z jego spełnieniem, dopóki druga strona nie zaofiaruje świadczenia wzajemnego lub nie da zabezpieczenia; te uprawnienia nie przysługują stronie, która w chwili zawarcia umowy wiedziała o złym stanie majątkowym drugiej strony., (art. 490 § 1 i 2  KC)
+### Wyniki: {'correct': 9, 'incorrect': 6, 'article_correct': 4}
+--------------------
+### GPT4o: Nie
+# Pytanie 16
+### Udzielona odpowiedz: Odpowiedź: a
+### Judge: Tak
+### Poprawna odpowiedz: a) pod nieważnością na piśmie; to samo dotyczy zgody wierzyciela na przejęcie długu,, (art. 522 KC)
+### Wyniki: {'correct': 10, 'incorrect': 6, 'article_correct': 4}
+--------------------
+### GPT4o: Nie
+# Pytanie 17
+### Udzielona odpowiedz: Odpowiedź: b
+### Judge: Tak
+### Poprawna odpowiedz: b) sprzedaży,, (art. 604 KC)
+### Wyniki: {'correct': 11, 'incorrect': 6, 'article_correct': 4}
+--------------------
+# Pytanie 18
+### Udzielona odpowiedz: Odpowiedź: b
+### Judge: Nie
+### Poprawna odpowiedz: c) poczytuje się umowę za zawartą na czas nieoznaczony., (art. 660 KC)
+### Wyniki: {'correct': 11, 'incorrect': 7, 'article_correct': 4}
+--------------------
+### GPT4o: Nie
+# Pytanie 19
+### Udzielona odpowiedz: Odpowiedź: 1c
+### Judge: Tak.
+### Poprawna odpowiedz: c) zezwolić biorącemu, przez czas oznaczony lub nieoznaczony, na bezpłatne używanie oddanej mu w tym celu rzeczy., (art. 710 KC)
+### Wyniki: {'correct': 12, 'incorrect': 7, 'article_correct': 4}
+--------------------
+# Pytanie 20
+### Udzielona odpowiedz: B)
+### Judge: Nie
+### Poprawna odpowiedz: c) nie wolno używać rzeczy bez zgody składającego, chyba że jest to konieczne do jej zachowania w stanie niepogorszonym., (art. 839 KC)
+### Wyniki: {'correct': 12, 'incorrect': 8, 'article_correct': 4}
+--------------------
+### GPT4o: Nie
+# Pytanie 21
+### Udzielona odpowiedz: Odpowiedź: b
+### Judge: Tak
+### Poprawna odpowiedz: b) spółka ulega rozwiązaniu,, (art. 874 § 2 KC)
+### Wyniki: {'correct': 13, 'incorrect': 8, 'article_correct': 4}
+--------------------
+# Pytanie 22
+### Udzielona odpowiedz: B) wygasa.
+### Judge: Nie.
+### Poprawna odpowiedz: a) ulega odpowiedniemu zmniejszeniu,, (art. 911 KC)
+### Wyniki: {'correct': 13, 'incorrect': 9, 'article_correct': 4}
+--------------------
+### GPT4o: Nie
+# Pytanie 23
+### Udzielona odpowiedz: Odpowiedź: b) jest skuteczne, gdy nastąpiło z dostatecznym rozeznaniem
+### Judge: Tak
+### Poprawna odpowiedz: b) jest skuteczne, gdy nastąpiło z dostatecznym rozeznaniem,, (art. 930 § 1 i 2 KC)
+### Wyniki: {'correct': 14, 'incorrect': 9, 'article_correct': 4}
+--------------------
+### GPT4o: Tak
+# Pytanie 24
+### Udzielona odpowiedz: B) ma moc wsteczną, jeżeli wynika to z jej brzmienia lub celu,
+### Judge: Tak
+### Poprawna odpowiedz: b) ma moc wsteczną, jeżeli wynika to z jej brzmienia lub celu,, (art. 3 KC)
+### Wyniki: {'correct': 15, 'incorrect': 9, 'article_correct': 5}
+--------------------
+# Pytanie 25
+### Udzielona odpowiedz: Odpowiedź: b) ustanawia dla niej likwidatora.
+### Judge: Nie.
+### Poprawna odpowiedz: c) ustanawia dla niej kuratora., (art. 42 § 1 KC)
+### Wyniki: {'correct': 15, 'incorrect': 10, 'article_correct': 5}
+--------------------
+### GPT4o: Nie
+# Pytanie 26
+### Udzielona odpowiedz: B)
+### Judge: Tak
+### Poprawna odpowiedz: b) stosuje się odpowiednio przepisy o ochronie dóbr osobistych osób fizycznych,, (art. 43 KC)
+### Wyniki: {'correct': 16, 'incorrect': 10, 'article_correct': 5}
+--------------------
+# Pytanie 27
+### Udzielona odpowiedz: B) może być zbyta, przy czym zbycie firmy powinno być dokonane w formie pisemnej z podpisami notarialnie poświadczonymi.
+### Judge: Nie
+### Poprawna odpowiedz: a) nie może być zbyta,, (art. 439 § 1 KC)
+### Wyniki: {'correct': 16, 'incorrect': 11, 'article_correct': 5}
+--------------------
+# Pytanie 28
+### Udzielona odpowiedz: Odpowiedź: b) umowa ta przenosi własność nieruchomości z chwilą ziszczenia się warunku lub nadejścia terminu,
+### Judge: Nie.
+### Poprawna odpowiedz: c) do przeniesienia własności nieruchomości potrzebne jest dodatkowe porozumienie stron obejmujące ich bezwarunkową zgodę na niezwłoczne przejście własności., (art. 157 § 2 KC)
+### Wyniki: {'correct': 16, 'incorrect': 12, 'article_correct': 5}
+--------------------
+# Pytanie 29
+### Udzielona odpowiedz: Odpowiedź: Art. 173.
+### Judge: Nie
+### Poprawna odpowiedz: c) z upływem dwóch lat od uzyskania pełnoletności przez właściciela., (art. 173 KC)
+### Wyniki: {'correct': 16, 'incorrect': 13, 'article_correct': 5}
+--------------------
+### GPT4o: Nie
+# Pytanie 30
+### Udzielona odpowiedz: Odpowiedź: a
+### Judge: Tak.
+### Poprawna odpowiedz: a) jeżeli nie można uzyskać zgody większości współwłaścicieli w istotnych sprawach dotyczących zwykłego zarządu,, (art. 203 KC)
+### Wyniki: {'correct': 17, 'incorrect': 13, 'article_correct': 5}
+--------------------
+### GPT4o: Nie
+# Pytanie 31
+### Udzielona odpowiedz: Odpowiedź: a
+### Judge: Tak
+### Poprawna odpowiedz: a) może żądać od pozostałych współwłaścicieli wynagrodzenia odpowiadającego uzasadnionemu nakładowi jego pracy,, (art. 205 KC)
+### Wyniki: {'correct': 18, 'incorrect': 13, 'article_correct': 5}
+--------------------
+# Pytanie 32
+### Udzielona odpowiedz: Odpowiedź: a)
+### Judge: Nie
+### Poprawna odpowiedz: b) chyba że celem zbycia jest zapewnienie racjonalnego prowadzenia tego gospodarstwa,, (art. 217 KC)
+### Wyniki: {'correct': 18, 'incorrect': 14, 'article_correct': 5}
+--------------------
+# Pytanie 33
+### Udzielona odpowiedz: Odpowiedź: a
+### Judge: Nie
+### Poprawna odpowiedz: b) jeżeli nabywca o nich wiedział lub z łatwością mógł się dowiedzieć,, (art. 221 KC)
+### Wyniki: {'correct': 18, 'incorrect': 15, 'article_correct': 5}
+--------------------
+# Pytanie 34
+### Udzielona odpowiedz: Odpowiedź: a) właściciela nieruchomości obciążonej
+### Judge: Nie.
+### Poprawna odpowiedz: b) właściciela nieruchomości władnącej,, (art. 289 § 1 KC)
+### Wyniki: {'correct': 18, 'incorrect': 16, 'article_correct': 5}
+--------------------
+# Pytanie 35
+### Udzielona odpowiedz: Odpowiedź: c
+### Judge: Nie
+### Poprawna odpowiedz: b) nie może być przeniesione przez czynność prawną,, (art. 300 KC)
+### Wyniki: {'correct': 18, 'incorrect': 17, 'article_correct': 5}
+--------------------
+# Pytanie 36
+### Udzielona odpowiedz: Odpowiedź: b
+### Judge: Nie
+### Poprawna odpowiedz: c) należą się odsetki ustawowe w wysokości równej sumie stopy referencyjnej Narodowego Banku Polskiego i 3,5 punktów procentowych., (art. 359 § 1 i 2 KC)
+### Wyniki: {'correct': 18, 'incorrect': 18, 'article_correct': 5}
+--------------------
+# Pytanie 37
+### Udzielona odpowiedz: Odpowiedź: b) według swego wyboru, do rąk któregokolwiek z wierzycieli solidarnych
+### Judge: Nie.
+### Poprawna odpowiedz: a) do rąk wierzyciela, który wytoczył powództwo,, (art. 367 § 2 KC)
+### Wyniki: {'correct': 18, 'incorrect': 19, 'article_correct': 5}
+--------------------
+# Pytanie 38
+### Udzielona odpowiedz: Odpowiedź: a)
+### Judge: Nie
+### Poprawna odpowiedz: b) może żądać naprawienia szkody, którą poniosła przez to, że liczyła na zawarcie umowy przyrzeczonej,, (art. 390 § 1 i 2 KC)
+### Wyniki: {'correct': 18, 'incorrect': 20, 'article_correct': 5}
+--------------------
+# Pytanie 39
+### Udzielona odpowiedz: Odpowiedź: Art. 456.
+### Judge: Nie
+### Poprawna odpowiedz: b) wierzyciel przez oświadczenie złożone dłużnikowi w czasie właściwym, jednakże powinien uwzględnić możliwości dłużnika oraz sposób spełnienia świadczenia,, (art. 456 KC)
+### Wyniki: {'correct': 18, 'incorrect': 21, 'article_correct': 5}
+--------------------
+### GPT4o: Nie
+# Pytanie 40
+### Udzielona odpowiedz: Odpowiedź: a
+### Judge: Tak
+### Poprawna odpowiedz: a) może żądać odsetek za czas opóźnienia, chociażby nie poniósł żadnej szkody i chociażby opóźnienie było następstwem okoliczności, za które dłużnik odpowiedzialności nie ponosi,, (art. 481 § 1 KC)
+### Wyniki: {'correct': 19, 'incorrect': 21, 'article_correct': 5}
+--------------------
+### GPT4o: Nie
+# Pytanie 41
+### Udzielona odpowiedz: Odpowiedź: a
+### Judge: Tak
+### Poprawna odpowiedz: a) w razie zwłoki drugiej strony odstąpić od umowy bez wyznaczenia terminu dodatkowego,, (art. 492 KC)
+### Wyniki: {'correct': 20, 'incorrect': 21, 'article_correct': 5}
+--------------------
+### GPT4o: Nie
+# Pytanie 42
+### Udzielona odpowiedz: Odpowiedź: a
+### Judge: Tak
+### Poprawna odpowiedz: a) bez zgody dłużnika przenieść wierzytelność na osobę trzecią (przelew), chyba że sprzeciwiałoby się to ustawie, zastrzeżeniu umownemu albo właściwości zobowiązania,, (art. 509 § 1 KC)
+### Wyniki: {'correct': 21, 'incorrect': 21, 'article_correct': 5}
+--------------------
+# Pytanie 43
+### Udzielona odpowiedz: Odpowiedź: a)
+### Judge: Nie
+### Poprawna odpowiedz: b) ponosi kupujący,, (art. 547 § 1 i 2 KC)
+### Wyniki: {'correct': 21, 'incorrect': 22, 'article_correct': 5}
+--------------------
+# Pytanie 44
+### Udzielona odpowiedz: Odpowiedź: Art. 628.
+### Judge: Nie
+### Poprawna odpowiedz: a) zwykłe wynagrodzenie za dzieło tego rodzaju,, (art. 628 § 1 KC)
+### Wyniki: {'correct': 21, 'incorrect': 23, 'article_correct': 5}
+--------------------
+# Pytanie 45
+### Udzielona odpowiedz: Podaję odpowiedź: a) wymaga zgody wynajmującego.
+### Judge: Nie
+### Poprawna odpowiedz: b) nie wymaga zgody wynajmującego,, (art. 668 § 1 KC)
+### Wyniki: {'correct': 21, 'incorrect': 24, 'article_correct': 5}
+--------------------
+### GPT4o: Tak
+# Pytanie 46
+### Udzielona odpowiedz: Odpowiedź: c) solidarnie.
+### Judge: Tak.
+### Poprawna odpowiedz: c) solidarnie., (art. 864 KC)
+### Wyniki: {'correct': 22, 'incorrect': 24, 'article_correct': 6}
+--------------------
+# Pytanie 47
+### Udzielona odpowiedz: Odpowiedź: b) jedną trzecią spadku.
+
+Podaję na podstawie Art. 934(1) Kodeksu Cywilnego.
+### Judge: Nie
+### Poprawna odpowiedz: c) połowę spadku., (art. 932 § 1 i 2 zdanie 2 KC)
+### Wyniki: {'correct': 22, 'incorrect': 25, 'article_correct': 6}
+--------------------
+# Pytanie 48
+### Udzielona odpowiedz: Odpowiedź: Art. 951.
+### Judge: Nie
+### Poprawna odpowiedz: b) sekretarza gminy,, (art. 951 § 1 KC)
+### Wyniki: {'correct': 22, 'incorrect': 26, 'article_correct': 6}
+--------------------
+### GPT4o: Nie
+# Pytanie 49
+### Udzielona odpowiedz: B) tylko w testamencie sporządzonym w formie aktu notarialnego
+### Judge: Tak
+### Poprawna odpowiedz: b) tylko w testamencie sporządzonym w formie aktu notarialnego,, (art. 981¹ § 1 KC)
+### Wyniki: {'correct': 23, 'incorrect': 26, 'article_correct': 6}
+--------------------
+### GPT4o: Nie
+# Pytanie 50
+### Udzielona odpowiedz: Odpowiedź: a
+### Judge: Tak
+### Poprawna odpowiedz: a) może zwolnić sąd,, (art. 990 KC)
+### Wyniki: {'correct': 24, 'incorrect': 26, 'article_correct': 6}
+--------------------
+### GPT4o: Tak
+# Pytanie 51
+### Udzielona odpowiedz: Odpowiedź: b) według stanu z chwili jej dokonania, a według cen z chwili ustalania zachowku
+### Judge: Tak
+### Poprawna odpowiedz: b) według stanu z chwili jej dokonania, a według cen z chwili ustalania zachowku,, (art. 995 § 1 KC)
+### Wyniki: {'correct': 25, 'incorrect': 26, 'article_correct': 7}
+--------------------
+# Pytanie 52
+### Udzielona odpowiedz: Odpowiedź: a)
+### Judge: Nie
+### Poprawna odpowiedz: b) przechodzi na spadkobiercę osoby uprawnionej do zachowku tylko wtedy, gdy spadkobierca ten należy do osób uprawnionych do zachowku po pierwszym spadkodawcy,, (art. 1002 KC)
+### Wyniki: {'correct': 25, 'incorrect': 27, 'article_correct': 7}
+--------------------
+### GPT4o: Tak
+# Pytanie 53
+### Udzielona odpowiedz: Odpowiedź: c) urodzenia.
+### Judge: Tak.
+### Poprawna odpowiedz: c) urodzenia., (art. 8 § 1 KC)
+### Wyniki: {'correct': 26, 'incorrect': 27, 'article_correct': 8}
+--------------------
+# Pytanie 54
+### Udzielona odpowiedz: Odpowiedź:
+a) kuratelę
+### Judge: Nie
+### Poprawna odpowiedz: b) opiekę, chyba że pozostaje on jeszcze pod władzą rodzicielską,, (art. 13 § 2 KC)
+### Wyniki: {'correct': 26, 'incorrect': 28, 'article_correct': 8}
+--------------------
+# Pytanie 55
+### Udzielona odpowiedz: Odpowiedź: 15.
+### Judge: Nie.
+### Poprawna odpowiedz: a) lat trzynaście,, (art. 15 KC)
+### Wyniki: {'correct': 26, 'incorrect': 29, 'article_correct': 8}
+--------------------
+# Pytanie 56
+### Udzielona odpowiedz: Odpowiedź: b) dożywocia, c) dzierżawy.
+### Judge: Nie
+### Poprawna odpowiedz: a) należące do umów powszechnie zawieranych w drobnych bieżących sprawach życia codziennego,, (art. 20 KC)
+### Wyniki: {'correct': 26, 'incorrect': 30, 'article_correct': 8}
+--------------------
+# Pytanie 57
+### Udzielona odpowiedz: Odpowiedź: b) miejscowość, w której ma siedzibę sąd, który ustanowił opiekę,
+### Judge: Nie
+### Poprawna odpowiedz: c) miejsce zamieszkania opiekuna., (art. 27 KC)
+### Wyniki: {'correct': 26, 'incorrect': 31, 'article_correct': 8}
+--------------------
+### GPT4o: Tak
+# Pytanie 58
+### Udzielona odpowiedz: Odpowiedź: a) tylko jedno miejsce zamieszkania
+### Judge: Tak
+### Poprawna odpowiedz: a) tylko jedno miejsce zamieszkania,, (art. 28 KC)
+### Wyniki: {'correct': 27, 'incorrect': 31, 'article_correct': 9}
+--------------------
+### GPT4o: Tak
+# Pytanie 59
+### Udzielona odpowiedz: Odpowiedź: b) osobą prawną.
+### Judge: Tak
+### Poprawna odpowiedz: b) osobą prawną,, (art. 33 KC)
+### Wyniki: {'correct': 28, 'incorrect': 31, 'article_correct': 10}
+--------------------
+### GPT4o: Nie
+# Pytanie 60
+### Udzielona odpowiedz: Odpowiedź: a
+### Judge: Tak
+### Poprawna odpowiedz: a) nie ponoszą odpowiedzialności za zobowiązania Skarbu Państwa,, (art. 40 § 1 KC)
+### Wyniki: {'correct': 29, 'incorrect': 31, 'article_correct': 10}
+--------------------
+### GPT4o: Nie
+# Pytanie 61
+### Udzielona odpowiedz: Odpowiedź: b
+### Judge: Tak
+### Poprawna odpowiedz: b) zarządzający,, (art. 41 KC)
+### Wyniki: {'correct': 30, 'incorrect': 31, 'article_correct': 10}
+--------------------
+### GPT4o: Nie
+# Pytanie 62
+### Udzielona odpowiedz: Odpowiedź: b) jej imię i nazwisko,
+### Judge: Tak
+### Poprawna odpowiedz: b) jej imię i nazwisko,, (art. 43(4) KC)
+### Wyniki: {'correct': 31, 'incorrect': 31, 'article_correct': 10}
+--------------------
+# Pytanie 63
+### Udzielona odpowiedz: Odpowiedź: Art. 53.
+### Judge: Nie
+### Poprawna odpowiedz: b) jej płody i inne odłączone od niej części składowe, o ile według zasad prawidłowej gospodarki stanowią normalny dochód z rzeczy,, (art. 53 § 1 KC)
+### Wyniki: {'correct': 31, 'incorrect': 32, 'article_correct': 10}
+--------------------
+### GPT4o: Tak
+# Pytanie 64
+### Udzielona odpowiedz: Odpowiedź: b) udzielenia przybicia
+### Judge: Tak
+### Poprawna odpowiedz: b) udzielenia przybicia,, (art. 70² § 2 KC)
+### Wyniki: {'correct': 32, 'incorrect': 32, 'article_correct': 11}
+--------------------
+# Pytanie 65
+### Udzielona odpowiedz: Odpowiedź: Art. 118.
+### Judge: Nie
+### Poprawna odpowiedz: b) sześć lat,, (art. 118 KC)
+### Wyniki: {'correct': 32, 'incorrect': 33, 'article_correct': 11}
+--------------------
+### GPT4o: Nie
+# Pytanie 66
+### Udzielona odpowiedz: Odpowiedź: a) rzeczy oznaczonej co do tożsamości.
+### Judge: Tak
+### Poprawna odpowiedz: a) rzeczy oznaczonej co do tożsamości,, (art. 155 § 2 KC)
+### Wyniki: {'correct': 33, 'incorrect': 33, 'article_correct': 11}
+--------------------
+### GPT4o: Nie
+# Pytanie 67
+### Udzielona odpowiedz: Odpowiedź: b
+### Judge: Tak
+### Poprawna odpowiedz: b) aktu notarialnego,, (art. 158 KC)
+### Wyniki: {'correct': 34, 'incorrect': 33, 'article_correct': 11}
+--------------------
+# Pytanie 68
+### Udzielona odpowiedz: Odpowiedź: b
+### Judge: Nie.
+### Poprawna odpowiedz: a) roku od dnia zawarcia umowy przedwstępnej,, (art. 389 § 2 KC)
+### Wyniki: {'correct': 34, 'incorrect': 34, 'article_correct': 11}
+--------------------
+# Pytanie 69
+### Udzielona odpowiedz: Odpowiedź: Art. 394. $\S~1$
+### Judge: Nie
+### Poprawna odpowiedz: a) sumy dwukrotnie wyższej,, (art. 394 § 1 KC)
+### Wyniki: {'correct': 34, 'incorrect': 35, 'article_correct': 11}
+--------------------
+# Pytanie 70
+### Udzielona odpowiedz: B)
+### Judge: Nie
+### Poprawna odpowiedz: c) pokwitowania., (art. 462 § 1 KC)
+### Wyniki: {'correct': 34, 'incorrect': 36, 'article_correct': 11}
+--------------------
+### GPT4o: Tak
+# Pytanie 71
+### Udzielona odpowiedz: Odpowiedź: b) umyślnie
+### Judge: Tak
+### Poprawna odpowiedz: b) umyślnie,, (art. 473 § 2 KC)
+### Wyniki: {'correct': 35, 'incorrect': 36, 'article_correct': 12}
+--------------------
+### GPT4o: Nie
+# Pytanie 72
+### Udzielona odpowiedz: Odpowiedź: a)
+### Judge: Tak
+### Poprawna odpowiedz: a) śmierci spadkodawcy,, (art. 924 KC)
+### Wyniki: {'correct': 36, 'incorrect': 36, 'article_correct': 12}
+--------------------
+# Pytanie 73
+### Udzielona odpowiedz: B)
+### Judge: Nie
+### Poprawna odpowiedz: b) małżonka spadkodawcy pozostającego w separacji,, (art. 935¹ KC)
+### Wyniki: {'correct': 36, 'incorrect': 37, 'article_correct': 12}
+--------------------
+### GPT4o: Tak
+# Pytanie 74
+### Udzielona odpowiedz: B) tylko jednego spadkodawcy.
+### Judge: Tak
+### Poprawna odpowiedz: b) tylko jednego spadkodawcy,, (art. 942 KC)
+### Wyniki: {'correct': 37, 'incorrect': 37, 'article_correct': 13}
+--------------------
+# Pytanie 75
+### Udzielona odpowiedz: Odpowiedź: Art. 991. $\S$ 1.
+### Judge: Nie
+### Poprawna odpowiedz: a) dwie trzecie wartości udziału spadkowego, który by mu przypadał przy dziedziczeniu ustawowym,, (art. 991 § 1 KC)
+### Wyniki: {'correct': 37, 'incorrect': 38, 'article_correct': 13}
+--------------------
+# Pytanie 76
+### Udzielona odpowiedz: Odpowiedź: Art. 1015.
+### Judge: Nie
+### Poprawna odpowiedz: c) sześciu miesięcy od dnia, w którym spadkobierca dowiedział się o tytule swego powołania., (art. 1015 § 1 KC)
+### Wyniki: {'correct': 37, 'incorrect': 39, 'article_correct': 13}
+--------------------
+{'correct': 37, 'incorrect': 39, 'article_correct': 13}
