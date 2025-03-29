@@ -25,6 +25,7 @@ from io import BytesIO
 from pdfminer.high_level import extract_text_to_fp
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 import numpy as np
+import requests
 
 def extract_pdf_lite(pdf_path):
     root = os.path.dirname(pdf_path)
@@ -89,7 +90,7 @@ Suggested models for text generation:
 - CYFRAGOVPL/PLLuM-12B-instruct
 '''
 class RAG:
-    def __init__(self, es_index='mgr_test_1', gen_model='speakleash/Bielik-11B-v2.3-Instruct'):
+    def __init__(self, es_index='mgr_test_1', gen_model='speakleash/Bielik-11B-v2.3-Instruct', llm_url=None):
         # Inicjalizacja zmiennych środowiskowych i załadowanie modeli
         self.morf = morfeusz2.Morfeusz()
 
@@ -102,6 +103,9 @@ class RAG:
 
         # Load SpaCy model for Polish NER
         self.nlp_pl = spacy.load("pl_core_news_sm")
+
+        # Add llm url
+        self.llm_url = llm_url
 
         # Load tokenizer and embedding model
         self.processing_tokenizer = AutoTokenizer.from_pretrained("Voicelab/sbert-base-cased-pl") # medicalai/ClinicalBERT
@@ -470,6 +474,26 @@ class RAG:
 
         return generated_text
 
+    def send_message(self, query, documents, additional_instruct="", use_rag=True):
+        # Construct prompt template
+        messages = self.apply_template(query, documents, additional_instruct, use_rag)
+
+        # Construct data
+        data = {
+            "system_message": messages[0]['content'],
+            "user_message": messages[1]['content']
+        }
+        
+        # Send the query to the LLM and acquire response
+        try:
+            response = requests.post(url, json=data)
+            response.raise_for_status()
+            response = response.json()
+        except requests.exceptions.RequestException as e:
+            print(f"An error occurred: {e}")
+
+        return response.get("model_response")
+
     # Rerank retrieved documents based on amount of keywords from the query in the cleaned text
     def rerank_keywords(self, documents, query):
         query_keywords = query['cleaned_text'].split()
@@ -559,7 +583,10 @@ class RAG:
         reranked_docs = self.rerank(retrieved_docs, query, top_k, rr_entities, rr_keywords, rr_llm)
 
         # Generate answer
-        answer = self.generate_answer(query, reranked_docs, additional_instruct=additional_instruct, max_new_tokens_v=max_new_tokens_v, use_rag=use_rag, verbose=verbose)
+        if self.llm_url is not None:
+            answer = self.generate_answer(query, reranked_docs, additional_instruct=additional_instruct, max_new_tokens_v=max_new_tokens_v, use_rag=use_rag, verbose=verbose)
+        else:
+            answer = self.send_message(query, reranked_docs, additional_instruct=additional_instruct, use_rag=use_rag)
 
         return answer
-        
+    
