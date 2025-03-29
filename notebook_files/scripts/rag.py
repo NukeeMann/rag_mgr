@@ -118,7 +118,7 @@ class RAG:
             model_name,
             trust_remote_code=True,
             torch_dtype=torch.bfloat16,
-            device_map="auto"
+            device_map="cpu"
         )
 
     def change_index(self, index_name):
@@ -350,7 +350,7 @@ class RAG:
             outputs = self.embedding_model(**inputs)
         return outputs.pooler_output.detach().numpy()[0]
 
-    def retrieve(self, query_text, ret_fun='similarity', search_embed=True, query_cleaned=False):
+    def retrieve(self, query_text, ret_fun='similarity', retrieve_size=5, search_embed=True, query_cleaned=False):
         query = self.process_query(query_text)
 
         if ret_fun == 'similarity':
@@ -368,7 +368,7 @@ class RAG:
         # Construct the search query using script_score for cosine similarity
         if search_embed:
             search_query = {
-                "size": 5,  # Set the number of results you want to retrieve
+                "size": retrieve_size,  # Set the number of results you want to retrieve
                 "query": {
                     "script_score": {
                         "query": {"match_all": {}},
@@ -381,7 +381,7 @@ class RAG:
             }
         else:
             search_query = {
-                "size": 5,  # Define the desired number of results
+                "size": retrieve_size,  # Define the desired number of results
                 "query": {
                     "match": {
                         index_search: query_text  # Search within 'cleaned_text'
@@ -483,10 +483,10 @@ class RAG:
             "system_message": messages[0]['content'],
             "user_message": messages[1]['content']
         }
-        
+
         # Send the query to the LLM and acquire response
         try:
-            response = requests.post(url, json=data)
+            response = requests.post(self.llm_url, json=data)
             response.raise_for_status()
             response = response.json()
         except requests.exceptions.RequestException as e:
@@ -575,15 +575,15 @@ class RAG:
 
         return reranked_documents[:top_k]
     
-    def infer(self, query_text, additional_instruct="", max_new_tokens_v=1000, use_rag=True, top_k=5, rr_entities=False, rr_keywords=False, rr_llm=True, ret_fun='similarity', search_embed=True, query_cleaned=False, verbose=0):
+    def infer(self, query_text, additional_instruct="", max_new_tokens_v=1000, use_rag=True, top_k=5, retrieve_size=5, rr_entities=False, rr_keywords=False, rr_llm=True, ret_fun='similarity', search_embed=True, query_cleaned=False, verbose=0):
 
         # Retrieve documents
-        retrieved_docs, query = self.retrieve(query_text, ret_fun=ret_fun, search_embed=search_embed, query_cleaned=query_cleaned)
+        retrieved_docs, query = self.retrieve(query_text, ret_fun=ret_fun, search_embed=search_embed, query_cleaned=query_cleaned, retrieve_size=retrieve_size)
         # Re-rank documents
         reranked_docs = self.rerank(retrieved_docs, query, top_k, rr_entities, rr_keywords, rr_llm)
 
         # Generate answer
-        if self.llm_url is not None:
+        if self.llm_url is None:
             answer = self.generate_answer(query, reranked_docs, additional_instruct=additional_instruct, max_new_tokens_v=max_new_tokens_v, use_rag=use_rag, verbose=verbose)
         else:
             answer = self.send_message(query, reranked_docs, additional_instruct=additional_instruct, use_rag=use_rag)
