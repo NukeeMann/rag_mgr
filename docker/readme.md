@@ -53,7 +53,7 @@
     * run `build.sh` (Linux) or `build.ps1` (Windows) to build the project
     * start the Docker Container by running:
       ```bash
-      docker run --rm -p 8080:8080 renameme:latest
+      docker run --rm -p 8080:8080 rag_bielik:latest
       ```
     * visit http://localhost:8080/docs You should see the Swagger UI and be able to send a request to the service REST
       API
