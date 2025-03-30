@@ -484,8 +484,6 @@ class RAG:
             "user_message": messages[1]['content']
         }
 
-        print(data)
-
         # Send the query to the LLM and acquire response
         try:
             response = requests.post(self.llm_url, json=data)
