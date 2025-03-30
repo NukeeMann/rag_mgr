@@ -484,6 +484,8 @@ class RAG:
             "user_message": messages[1]['content']
         }
 
+        print(data)
+
         # Send the query to the LLM and acquire response
         try:
             response = requests.post(self.llm_url, json=data)
@@ -552,13 +554,13 @@ class RAG:
         scores = np.squeeze(scores).tolist()
         paired_docs_score = list(zip(documents, scores))
         sorted_paired_docs_score = sorted(paired_docs_score, key=lambda x: x[1], reverse=True)
-        sorted_documents = [document for document, score in sorted_paired_docs_score]
+        selected_documents = [document for document, score in sorted_paired_docs_score if score > 0]
 
         del output
         del scores
         del tokens
         del sorted_paired_docs_score
-        return sorted_documents
+        return selected_documents
     
     def rerank(self, documents, query, top_k=5, rr_entities=False, rr_keywords=False, rr_llm=True):
 
