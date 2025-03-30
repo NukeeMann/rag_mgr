@@ -282,6 +282,40 @@ class RAG:
             document=documents
         )
 
+    # Create specified index mapping in elasticsearch
+    def create_index_mapping(self, index_name):
+        mappings = {
+            "properties": {
+                "source": {
+                    "type": "keyword"
+                },
+                "source_text": {
+                    "type": "text"
+                },
+                "cleaned_text": {
+                    "type": "text"
+                },
+                "embedding": {
+                    "type": "dense_vector",
+                    "dims": 768
+                },
+                "entities": {
+                    "type": "nested",
+                    "properties": {
+                        "entity_name": {
+                            "type": "keyword"
+                        },
+                        "entity_type": {
+                            "type": "keyword"
+                        }
+                    }
+                }
+            }
+        }
+
+        self.es_client.indices.create(index=index_name, mappings=mappings)
+
+    # Insert documents into the elasticsearch
     def insert_docs_dir(self, docs_root_dir, index_name, chunk_size=300, chunk_overlap=60):
         raw_documents = self.load_documents(docs_root_dir)
         # Split the documents
@@ -290,6 +324,13 @@ class RAG:
         # Process all documents
         embedded_docs_dict = self.process_documents(split_raw_document_list)
         
+        # Check if index already exists if not, create one
+        indexes = self.es_client.indices.get_alias(index="*")
+        index_list = list(indexes.keys())
+
+        if index_name not in index_list:
+            self.create_index_mapping(index_name)
+
         # Insert all documents into ElasticSearch
         for embedded_doc in tqdm(embedded_docs_dict, desc="Inserting documents to ElasticSearch"):
             self.index_single_document(embedded_doc, index_name)
