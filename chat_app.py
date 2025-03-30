@@ -200,6 +200,9 @@ with prompt_container:
             # Add user message to chat history
             st.session_state.messages.append({"role": "user", "content": prompt})
 
+            # Update databse index
+            st.session_state.rag_system.change_index(s_index_name)
+
             # Generate response
             llm_response = st.session_state.rag_system.infer(
                 query_text=prompt,
