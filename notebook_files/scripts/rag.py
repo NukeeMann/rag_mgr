@@ -101,6 +101,12 @@ class RAG:
             api_key=os.getenv('ES_KEY')
         )
 
+        self.auth = (os.getenv("LLM_USERNAME"), os.getenv("LLM_PASSWORD"))
+        self.auth_kwargs = {
+            'auth': self.auth,
+            'verify': False, # Disable SSL verification
+        }
+
         # Load SpaCy model for Polish NER
         self.nlp_pl = spacy.load("pl_core_news_sm")
 
@@ -519,21 +525,47 @@ class RAG:
         # Construct prompt template
         messages = self.apply_template(query, documents, additional_instruct, use_rag)
 
+        print(len(messages[0]['content']))
+        print(len(messages[1]['content']))
         # Construct data
-        data = {
-            "system_message": messages[0]['content'],
-            "user_message": messages[1]['content']
-        }
+        if 'localhost' in self.llm_url:
+            data = {
+                "system_message": messages[0]['content'],
+                "user_message": messages[1]['content']
+            }
 
-        # Send the query to the LLM and acquire response
-        try:
-            response = requests.post(self.llm_url, json=data)
+            # Send the query to the LLM and acquire response
+            try:
+                response = requests.post(self.llm_url, json=data)
+                response.raise_for_status()
+                response = response.json()
+            except requests.exceptions.RequestException as e:
+                print(f"An error occurred: {e}")
+            
+            return response.get("model_response")
+        else:
+            data = {
+                "messages": [
+                    {"role": "system", "content": messages[0]['content']},
+                    {"role": "user", "content": messages[1]['content']}
+                ],
+                "max_length": 1000,  # adjust as needed
+                "temperature": 0.01
+            }
+
+            response = requests.put(
+                self.llm_url,
+                json=data,
+                headers={
+                    'Accept': 'application/json',
+                    'Content-Type': 'application/json'
+                },
+                **self.auth_kwargs,
+            )
             response.raise_for_status()
-            response = response.json()
-        except requests.exceptions.RequestException as e:
-            print(f"An error occurred: {e}")
+            response_json = response.json()
 
-        return response.get("model_response")
+            return response_json['response']
 
     # Rerank retrieved documents based on amount of keywords from the query in the cleaned text
     def rerank_keywords(self, documents, query):

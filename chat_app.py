@@ -215,9 +215,11 @@ if __name__ == "__main__":
     # Initialize variables
     if 'initialized' not in st.session_state:
         os.environ['ES_URL'] = ""
-        os.environ['ES_KEY'] = ""
+        os.environ['ES_KEY'] = "=="
+        os.environ['LLM_USERNAME'] = ''
+        os.environ['LLM_PASSWORD'] = ''
 
         s_index_name = "kodeks_cywilny_256"
-        llm_api_url = "http://localhost:8080/api/generate"
+        llm_api_url = "https://153.19.239.239/api/llm/prompt/chat" #"http://localhost:8080/api/generate"
         st.session_state.rag_system = rag_system = RAG(es_index=s_index_name, llm_url=llm_api_url)
         st.session_state.initialized = True
