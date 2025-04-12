@@ -1,3 +1,0 @@
--r requirements.in
-pip-tools==7.4.1
-ruff==0.5.0

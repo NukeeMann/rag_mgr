@@ -1,7 +1,0 @@
-*
-!/Dockerfile
-!/.dockerignore
-!/requirements.txt
-!/src
-!/req.txt
-!/resources
