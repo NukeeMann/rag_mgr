@@ -76,7 +76,7 @@ def minimize_spacing():
 
 def build_app():
     with st.container(height=35, border=False):
-        st.write("*Bielik v2.3 Instruct - RAG*")
+        st.write("*Bielik v2.2 Instruct - RAG*")
 
     # Initialize chat history
     with st.container(height=635, border=False):
