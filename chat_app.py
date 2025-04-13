@@ -104,8 +104,8 @@ def build_app():
             s_retrieve_size = st.number_input(
                 "Retrieve size",
                 label_visibility="collapsed",
-                placeholder="Retrieve (5-10)",
-                min_value=5,
+                placeholder="Retrieve (1-10)",
+                min_value=1,
                 max_value=10,
                 step=1,
                 value=None
@@ -113,31 +113,27 @@ def build_app():
             s_rr_llm = st.checkbox("Rerank - LLM", value=False)
 
         with col3:
-            s_top_k = st.number_input(
-                "Top K",
-                label_visibility="collapsed",
-                placeholder="Max Top K (1-5)",
-                min_value=1,
-                max_value=5,
-                step=1,
-                value=None
-            )
-            s_upload = st.button("Upload File", key="XDBUCIK")
+            s_creds = st.button("Services Creds")
+            s_upload = st.button("Upload File")
 
         col4, col5 = st.columns([2, 1])  # Create columns with a 2:1 width ratio
         with col4:
             s_additional_instructions = st.text_input("Additional Instructions:", placeholder="Enter instructions here")
 
         with col5:
-            s_index_name = st.text_input("Index name", value="kodeks_cywilny_256")
+            s_index_name = st.text_input("Index name", value=st.session_state.rag_system.get_index_name())
 
     # Initialize visibility state
     if "show_form" not in st.session_state:
         st.session_state.show_form = False
+        st.session_state.creds = False
 
     # Button to reveal form
     if s_upload:
         st.session_state.show_form = True
+
+    if s_creds:
+        st.session_state.creds = True
 
     # Conditionally display the form
     if st.session_state.show_form:
@@ -149,8 +145,12 @@ def build_app():
             s_chunks_size = st.number_input("Enter chunk size:", min_value=0, max_value=1536, value=256)
             s_chunks_overlap = st.number_input("Enter chunk overlap:", min_value=0, max_value=1536, value=32)
             
-            # Submit button
-            submit_button = st.form_submit_button(label="Submit")
+            # Submit and Close buttons
+            col1_upload, _, _, _, _, col2_upload = st.columns(6)
+            with col1_upload:
+                submit_button = st.form_submit_button(label="Submit")
+            with col2_upload:
+                close_button_upload = st.form_submit_button(label="Close")
 
         # Handle form submission
         if submit_button:
@@ -172,14 +172,60 @@ def build_app():
                 else:
                     st.warning("Please specify the index name.") 
             else:
-                st.warning("Please select a file.") 
+                st.warning("Please select a file.")
+        
+        if close_button_upload:
+            st.session_state.show_form = False
+            st.rerun()
+
+    # Conditionally display the form
+    if st.session_state.creds:
+        with st.form("db_llm_service_creds"):
+            
+            # Elastic Search database credentials
+            s_es_url = st.text_input("Enter Elastic Search Database URL")
+            s_es_key = st.text_input("Enter KEY")
+            s_llm_service_usr = st.text_input("Enter LLM Service USERNAME")
+            s_llm_service_psw = st.text_input("Enter LLM Service PASSWORD")
+            
+
+            # Update and Close buttons
+            col1_update, _, _, _, _, col2_update = st.columns(6)
+            with col1_update:
+                update_button = st.form_submit_button(label="Update")
+            with col2_update:
+                close_button_update = st.form_submit_button(label="Close")
+
+        # Handle form submission
+        if update_button:
+            if s_es_url:
+                if s_es_key:
+                    if s_llm_service_usr:
+                        if s_llm_service_psw:
+                            st.session_state.rag_system.set_database(s_es_url, s_es_key)
+                            st.session_state.rag_system.set_llm_service_creds(s_llm_service_usr, s_llm_service_psw)
+                            st.success(f"Done! The database and LLM service have been set")
+                            st.button("Close")
+                        else:
+                            st.warning("Please provide the LLM Service PASSWORD")
+                    else:
+                        st.warning("Please provide the LLM Service USERNAME") 
+                else:
+                    st.warning("Please provide the KEY") 
+            else:
+                st.warning("Please provide the database URL")
+        
+        # Close form button
+        if close_button_update:
+            st.session_state.creds = False
+            st.rerun()
 
     # If user input is provided
     prompt_container = st.container()
     with prompt_container:
         if prompt:
-            if s_retrieve_size == None or s_top_k == None:
-                st.warning("Please provide retrieve size and top k.") 
+            if s_retrieve_size == None:
+                st.warning("Please provide the number of files to retrieve") 
             else:
                 # Add user message to chat history
                 st.session_state.messages.append({"role": "user", "content": prompt})
@@ -192,7 +238,6 @@ def build_app():
                     query_text=prompt,
                     additional_instruct=s_additional_instructions,
                     use_rag=s_use_rag,
-                    top_k=s_top_k,
                     retrieve_size=s_retrieve_size,
                     rr_entities=s_rr_entities,
                     rr_llm=s_rr_llm
@@ -206,20 +251,16 @@ def build_app():
 
 
 if __name__ == "__main__":
+    # Initialize variables
+    if 'initialized' not in st.session_state:
+        s_index_name = "kodeks_cywilny_256"
+        llm_api_url = "https://153.19.239.239/api/llm/prompt/chat" #"http://localhost:8080/api/generate"
+        st.session_state.rag_system = rag_system = RAG(es_index=s_index_name, llm_url=llm_api_url)
+        st.session_state.initialized = True
+
     # Apply the CSS
     minimize_spacing()
 
     # Build app
     build_app()
 
-    # Initialize variables
-    if 'initialized' not in st.session_state:
-        os.environ['ES_URL'] = ""
-        os.environ['ES_KEY'] = "=="
-        os.environ['LLM_USERNAME'] = ''
-        os.environ['LLM_PASSWORD'] = ''
-
-        s_index_name = "kodeks_cywilny_256"
-        llm_api_url = "https://153.19.239.239/api/llm/prompt/chat" #"http://localhost:8080/api/generate"
-        st.session_state.rag_system = rag_system = RAG(es_index=s_index_name, llm_url=llm_api_url)
-        st.session_state.initialized = True

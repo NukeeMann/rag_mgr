@@ -90,28 +90,25 @@ Suggested models for text generation:
 - CYFRAGOVPL/PLLuM-12B-instruct
 '''
 class RAG:
-    def __init__(self, es_index='mgr_test_1', gen_model='speakleash/Bielik-11B-v2.3-Instruct', llm_url=None):
+    def __init__(self, es_index='kodeks_cywilny_256', gen_model='speakleash/Bielik-11B-v2.3-Instruct', llm_url=None):
         # Inicjalizacja zmiennych środowiskowych i załadowanie modeli
         self.morf = morfeusz2.Morfeusz()
 
-        # Define the Elasticsearch index name and client
+        # Define the Elasticsearch index name
         self.index_name = es_index
-        self.es_client = Elasticsearch(
-            os.getenv('ES_URL'),
-            api_key=os.getenv('ES_KEY')
-        )
-
-        self.auth = (os.getenv("LLM_USERNAME"), os.getenv("LLM_PASSWORD"))
-        self.auth_kwargs = {
-            'auth': self.auth,
-            'verify': False, # Disable SSL verification
-        }
 
         # Load SpaCy model for Polish NER
         self.nlp_pl = spacy.load("pl_core_news_sm")
 
         # Add llm url
-        self.llm_url = llm_url
+        if llm_url is not None:
+            self.llm_url = llm_url
+            if 'LLM_USERNAME' in os.environ and 'LLM_PASSWORD' in os.environ:
+                self.set_llm_service_creds(os.getenv['LLM_USERNAME'], os.getenv['LLM_PASSWORD'])
+
+        # Set the ElasticSearch client
+        if 'ES_URL' in os.environ and 'ES_KEY' in os.environ:
+            self.set_database(os.getenv['ES_URL'], os.getenv['ES_KEY']) 
 
         # Load tokenizer and embedding model
         self.processing_tokenizer = AutoTokenizer.from_pretrained("Voicelab/sbert-base-cased-pl") # medicalai/ClinicalBERT
@@ -127,8 +124,28 @@ class RAG:
             device_map="cpu"
         )
 
+    # Set the ElasticSearch database credentials
+    def set_database(self, es_url, es_key):
+        self.es_client = Elasticsearch(
+            es_url,
+            api_key=es_key
+        )
+
+    # Change the database index
     def change_index(self, index_name):
         self.index_name = index_name
+
+    # Get the current database index
+    def get_index_name(self):
+        return self.index_name
+
+    # Set LLM service credentials
+    def set_llm_service_creds(self, user_name, passoword):
+        self.auth = (user_name, passoword)
+        self.auth_kwargs = {
+            'auth': self.auth,
+            'verify': False, # Disable SSL verification
+        }
 
     # List recursivly all documents in the directory
     def list_files_recursive(self, directory):
@@ -397,6 +414,7 @@ class RAG:
             outputs = self.embedding_model(**inputs)
         return outputs.pooler_output.detach().numpy()[0]
 
+    # Retrieve documents
     def retrieve(self, query_text, ret_fun='similarity', retrieve_size=5, search_embed=True, query_cleaned=False):
         query = self.process_query(query_text)
 
@@ -442,12 +460,14 @@ class RAG:
 
         return retrieved_docs, query
     
+    # Intitialate LLM
     def initiate_llm(self):
         self.chat_tokenizer = AutoTokenizer.from_pretrained(self.gen_model)
         self.chat_llm = AutoModelForCausalLM.from_pretrained(self.gen_model, torch_dtype=torch.bfloat16, device_map="auto")
         self.chat_streamer = TextIteratorStreamer(self.chat_tokenizer, skip_prompt=True, skip_special_tokens=True)
         self.llm_loaded = True
 
+    # Apply chat template to the query and documents
     def apply_template(self, query, documents, additional_instruct, use_rag):
         messages = []
         if use_rag:
@@ -488,7 +508,8 @@ class RAG:
             messages.append({"role": "user", "content": f"Odpowiedz na poniższe pytanie: {query['source_text']}"})
 
         return messages
-  
+
+    # Generate the answer
     def generate_answer(self, query, documents, additional_instruct="", max_new_tokens_v=1000, use_rag=True, verbose=0):
 
         # Define and load the models
@@ -521,12 +542,11 @@ class RAG:
 
         return generated_text
 
+    # Send the query to the LLM service
     def send_message(self, query, documents, additional_instruct="", use_rag=True):
         # Construct prompt template
         messages = self.apply_template(query, documents, additional_instruct, use_rag)
 
-        print(len(messages[0]['content']))
-        print(len(messages[1]['content']))
         # Construct data
         if 'localhost' in self.llm_url:
             data = {
@@ -617,6 +637,7 @@ class RAG:
         # Sort documents by the updated similarity score
         return sorted(reranked_docs_semantic, key=lambda x: -x['_score'])
     
+    # Rerank retrieved documents using LLM
     def rerank_llm(self, documents, query):
         texts = [f"{query['source_text']}</s></s>{doc['_source']['source_text']}" for doc in documents]
         tokens = self.rr_tokenizer(texts, padding="longest", truncation=True, return_tensors="pt")
@@ -633,6 +654,7 @@ class RAG:
         del sorted_paired_docs_score
         return selected_documents
     
+    # Main rerank documents function
     def rerank(self, documents, query, top_k=5, rr_entities=False, rr_keywords=False, rr_llm=True):
 
         reranked_documents = self.rerank_semantic(documents, query)
@@ -648,7 +670,8 @@ class RAG:
 
         return reranked_documents[:top_k]
     
-    def infer(self, query_text, additional_instruct="", max_new_tokens_v=1000, use_rag=True, top_k=5, retrieve_size=5, rr_entities=False, rr_keywords=False, rr_llm=True, ret_fun='similarity', search_embed=True, query_cleaned=False, verbose=0):
+    # Inference throught RAG
+    def infer(self, query_text, additional_instruct="", max_new_tokens_v=1000, use_rag=True, top_k=10, retrieve_size=5, rr_entities=False, rr_keywords=False, rr_llm=True, ret_fun='similarity', search_embed=True, query_cleaned=False, verbose=0):
 
         # Retrieve documents
         retrieved_docs, query = self.retrieve(query_text, ret_fun=ret_fun, search_embed=search_embed, query_cleaned=query_cleaned, retrieve_size=retrieve_size)
