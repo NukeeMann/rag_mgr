@@ -1,6 +1,7 @@
 FROM python:3.10.15
 
 ENV DEBIAN_FRONTEND=noninteractive
+ENV LLM_URL='0.0.0.0'
 
 # Install system dependencies
 RUN set -x && \
@@ -35,6 +36,6 @@ ENV PYTHONUNBUFFERED=1
 ENV PATH="$PATH:/home/python/.local/bin"
 
 # expose port
-EXPOSE 8501
+EXPOSE 8080
 
-CMD ["python", "-m", "streamlit", "run", "src/main.py", "--server.port", "8501"]
+CMD ["python", "-m", "streamlit", "run", "src/main.py", "--server.port", "8080"]

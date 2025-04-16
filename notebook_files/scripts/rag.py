@@ -104,11 +104,11 @@ class RAG:
         if llm_url is not None:
             self.llm_url = llm_url
             if 'LLM_USERNAME' in os.environ and 'LLM_PASSWORD' in os.environ:
-                self.set_llm_service_creds(os.getenv['LLM_USERNAME'], os.getenv['LLM_PASSWORD'])
+                self.set_llm_service_creds(os.getenv('LLM_USERNAME'), os.getenv('LLM_PASSWORD'))
 
         # Set the ElasticSearch client
         if 'ES_URL' in os.environ and 'ES_KEY' in os.environ:
-            self.set_database(os.getenv['ES_URL'], os.getenv['ES_KEY']) 
+            self.set_database(os.getenv('ES_URL'), os.getenv('ES_KEY')) 
 
         # Load tokenizer and embedding model
         self.processing_tokenizer = AutoTokenizer.from_pretrained("Voicelab/sbert-base-cased-pl") # medicalai/ClinicalBERT

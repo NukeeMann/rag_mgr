@@ -185,8 +185,7 @@ def build_app():
             # Elastic Search database credentials
             s_es_url = st.text_input("Enter Elastic Search Database URL")
             s_es_key = st.text_input("Enter KEY")
-            s_llm_service_usr = st.text_input("Enter LLM Service USERNAME")
-            s_llm_service_psw = st.text_input("Enter LLM Service PASSWORD")
+            s_llm_service_url = st.text_input("Enter LLM Service URL")
             
 
             # Update and Close buttons
@@ -198,22 +197,19 @@ def build_app():
 
         # Handle form submission
         if update_button:
-            if s_es_url:
-                if s_es_key:
-                    if s_llm_service_usr:
-                        if s_llm_service_psw:
-                            st.session_state.rag_system.set_database(s_es_url, s_es_key)
-                            st.session_state.rag_system.set_llm_service_creds(s_llm_service_usr, s_llm_service_psw)
-                            st.success(f"Done! The database and LLM service have been set")
-                            st.button("Close")
-                        else:
-                            st.warning("Please provide the LLM Service PASSWORD")
-                    else:
-                        st.warning("Please provide the LLM Service USERNAME") 
+            if s_es_url or s_es_key:
+                if not s_es_url or not s_es_key:
+                    st.session_state.rag_system.set_database(s_es_url, s_es_key)
+                    st.success(f"Done! The database and LLM service have been set")
+                    st.button("Close")
                 else:
-                    st.warning("Please provide the KEY") 
-            else:
-                st.warning("Please provide the database URL")
+                    st.warning("Please provide ElasticSearch URL and KEY")
+
+            if s_llm_service_url:
+                st.session_state.rag_system.set_llm_service_url(s_llm_service_url)
+                st.success(f"Done! LLM service have been set")
+                st.button("Close")
+            
         
         # Close form button
         if close_button_update:
