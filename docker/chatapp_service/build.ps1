@@ -8,4 +8,4 @@ ruff check src --no-cache --verbose --fix
 ruff format src
 
 # Build Docker Image
-docker build -t rag_app:latest .
+docker build -t rag_chat_app:latest .

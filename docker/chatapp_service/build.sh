@@ -6,4 +6,4 @@ ruff check src --no-cache --verbose --fix
 ruff format src
 
 # Build Docker Image
-docker build -t rag_bielik:latest .
+docker build -t rag_chat_app:latest .
