@@ -415,8 +415,7 @@ class RAG:
         return outputs.pooler_output.detach().numpy()[0]
 
     # Retrieve documents
-    def retrieve(self, query_text, ret_fun='similarity', retrieve_size=5, search_embed=True, query_cleaned=False):
-        query = self.process_query(query_text)
+    def retrieve(self, query, ret_fun='similarity', retrieve_size=5, search_embed=True, query_cleaned=False):
 
         if ret_fun == 'similarity':
             search_fun = "cosineSimilarity(params.query_vector, 'embedding')"
@@ -449,7 +448,7 @@ class RAG:
                 "size": retrieve_size,  # Define the desired number of results
                 "query": {
                     "match": {
-                        index_search: query_text  # Search within 'cleaned_text'
+                        index_search: query['source_text']  # Search within 'cleaned_text'
                     }
                 }
             }
@@ -664,10 +663,16 @@ class RAG:
     # Inference throught RAG
     def infer(self, query_text, additional_instruct="", max_new_tokens_v=1000, use_rag=True, top_k=10, retrieve_size=5, rr_entities=False, rr_keywords=False, rr_llm=True, ret_fun='similarity', search_embed=True, query_cleaned=False, verbose=0):
 
-        # Retrieve documents
-        retrieved_docs, query = self.retrieve(query_text, ret_fun=ret_fun, search_embed=search_embed, query_cleaned=query_cleaned, retrieve_size=retrieve_size)
-        # Re-rank documents
-        reranked_docs = self.rerank(retrieved_docs, query, top_k, rr_entities, rr_keywords, rr_llm)
+        # Preprocess query
+        query = self.process_query(query_text)
+
+        if use_rag:
+            # Retrieve documents
+            retrieved_docs = self.retrieve(query, ret_fun=ret_fun, search_embed=search_embed, query_cleaned=query_cleaned, retrieve_size=retrieve_size)
+            # Re-rank documents
+            reranked_docs = self.rerank(retrieved_docs, query, top_k, rr_entities, rr_keywords, rr_llm)
+        else:
+            reranked_docs = []
 
         # Generate answer
         if self.llm_url is None:
