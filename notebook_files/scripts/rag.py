@@ -101,8 +101,8 @@ class RAG:
         self.nlp_pl = spacy.load("pl_core_news_sm")
 
         # Add llm url
+        self.llm_url = llm_url
         if llm_url is not None:
-            self.llm_url = llm_url
             if 'LLM_USERNAME' in os.environ and 'LLM_PASSWORD' in os.environ:
                 self.set_llm_service_creds(os.getenv('LLM_USERNAME'), os.getenv('LLM_PASSWORD'))
 
@@ -477,10 +477,6 @@ class RAG:
                 context_text = ""
                 for id, doc in enumerate(documents):
                     context_text += f"# Dokument {id}: {doc['_source'].get('source_text')} "
-                    #messages.append({"role": "system", "content": f"Dokument {id}: {doc['_source'].get('source_text')}"})
-
-                # if additional_instruct:
-                #     messages.append({"role": "system", "content": additional_instruct})
 
                 user_text=f"Odpowiedz na poniższe pytanie: {query['source_text']} \n\n ### Dokumenty dostarczone dla poszerzenia kontekstu: {context_text}"
 
@@ -489,16 +485,11 @@ class RAG:
                 docs_text = ""
                 for id, doc in enumerate(documents):
                     docs_text += f"Dokument {id}: {doc['_source'].get('source_text')}"
-                #                Odpowiedz na pytanie wspomagając się dostarczonymi dokumentami.
-                #Poniżej jako kontekst możesz wykorzystać dostarczone powiązane z pytaniem dokumenty w które mogą pomóc Ci poprawnie odpowiedzieć.
-                #{additional_instruct}
-                #
-                ##
+
                 user_msg = f'''
-                ### Pytanie na które masz odpowiedzieć:
                 {query['source_text']}
 
-                ### Powiązane dokumenty dla rozszerzenia kontekstu:
+                ### Dokumenty dostarczone dla poszerzenia kontekstu:
                 {docs_text}
                 '''
                 messages.append({"role": "system", "content": f"Odpowiedz na pytanie użytkownika. {additional_instruct}"})
