@@ -452,7 +452,7 @@ class RAG:
         retrieved_docs = self.es_client.search(index=self.index_name, body=search_query)
         retrieved_docs = retrieved_docs['hits']['hits']
 
-        return retrieved_docs, query
+        return retrieved_docs
     
     # Intitialate LLM
     def initiate_llm(self):
