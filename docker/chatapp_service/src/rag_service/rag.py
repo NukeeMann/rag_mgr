@@ -124,15 +124,18 @@ class RAG:
             device_map="cpu"
         )
 
+    # Set the ElasticSearch database credentials
     def set_database(self, es_url, es_key):
         self.es_client = Elasticsearch(
             es_url,
             api_key=es_key
         )
 
+    # Change the database index
     def change_index(self, index_name):
         self.index_name = index_name
 
+    # Get the current database index
     def get_index_name(self):
         return self.index_name
 
@@ -406,8 +409,8 @@ class RAG:
             outputs = self.embedding_model(**inputs)
         return outputs.pooler_output.detach().numpy()[0]
 
-    def retrieve(self, query_text, ret_fun='similarity', retrieve_size=5, search_embed=True, query_cleaned=False):
-        query = self.process_query(query_text)
+    # Retrieve documents
+    def retrieve(self, query, ret_fun='similarity', retrieve_size=5, search_embed=True, query_cleaned=False):
 
         if ret_fun == 'similarity':
             search_fun = "cosineSimilarity(params.query_vector, 'embedding')"
@@ -440,7 +443,7 @@ class RAG:
                 "size": retrieve_size,  # Define the desired number of results
                 "query": {
                     "match": {
-                        index_search: query_text  # Search within 'cleaned_text'
+                        index_search: query['source_text']  # Search within 'cleaned_text'
                     }
                 }
             }
@@ -451,12 +454,14 @@ class RAG:
 
         return retrieved_docs, query
     
+    # Intitialate LLM
     def initiate_llm(self):
         self.chat_tokenizer = AutoTokenizer.from_pretrained(self.gen_model)
         self.chat_llm = AutoModelForCausalLM.from_pretrained(self.gen_model, torch_dtype=torch.bfloat16, device_map="auto")
         self.chat_streamer = TextIteratorStreamer(self.chat_tokenizer, skip_prompt=True, skip_special_tokens=True)
         self.llm_loaded = True
 
+    # Apply chat template to the query and documents
     def apply_template(self, query, documents, additional_instruct, use_rag):
         messages = []
         if use_rag:
@@ -466,10 +471,6 @@ class RAG:
                 context_text = ""
                 for id, doc in enumerate(documents):
                     context_text += f"# Dokument {id}: {doc['_source'].get('source_text')} "
-                    #messages.append({"role": "system", "content": f"Dokument {id}: {doc['_source'].get('source_text')}"})
-
-                # if additional_instruct:
-                #     messages.append({"role": "system", "content": additional_instruct})
 
                 user_text=f"Odpowiedz na poniższe pytanie: {query['source_text']} \n\n ### Dokumenty dostarczone dla poszerzenia kontekstu: {context_text}"
 
@@ -478,16 +479,11 @@ class RAG:
                 docs_text = ""
                 for id, doc in enumerate(documents):
                     docs_text += f"Dokument {id}: {doc['_source'].get('source_text')}"
-                #                Odpowiedz na pytanie wspomagając się dostarczonymi dokumentami.
-                #Poniżej jako kontekst możesz wykorzystać dostarczone powiązane z pytaniem dokumenty w które mogą pomóc Ci poprawnie odpowiedzieć.
-                #{additional_instruct}
-                #
-                ##
+
                 user_msg = f'''
-                ### Pytanie na które masz odpowiedzieć:
                 {query['source_text']}
 
-                ### Powiązane dokumenty dla rozszerzenia kontekstu:
+                ### Dokumenty dostarczone dla poszerzenia kontekstu:
                 {docs_text}
                 '''
                 messages.append({"role": "system", "content": f"Odpowiedz na pytanie użytkownika. {additional_instruct}"})
@@ -497,7 +493,8 @@ class RAG:
             messages.append({"role": "user", "content": f"Odpowiedz na poniższe pytanie: {query['source_text']}"})
 
         return messages
-  
+
+    # Generate the answer
     def generate_answer(self, query, documents, additional_instruct="", max_new_tokens_v=1000, use_rag=True, verbose=0):
 
         # Define and load the models
@@ -530,6 +527,7 @@ class RAG:
 
         return generated_text
 
+    # Send the query to the LLM service
     def send_message(self, query, documents, additional_instruct="", use_rag=True):
         # Construct prompt template
         messages = self.apply_template(query, documents, additional_instruct, use_rag)
@@ -567,6 +565,7 @@ class RAG:
                     'Accept': 'application/json',
                     'Content-Type': 'application/json'
                 },
+                **self.auth_kwargs,
             )
             response.raise_for_status()
             response_json = response.json()
@@ -623,6 +622,7 @@ class RAG:
         # Sort documents by the updated similarity score
         return sorted(reranked_docs_semantic, key=lambda x: -x['_score'])
     
+    # Rerank retrieved documents using LLM
     def rerank_llm(self, documents, query):
         texts = [f"{query['source_text']}</s></s>{doc['_source']['source_text']}" for doc in documents]
         tokens = self.rr_tokenizer(texts, padding="longest", truncation=True, return_tensors="pt")
@@ -639,6 +639,7 @@ class RAG:
         del sorted_paired_docs_score
         return selected_documents
     
+    # Main rerank documents function
     def rerank(self, documents, query, top_k=5, rr_entities=False, rr_keywords=False, rr_llm=True):
 
         reranked_documents = self.rerank_semantic(documents, query)
@@ -654,12 +655,19 @@ class RAG:
 
         return reranked_documents[:top_k]
     
+    # Inference throught RAG
     def infer(self, query_text, additional_instruct="", max_new_tokens_v=1000, use_rag=True, top_k=10, retrieve_size=5, rr_entities=False, rr_keywords=False, rr_llm=True, ret_fun='similarity', search_embed=True, query_cleaned=False, verbose=0):
 
-        # Retrieve documents
-        retrieved_docs, query = self.retrieve(query_text, ret_fun=ret_fun, search_embed=search_embed, query_cleaned=query_cleaned, retrieve_size=retrieve_size)
-        # Re-rank documents
-        reranked_docs = self.rerank(retrieved_docs, query, top_k, rr_entities, rr_keywords, rr_llm)
+        # Preprocess query
+        query = self.process_query(query_text)
+
+        if use_rag:
+            # Retrieve documents
+            retrieved_docs = self.retrieve(query, ret_fun=ret_fun, search_embed=search_embed, query_cleaned=query_cleaned, retrieve_size=retrieve_size)
+            # Re-rank documents
+            reranked_docs = self.rerank(retrieved_docs, query, top_k, rr_entities, rr_keywords, rr_llm)
+        else:
+            reranked_docs = []
 
         # Generate answer
         if self.llm_url is None:
