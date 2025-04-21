@@ -480,6 +480,26 @@ class RAG:
                 user_text=f"Odpowiedz na poniższe pytanie: {query['source_text']} \n\n ### Dokumenty dostarczone dla poszerzenia kontekstu: {context_text}"
 
                 messages.append({"role": "user", "content": user_text})
+            elif 'PLLuM' in self.gen_model:
+                docs_text = ""
+                for id, doc in enumerate(documents):
+                    docs_text += f"Dokument {id}: {doc['_source'].get('source_text')}"
+                
+                user_msg = f'''
+                Numerowana lista dokumentów jest poniżej:
+                ---------------------
+                <results>
+                {docs_text}
+                </results>
+                ---------------------
+                Odpowiedz na pytanie użytkownika wykorzystując tylko informacje znajdujące się w dokumentach, a nie wcześniejszą wiedzę.
+                Udziel wysokiej jakości, poprawnej gramatycznie odpowiedzi w języku polskim. Odpowiedź powinna zawierać cytowania do dokumentów, z których pochodzą informacje. Zacytuj dokument za pomocą symbolu [nr_dokumentu] powołując się na fragment np. [0] dla fragmentu z dokumentu 0. Jeżeli w dokumentach nie ma informacji potrzebnych do odpowiedzi na pytanie, zamiast odpowiedzi zwróć tekst: "Nie udało mi się odnaleźć odpowiedzi na pytanie".
+                {additional_instruct}
+
+                Pytanie: {query['source_text']}
+                '''
+                messages.append({"role": "system", "content": f"Odpowiedz na pytanie użytkownika. {additional_instruct}"})
+                messages.append({"role": "user", "content": user_msg})
             else:
                 docs_text = ""
                 for id, doc in enumerate(documents):
@@ -495,7 +515,7 @@ class RAG:
                 messages.append({"role": "user", "content": user_msg})
         else:
             messages.append({"role": "system", "content": f"Odpowiedz na pytanie użytkownika. {additional_instruct}"})
-            messages.append({"role": "user", "content": f"Odpowiedz na poniższe pytanie: {query['source_text']}"})
+            messages.append({"role": "user", "content": f"Odpowiedz na poniższe pytanie. {additional_instruct}.\n Pytanie: {query['source_text']}"})
 
         return messages
 
