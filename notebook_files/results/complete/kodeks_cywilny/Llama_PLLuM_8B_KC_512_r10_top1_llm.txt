@@ -1,0 +1,467 @@
+# Pytanie 1
+### Udzielona odpowiedz: Odpowiedź: c) może bez zgody przedstawiciela ustawowego rozporządzać swoim zarobkiem, chyba że sąd opiekuńczy z ważnych powodów inaczej postanowi [0].
+### Judge: Tak
+### Poprawna odpowiedz: c) może bez zgody przedstawiciela ustawowego rozporządzać swoim zarobkiem, chyba że sąd opiekuńczy z ważnych powodów inaczej postanowi., (art. 21 KC)
+### Wyniki: {'correct': 1, 'incorrect': 0, 'article_correct': 1}
+--------------------
+# Pytanie 2
+### Udzielona odpowiedz: Zgodnie z [0], jeżeli w orzeczeniu o uznaniu za zmarłego czas śmierci został oznaczony tylko datą dnia, za chwilę domniemanej śmierci zaginionego uważa się koniec tego dnia.
+### Judge: Tak.
+### Poprawna odpowiedz: b) koniec tego dnia,, (art. 31 § 3 KC)
+### Wyniki: {'correct': 2, 'incorrect': 0, 'article_correct': 2}
+--------------------
+# Pytanie 3
+### Udzielona odpowiedz: Zgodnie z [0], częścią składową rzeczy jest "wszystko, co nie może być od niej odłączone bez uszkodzenia lub istotnej zmiany całości albo bez uszkodzenia lub istotnej zmiany przedmiotu odłączonego". Ponadto, [0] wskazuje, że częścią składową rzeczy jest "wszystko, co nie może być od niej odłączone bez uszkodzenia lub istotnej zmiany całości albo bez uszkodzenia lub istotnej zmiany przedmiotu odłączonego", a także, że "przedmioty połączone z rzeczą tylko dla przemijającego użytku nie stanowią jej części składowych". Odpowiedź a) jest zatem najbliższa treści [0].
+### Judge: Tak
+### Poprawna odpowiedz: a) wszystko, co nie może być od niej odłączone bez uszkodzenia lub istotnej zmiany całości albo bez uszkodzenia lub istotnej zmiany przedmiotu odłączonego i nie jest z nią połączone tylko dla przemijającego użytku,, (art. 47 § 2 i 3 KC)
+### Wyniki: {'correct': 3, 'incorrect': 0, 'article_correct': 3}
+--------------------
+# Pytanie 4
+### Udzielona odpowiedz: Zgodnie z [0], do zachowania dokumentowej formy czynności prawnej wystarcza złożenie oświadczenia woli w postaci dokumentu, w sposób umożliwiający ustalenie osoby składającej oświadczenie. Odpowiedź A jest zatem prawidłowa.
+### Judge: Nie
+### Poprawna odpowiedz: c) wystarcza złożenie oświadczenia woli w postaci dokumentu, w sposób umożliwiający ustalenie osoby składającej oświadczenie., (art. 77² KC)
+### Wyniki: {'correct': 3, 'incorrect': 1, 'article_correct': 3}
+--------------------
+# Pytanie 5
+### Udzielona odpowiedz: Zgodnie z [0], jeżeli pełnomocnik po wygaśnięciu umocowania dokona w imieniu mocodawcy czynności prawnej w granicach pierwotnego umocowania, czynność prawna jest ważna, chyba że druga strona o wygaśnięciu umocowania wiedziała lub z łatwością mogła się dowiedzieć. Odpowiedź na pytanie 5. brzmi: b) czynność prawna jest ważna, chyba że druga strona o wygaśnięciu umocowania wiedziała lub z łatwością mogła się dowiedzieć.
+### Judge: Tak.
+### Poprawna odpowiedz: b) czynność prawna jest ważna, chyba że druga strona o wygaśnięciu umocowania wiedziała lub z łatwością mogła się dowiedzieć,, (art. 105 KC)
+### Wyniki: {'correct': 4, 'incorrect': 1, 'article_correct': 4}
+--------------------
+# Pytanie 6
+### Udzielona odpowiedz: Zgodnie z [0], pełnomocnik może ustanowić dla mocodawcy innych pełnomocników tylko wtedy, gdy umocowanie takie wynika z treści pełnomocnictwa, z ustawy lub ze stosunku prawnego będącego podstawą pełnomocnictwa. Odpowiedź na pytanie 6. brzmi: c).
+### Judge: Tak.
+### Poprawna odpowiedz: c) umocowanie takie wynika z treści pełnomocnictwa, z ustawy lub ze stosunku prawnego będącego podstawą pełnomocnictwa., (art. 106 KC)
+### Wyniki: {'correct': 5, 'incorrect': 1, 'article_correct': 5}
+--------------------
+# Pytanie 7
+### Udzielona odpowiedz: Zgodnie z [0], do rozporządzania rzeczą wspólną oraz do innych czynności, które przekraczają zakres zwykłego zarządu, potrzebna jest zgoda wszystkich współwłaścicieli. W braku takiej zgody współwłaściciele, których udziały wynoszą co najmniej połowę, mogą żądać rozstrzygnięcia przez sąd, który orzeknie mając na względzie cel zamierzonej czynności oraz interesy wszystkich współwłaścicieli. Odpowiedź na pytanie jest zatem a).
+### Judge: Tak
+### Poprawna odpowiedz: a) wszystkich współwłaścicieli, a w braku takiej zgody współwłaściciele, których udziały wynoszą co najmniej połowę, mogą żądać rozstrzygnięcia przez sąd,, (art. 199 KC)
+### Wyniki: {'correct': 6, 'incorrect': 1, 'article_correct': 6}
+--------------------
+# Pytanie 8
+### Udzielona odpowiedz: Nie udało mi się odnaleźć odpowiedzi na pytanie.
+### Judge: Nie
+### Poprawna odpowiedz: c) nie ulegają przedawnieniu., (art. 223  § 1 w zw. z art. 222 § 2 KC)
+### Wyniki: {'correct': 6, 'incorrect': 2, 'article_correct': 6}
+--------------------
+# Pytanie 9
+### Udzielona odpowiedz: Nie udało mi się odnaleźć odpowiedzi na pytanie.
+### Judge: Nie
+### Poprawna odpowiedz: a) wygasa najpóźniej ze śmiercią tej osoby,, (art. 266 KC)
+### Wyniki: {'correct': 6, 'incorrect': 3, 'article_correct': 6}
+--------------------
+# Pytanie 10
+### Udzielona odpowiedz: Zgodnie z [0], roszczenie zastawcy przeciwko zastawnikowi o naprawienie szkody z powodu pogorszenia rzeczy, jak również roszczenie zastawnika przeciwko zastawcy o zwrot nakładów na rzecz przedawnia się z upływem roku od dnia zwrotu rzeczy.
+### Judge: Tak.
+### Poprawna odpowiedz: b) roku od dnia zwrotu rzeczy,, (art. 322 § 1 KC)
+### Wyniki: {'correct': 7, 'incorrect': 3, 'article_correct': 7}
+--------------------
+# Pytanie 11
+### Udzielona odpowiedz: Zgodnie z [0], kto rzeczą faktycznie włada za kogo innego, jest dzierżycielem.
+### Judge: Tak.
+### Poprawna odpowiedz: c) dzierżycielem., (art. 338 KC)
+### Wyniki: {'correct': 8, 'incorrect': 3, 'article_correct': 8}
+--------------------
+# Pytanie 12
+### Udzielona odpowiedz: Zgodnie z [0], "Zwłoka wierzyciela względem jednego z dłużników solidarnych ma skutek także względem współdłużników." Oznacza to, że odpowiedź na pytanie brzmi: a).
+### Judge: Tak.
+### Poprawna odpowiedz: a) ma skutek także względem współdłużników,, (art. 374 § 2 KC)
+### Wyniki: {'correct': 9, 'incorrect': 3, 'article_correct': 9}
+--------------------
+# Pytanie 13
+### Udzielona odpowiedz: Nie udało mi się odnaleźć odpowiedzi na pytanie.
+### Judge: Nie
+### Poprawna odpowiedz: b) jest nieważna,, (art. 387 § 1 KC)
+### Wyniki: {'correct': 9, 'incorrect': 4, 'article_correct': 9}
+--------------------
+# Pytanie 14
+### Udzielona odpowiedz: Odpowiedź: a).
+### Judge: Tak.
+### Poprawna odpowiedz: a) nie jest odpowiedzialny za szkodę wyrządzoną napastnikowi,, (art. 423 KC)
+### Wyniki: {'correct': 10, 'incorrect': 4, 'article_correct': 9}
+--------------------
+# Pytanie 15
+### Udzielona odpowiedz: Nie udało mi się odnaleźć odpowiedzi na pytanie.
+### Judge: Nie
+### Poprawna odpowiedz: c) może powstrzymać się z jego spełnieniem, dopóki druga strona nie zaofiaruje świadczenia wzajemnego lub nie da zabezpieczenia; te uprawnienia nie przysługują stronie, która w chwili zawarcia umowy wiedziała o złym stanie majątkowym drugiej strony., (art. 490 § 1 i 2  KC)
+### Wyniki: {'correct': 10, 'incorrect': 5, 'article_correct': 9}
+--------------------
+# Pytanie 16
+### Udzielona odpowiedz: Zgodnie z [0], umowa o przejęcie długu powinna być pod nieważnością zawarta na piśmie. To samo dotyczy zgody wierzyciela na przejęcie długu. Odpowiedź a) jest zatem prawidłowa.
+### Judge: Tak
+### Poprawna odpowiedz: a) pod nieważnością na piśmie; to samo dotyczy zgody wierzyciela na przejęcie długu,, (art. 522 KC)
+### Wyniki: {'correct': 11, 'incorrect': 5, 'article_correct': 10}
+--------------------
+# Pytanie 17
+### Udzielona odpowiedz: Nie udało mi się odnaleźć odpowiedzi na pytanie.
+### Judge: Nie
+### Poprawna odpowiedz: b) sprzedaży,, (art. 604 KC)
+### Wyniki: {'correct': 11, 'incorrect': 6, 'article_correct': 10}
+--------------------
+# Pytanie 18
+### Udzielona odpowiedz: Zgodnie z [0], w razie niezachowania formy pisemnej dla umowy najmu nieruchomości lub pomieszczenia na czas dłuższy niż rok, "poczytuje się umowę za zawartą na czas nieoznaczony". Oznacza to, że nawet jeśli strony nie wskazały w umowie terminu końcowego, umowa zostanie uznana za zawartą na czas nieoznaczony.
+### Judge: Tak
+### Poprawna odpowiedz: c) poczytuje się umowę za zawartą na czas nieoznaczony., (art. 660 KC)
+### Wyniki: {'correct': 12, 'incorrect': 6, 'article_correct': 11}
+--------------------
+# Pytanie 19
+### Udzielona odpowiedz: Nie udało mi się odnaleźć odpowiedzi na pytanie.
+### Judge: Nie
+### Poprawna odpowiedz: c) zezwolić biorącemu, przez czas oznaczony lub nieoznaczony, na bezpłatne używanie oddanej mu w tym celu rzeczy., (art. 710 KC)
+### Wyniki: {'correct': 12, 'incorrect': 7, 'article_correct': 11}
+--------------------
+# Pytanie 20
+### Udzielona odpowiedz: Zgodnie z [0], "Przechowawcy nie wolno używać rzeczy bez zgody składającego, chyba że jest to konieczne do jej zachowania w stanie niepogorszonym." Odpowiedź na pytanie b) jest zatem prawidłowa.
+### Judge: Nie
+### Poprawna odpowiedz: c) nie wolno używać rzeczy bez zgody składającego, chyba że jest to konieczne do jej zachowania w stanie niepogorszonym., (art. 839 KC)
+### Wyniki: {'correct': 12, 'incorrect': 8, 'article_correct': 11}
+--------------------
+# Pytanie 21
+### Udzielona odpowiedz: Zgodnie z [0], spółka ulega rozwiązaniu z dniem ogłoszenia upadłości wspólnika.
+### Judge: Tak
+### Poprawna odpowiedz: b) spółka ulega rozwiązaniu,, (art. 874 § 2 KC)
+### Wyniki: {'correct': 13, 'incorrect': 8, 'article_correct': 11}
+--------------------
+# Pytanie 22
+### Udzielona odpowiedz: Zgodnie z [0], prawo dożywocia jest niezbywalne, co oznacza, że nie może ulegać zmianie w wyniku śmierci jednej z osób, na rzecz której zostało ustanowione. Nie ma zatem podstaw do zmniejszenia lub wygaśnięcia prawa dożywocia w przypadku śmierci jednej z osób, na rzecz której zostało ustanowione.
+### Judge: Nie
+### Poprawna odpowiedz: a) ulega odpowiedniemu zmniejszeniu,, (art. 911 KC)
+### Wyniki: {'correct': 13, 'incorrect': 9, 'article_correct': 11}
+--------------------
+# Pytanie 23
+### Udzielona odpowiedz: Zgodnie z [0], spadkobierca nie może być uznany za niegodnego, jeżeli spadkodawca mu przebaczył. Ponadto, jeżeli w chwili przebaczenia spadkodawca nie miał zdolności do czynności prawnych, przebaczenie jest skuteczne, gdy nastąpiło z dostatecznym rozeznaniem, co potwierdza [0]. W związku z tym, odpowiedź na pytanie brzmi: b) jest skuteczne, gdy nastąpiło z dostatecznym rozeznaniem.
+### Judge: Tak.
+### Poprawna odpowiedz: b) jest skuteczne, gdy nastąpiło z dostatecznym rozeznaniem,, (art. 930 § 1 i 2 KC)
+### Wyniki: {'correct': 14, 'incorrect': 9, 'article_correct': 12}
+--------------------
+# Pytanie 24
+### Udzielona odpowiedz: Nie udało mi się odnaleźć odpowiedzi na pytanie.
+### Judge: Nie
+### Poprawna odpowiedz: b) ma moc wsteczną, jeżeli wynika to z jej brzmienia lub celu,, (art. 3 KC)
+### Wyniki: {'correct': 14, 'incorrect': 10, 'article_correct': 12}
+--------------------
+# Pytanie 25
+### Udzielona odpowiedz: Zgodnie z [0], sąd ustanawia dla niej kuratora, jeżeli osoba prawna nie może być reprezentowana lub prowadzić swoich spraw ze względu na brak organu albo brak w składzie organu uprawnionego do jej reprezentowania.
+### Judge: Tak.
+### Poprawna odpowiedz: c) ustanawia dla niej kuratora., (art. 42 § 1 KC)
+### Wyniki: {'correct': 15, 'incorrect': 10, 'article_correct': 13}
+--------------------
+# Pytanie 26
+### Udzielona odpowiedz: Nie udało mi się odnaleźć odpowiedzi na pytanie.
+### Judge: Nie
+### Poprawna odpowiedz: b) stosuje się odpowiednio przepisy o ochronie dóbr osobistych osób fizycznych,, (art. 43 KC)
+### Wyniki: {'correct': 15, 'incorrect': 11, 'article_correct': 13}
+--------------------
+# Pytanie 27
+### Udzielona odpowiedz: Nie udało mi się odnaleźć odpowiedzi na pytanie.
+### Judge: Nie.
+### Poprawna odpowiedz: a) nie może być zbyta,, (art. 43^{9} § 1 KC)
+### Wyniki: {'correct': 15, 'incorrect': 12, 'article_correct': 13}
+--------------------
+# Pytanie 28
+### Udzielona odpowiedz: Zgodnie z [0], "własność nieruchomości nie może być przeniesiona pod warunkiem ani z zastrzeżeniem terminu". Oznacza to, że umowa zobowiązująca do przeniesienia własności nieruchomości pod warunkiem lub z zastrzeżeniem terminu jest bezwzględnie nieważna.
+### Judge: Nie
+### Poprawna odpowiedz: c) do przeniesienia własności nieruchomości potrzebne jest dodatkowe porozumienie stron obejmujące ich bezwarunkową zgodę na niezwłoczne przejście własności., (art. 157 § 2 KC)
+### Wyniki: {'correct': 15, 'incorrect': 13, 'article_correct': 13}
+--------------------
+# Pytanie 29
+### Udzielona odpowiedz: Zgodnie z [0], "Art. 173. Jeżeli właściciel nieruchomości, przeciwko któremu biegnie zasiedzenie, jest małoletni, zasiedzenie nie może skończyć się wcześniej niż z upływem dwóch lat od uzyskania pełnoletności przez właściciela." Odpowiedź na pytanie to c).
+### Judge: Tak
+### Poprawna odpowiedz: c) z upływem dwóch lat od uzyskania pełnoletności przez właściciela., (art. 173 KC)
+### Wyniki: {'correct': 16, 'incorrect': 13, 'article_correct': 13}
+--------------------
+# Pytanie 30
+### Udzielona odpowiedz: Zgodnie z [0], każdy ze współwłaścicieli może wystąpić do sądu o wyznaczenie zarządcy, jeżeli nie można uzyskać zgody większości współwłaścicieli w istotnych sprawach dotyczących zwykłego zarządu albo jeżeli większość współwłaścicieli narusza zasady prawidłowego zarządu lub krzywdzi mniejszość. Oznacza to, że odpowiedź na pytanie jest a).
+### Judge: Tak.
+### Poprawna odpowiedz: a) jeżeli nie można uzyskać zgody większości współwłaścicieli w istotnych sprawach dotyczących zwykłego zarządu,, (art. 203 KC)
+### Wyniki: {'correct': 17, 'incorrect': 13, 'article_correct': 13}
+--------------------
+# Pytanie 31
+### Udzielona odpowiedz: Zgodnie z [0], współwłaściciel sprawujący zarząd rzeczą wspólną może żądać od pozostałych współwłaścicieli wynagrodzenia odpowiadającego uzasadnionemu nakładowi jego pracy. Odpowiedź na pytanie brzmi: a).
+### Judge: Tak.
+### Poprawna odpowiedz: a) może żądać od pozostałych współwłaścicieli wynagrodzenia odpowiadającego uzasadnionemu nakładowi jego pracy,, (art. 205 KC)
+### Wyniki: {'correct': 18, 'incorrect': 13, 'article_correct': 14}
+--------------------
+# Pytanie 32
+### Udzielona odpowiedz: Zgodnie z [0], współwłaściciel, który w wyniku zniesienia współwłasności otrzymał gospodarstwo rolne, wchodzące zaś w skład tego gospodarstwa nieruchomości rolne zbył odpłatnie przed upływem pięciu lat od chwili zniesienia współwłasności, jest obowiązany pozostałym współwłaścicielom, którym przypadły spłaty niższe od należnych, wydać – proporcjonalnie do wielkości ich udziałów – korzyści uzyskane z obniżenia spłat, chyba że celem zbycia jest zapewnienie racjonalnego prowadzenia tego gospodarstwa. Oznacza to, że obowiązek wydania korzyści uzyskanych z obniżenia spłat dotyczy sytuacji, w której celem zbycia nie jest zapewnienie racjonalnego prowadzenia gospodarstwa. Zatem odpowiedź na pytanie brzmi: c) tylko wtedy, gdy celem zbycia jest zapewnienie racjonalnego prowadzenia tego gospodarstwa.
+### Judge: Nie.
+### Poprawna odpowiedz: b) chyba że celem zbycia jest zapewnienie racjonalnego prowadzenia tego gospodarstwa,, (art. 217 KC)
+### Wyniki: {'correct': 18, 'incorrect': 14, 'article_correct': 14}
+--------------------
+# Pytanie 33
+### Udzielona odpowiedz: Zgodnie z [0], czynności prawne określające zarząd i sposób korzystania z rzeczy wspólnej albo wyłączające uprawnienie do zniesienia współwłasności odnoszą skutek także względem nabywcy udziału, jeżeli nabywca o nich wiedział lub z łatwością mógł się dowiedzieć. To samo dotyczy wypadku, gdy sposób korzystania z rzeczy został ustalony w orzeczeniu sądowym. Odpowiedź na pytanie a) jest zatem prawidłowa.
+### Judge: Nie
+### Poprawna odpowiedz: b) jeżeli nabywca o nich wiedział lub z łatwością mógł się dowiedzieć,, (art. 221 KC)
+### Wyniki: {'correct': 18, 'incorrect': 15, 'article_correct': 14}
+--------------------
+# Pytanie 34
+### Udzielona odpowiedz: Zgodnie z [0], w braku odmiennej umowy obowiązek utrzymywania urządzeń potrzebnych do wykonywania służebności gruntowej obciąża właściciela nieruchomości władnącej.
+### Judge: Tak
+### Poprawna odpowiedz: b) właściciela nieruchomości władnącej,, (art. 289 § 1 KC)
+### Wyniki: {'correct': 19, 'incorrect': 15, 'article_correct': 15}
+--------------------
+# Pytanie 35
+### Udzielona odpowiedz: Nie udało mi się odnaleźć odpowiedzi na pytanie.
+### Judge: Nie
+### Poprawna odpowiedz: b) nie może być przeniesione przez czynność prawną,, (art. 300 KC)
+### Wyniki: {'correct': 19, 'incorrect': 16, 'article_correct': 15}
+--------------------
+# Pytanie 36
+### Udzielona odpowiedz: Zgodnie z [0], "Jeżeli wysokość odsetek nie jest w inny sposób określona, należą się odsetki ustawowe w wysokości równej sumie stopy referencyjnej Narodowego Banku Polskiego i 3,5 punktów procentowych." Oznacza to, że odpowiedź na pytanie jest b).
+### Judge: Nie
+### Poprawna odpowiedz: c) należą się odsetki ustawowe w wysokości równej sumie stopy referencyjnej Narodowego Banku Polskiego i 3,5 punktów procentowych., (art. 359 § 1 i 2 KC)
+### Wyniki: {'correct': 19, 'incorrect': 17, 'article_correct': 15}
+--------------------
+# Pytanie 37
+### Udzielona odpowiedz: Nie udało mi się odnaleźć odpowiedzi na pytanie.
+### Judge: Nie
+### Poprawna odpowiedz: a) do rąk wierzyciela, który wytoczył powództwo,, (art. 367 § 2 KC)
+### Wyniki: {'correct': 19, 'incorrect': 18, 'article_correct': 15}
+--------------------
+# Pytanie 38
+### Udzielona odpowiedz: Zgodnie z [0], jeżeli strona zobowiązana do zawarcia umowy przyrzeczonej uchyla się od jej zawarcia, druga strona może żądać naprawienia szkody, którą poniosła przez to, że liczyła na zawarcie umowy przyrzeczonej. Strony mogą w umowie przedwstępnej odmiennie określić zakres odszkodowania. Nie ma wzmianki o tym, że umowa przedwstępna musi spełniać określone wymagania, aby druga strona mogła żądać naprawienia szkody. Zatem, odpowiedź b) jest prawidłowa.
+### Judge: Tak.
+### Poprawna odpowiedz: b) może żądać naprawienia szkody, którą poniosła przez to, że liczyła na zawarcie umowy przyrzeczonej,, (art. 390 § 1 i 2 KC)
+### Wyniki: {'correct': 20, 'incorrect': 18, 'article_correct': 16}
+--------------------
+# Pytanie 39
+### Udzielona odpowiedz: Zgodnie z [0], wierzyciel może przez oświadczenie, złożone dłużnikowi w czasie właściwym, ustalić zarówno wielkość poszczególnych świadczeń częściowych, jak i termin spełnienia każdego z nich, jednakże powinien uwzględnić możliwości dłużnika oraz sposób spełnienia świadczenia. Odpowiedź na pytanie b) jest zatem prawidłowa.
+### Judge: Nie
+### Poprawna odpowiedz: b) wierzyciel przez oświadczenie złożone dłużnikowi w czasie właściwym, jednakże powinien uwzględnić możliwości dłużnika oraz sposób spełnienia świadczenia,, (art. 456 KC)
+### Wyniki: {'correct': 20, 'incorrect': 19, 'article_correct': 16}
+--------------------
+# Pytanie 40
+### Udzielona odpowiedz: Odpowiedź: a)
+### Judge: Tak
+### Poprawna odpowiedz: a) może żądać odsetek za czas opóźnienia, chociażby nie poniósł żadnej szkody i chociażby opóźnienie było następstwem okoliczności, za które dłużnik odpowiedzialności nie ponosi,, (art. 481 § 1 KC)
+### Wyniki: {'correct': 21, 'incorrect': 19, 'article_correct': 16}
+--------------------
+# Pytanie 41
+### Udzielona odpowiedz: Zgodnie z [0], jeżeli uprawnienie do odstąpienia od umowy wzajemnej zostało zastrzeżone na wypadek niewykonania zobowiązania w terminie ściśle określonym, strona uprawniona może w razie zwłoki drugiej strony odstąpić od umowy bez wyznaczenia terminu dodatkowego. Odpowiedź na pytanie a) jest zatem prawidłowa.
+### Judge: Tak
+### Poprawna odpowiedz: a) w razie zwłoki drugiej strony odstąpić od umowy bez wyznaczenia terminu dodatkowego,, (art. 492 KC)
+### Wyniki: {'correct': 22, 'incorrect': 19, 'article_correct': 17}
+--------------------
+# Pytanie 42
+### Udzielona odpowiedz: Zgodnie z [0], jeżeli wierzytelność jest stwierdzona pismem, zastrzeżenie umowne, iż przelew nie może nastąpić bez zgody dłużnika, jest skuteczne względem nabywcy tylko wtedy, gdy pismo zawiera wzmiankę o tym zastrzeżeniu, chyba że nabywca w chwili przelewu o zastrzeżeniu wiedział. Oznacza to, że wierzyciel może przenieść wierzytelność na osobę trzecią (przelew) bez zgody dłużnika, chyba że sprzeciwiałoby się to ustawie, zastrzeżeniu umownemu albo właściwości zobowiązania, ale tylko wtedy, gdy pismo stwierdzające wierzytelność zawiera wzmiankę o tym zastrzeżeniu. Jeśli pismo nie zawiera takiej wzmianki, wierzyciel może przenieść wierzytelność na osobę trzecią bez zgody dłużnika, chyba że nabywca w chwili przelewu wiedział o zastrzeżeniu. Zatem, odpowiedź na pytanie brzmi: a).
+### Judge: Tak
+### Poprawna odpowiedz: a) bez zgody dłużnika przenieść wierzytelność na osobę trzecią (przelew), chyba że sprzeciwiałoby się to ustawie, zastrzeżeniu umownemu albo właściwości zobowiązania,, (art. 509 § 1 KC)
+### Wyniki: {'correct': 23, 'incorrect': 19, 'article_correct': 17}
+--------------------
+# Pytanie 43
+### Udzielona odpowiedz: Nie udało mi się odnaleźć odpowiedzi na pytanie.
+### Judge: Nie.
+### Poprawna odpowiedz: b) ponosi kupujący,, (art. 547 § 1 i 2 KC)
+### Wyniki: {'correct': 23, 'incorrect': 20, 'article_correct': 17}
+--------------------
+# Pytanie 44
+### Udzielona odpowiedz: Zgodnie z [0], "Jeżeli strony nie określiły wysokości wynagrodzenia ani nie wskazały podstaw do jego ustalenia, poczytuje się w razie wątpliwości, że strony miały na myśli zwykłe wynagrodzenie za dzieło tego rodzaju." Oznacza to, że w przypadku braku określenia wysokości wynagrodzenia w umowie o dzieło, przyjmuje się, że strony miały na myśli zwykłe wynagrodzenie za dzieło tego rodzaju.
+### Judge: Tak.
+### Poprawna odpowiedz: a) zwykłe wynagrodzenie za dzieło tego rodzaju,, (art. 628 § 1 KC)
+### Wyniki: {'correct': 24, 'incorrect': 20, 'article_correct': 18}
+--------------------
+# Pytanie 45
+### Udzielona odpowiedz: Zgodnie z [0], najemca może rzecz najętą oddać w całości lub części osobie trzeciej do bezpłatnego używania albo w podnajem, jeżeli umowa mu tego nie zabrania. Nie ma wzmianki o konieczności uzyskania zgody wynajmującego, co oznacza, że oddanie lokalu do bezpłatnego używania nie wymaga zgody wynajmującego. Jednakże, zgodnie z [0], zarówno najemca, jak i osoba trzecia są odpowiedzialni względem wynajmującego za to, że rzecz najęta będzie używana zgodnie z obowiązkami wynikającymi z umowy najmu.
+### Judge: Nie
+### Poprawna odpowiedz: b) nie wymaga zgody wynajmującego,, (art. 668 § 1 KC)
+### Wyniki: {'correct': 24, 'incorrect': 21, 'article_correct': 18}
+--------------------
+# Pytanie 46
+### Udzielona odpowiedz: Nie udało mi się odnaleźć odpowiedzi na pytanie.
+### Judge: Nie.
+### Poprawna odpowiedz: c) solidarnie., (art. 864 KC)
+### Wyniki: {'correct': 24, 'incorrect': 22, 'article_correct': 18}
+--------------------
+# Pytanie 47
+### Udzielona odpowiedz: Nie udało mi się odnaleźć odpowiedzi na pytanie.
+### Judge: Nie.
+### Poprawna odpowiedz: c) połowę spadku., (art. 932 § 1 i 2 zdanie 2 KC)
+### Wyniki: {'correct': 24, 'incorrect': 23, 'article_correct': 18}
+--------------------
+# Pytanie 48
+### Udzielona odpowiedz: Nie udało mi się odnaleźć odpowiedzi na pytanie.
+### Judge: Nie
+### Poprawna odpowiedz: b) sekretarza gminy,, (art. 951 § 1 KC)
+### Wyniki: {'correct': 24, 'incorrect': 24, 'article_correct': 18}
+--------------------
+# Pytanie 49
+### Udzielona odpowiedz: Nie udało mi się odnaleźć odpowiedzi na pytanie.
+### Judge: Nie
+### Poprawna odpowiedz: b) tylko w testamencie sporządzonym w formie aktu notarialnego,, (art. 981¹ § 1 KC)
+### Wyniki: {'correct': 24, 'incorrect': 25, 'article_correct': 18}
+--------------------
+# Pytanie 50
+### Udzielona odpowiedz: Zgodnie z [0], sąd może zwolnić wykonawcę testamentu z ważnych powodów. Zatem odpowiedź na pytanie brzmi: a).
+### Judge: Tak.
+### Poprawna odpowiedz: a) może zwolnić sąd,, (art. 990 KC)
+### Wyniki: {'correct': 25, 'incorrect': 25, 'article_correct': 19}
+--------------------
+# Pytanie 51
+### Udzielona odpowiedz: Zgodnie z [1], wartość przedmiotu darowizny oblicza się według stanu z chwili jej dokonania, a według cen z chwili ustalania zachowku. Odpowiedź b) jest zatem prawidłowa.
+### Judge: Tak
+### Poprawna odpowiedz: b) według stanu z chwili jej dokonania, a według cen z chwili ustalania zachowku,, (art. 995 § 1 KC)
+### Wyniki: {'correct': 26, 'incorrect': 25, 'article_correct': 20}
+--------------------
+# Pytanie 52
+### Udzielona odpowiedz: Zgodnie z [0], roszczenie z tytułu zachowku przechodzi na spadkobiercę osoby uprawnionej do zachowku tylko wtedy, gdy spadkobierca ten należy do osób uprawnionych do zachowku po pierwszym spadkodawcy. Odpowiedź na pytanie b) jest zatem prawidłowa.
+### Judge: Tak.
+### Poprawna odpowiedz: b) przechodzi na spadkobiercę osoby uprawnionej do zachowku tylko wtedy, gdy spadkobierca ten należy do osób uprawnionych do zachowku po pierwszym spadkodawcy,, (art. 1002 KC)
+### Wyniki: {'correct': 27, 'incorrect': 25, 'article_correct': 21}
+--------------------
+# Pytanie 53
+### Udzielona odpowiedz: Zgodnie z [0], każdy człowiek od chwili urodzenia ma zdolność prawną. Nie ma znaczenia, czy osoba ukończyła osiemnaście lat, trzynaście lat, czy też nie, ponieważ zdolność prawną ma się od chwili urodzenia.
+### Judge: Tak.
+### Poprawna odpowiedz: c) urodzenia., (art. 8 § 1 KC)
+### Wyniki: {'correct': 28, 'incorrect': 25, 'article_correct': 21}
+--------------------
+# Pytanie 54
+### Udzielona odpowiedz: Nie udało mi się odnaleźć odpowiedzi na pytanie.
+### Judge: Nie
+### Poprawna odpowiedz: b) opiekę, chyba że pozostaje on jeszcze pod władzą rodzicielską,, (art. 13 § 2 KC)
+### Wyniki: {'correct': 28, 'incorrect': 26, 'article_correct': 21}
+--------------------
+# Pytanie 55
+### Udzielona odpowiedz: Zgodnie z [0], ograniczoną zdolność do czynności prawnych mają małoletni, którzy ukończyli lat trzynaście.
+### Judge: Tak
+### Poprawna odpowiedz: a) lat trzynaście,, (art. 15 KC)
+### Wyniki: {'correct': 29, 'incorrect': 26, 'article_correct': 22}
+--------------------
+# Pytanie 56
+### Udzielona odpowiedz: Zgodnie z [0], osoba ograniczona w zdolności do czynności prawnych może bez zgody przedstawiciela ustawowego zawierać umowy należące do umów powszechnie zawieranych w drobnych bieżących sprawach życia codziennego. Odpowiedź na pytanie a) jest zatem prawidłowa.
+### Judge: Tak.
+### Poprawna odpowiedz: a) należące do umów powszechnie zawieranych w drobnych bieżących sprawach życia codziennego,, (art. 20 KC)
+### Wyniki: {'correct': 30, 'incorrect': 26, 'article_correct': 23}
+--------------------
+# Pytanie 57
+### Udzielona odpowiedz: Zgodnie z [27], miejscem zamieszkania osoby pozostającej pod opieką jest miejsce zamieszkania opiekuna.
+### Judge: Nie
+### Poprawna odpowiedz: c) miejsce zamieszkania opiekuna., (art. 27 KC)
+### Wyniki: {'correct': 30, 'incorrect': 27, 'article_correct': 23}
+--------------------
+# Pytanie 58
+### Udzielona odpowiedz: Zgodnie z [28], można mieć tylko jedno miejsce zamieszkania.
+### Judge: Nie.
+### Poprawna odpowiedz: a) tylko jedno miejsce zamieszkania,, (art. 28 KC)
+### Wyniki: {'correct': 30, 'incorrect': 28, 'article_correct': 23}
+--------------------
+# Pytanie 59
+### Udzielona odpowiedz: Zgodnie z [0], osobami prawnymi są Skarb Państwa i jednostki organizacyjne, którym przepisy szczególne przyznają osobowość prawną. Ponadto, w [0] wskazano, że Skarb Państwa jest osobą prawną. Zatem, na podstawie [0] wnioskuję, że zgodnie z Kodeksem cywilnym, Skarb Państwa jest osobą prawną.
+### Judge: Tak
+### Poprawna odpowiedz: b) osobą prawną,, (art. 33 KC)
+### Wyniki: {'correct': 31, 'incorrect': 28, 'article_correct': 24}
+--------------------
+# Pytanie 60
+### Udzielona odpowiedz: Zgodnie z [0], "Państwowe osoby prawne nie ponoszą odpowiedzialności za zobowiązania Skarbu Państwa". Odpowiedź na pytanie a) jest zatem prawidłowa.
+### Judge: Tak
+### Poprawna odpowiedz: a) nie ponoszą odpowiedzialności za zobowiązania Skarbu Państwa,, (art. 40 § 1 KC)
+### Wyniki: {'correct': 32, 'incorrect': 28, 'article_correct': 24}
+--------------------
+# Pytanie 61
+### Udzielona odpowiedz: Zgodnie z [0], "Jeżeli ustawa lub oparty na niej statut nie stanowi inaczej, siedzibą osoby prawnej jest miejscowość, w której ma siedzibę jej organ zarządzający." Oznacza to, że podstawą prawną dla wniosku jest art. 41 Kodeksu cywilnego, który stanowi, że "Jeżeli ustawa lub oparty na niej statut nie stanowi inaczej, siedzibą osoby prawnej jest miejscowość, w której ma siedzibę jej organ zarządzający."
+### Judge: Nie.
+### Poprawna odpowiedz: b) zarządzający,, (art. 41 KC)
+### Wyniki: {'correct': 32, 'incorrect': 29, 'article_correct': 24}
+--------------------
+# Pytanie 62
+### Udzielona odpowiedz: Zgodnie z [0], firmą osoby fizycznej jest jej imię i nazwisko. Nie wyklucza to włączenia do firmy pseudonimu lub określeń wskazujących na przedmiot działalności przedsiębiorcy, miejsce jej prowadzenia oraz innych określeń dowolnie obranych.
+### Judge: Nie
+### Poprawna odpowiedz: b) jej imię i nazwisko,, (art. 43(4) KC)
+### Wyniki: {'correct': 32, 'incorrect': 30, 'article_correct': 24}
+--------------------
+# Pytanie 63
+### Udzielona odpowiedz: Zgodnie z [0], pożytkami naturalnymi rzeczy są jej płody i inne odłączone od niej części składowe, o ile według zasad prawidłowej gospodarki stanowią normalny dochód z rzeczy. Ponadto, w [0] znajduje się również informacja, że pożytkami cywilnymi rzeczy są dochody, które rzecz przynosi na podstawie stosunku prawnego. Odpowiedź a) jest zatem prawidłowa.
+### Judge: Nie.
+### Poprawna odpowiedz: b) jej płody i inne odłączone od niej części składowe, o ile według zasad prawidłowej gospodarki stanowią normalny dochód z rzeczy,, (art. 53 § 1 KC)
+### Wyniki: {'correct': 32, 'incorrect': 31, 'article_correct': 24}
+--------------------
+# Pytanie 64
+### Udzielona odpowiedz: Zgodnie z [0], do ustalenia chwili zawarcia umowy w drodze przetargu stosuje się przepisy dotyczące przyjęcia oferty, chyba że w warunkach przetargu zastrzeżono inaczej. Przepis art. $70^{2}\S3$ stosuje się odpowiednio. Ponadto, w [1] wskazano, że w warunkach aukcji albo przetargu można zastrzec, że przystępujący do aukcji albo przetargu powinien, pod rygorem niedopuszczenia do nich, wpłacić organizatorowi określoną sumę albo ustanowić odpowiednie zabezpieczenie jej zapłaty (wadium). Nie udało mi się odnaleźć informacji na temat chwili zawarcia umowy w wyniku aukcji.
+### Judge: Nie
+### Poprawna odpowiedz: b) udzielenia przybicia,, (art. 70² § 2 KC)
+### Wyniki: {'correct': 32, 'incorrect': 32, 'article_correct': 24}
+--------------------
+# Pytanie 65
+### Udzielona odpowiedz: Zgodnie z [0], termin przedawnienia wynosi sześć lat, a dla roszczeń o świadczenia okresowe oraz roszczeń związanych z prowadzeniem działalności gospodarczej – trzy lata. Odpowiedź na pytanie b) jest zatem prawidłowa.
+### Judge: Tak
+### Poprawna odpowiedz: b) sześć lat,, (art. 118 KC)
+### Wyniki: {'correct': 33, 'incorrect': 32, 'article_correct': 25}
+--------------------
+# Pytanie 66
+### Udzielona odpowiedz: Nie udało mi się odnaleźć odpowiedzi na pytanie.
+### Judge: Nie
+### Poprawna odpowiedz: a) rzeczy oznaczonej co do tożsamości,, (art. 155 § 2 KC)
+### Wyniki: {'correct': 33, 'incorrect': 33, 'article_correct': 25}
+--------------------
+# Pytanie 67
+### Udzielona odpowiedz: Zgodnie z [0], umowa zobowiązująca do przeniesienia własności nieruchomości powinna być zawarta w formie aktu notarialnego.
+### Judge: Tak
+### Poprawna odpowiedz: b) aktu notarialnego,, (art. 158 KC)
+### Wyniki: {'correct': 34, 'incorrect': 33, 'article_correct': 26}
+--------------------
+# Pytanie 68
+### Udzielona odpowiedz: Nie udało mi się odnaleźć odpowiedzi na pytanie.
+### Judge: Nie
+### Poprawna odpowiedz: a) roku od dnia zawarcia umowy przedwstępnej,, (art. 389 § 2 KC)
+### Wyniki: {'correct': 34, 'incorrect': 34, 'article_correct': 26}
+--------------------
+# Pytanie 69
+### Udzielona odpowiedz: Zgodnie z [0], w braku odmiennego zastrzeżenia umownego albo zwyczaju zadatek dany przy zawarciu umowy ma to znaczenie, że w razie niewykonania umowy przez jedną ze stron druga strona może bez wyznaczenia terminu dodatkowego od umowy odstąpić i otrzymany zadatek zachować, a jeżeli sama go dała, może żądać sumy dwukrotnie wyższej.
+### Judge: Tak.
+### Poprawna odpowiedz: a) sumy dwukrotnie wyższej,, (art. 394 § 1 KC)
+### Wyniki: {'correct': 35, 'incorrect': 34, 'article_correct': 27}
+--------------------
+# Pytanie 70
+### Udzielona odpowiedz: Nie udało mi się odnaleźć odpowiedzi na pytanie.
+### Judge: Nie.
+### Poprawna odpowiedz: c) pokwitowania., (art. 462 § 1 KC)
+### Wyniki: {'correct': 35, 'incorrect': 35, 'article_correct': 27}
+--------------------
+# Pytanie 71
+### Udzielona odpowiedz: Zgodnie z [0], "Nieważne jest zastrzeżenie, iż dłużnik nie będzie odpowiedzialny za szkodę, którą może wyrządzić wierzycielowi umyślnie." Oznacza to, że zastrzeżenie, iż dłużnik nie będzie odpowiedzialny za szkodę wyrządzoną wierzycielowi umyślnie, jest nieważne. Zatem, zgodnie z [0], dłużnik jest odpowiedzialny za szkodę wyrządzoną wierzycielowi umyślnie.
+### Judge: Nie.
+### Poprawna odpowiedz: b) umyślnie,, (art. 473 § 2 KC)
+### Wyniki: {'correct': 35, 'incorrect': 36, 'article_correct': 27}
+--------------------
+# Pytanie 72
+### Udzielona odpowiedz: Odpowiedź: a) śmierci spadkodawcy. Wnioskuję to na podstawie [0], który stanowi: "Spadek otwiera się z chwilą śmierci spadkodawcy.".
+### Judge: Tak
+### Poprawna odpowiedz: a) śmierci spadkodawcy,, (art. 924 KC)
+### Wyniki: {'correct': 36, 'incorrect': 36, 'article_correct': 28}
+--------------------
+# Pytanie 73
+### Udzielona odpowiedz: Zgodnie z [0], przepisów o powołaniu do dziedziczenia z ustawy nie stosuje się do małżonka spadkodawcy pozostającego w separacji.
+### Judge: Nie
+### Poprawna odpowiedz: b) małżonka spadkodawcy pozostającego w separacji,, (art. 935¹ KC)
+### Wyniki: {'correct': 36, 'incorrect': 37, 'article_correct': 28}
+--------------------
+# Pytanie 74
+### Udzielona odpowiedz: Nie udało mi się odnaleźć odpowiedzi na pytanie.
+### Judge: Nie
+### Poprawna odpowiedz: b) tylko jednego spadkodawcy,, (art. 942 KC)
+### Wyniki: {'correct': 36, 'incorrect': 38, 'article_correct': 28}
+--------------------
+# Pytanie 75
+### Udzielona odpowiedz: Zgodnie z [0], zstępnym, małżonkowi oraz rodzicom spadkodawcy, którzy byliby powołani do spadku z ustawy, należą się, jeżeli uprawniony jest trwale niezdolny do pracy albo jeżeli zstępny uprawniony jest małoletni – dwie trzecie wartości udziału spadkowego, który by mu przypadał przy dziedziczeniu ustawowym. Odpowiedź na pytanie a) jest zatem prawidłowa.
+### Judge: Tak.
+### Poprawna odpowiedz: a) dwie trzecie wartości udziału spadkowego, który by mu przypadał przy dziedziczeniu ustawowym,, (art. 991 § 1 KC)
+### Wyniki: {'correct': 37, 'incorrect': 38, 'article_correct': 29}
+--------------------
+# Pytanie 76
+### Udzielona odpowiedz: Zgodnie z [0], oświadczenie o przyjęciu lub o odrzuceniu spadku może być złożone w ciągu sześciu miesięcy od dnia, w którym spadkobierca dowiedział się o tytule swego powołania.
+### Judge: Tak.
+### Poprawna odpowiedz: c) sześciu miesięcy od dnia, w którym spadkobierca dowiedział się o tytule swego powołania., (art. 1015 § 1 KC)
+### Wyniki: {'correct': 38, 'incorrect': 38, 'article_correct': 30}
+--------------------
+{'correct': 38, 'incorrect': 38, 'article_correct': 30}
+
+LLM Judge pomylil sie w ocenie wiekszosci artykułów, poprawne sa:
+29,57,58,61
+I ocenie odpowiedzi
+4,20,39,45,57,58,61,62,71,73
+
+Finalny wynik:
+Correct: 48
+Incorrect: 28
+Article correct:4 
