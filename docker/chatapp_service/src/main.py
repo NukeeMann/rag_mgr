@@ -198,7 +198,7 @@ def build_app():
         # Handle form submission
         if update_button:
             if s_es_url or s_es_key:
-                if not s_es_url or not s_es_key:
+                if s_es_url and s_es_key:
                     st.session_state.rag_system.set_database(s_es_url, s_es_key)
                     st.success(f"Done! The database and LLM service have been set")
                     st.button("Close")

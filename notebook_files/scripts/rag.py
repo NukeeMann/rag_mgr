@@ -26,6 +26,7 @@ from pdfminer.high_level import extract_text_to_fp
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 import numpy as np
 import requests
+from pinecone import Pinecone, ServerlessSpec
 
 def extract_pdf_lite(pdf_path):
     root = os.path.dirname(pdf_path)
@@ -106,9 +107,12 @@ class RAG:
             if 'LLM_USERNAME' in os.environ and 'LLM_PASSWORD' in os.environ:
                 self.set_llm_service_creds(os.getenv('LLM_USERNAME'), os.getenv('LLM_PASSWORD'))
 
+        # Set the Pinecone client
+        self.set_database(api_key="")
+
         # Set the ElasticSearch client
-        if 'ES_URL' in os.environ and 'ES_KEY' in os.environ:
-            self.set_database(os.getenv('ES_URL'), os.getenv('ES_KEY')) 
+        # if 'ES_URL' in os.environ and 'ES_KEY' in os.environ:
+        #     self.set_database(os.getenv('ES_URL'), os.getenv('ES_KEY')) 
 
         # Load tokenizer and embedding model
         self.processing_tokenizer = AutoTokenizer.from_pretrained("Voicelab/sbert-base-cased-pl") # medicalai/ClinicalBERT
@@ -123,13 +127,17 @@ class RAG:
             torch_dtype=torch.bfloat16,
             device_map="cpu"
         )
+    
+    # Set the Pinecone database credentials
+    def set_database(self, api_key):
+        self.pinecone_client = Pinecone(api_key=api_key)
 
     # Set the ElasticSearch database credentials
-    def set_database(self, es_url, es_key):
-        self.es_client = Elasticsearch(
-            es_url,
-            api_key=es_key
-        )
+    # def set_database(self, es_url, es_key):
+    #     self.es_client = Elasticsearch(
+    #         es_url,
+    #         api_key=es_key
+    #     )
 
     # Change the database index
     def change_index(self, index_name):
@@ -219,10 +227,12 @@ class RAG:
         ner_res = self.nlp_pl(text)
         found_entities = []
         for ent in ner_res.ents:
-            found_entities.append({'entity_name': ent.text, 'entity_type': ent.label_})
+            #found_entities.append({'entity_name': ent.text, 'entity_type': ent.label_})
+            found_entities.append(ent.text)
         
         # Remove duplicates
-        unique_entities = list({frozenset(entity.items()): entity for entity in found_entities}.values())
+        # unique_entities = list({frozenset(entity.items()): entity for entity in found_entities}.values())
+        unique_entities = list(set(found_entities))
         return unique_entities
 
     # Clean text, remove polish words and extract entities
@@ -278,7 +288,7 @@ class RAG:
         return {'source': preprocessed_doc['source'], 'text_embedded': embedding, 'cleaned_text': preprocessed_doc['cleaned_text'], 'source_text': preprocessed_doc['source_text'], 'entities': preprocessed_doc['entities']}
 
     # Process documents
-    def process_documents(self, documents: List[Document]):
+    def process_documents(self, documents: List[Document], index_name):
         # Preprocess each document
         preprocessed_docs = [self.clean_doc(doc) for doc in tqdm(documents, desc="Processing documents")]
         
@@ -287,72 +297,105 @@ class RAG:
         
         # Restructure the document list
         embedded_docs_dict = []
+        # for doc in embedded_docs:
+        #     embedded_docs_dict.append({
+        #         'source': doc['source'],
+        #         'embedding': doc['text_embedded'],
+        #         'source_text': doc['source_text'],
+        #         'cleaned_text': doc['cleaned_text'],
+        #         'entities': doc['entities']
+        #     })
+        
+        # Get the number of documents in index
+        index = self.pinecone_client.Index(index_name)
+        id_count = index.describe_index_stats()["total_vector_count"]
         for doc in embedded_docs:
-            embedded_docs_dict.append({
-                'source': doc['source'],
-                'embedding': doc['text_embedded'],
-                'source_text': doc['source_text'],
-                'cleaned_text': doc['cleaned_text'],
-                'entities': doc['entities']
-            })
+            id_count += 1
+            embedded_docs_dict.append(
+                {
+                    'id': index_name + f"_{id_count}",
+                    'values': doc['text_embedded'],
+                    'metadata': {
+                        'source': doc['source'],
+                        'source_text': doc['source_text'],
+                        'cleaned_text': doc['cleaned_text'],
+                        'entities': doc['entities']
+                    }
+                }
+            )
         
         return embedded_docs_dict
 
     # Insert single document to the ElasticSearch databse
     def index_single_document(self, documents, index_name):
-        self.es_client.index(
-            index=index_name,
-            document=documents
-        )
+        # self.es_client.index(
+        #     index=index_name,
+        #     document=documents
+        # )
+        #print(documents)
+        index = self.pinecone_client.Index(index_name)
+        index.upsert(vectors=[documents])
 
     # Create specified index mapping in elasticsearch
     def create_index_mapping(self, index_name):
-        mappings = {
-            "properties": {
-                "source": {
-                    "type": "keyword"
-                },
-                "source_text": {
-                    "type": "text"
-                },
-                "cleaned_text": {
-                    "type": "text"
-                },
-                "embedding": {
-                    "type": "dense_vector",
-                    "dims": 768
-                },
-                "entities": {
-                    "type": "nested",
-                    "properties": {
-                        "entity_name": {
-                            "type": "keyword"
-                        },
-                        "entity_type": {
-                            "type": "keyword"
-                        }
-                    }
-                }
-            }
-        }
+        # mappings = {
+        #     "properties": {
+        #         "source": {
+        #             "type": "keyword"
+        #         },
+        #         "source_text": {
+        #             "type": "text"
+        #         },
+        #         "cleaned_text": {
+        #             "type": "text"
+        #         },
+        #         "embedding": {
+        #             "type": "dense_vector",
+        #             "dims": 768
+        #         },
+        #         "entities": {
+        #             "type": "nested",
+        #             "properties": {
+        #                 "entity_name": {
+        #                     "type": "keyword"
+        #                 },
+        #                 "entity_type": {
+        #                     "type": "keyword"
+        #                 }
+        #             }
+        #         }
+        #     }
+        # }
 
-        self.es_client.indices.create(index=index_name, mappings=mappings)
+        # self.es_client.indices.create(index=index_name, mappings=mappings)
+        self.pinecone_client.create_index(
+            name=index_name,
+            dimension=768,  # Matching the embedding dimensions
+            metric="cosine",  # Using cosine similarity
+            spec=ServerlessSpec(
+                cloud="aws",
+                region="us-east-1"
+            ) 
+        )
 
     # Insert documents into the elasticsearch
     def insert_docs_dir(self, docs_root_dir, index_name, chunk_size=300, chunk_overlap=60):
+        # Check if index already exists if not, create one
+        #indexes = self.es_client.indices.get_alias(index="*")
+        #index_list = list(indexes.keys())
+        index_list = list(map(lambda index: index["name"], self.pinecone_client.list_indexes()))
+
+        if index_name not in index_list:
+            self.create_index_mapping(index_name)
+        
+        # Load the documents
         raw_documents = self.load_documents(docs_root_dir)
+        
         # Split the documents
         split_raw_document_list = self.split_documents(raw_documents, chunk_size, chunk_overlap)
 
         # Process all documents
-        embedded_docs_dict = self.process_documents(split_raw_document_list)
-        
-        # Check if index already exists if not, create one
-        indexes = self.es_client.indices.get_alias(index="*")
-        index_list = list(indexes.keys())
-
-        if index_name not in index_list:
-            self.create_index_mapping(index_name)
+        embedded_docs_dict = self.process_documents(split_raw_document_list, index_name)
 
         # Insert all documents into ElasticSearch
         for embedded_doc in tqdm(embedded_docs_dict, desc="Inserting documents to ElasticSearch"):
@@ -416,46 +459,53 @@ class RAG:
 
     # Retrieve documents
     def retrieve(self, query, ret_fun='similarity', retrieve_size=5, search_embed=True, query_cleaned=False):
-
-        if ret_fun == 'similarity':
-            search_fun = "cosineSimilarity(params.query_vector, 'embedding')"
-        elif ret_fun == 'dotproduct':
-            search_fun = "dotProduct(params.query_vector, 'embedding')"
+        # if ret_fun == 'similarity':
+        #     search_fun = "cosineSimilarity(params.query_vector, 'embedding')"
+        # elif ret_fun == 'dotproduct':
+        #     search_fun = "dotProduct(params.query_vector, 'embedding')"
         
-        if query_cleaned == False:
-            index_search = "source_text"
-            query_text = query['source_text']
-        else:
-            index_search = "cleaned_text"
-            query_text = query['cleaned_text']
+        # if query_cleaned == False:
+        #     index_search = "source_text"
+        #     query_text = query['source_text']
+        # else:
+        #     index_search = "cleaned_text"
+        #     query_text = query['cleaned_text']
 
-        # Construct the search query using script_score for cosine similarity
-        if search_embed:
-            search_query = {
-                "size": retrieve_size,  # Set the number of results you want to retrieve
-                "query": {
-                    "script_score": {
-                        "query": {"match_all": {}},
-                        "script": {
-                            "source": search_fun,
-                            "params": {"query_vector": query['embedding']}
-                        }
-                    }
-                }
-            }
-        else:
-            search_query = {
-                "size": retrieve_size,  # Define the desired number of results
-                "query": {
-                    "match": {
-                        index_search: query['source_text']  # Search within 'cleaned_text'
-                    }
-                }
-            }
+        # # Construct the search query using script_score for cosine similarity
+        # if search_embed:
+        #     search_query = {
+        #         "size": retrieve_size,  # Set the number of results you want to retrieve
+        #         "query": {
+        #             "script_score": {
+        #                 "query": {"match_all": {}},
+        #                 "script": {
+        #                     "source": search_fun,
+        #                     "params": {"query_vector": query['embedding']}
+        #                 }
+        #             }
+        #         }
+        #     }
+        # else:
+        #     search_query = {
+        #         "size": retrieve_size,  # Define the desired number of results
+        #         "query": {
+        #             "match": {
+        #                 index_search: query['source_text']  # Search within 'cleaned_text'
+        #             }
+        #         }
+        #     }
 
-        # Execute the search
-        retrieved_docs = self.es_client.search(index=self.index_name, body=search_query)
-        retrieved_docs = retrieved_docs['hits']['hits']
+        # # Execute the search
+        # retrieved_docs = self.es_client.search(index=self.index_name, body=search_query)
+        # retrieved_docs = retrieved_docs['hits']['hits']
+        index = self.pinecone_client.Index(self.index_name)
+        response = index.query(
+            vector=query['embedding'].tolist(),
+            top_k=retrieve_size,
+            include_values=True,
+            include_metadata=True,
+        )
+        retrieved_docs = response['matches']
 
         return retrieved_docs
     
@@ -475,7 +525,8 @@ class RAG:
                 #messages.append({"role": "system", "content": f"Na podstawie dostarczonych poniżej dokumentów odpowiedz na pytanie użytkownika które znajduję się na samym dole. Wnioskuj wyłącznie na podstawie dostarczonego kontekstu. Jeżeli nie jesteś w stanie odpowiedzieć na podstawie otrzymanych dokumentów uczciwie to powiedz. {additional_instruct}"})
                 context_text = ""
                 for id, doc in enumerate(documents):
-                    context_text += f"# Dokument {id}: {doc['_source'].get('source_text')} "
+                    #context_text += f"# Dokument {id}: {doc['_source'].get('source_text')} "
+                    context_text += f"# Dokument {id}: {doc['metadata']['source_text']} "
 
                 user_text=f"Odpowiedz na poniższe pytanie: {query['source_text']} \n\n ### Dokumenty dostarczone dla poszerzenia kontekstu: {context_text}"
 
@@ -483,7 +534,8 @@ class RAG:
             elif 'PLLuM' in self.gen_model:
                 docs_text = ""
                 for id, doc in enumerate(documents):
-                    docs_text += f"Dokument {id}: {doc['_source'].get('source_text')}"
+                    #docs_text += f"Dokument {id}: {doc['_source'].get('source_text')}"
+                    docs_text += f"Dokument {id}: {doc['metadata']['source_text']}"
                 
                 user_msg = f'''
                 Numerowana lista dokumentów jest poniżej:
@@ -503,7 +555,8 @@ class RAG:
             else:
                 docs_text = ""
                 for id, doc in enumerate(documents):
-                    docs_text += f"Dokument {id}: {doc['_source'].get('source_text')}"
+                    #docs_text += f"Dokument {id}: {doc['_source'].get('source_text')}"
+                    docs_text += f"Dokument {id}: {doc['metadata']['source_text']}"
 
                 user_msg = f'''
                 {query['source_text']}
@@ -602,36 +655,41 @@ class RAG:
         query_keywords = query['cleaned_text'].split()
 
         for doc in documents:
-            source_text = doc['_source']['cleaned_text']
+            #source_text = doc['_source']['cleaned_text']
+            source_text = doc['metadata']['cleaned_text']
             score_adjustment = sum(0.1 for keyword in query_keywords if keyword in source_text)
-            doc['_score'] += score_adjustment  # Add to the current score
+            doc['score'] += score_adjustment  # Add to the current score
 
         # Sort documents based on the adjusted score
-        return sorted(documents, key=lambda d: d['_score'], reverse=True)
+        return sorted(documents, key=lambda d: d['score'], reverse=True)
 
     # Rerank retrieved documents based on entities occurances
     def rerank_entities(self, documents, query):
-        query_entity_names = [item['entity_name'] for item in query['entities']]
+        #query_entity_names = [item['entity_name'] for item in query['entities']]
+        query_entity_names = query['entities']
 
         for doc in documents:
             matching_entities_score = 0
-            doc_entities = doc['_source'].get('entities', [])
+            #doc_entities = doc['_source']['entities']
+            doc_entities = doc['metadata']['entities']
             
             # Calculate score based on matched entities
             for entity in doc_entities:
-                if entity['entity_name'] in query_entity_names:
+                #if entity['entity_name'] in query_entity_names:
+                if entity in query_entity_names:
                     matching_entities_score += 0.2
             
             # Adjust the score by adding the matching entity score
-            doc['_score'] += matching_entities_score
+            doc['score'] += matching_entities_score
         
         # Sort documents based on the adjusted score
-        return sorted(documents, key=lambda d: d['_score'], reverse=True)
+        return sorted(documents, key=lambda d: d['score'], reverse=True)
 
     # Rerank retrieved documents using semantic similarity
     def rerank_semantic(self, documents, query):
         # Convert embeddings to tensors
-        document_embeddings_t = [torch.tensor(doc['_source']['embedding']) for doc in documents]
+        #document_embeddings_t = [torch.tensor(doc['_source']['embedding']) for doc in documents]
+        document_embeddings_t = [torch.tensor(doc['values']) for doc in documents]
         query_embedding_t = torch.tensor(query['embedding']).unsqueeze(dim=0)
 
         # Compute similarity scores
@@ -641,15 +699,16 @@ class RAG:
         for score in scores[0]:
             doc_index = score['corpus_id']
             doc = documents[doc_index]
-            doc['_score'] = score['score']
+            doc['score'] = score['score']
             reranked_docs_semantic.append(doc)
 
         # Sort documents by the updated similarity score
-        return sorted(reranked_docs_semantic, key=lambda x: -x['_score'])
+        return sorted(reranked_docs_semantic, key=lambda x: -x['score'])
     
     # Rerank retrieved documents using LLM
     def rerank_llm(self, documents, query):
-        texts = [f"{query['source_text']}</s></s>{doc['_source']['source_text']}" for doc in documents]
+        #texts = [f"{query['source_text']}</s></s>{doc['_source']['source_text']}" for doc in documents]
+        texts = [f"{query['source_text']}</s></s>{doc['metadata']['source_text']}" for doc in documents]
         tokens = self.rr_tokenizer(texts, padding="longest", truncation=True, return_tensors="pt")
         output = self.rr_model(**tokens)
         scores = output.logits.detach().float().numpy()
@@ -700,5 +759,5 @@ class RAG:
         else:
             answer = self.send_message(query, reranked_docs, additional_instruct=additional_instruct, use_rag=use_rag)
 
-        return answer
+        return reranked_docs
     
