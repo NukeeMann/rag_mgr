@@ -1,0 +1,554 @@
+# Pytanie 1
+### Udzielona odpowiedz: Odpowiedź: c) może bez zgody przedstawiciela ustawowego rozporządzać swoim zarobkiem, chyba że sąd opiekuńczy z ważnych powodów inaczej postanowi.
+### Judge: Tak
+### Poprawna odpowiedz: c) może bez zgody przedstawiciela ustawowego rozporządzać swoim zarobkiem, chyba że sąd opiekuńczy z ważnych powodów inaczej postanowi., (art. 21 KC)
+### Wyniki: {'correct': 1, 'incorrect': 0, 'article_correct': 1}
+--------------------
+# Pytanie 2
+### Udzielona odpowiedz: Odpowiedź: b) koniec tego dnia.
+### Judge: Tak
+### Poprawna odpowiedz: b) koniec tego dnia,, (art. 31 § 3 KC)
+### Wyniki: {'correct': 2, 'incorrect': 0, 'article_correct': 2}
+--------------------
+# Pytanie 3
+### Udzielona odpowiedz: Odpowiedź: a)
+### Judge: Tak.
+### Poprawna odpowiedz: a) wszystko, co nie może być od niej odłączone bez uszkodzenia lub istotnej zmiany całości albo bez uszkodzenia lub istotnej zmiany przedmiotu odłączonego i nie jest z nią połączone tylko dla przemijającego użytku,, (art. 47 § 2 i 3 KC)
+### Wyniki: {'correct': 3, 'incorrect': 0, 'article_correct': 2}
+--------------------
+# Pytanie 4
+### Udzielona odpowiedz: Odpowiedź: c)
+### Judge: Tak
+### Poprawna odpowiedz: c) wystarcza złożenie oświadczenia woli w postaci dokumentu, w sposób umożliwiający ustalenie osoby składającej oświadczenie., (art. 77² KC)
+### Wyniki: {'correct': 4, 'incorrect': 0, 'article_correct': 2}
+--------------------
+# Pytanie 5
+### Udzielona odpowiedz: Odpowiedź: b) czynność prawna jest ważna, chyba że druga strona o wygaśnięciu umocowania wiedziała lub z łatwością mogła się dowiedzieć.
+### Judge: Tak
+### Poprawna odpowiedz: b) czynność prawna jest ważna, chyba że druga strona o wygaśnięciu umocowania wiedziała lub z łatwością mogła się dowiedzieć,, (art. 105 KC)
+### Wyniki: {'correct': 5, 'incorrect': 0, 'article_correct': 2}
+--------------------
+# Pytanie 6
+### Udzielona odpowiedz: Odpowiedź: c) umocowanie takie wynika z treści pełnomocnictwa, z ustawy lub ze stosunku prawnego będącego podstawą pełnomocnictwa.
+### Judge: Tak
+### Poprawna odpowiedz: c) umocowanie takie wynika z treści pełnomocnictwa, z ustawy lub ze stosunku prawnego będącego podstawą pełnomocnictwa., (art. 106 KC)
+### Wyniki: {'correct': 6, 'incorrect': 0, 'article_correct': 3}
+--------------------
+# Pytanie 7
+### Udzielona odpowiedz: Odpowiedź: a)
+### Judge: Tak
+### Poprawna odpowiedz: a) wszystkich współwłaścicieli, a w braku takiej zgody współwłaściciele, których udziały wynoszą co najmniej połowę, mogą żądać rozstrzygnięcia przez sąd,, (art. 199 KC)
+### Wyniki: {'correct': 7, 'incorrect': 0, 'article_correct': 3}
+--------------------
+# Pytanie 8
+### Udzielona odpowiedz: Odpowiedź: a) ulegają przedawnieniu w terminie 10 lat
+### Judge: Nie
+### Poprawna odpowiedz: c) nie ulegają przedawnieniu., (art. 223  § 1 w zw. z art. 222 § 2 KC)
+### Wyniki: {'correct': 7, 'incorrect': 1, 'article_correct': 3}
+--------------------
+# Pytanie 9
+### Udzielona odpowiedz: Odpowiedź: a)
+### Judge: Tak
+### Poprawna odpowiedz: a) wygasa najpóźniej ze śmiercią tej osoby,, (art. 266 KC)
+### Wyniki: {'correct': 8, 'incorrect': 1, 'article_correct': 3}
+--------------------
+# Pytanie 10
+### Udzielona odpowiedz: Dokument 1: Art. 518. (uchylony)    Art. 518(1). Zastawnik może zaspokoić się z rzeczy stanowiącej przedmiot zastawu bez względu na to, czyją stała się własnością, i z pierwszeństwem przed wierzycielami zastawcy. Może też bez zgody zastawcy przenieść na inną osobę prawa wynikające z umowy zastawniczej.
+                 Dokument 2: Art. 518. (uchylony)    Art. 518(2). Zastawnik może dochodzić roszczenia o naprawienie szkody z powodu pogorszenia rzeczy przedawniającego się z upływem roku od dnia zwrotu rzeczy.
+                 Dokument 3: Art. 518. (uchylony)    Art. 518(3). Zastawca może dochodzić roszczenia o naprawienie szkody z powodu pogorszenia rzeczy przedawniającego się z upływem dwóch lat od wygaśnięcia zastawu.
+
+### Odpowiedź:
+a) dwóch lat od wygaśnięcia zastawu
+### Judge: Nie
+### Poprawna odpowiedz: b) roku od dnia zwrotu rzeczy,, (art. 322 § 1 KC)
+### Wyniki: {'correct': 8, 'incorrect': 2, 'article_correct': 3}
+--------------------
+# Pytanie 11
+### Udzielona odpowiedz: Odpowiedź: b) posiadaczem zależnym
+### Judge: Nie.
+### Poprawna odpowiedz: c) dzierżycielem., (art. 338 KC)
+### Wyniki: {'correct': 8, 'incorrect': 3, 'article_correct': 3}
+--------------------
+# Pytanie 12
+### Udzielona odpowiedz: Odpowiedź: a) ma skutek także względem współdłużników
+### Judge: Tak
+### Poprawna odpowiedz: a) ma skutek także względem współdłużników,, (art. 374 § 2 KC)
+### Wyniki: {'correct': 9, 'incorrect': 3, 'article_correct': 4}
+--------------------
+# Pytanie 13
+### Udzielona odpowiedz: Dokument 1: Art. 387. Jeżeli wskutek wypowiedzenia z winy dłużnika zobowiązanie wygasa, wierzyciel może żądać odszkodowania za szkodę, którą wskutek tego poniósł.    Art. 387$^{1}$. $\S~1$ 1. Jeżeli wskutek wypowiedzenia zobowiązania wzajemnego przez jedną ze stron nastąpiło znaczne pogorszenie sytuacji drugiej strony, ta druga strona może żądać odszkodowania, jeżeli wskutek wypowiedzenia poniosła szkodę.    Art. 387$^{2}$. $\S~2$ 2. Przepis powyższy nie wyłącza możliwości przyznania przez sąd odpowiedniej sumy pieniężnej stronie, która wskutek wypowiedzenia zobowiązania poniosła szkodę, a której nie da się zakwalifikować jako odszkodowanie.    Art. 387$^{3}$. $\S~3$ 3. Przepisy powyższe stosuje się odpowiednio w wypadku wypowiedzenia zobowiązania bezterminowego.    Art. 387$^{4}$. $\S~4$ 4. Przepisy powyższe stosuje się odpowiednio do zobowiązań z umów, które nie mogą być wypowiedziane.    Art. 387$^{5}$. $\S~5$ 5. Przepisy powyższe stosuje się odpowiednio do zobowiązań z umów, które mogą być wypowiedziane tylko z ważnych powodów.    Art. 387$^{6}$. $\S~6$ 6. Przepisy powyższe stosuje się odpowiednio do zobowiązań z umów, które mogą być wypowiedziane tylko z zachowaniem terminu wypowiedzenia.    Art. 387$^{7}$. $\S~7$ 7. Przepisy powyższe stosuje się odpowiednio do zobowiązań z umów, które mogą być wypowiedziane tylko z zachowaniem terminu wypowiedzenia, jeżeli wypowiedzenie nastąpiło z powodu, który uzasadniałby wypowiedzenie natychmiastowe.    Art. 387$^{8}$. $\S~8$ 8. Przepisy powyższe stosuje się odpowiednio do zobowiązań z umów, które mogą być wypowiedziane tylko z ważnych powodów, jeżeli wypowiedzenie nastąpiło z powodu uzasadniającego wypowiedzenie natychmiastowe.    Art. 387$^{9}$. $\S~9$ 9. Przepisy powyższe stosuje się odpowiednio do zobowiązań z umów, które mogą być wypowiedziane tylko z zachowaniem terminu wypowiedzenia, jeżeli wypowiedzenie nastąpiło z powodu uzasadniającego wypowiedzenie natychmiastowe.    Art. 387$^{10}$. $\S~10$ 10. Przepisy powyższe stosuje się odpowiednio do zobowiązań z umów, które mogą być wypowiedziane tylko z ważnych powodów, jeżeli wypowiedzenie nastąpiło z powodu uzasadniającego wypowiedzenie natychmiastowe.    Art. 387$^{11}$. $\S~11$ 11. Przepisy powyższe stosuje się odpowiednio do zobowiązań z umów, które mogą być wypowiedziane tylko z zachowaniem terminu wypowiedzenia, jeżeli wypowiedzenie nastąpiło z powodu uzasadniającego wypowiedzenie natychmiastowe.    Art. 387$^{12}$. $\S~12$ 12. Przepisy powyższe stosuje się odpowiednio do zobowiązań z umów, które mog
+### Judge: Nie
+### Poprawna odpowiedz: b) jest nieważna,, (art. 387 § 1 KC)
+### Wyniki: {'correct': 9, 'incorrect': 4, 'article_correct': 4}
+--------------------
+# Pytanie 14
+### Udzielona odpowiedz: Odpowiedź: a)
+### Judge: Tak.
+### Poprawna odpowiedz: a) nie jest odpowiedzialny za szkodę wyrządzoną napastnikowi,, (art. 423 KC)
+### Wyniki: {'correct': 10, 'incorrect': 4, 'article_correct': 4}
+--------------------
+# Pytanie 15
+### Udzielona odpowiedz: Odpowiedź: c) może powstrzymać się z jego spełnieniem, dopóki druga strona nie zaofiaruje świadczenia wzajemnego lub nie da zabezpieczenia; te uprawnienia nie przysługują stronie, która w chwili zawarcia umowy wiedziała o złym stanie majątkowym drugiej strony.
+### Judge: Tak
+### Poprawna odpowiedz: c) może powstrzymać się z jego spełnieniem, dopóki druga strona nie zaofiaruje świadczenia wzajemnego lub nie da zabezpieczenia; te uprawnienia nie przysługują stronie, która w chwili zawarcia umowy wiedziała o złym stanie majątkowym drugiej strony., (art. 490 § 1 i 2  KC)
+### Wyniki: {'correct': 11, 'incorrect': 4, 'article_correct': 5}
+--------------------
+# Pytanie 16
+### Udzielona odpowiedz: Odpowiedź: a)
+### Judge: Tak
+### Poprawna odpowiedz: a) pod nieważnością na piśmie; to samo dotyczy zgody wierzyciela na przejęcie długu,, (art. 522 KC)
+### Wyniki: {'correct': 12, 'incorrect': 4, 'article_correct': 5}
+--------------------
+# Pytanie 17
+### Udzielona odpowiedz: Odpowiedź: b) sprzedaży.
+### Judge: Tak.
+### Poprawna odpowiedz: b) sprzedaży,, (art. 604 KC)
+### Wyniki: {'correct': 13, 'incorrect': 4, 'article_correct': 6}
+--------------------
+# Pytanie 18
+### Udzielona odpowiedz: Odpowiedź: b) umowa zostaje zawarta na czas oznaczony wskazany przez strony
+### Judge: Nie
+### Poprawna odpowiedz: c) poczytuje się umowę za zawartą na czas nieoznaczony., (art. 660 KC)
+### Wyniki: {'correct': 13, 'incorrect': 5, 'article_correct': 6}
+--------------------
+# Pytanie 19
+### Udzielona odpowiedz: Odpowiedź: c) zezwolić biorącemu, przez czas oznaczony lub nieoznaczony, na bezpłatne używanie oddanej mu w tym celu rzeczy.
+### Judge: Tak
+### Poprawna odpowiedz: c) zezwolić biorącemu, przez czas oznaczony lub nieoznaczony, na bezpłatne używanie oddanej mu w tym celu rzeczy., (art. 710 KC)
+### Wyniki: {'correct': 14, 'incorrect': 5, 'article_correct': 7}
+--------------------
+# Pytanie 20
+### Udzielona odpowiedz: Odpowiedź: b) w żadnym wypadku nie wolno używać rzeczy bez zgody składającego
+### Judge: Nie
+### Poprawna odpowiedz: c) nie wolno używać rzeczy bez zgody składającego, chyba że jest to konieczne do jej zachowania w stanie niepogorszonym., (art. 839 KC)
+### Wyniki: {'correct': 14, 'incorrect': 6, 'article_correct': 7}
+--------------------
+# Pytanie 21
+### Udzielona odpowiedz: Odpowiedź: b) spółka ulega rozwiązaniu.
+### Judge: Tak.
+### Poprawna odpowiedz: b) spółka ulega rozwiązaniu,, (art. 874 § 2 KC)
+### Wyniki: {'correct': 15, 'incorrect': 6, 'article_correct': 7}
+--------------------
+# Pytanie 22
+### Udzielona odpowiedz: Dokument 1: Art. 211. Jeżeli zniesienie współwłasności następuje na mocy orzeczenia sądu, sąd może w wyroku rozstrzygnąć o tym, na czyją rzecz ma nastąpić zaspokojenie współwłaściciela, któremu nie przyznano rzeczy lub prawa orzeczenie sądu o zniesieniu współwłasności rzeczy ruchomej lub jej części pomiędzy współwłaścicielami może zapaść bez rozstrzygania o prawie własności.
+                
+### Judge: Nie
+### Poprawna odpowiedz: a) ulega odpowiedniemu zmniejszeniu,, (art. 911 KC)
+### Wyniki: {'correct': 15, 'incorrect': 7, 'article_correct': 7}
+--------------------
+# Pytanie 23
+### Udzielona odpowiedz: Odpowiedź: b) jest skuteczne, gdy nastąpiło z dostatecznym rozeznaniem
+### Judge: Tak
+### Poprawna odpowiedz: b) jest skuteczne, gdy nastąpiło z dostatecznym rozeznaniem,, (art. 930 § 1 i 2 KC)
+### Wyniki: {'correct': 16, 'incorrect': 7, 'article_correct': 7}
+--------------------
+# Pytanie 24
+### Udzielona odpowiedz: Odpowiedź: b) ma moc wsteczną, jeżeli wynika to z jej brzmienia lub celu
+### Judge: Tak
+### Poprawna odpowiedz: b) ma moc wsteczną, jeżeli wynika to z jej brzmienia lub celu,, (art. 3 KC)
+### Wyniki: {'correct': 17, 'incorrect': 7, 'article_correct': 8}
+--------------------
+# Pytanie 25
+### Udzielona odpowiedz: Dokument 1: $\S1$. Osoba prawna jest reprezentowana przez zarząd.    Art. 38. § 1. Osoba prawna jest reprezentowana przez organ uprawniony do jej reprezentowania. § 2. Jeżeli organ uprawniony do reprezentowania osoby prawnej nie może działać, obowiązki tej osoby prawnej w postępowaniu sądowym i poza nim może wykonywać kurator ustanowiony przez sąd. § 3. Przepis § 2 stosuje się odpowiednio do osoby prawnej, która nie może być reprezentowana z innych przyczyn.    Art. 42. § 1. Zarząd jest obowiązany zwołać walne zgromadzenie, jeżeli uzna to za wskazane, a w szczególności na żądanie wspólników reprezentujących co najmniej jedną dziesiątą kapitału zakładowego. § 2. Zarząd jest obowiązany zwołać walne zgromadzenie na żądanie wspólników, których łącznie reprezentuje co najmniej jedną dziesiątą kapitału zakładowego, jeżeli ci wspólnicy wyrażą takie samo żądanie w liście podpisanym przez nich wszystkich. § 3. Zarząd jest obowiązany zwołać walne zgromadzenie na żądanie rady nadzorczej.    Art. 58. § 1. Jeżeli zarząd nie wypełnia swoich obowiązków albo narusza prawo lub postanowienia umowy spółki, każdy wspólnik lub wspólnicy reprezentujący co najmniej jedną dziesiątą kapitału zakładowego mogą żądać zwołania nadzwyczajnego walnego zgromadzenia. § 2. Wspólnicy, którzy domagają się zwołania nadzwyczajnego walnego zgromadzenia, powinni zwrócić się o to na piśmie do zarządu, precyzując proponowane zmiany w umowie spółki lub inne sprawy, które mają być przedmiotem obrad. § 3. Zarząd jest obowiązany zwołać nadzwyczajne walne zgromadzenie w ciągu dwóch tygodni od dnia doręczenia żądania. § 4. Jeżeli zarząd nie zwoła nadzwyczajnego walnego zgromadzenia, mogą je zwołać wspólnicy reprezentujący co najmniej połowę kapitału zakładowego. § 5. Wspólnicy, którzy domagają się zwołania nadzwyczajnego walnego zgromadzenia, mogą wyznaczyć pełnomocnika do zarządu.    Art. 59. § 1. Jeżeli zarząd nie zwoła nadzwyczajnego walnego zgromadzenia, mogą je zwołać wspólnicy reprezentujący co najmniej połowę kapitału zakładowego. § 2. Wspólnicy, którzy domagają się zwołania nadzwyczajnego walnego zgromadzenia, mogą wyznaczyć pełnomocnika do zarządu.    Art. 60. § 1. Nadzwyczajne walne zgromadzenie powinno być zwołane także na żądanie rady nadzorczej. § 2. Wspólnicy, którzy domagają się zwołania nadzwyczajnego walnego zgromadzenia, mogą wyznaczyć pełnomocnika do zarządu.    Art. 61. § 1. Nadzwyczajne walne zgromadzenie powinno być zwołane także na żądanie komisji rewizyjnej. § 2. Wspólnicy, którzy domagają się zwołania nadzwyczajnego walnego zgromadzenia, mogą wyznaczyć pełnomocnika do zarządu.    Art. 62. § 1. Nadzwyczajne walne zgromadzenie powinno
+### Judge: Nie
+### Poprawna odpowiedz: c) ustanawia dla niej kuratora., (art. 42 § 1 KC)
+### Wyniki: {'correct': 17, 'incorrect': 8, 'article_correct': 8}
+--------------------
+# Pytanie 26
+### Udzielona odpowiedz: Dokument 1: Art. 43. § 1. Osoba prawna może mieć tylko jedną firmę.
+§ 2. Firma osoby prawnej powinna zawierać jej nazwę.
+§ 3. Nazwa osoby prawnej powinna zawierać dodatkowe oznaczenie "spółka akcyjna" albo "spółka z ograniczoną odpowiedzialnością", jeżeli wymaga tego jej forma prawna.
+§ 4. Firma osoby prawnej może być chroniona jako znak towarowy, jeżeli odróżnia się ona w obrocie od firm innych przedsiębiorców.
+Dokument 2: Art. 23. § 1. Każdy ma prawo do ochrony swej czci, w szczególności dobrej sławy i zdrowia.
+§ 2. Dobra osobiste człowieka, jak w szczególności zdrowie, wolność, cześć, dobre imię, własność, nietykalność mieszkania, tajemnica korespondencji, nietykalność granic, twórczość naukowa, artystyczna, wynalazcza i racjonalizatorska, zwane również dobrem osobistym, pozostają pod ochroną prawa cywilnego niezależnie od ochrony przewidzianej w innych przepisach.
+Dokument 3: Art. 24. § 1. Ten, czyje dobro osobiste zostaje zagrożone cudzym działaniem, może żądać zaniechania tego działania, chyba że nie jest ono bezprawne.
+§ 2. Przepis powyższy stosuje się również do osoby prawnej.
+
+### Odpowiedź:
+b) stosuje się odpowiednio przepisy o ochronie dóbr osobistych osób fizycznych
+### Judge: Tak
+### Poprawna odpowiedz: b) stosuje się odpowiednio przepisy o ochronie dóbr osobistych osób fizycznych,, (art. 43 KC)
+### Wyniki: {'correct': 18, 'incorrect': 8, 'article_correct': 8}
+--------------------
+# Pytanie 27
+### Udzielona odpowiedz: Dokument 1: Art. 601. $\S$ 1. Jeżeli uprawniony z prawa pierwokupu nie wykonał tego prawa w terminie, może żądać od zobowiązanego zwrotu tego, co otrzymał w ramach wykonania prawa pierwokupu, oraz naprawienia szkody, którą poniósł przez to, że zawarł umowę z osobą trzecią.
+                 Dokument 2: Art. 602. $\S$ 1. Jeżeli uprawniony z prawa pierwokupu wykonał to prawo, umowa między zobowiązanym a osobą trzecią jest z mocy prawa bezskuteczna.
+                 Dokument 3: Art. 603. $\S$ 1. Jeżeli uprawniony z prawa pierwokupu wykonał to prawo, może żądać od zobowiązanego naprawienia szkody, którą poniósł przez to, że zawarł umowę z osobą trzecią, nieznającą o wykonaniu prawa pierwokupu.
+                 Dokument 4: Art. 604. $\S$ 1. Jeżeli uprawniony z prawa pierwokupu wykonał to prawo, może żądać od zobowiązanego zwrotu tego, co otrzymał w ramach wykonania prawa pierwokupu, oraz naprawienia szkody, którą poniósł przez to, że zawarł umowę z osobą trzecią, nieznającą o wykonaniu prawa pierwokupu.
+                 Dokument 5: Art. 605. $\S$ 1. Jeżeli uprawniony z prawa pierwokupu wykonał to prawo, może żądać od zobowiązanego naprawienia szkody, którą poniósł przez to, że zawarł umowę z osobą trzecią, nieznającą o wykonaniu prawa pierwokupu, jeżeli osoba ta działała w dobrej wierze.
+                 Dokument 6: Art. 606. $\S$ 1. Jeżeli uprawniony z prawa pierwokupu wykonał to prawo, może żądać od zobowiązanego zwrotu tego, co otrzymał w ramach wykonania prawa pierwokupu, oraz naprawienia szkody, którą poniósł przez to, że zawarł umowę z osobą trzecią, nieznającą o wykonaniu prawa pierwokupu, jeżeli osoba ta działała w dobrej wierze.
+                 Dokument 7: Art. 607. $\S$ 1. Jeżeli uprawniony z prawa pierwokupu wykonał to prawo, może żądać od zobowiązanego naprawienia szkody, którą poniósł przez to, że zawarł umowę z osobą trzecią, nieznającą o wykonaniu prawa pierwokupu, jeżeli osoba ta działała w dobrej wierze, a szkoda nie została naprawiona w trybie określonym w art. 603 lub 605.
+                 Dokument 8: Art. 608. $\S$ 1. Jeżeli uprawniony z prawa pierwokupu wykonał to prawo, może żądać od zobowiązanego zwrotu tego, co otrzymał w ramach wykonania prawa pierwokupu, oraz naprawienia szkody, którą poniósł przez to, że zawarł umowę z osobą trzecią, nieznającą o wykonaniu prawa pierwokupu, jeżeli osoba ta działała w dobrej wierze, a szkoda nie została naprawiona w trybie określonym w art. 604 lub 606.
+                 Dokument 9: Art. 609. $\S$ 1. Jeżeli uprawniony z pr
+### Judge: Nie.
+### Poprawna odpowiedz: a) nie może być zbyta,, (art. 43^{9} § 1 KC)
+### Wyniki: {'correct': 18, 'incorrect': 9, 'article_correct': 8}
+--------------------
+# Pytanie 28
+### Udzielona odpowiedz: Odpowiedź: b)
+### Judge: Nie
+### Poprawna odpowiedz: c) do przeniesienia własności nieruchomości potrzebne jest dodatkowe porozumienie stron obejmujące ich bezwarunkową zgodę na niezwłoczne przejście własności., (art. 157 § 2 KC)
+### Wyniki: {'correct': 18, 'incorrect': 10, 'article_correct': 8}
+--------------------
+# Pytanie 29
+### Udzielona odpowiedz: Dokument 1: $\S4$. Przedawnienie roszczeń osoby małoletniej o naprawienie szkody na osobie nie może skończyć się wcześniej niż z upływem lat dwóch od uzyskania przez nią pełnoletności.    Art. 443. Okoliczność, że działanie lub zaniechanie, z którego szkoda wynikła, stanowiło niewykonanie lub nienależyte wykonanie istniejącego uprzednio zobowiązania, nie wyłącza roszczenia o naprawienie szkody z tytułu czynu niedozwolonego, chyba że z treści istniejącego uprzednio zobowiązania wynika co innego.
+                
+### Judge: Nie
+### Poprawna odpowiedz: c) z upływem dwóch lat od uzyskania pełnoletności przez właściciela., (art. 173 KC)
+### Wyniki: {'correct': 18, 'incorrect': 11, 'article_correct': 8}
+--------------------
+# Pytanie 30
+### Udzielona odpowiedz: Odpowiedź: b) tylko wtedy, gdy nie można uzyskać zgody większości współwłaścicieli w sprawach, które przekraczają zakres zwykłego zarządu
+### Judge: Nie
+### Poprawna odpowiedz: a) jeżeli nie można uzyskać zgody większości współwłaścicieli w istotnych sprawach dotyczących zwykłego zarządu,, (art. 203 KC)
+### Wyniki: {'correct': 18, 'incorrect': 12, 'article_correct': 8}
+--------------------
+# Pytanie 31
+### Udzielona odpowiedz: Dokument 1: Art. 200. § 1. Każdy ze współwłaścicieli może wystąpić o zniesienie współwłasności.   Art. 201. § 1. Jeżeli zniesienie współwłasności następuje na mocy orzeczenia sądu, sąd rozstrzyga także o tym, który ze współwłaścicieli powinien być wykreślony z hipoteki.   Art. 202. § 1. Jeżeli zniesienie współwłasności następuje na mocy umowy, wnioskujący o wpis prawa powinien przedstawić umowę, a jeżeli zniesienie następuje w inny sposób - orzeczenie sądu.   Art. 203. § 1. W wypadku podziału przez podział rzeczy wspólnej, podział fizyczny lokali może nastąpić tylko w drodze umowy albo orzeczenia sądu.   Art. 204. § 1. Jeżeli w wyniku podziału fizycznego lokali nastąpią zmiany w odrębnych własnościach lokali, sąd dokonuje wpisu prawa własności na rzecz osób uprawnionych, a jeżeli podział fizyczny lokali następuje w drodze umowy - umowę zawartą w formie aktu notarialnego.   Art. 205. § 1. Jeżeli w wyniku podziału fizycznego nieruchomości albo w wyniku wydzielenia w wyniku podziału nieruchomości nowej nieruchomości, dotychczasowy właściciel jest obowiązany do zniesienia służebności gruntowych obciążających jego nieruchomość, a nie można ich przenieść na nieruchomość wydzieloną, sąd oznaczy w orzeczeniu podziałowym odpowiednią dopłatę na rzecz właściciela, któremu należy przyznać nieruchomość nieobciążoną.   Art. 206. § 1. Jeżeli w wyniku podziału nieruchomości nastąpią zmiany w zakresie służebności gruntowych lub przestrzennych, sąd oznaczy w orzeczeniu podziałowym sposób, w jaki każdy z uprawnionych może z nich korzystać.   Art. 207. § 1. Jeżeli w wyniku podziału nieruchomości nastąpią zmiany w zakresie własności lub w prawie użytkowania wieczystego, sąd oznaczy w orzeczeniu podziałowym sposób wydzielenia takiej nieruchomości.   Art. 208. § 1. Jeżeli w wyniku podziału nieruchomości nastąpią zmiany w zakresie własności lub w prawie użytkowania wieczystego, sąd oznaczy w orzeczeniu podziałowym sposób rozliczenia współwłaścicieli, którzy nabyli prawa do wydzielonych nieruchomości.   Art. 209. § 1. Jeżeli w wyniku podziału nieruchomości nastąpią zmiany w zakresie własności lub w prawie użytkowania wieczystego, sąd oznaczy w orzeczeniu podziałowym sposób rozliczenia współwłaścicieli, którzy nabyli prawa do wydzielonych nieruchomości.   Art. 210. § 1. Jeżeli w wyniku podziału nieruchomości nastąpią zmiany w zakresie własności lub w prawie użytkowania wieczystego, sąd oznaczy w orzeczeniu podziałowym sposób rozliczenia współwłaścicieli, którzy nabyli prawa do wydzielonych nieruchomości.   Art. 211. § 1. Jeżeli w wyniku podziału nieruchomości nastąpią zmiany w zakresie własności lub
+### Judge: Nie
+### Poprawna odpowiedz: a) może żądać od pozostałych współwłaścicieli wynagrodzenia odpowiadającego uzasadnionemu nakładowi jego pracy,, (art. 205 KC)
+### Wyniki: {'correct': 18, 'incorrect': 13, 'article_correct': 8}
+--------------------
+# Pytanie 32
+### Udzielona odpowiedz: Odpowiedź: b) chyba że celem zbycia jest zapewnienie racjonalnego prowadzenia tego gospodarstwa
+### Judge: Tak
+### Poprawna odpowiedz: b) chyba że celem zbycia jest zapewnienie racjonalnego prowadzenia tego gospodarstwa,, (art. 217 KC)
+### Wyniki: {'correct': 19, 'incorrect': 13, 'article_correct': 8}
+--------------------
+# Pytanie 33
+### Udzielona odpowiedz: Odpowiedź: b) jeżeli nabywca o nich wiedział lub z łatwością mógł się dowiedzieć
+### Judge: Tak
+### Poprawna odpowiedz: b) jeżeli nabywca o nich wiedział lub z łatwością mógł się dowiedzieć,, (art. 221 KC)
+### Wyniki: {'correct': 20, 'incorrect': 13, 'article_correct': 8}
+--------------------
+# Pytanie 34
+### Udzielona odpowiedz: Odpowiedź: a) właściciela nieruchomości obciążonej.
+### Judge: Nie
+### Poprawna odpowiedz: b) właściciela nieruchomości władnącej,, (art. 289 § 1 KC)
+### Wyniki: {'correct': 20, 'incorrect': 14, 'article_correct': 8}
+--------------------
+# Pytanie 35
+### Udzielona odpowiedz: Dokument 1: Art. 301. § 1. Służebność osobista może przysługiwać tylko jednej osobie.
+§ 2. Służebność osobista może być na rzecz każdej osoby, chociażby nie było ona jeszcze narodzona, a nawet chociażby jej istnienie było tylko możliwe.
+§ 3. Służebność osobista może być nabyta przez zasiedzenie tylko na rzecz osoby fizycznej.
+Dokument 2: Art. 302. § 1. Służebność osobista może być przeniesiona na inne osoby tylko w wypadkach, gdy to służy wykonaniu orzeczenia sądu lub decyzji administracyjnej albo gdy służebność została ustanowiona na rzecz osoby fizycznej za jej życia.
+§ 2. Przeniesienie służebności osobistej na inne osoby może nastąpić jedynie w drodze umowy zawartej w formie aktu notarialnego.
+Dokument 3: Art. 303. § 1. Służebność osobista wygasa najpóźniej ze śmiercią osoby, na której rzecz została ustanowiona.
+§ 2. Jeżeli w chwili wygaśnięcia służebności nieruchomość obciążona służebnością należy do osoby, na której rzecz służebność została ustanowiona, służebność nie może być ponownie nabyta przez zasiedzenie.
+Dokument 4: Art. 304. § 1. Służebność osobista może być przeniesiona na inne osoby tylko w wypadkach, gdy to służby wykonaniu orzeczenia sądu lub decyzji administracyjnej albo gdy służebność została ustanowiona na rzecz osoby fizycznej za jej życia.
+§ 2. Przeniesienie służebności osobistej na inne osoby może nastąpić jedynie w drodze umowy zawartej w formie aktu notarialnego.
+Dokument 5: Art. 305. § 1. Służebność osobista może być przeniesiona na inne osoby tylko w wypadkach, gdy to służby wykonaniu orzeczenia sądu lub decyzji administracyjnej albo gdy służebność została ustanowiona na rzecz osoby fizycznej za jej życia.
+§ 2. Przeniesienie służebności osobistej na inne osoby może nastąpić jedynie w drodze umowy zawartej w formie aktu notarialnego.
+Dokument 6: Art. 306. § 1. Służebność osobista może być przeniesiona na inne osoby tylko w wypadkach, gdy to służby wykonaniu orzeczenia sądu lub decyzji administracyjnej albo gdy służebność została ustanowiona na rzecz osoby fizycznej za jej życia.
+§ 2. Przeniesienie służebności osobistej na inne osoby może nastąpić jedynie w drodze umowy zawartej w formie aktu notarialnego.
+
+### Odpowiedź:
+c) można nabyć przez zasiedzenie, gdy polega na korzystaniu z trwałego i widocznego urządzenia.
+### Judge: Nie
+### Poprawna odpowiedz: b) nie może być przeniesione przez czynność prawną,, (art. 300 KC)
+### Wyniki: {'correct': 20, 'incorrect': 15, 'article_correct': 8}
+--------------------
+# Pytanie 36
+### Udzielona odpowiedz: Odpowiedź: c)
+### Judge: Tak
+### Poprawna odpowiedz: c) należą się odsetki ustawowe w wysokości równej sumie stopy referencyjnej Narodowego Banku Polskiego i 3,5 punktów procentowych., (art. 359 § 1 i 2 KC)
+### Wyniki: {'correct': 21, 'incorrect': 15, 'article_correct': 8}
+--------------------
+# Pytanie 37
+### Udzielona odpowiedz: Odpowiedź: b) według swego wyboru, do rąk któregokolwiek z wierzycieli solidarnych
+### Judge: Nie
+### Poprawna odpowiedz: a) do rąk wierzyciela, który wytoczył powództwo,, (art. 367 § 2 KC)
+### Wyniki: {'correct': 21, 'incorrect': 16, 'article_correct': 8}
+--------------------
+# Pytanie 38
+### Udzielona odpowiedz: Odpowiedź: a)
+### Judge: Nie
+### Poprawna odpowiedz: b) może żądać naprawienia szkody, którą poniosła przez to, że liczyła na zawarcie umowy przyrzeczonej,, (art. 390 § 1 i 2 KC)
+### Wyniki: {'correct': 21, 'incorrect': 17, 'article_correct': 8}
+--------------------
+# Pytanie 39
+### Udzielona odpowiedz: Odpowiedź: b) wierzyciel przez oświadczenie złożone dłużnikowi w czasie właściwym, jednakże powinien uwzględnić możliwości dłużnika oraz sposób spełnienia świadczenia
+### Judge: Tak
+### Poprawna odpowiedz: b) wierzyciel przez oświadczenie złożone dłużnikowi w czasie właściwym, jednakże powinien uwzględnić możliwości dłużnika oraz sposób spełnienia świadczenia,, (art. 456 KC)
+### Wyniki: {'correct': 22, 'incorrect': 17, 'article_correct': 8}
+--------------------
+# Pytanie 40
+### Udzielona odpowiedz: Odpowiedź: a)
+### Judge: Tak
+### Poprawna odpowiedz: a) może żądać odsetek za czas opóźnienia, chociażby nie poniósł żadnej szkody i chociażby opóźnienie było następstwem okoliczności, za które dłużnik odpowiedzialności nie ponosi,, (art. 481 § 1 KC)
+### Wyniki: {'correct': 23, 'incorrect': 17, 'article_correct': 9}
+--------------------
+# Pytanie 41
+### Udzielona odpowiedz: Odpowiedź: a)
+### Judge: Tak
+### Poprawna odpowiedz: a) w razie zwłoki drugiej strony odstąpić od umowy bez wyznaczenia terminu dodatkowego,, (art. 492 KC)
+### Wyniki: {'correct': 24, 'incorrect': 17, 'article_correct': 9}
+--------------------
+# Pytanie 42
+### Udzielona odpowiedz: Dokument 1: Art. 509. $\S$ 1. Wierzyciel może bez zgody dłużnika przenieść wierzytelność na osobę trzecią (przelew), chyba że sprzeciwiałoby się to ustawie, zastrzeżeniu umownemu albo właściwości zobowiązania.
+Dokument 2: Art. 519. $\S$ 2. Przelew wierzytelności przenosi na nabywcę ogół uprawnień przysługujących zbywcy w stosunku do dłużnika, w tym również roszczenie o zaległe odsetki.
+Dokument 3: Art. 513. $\S$ 1. Dłużnikowi przysługują przeciwko nabywcy wierzytelności wszelkie zarzuty, które miał przeciwko zbywcy w chwili powzięcia wiadomości o przelewie.
+Dokument 4: Art. 513. $\S$ 2. Dłużnik, który wskutek naruszenia przepisów prawa lub czynności prawnej, uzyskał korzyść majątkową bezpłatnie albo po zaniżonej cenie, może żądać od nabywcy wierzytelności albo gwaranta zwrotu tego, co świadczył, albo w miejsce tego świadczenia może żądać sumy pieniężnej odpowiadającej wartości świadczenia.
+Dokument 5: Art. 513. $\S$ 3. Przepis powyższy nie wyłącza możliwości żądania przez dłużnika uznania czynności prawnej za bezskuteczną na podstawie przepisów o ochronie zabezpieczenia.
+Dokument 6: Art. 518. $\S$ 1. Osoba trzecia, która spłaca wierzyciela, nabywa spłaconą wierzytelność do wysokości dokonanej zapłaty:
+1) jeżeli płaci dług, który jest wymagalny,
+2) jeżeli umowa między wierzycielem a osobą trzecią przewiduje, że zapłata może przenieść wierzytelność,
+3) jeżeli płaci dług przyszły, ale przysługuje jej prawo zatrzymania.
+Dokument 7: Art. 518. $\S$ 2. Jeżeli osoba trzecia spłaca wierzyciela hipotecznego, jej prawo jest skuteczne wobec roszczeń wynikających z hipoteki.
+Dokument 8: Art. 518. $\S$ 3. Jeżeli wierzytelność jest zabezpieczona hipoteką, osobie trzeciej, która spłaca wierzyciela, przysługuje pierwszeństwo zaspokojenia równe wierzycielowi hipotecznemu.
+Dokument 9: Art. 518. $\S$ 4. Przepisy powyższe stosuje się odpowiednio do regulacji ustanowionych na rzecz wierzyciela w innych przepisach prawa.
+Dokument 10: Art. 518. $\S$ 5. Przepisy powyższe stosuje się odpowiednio do zabezpieczenia wierzytelności prawem wynikającym z zastawu, użytkowania lub służebności.
+Dokument 11: Art. 518. $\S$ 6. Przepisy powyższe stosuje się odpowiednio do zabezpieczenia wierzytelności prawem dożywocia.
+Dokument 12: Art. 518. $\S$ 7. Przepisy powyższe stosuje się odpowiednio do zabezpieczenia wierzytelności prawem odkupu lub pierwokupu.
+Dokument 13: Art. 518. $\S$ 8. Przepisy powyższe stosuje się odpowiednio do zabezpieczenia wierzytelności prawem dziedziczenia.
+Dok
+### Judge: Tak
+### Poprawna odpowiedz: a) bez zgody dłużnika przenieść wierzytelność na osobę trzecią (przelew), chyba że sprzeciwiałoby się to ustawie, zastrzeżeniu umownemu albo właściwości zobowiązania,, (art. 509 § 1 KC)
+### Wyniki: {'correct': 25, 'incorrect': 17, 'article_correct': 10}
+--------------------
+# Pytanie 43
+### Udzielona odpowiedz: Dokument 1: Art. 392. Jeżeli w umowie zastrzeżono, że osoba trzecia zaciągnie określone zobowiązanie albo spełni określone świadczenie, ten, kto takie przyrzeczenie uczynił, odpowiedzialny jest za szkodę, którą druga strona ponosi przez to, że osoba trzecia odmawia zaciągnięcia zobowiązania albo nie spełnia świadczenia. Może jednak zwolnić się od obowiązku naprawienia szkody spełniając przyrzeczone świadczenie, chyba że sprzeciwia się to umowie lub właściwości świadczenia.
+                
+### Judge: Nie
+### Poprawna odpowiedz: b) ponosi kupujący,, (art. 547 § 1 i 2 KC)
+### Wyniki: {'correct': 25, 'incorrect': 18, 'article_correct': 10}
+--------------------
+# Pytanie 44
+### Udzielona odpowiedz: Odpowiedź: a)
+### Judge: Tak
+### Poprawna odpowiedz: a) zwykłe wynagrodzenie za dzieło tego rodzaju,, (art. 628 § 1 KC)
+### Wyniki: {'correct': 26, 'incorrect': 18, 'article_correct': 10}
+--------------------
+# Pytanie 45
+### Udzielona odpowiedz: Dokument 1: Art. 688. Jeżeli najemca używa lokalu w sposób sprzeczny z umową lub niezgodnie z jego przeznaczeniem, chociażby umowa była zawarta na podstawie przepisów o najmie okazjonalnym, albo niszczy lokal lub pobiera do niego osoby nieuprawnione, wynajmujący może żądać rozwiązania umowy.    Art. 689. Jeżeli najemca używa lokalu, który wymaga naprawy, mogącej przywrócić jego właściwy stan, a w szczególności jeżeli zlokalizowany jest w nim: 1) przewód kominowy, 2) instalacja gazowa, 3) instalacja elektryczna, 4) instalacja wodno-kanalizacyjna, 5) instalacja centralnego ogrzewania, 6) instalacja klimatyzacyjna, 7) instalacja wentylacyjna, 8) instalacja ciepłej wody, 9) instalacja telekomunikacyjna, 10) instalacja domofonowa, 11) instalacja automatyki budynkowej, 12) instalacja fotowoltaiczna, 13) instalacja ładowania pojazdów elektrycznych, 14) instalacja magazynowania energii elektrycznej, 15) instalacja magazynowania wodoru, 16) instalacja magazynowania ciepła, 17) instalacja magazynowania energii geotermalnej, 18) instalacja magazynowania energii z innych odnawialnych źródeł energii, 19) instalacja magazynowania biogazu, 20) instalacja magazynowania biopłynów, 21) instalacja magazynowania paliw alternatywnych, 22) instalacja magazynowania energii z paliw alternatywnych, 23) instalacja magazynowania energii z paliw kopalnych, 24) instalacja magazynowania energii z paliw syntetycznych, 25) instalacja magazynowania energii z paliw jądrowych, 26) instalacja magazynowania energii z paliw jądrowych syntetycznych, 27) instalacja magazynowania energii z paliw jądrowych rozszczepialnych, 28) instalacja magazynowania energii z paliw jądrowych rozszczepialnych syntetycznych, 29) instalacja magazynowania energii z paliw jądrowych rozszczepialnych i syntetycznych, 30) instalacja magazynowania energii z paliw jądrowych rozszczepialnych i syntetycznych, 31) instalacja magazynowania energii z paliw jądrowych rozszczepialnych i syntetycznych, 32) instalacja magazynowania energii z paliw jądrowych rozszczepialnych i syntetycznych, 33) instalacja magazynowania energii z paliw jądrowych rozszczepialnych i syntetycznych, 34) instalacja magazynowania energii z paliw jądrowych rozszczepialnych i syntetycznych, 35) instalacja magazynowania energii z paliw jądrowych rozszczepialnych i syntetycznych, 36) instalacja magazynowania energii z paliw jądrowych rozszczepialnych i syntetycznych, 37) instalacja magazynowania energii z paliw jądrowych rozszczepialnych i syntetycznych, 38) instalacja magazynowania energii z paliw jądrowych rozszczepialnych i syntetycznych, 39) instalacja magazynowania energii z paliw jądrowych rozszczepialnych i syntetycznych, 40) instalacja magazynowania energii z paliw jądrowych rozszczepialnych i syntetycznych, 41) instalacja magazynowania energii z paliw jądrowych rozszczepialnych i
+### Judge: Nie
+### Poprawna odpowiedz: b) nie wymaga zgody wynajmującego,, (art. 668 § 1 KC)
+### Wyniki: {'correct': 26, 'incorrect': 19, 'article_correct': 10}
+--------------------
+# Pytanie 46
+### Udzielona odpowiedz: Dokument 1: Art. 864. Kto z mocy ustawy lub umowy obowiązany jest do nadzoru nad osobą, której z powodu wieku albo stanu psychicznego lub cielesnego niedołęstwa nie można zobowiązać do określonego działania, odpowiedzialny jest za szkodę wyrządzoną przez tę osobę z winy tej osoby.    Art. 864. Kto z mocy ustawy lub umowy obowiązany jest do nadzoru nad osobą, której z powodu wieku albo stanu psychicznego lub cielesnego niedołęstwa nie można zobowiązać do określonego działania, odpowiedzialny jest za szkodę wyrządzoną przez tę osobę z winy tej osoby.    Art. 864. Kto z mocy ustawy lub umowy obowiązany jest do nadzoru nad osobą, której z powodu wieku albo stanu psychicznego lub cielesnego niedołęstwa nie można zobowiązać do określonego działania, odpowiedzialny jest za szkodę wyrządzoną przez tę osobę z winy tej osoby.    Art. 864. Kto z mocy ustawy lub umowy obowiązany jest do nadzoru nad osobą, której z powodu wieku albo stanu psychicznego lub cielesnego niedołęstwa nie można zobowiązać do określonego działania, odpowiedzialny jest za szkodę wyrządzoną przez tę osobę z winy tej osoby.    Art. 864. Kto z mocy ustawy lub umowy obowiązany jest do nadzoru nad osobą, której z powodu wieku albo stanu psychicznego lub cielesnego niedołęstwa nie można zobowiązać do określonego działania, odpowiedzialny jest za szkodę wyrządzoną przez tę osobę z winy tej osoby.    Art. 864. Kto z mocy ustawy lub umowy obowiązany jest do nadzoru nad osobą, której z powodu wieku albo stanu psychicznego lub cielesnego niedołęstwa nie można zobowiązać do określonego działania, odpowiedzialny jest za szkodę wyrządzoną przez tę osobę z winy tej osoby.    Art. 864. Kto z mocy ustawy lub umowy obowiązany jest do nadzoru nad osobą, której z powodu wieku albo stanu psychicznego lub cielesnego niedołęstwa nie można zobowiązać do określonego działania, odpowiedzialny jest za szkodę wyrządzoną przez tę osobę z winy tej osoby.    Art. 864. Kto z mocy ustawy lub umowy obowiązany jest do nadzoru nad osobą, której z powodu wieku albo stanu psychicznego lub cielesnego niedołęstwa nie można zobowiązać do określonego działania, odpowiedzialny jest za szkodę wyrządzoną przez tę osobę z winy tej osoby.    Art. 864. Kto z mocy ustawy lub umowy obowiązany jest do nadzoru nad osobą, której z powodu wieku albo stanu psychicznego lub cielesnego niedołęstwa nie można zobowiązać do określonego działania, odpowiedzialny jest za szkodę wyrządzoną przez tę osobę z winy tej osoby.    Art. 864. Kto z mocy ustawy lub umowy obowiązany jest do nadzoru nad osobą, której z powodu wieku albo stanu psychicznego lub cielesnego niedołęstwa nie można zobowiązać do określonego działania, odpowiedzialny jest za szkodę wyrządzoną przez tę osobę z
+### Judge: Nie
+### Poprawna odpowiedz: c) solidarnie., (art. 864 KC)
+### Wyniki: {'correct': 26, 'incorrect': 20, 'article_correct': 10}
+--------------------
+# Pytanie 47
+### Udzielona odpowiedz: Dokument 1: Art. 935. Jeżeli ojcostwo rodzica, który żył w chwili otwarcia spadku, nie zostało ustalone, udział spadkowy matki i rodzeństwa oraz ich zstępnych wynosi po 1/2 części spadku.
+                 ## Odpowiedź:
+b) jedną trzecią spadku
+### Judge: Nie
+### Poprawna odpowiedz: c) połowę spadku., (art. 932 § 1 i 2 zdanie 2 KC)
+### Wyniki: {'correct': 26, 'incorrect': 21, 'article_correct': 10}
+--------------------
+# Pytanie 48
+### Udzielona odpowiedz: Odpowiedź: b) sekretarza gminy.
+### Judge: Tak
+### Poprawna odpowiedz: b) sekretarza gminy,, (art. 951 § 1 KC)
+### Wyniki: {'correct': 27, 'incorrect': 21, 'article_correct': 10}
+--------------------
+# Pytanie 49
+### Udzielona odpowiedz: Dokument 1: Art. 981. $\S$ 1. Zapis windykacyjny może być uczyniony jedynie na rzecz zapisobiercy windykacyjnego wymienionego z nazwiska w testamencie.    $\S$ 2. Zapis windykacyjny może być uczyniony na rzecz każdej osoby, w tym także na rzecz spadkobiercy.    $\S$ 3. Zapis windykacyjny może być ustanowiony na rzecz kilku osób, z zastrzeżeniem, że ich udziały w przedmiotach zapisanych są równe.    $\S$ 4. Zapisobiercą windykacyjnym może być także osoba, która nie dożyła otwarcia spadku, z zastrzeżeniem jednak, że w wypadku gdy kilka osób zostało ustanowionych zapisobiercami windykacyjnymi, a część z nich nie dożyła otwarcia spadku, wówczas udziały tych, które nie dożyły otwarcia spadku, przechodzą na ich zstępnych, którzy także nie dożyli otwarcia spadku, w częściach, jakie im przypadały w podziale pomiędzy nimi.    $\S$ 5. Zapis windykacyjny może być uczyniony pod warunkiem lub z zastrzeżeniem terminu.    $\S$ 6. Zapis windykacyjny może być także uczyniony pod warunkiem lub z zastrzeżeniem terminu zawieszającego.    $\S$ 7. Zapis windykacyjny może być także uczyniony pod warunkiem lub z zastrzeżeniem terminu rozwiązującego.    $\S$ 8. Zapis windykacyjny może być także uczyniony pod warunkiem lub z zastrzeżeniem terminu, który zależy od dziedziczenia ustawowego.    $\S$ 9. Zapis windykacyjny może być także uczyniony pod warunkiem lub z zastrzeżeniem terminu, który zależy od powołania do dziedziczenia testamentowego.    $\S$ 10. Zapis windykacyjny może być także uczyniony pod warunkiem lub z zastrzeżeniem terminu, który zależy od zrzeczenia się dziedziczenia.    $\S$ 11. Zapis windykacyjny może być także uczyniony pod warunkiem lub z zastrzeżeniem terminu, który zależy od ograniczenia lub wyłączenia odpowiedzialności zapisobiercy za długi spadkowe.    $\S$ 12. Zapis windykacyjny może być także uczyniony pod warunkiem lub z zastrzeżeniem terminu, który zależy od zapisu zwykłego.    $\S$ 13. Zapis windykacyjny może być także uczyniony pod warunkiem lub z zastrzeżeniem terminu, który zależy od zapisu windykacyjnego.    $\S$ 14. Zapis windykacyjny może być także uczyniony pod warunkiem lub z zastrzeżeniem terminu, który zależy od zapisu windykacyjnego uczynionego na rzecz innej osoby.    $\S$ 15. Zapis windykacyjny może być także uczyniony pod warunkiem lub z zastrzeżeniem terminu, który zależy od zapisu windykacyjnego uczynionego na rzecz zapisobiercy.    $\S$ 16. Zapis windykacyjny może być także uczyniony pod warunkiem lub z zastrzeżeniem terminu, który zależy od zapisu windykacyjnego uczynionego na rzecz zapisobiercy, który nie dożył otwarcia spadku.    $\S$ 17. Zapis windykacyjny może być także uczyniony pod warunkiem lub z zastrzeżeniem terminu, który zależy od zapisu windykacyjnego uczynionego na rzecz zapisobiercy, który nie dożył otwarcia sp
+### Judge: Nie
+### Poprawna odpowiedz: b) tylko w testamencie sporządzonym w formie aktu notarialnego,, (art. 981¹ § 1 KC)
+### Wyniki: {'correct': 27, 'incorrect': 22, 'article_correct': 10}
+--------------------
+# Pytanie 50
+### Udzielona odpowiedz: Odpowiedź: b) mogą zwolnić wszyscy spadkobiercy
+### Judge: Nie
+### Poprawna odpowiedz: a) może zwolnić sąd,, (art. 990 KC)
+### Wyniki: {'correct': 27, 'incorrect': 23, 'article_correct': 10}
+--------------------
+# Pytanie 51
+### Udzielona odpowiedz: Odpowiedź: c) według stanu z chwili jej dokonania, a według cen z chwili otwarcia spadku.
+### Judge: Nie
+### Poprawna odpowiedz: b) według stanu z chwili jej dokonania, a według cen z chwili ustalania zachowku,, (art. 995 § 1 KC)
+### Wyniki: {'correct': 27, 'incorrect': 24, 'article_correct': 10}
+--------------------
+# Pytanie 52
+### Udzielona odpowiedz: Odpowiedź: b) przechodzi na spadkobiercę osoby uprawnionej do zachowku tylko wtedy, gdy spadkobierca ten należy do osób uprawnionych do zachowku po pierwszym spadkodawcy
+### Judge: Tak
+### Poprawna odpowiedz: b) przechodzi na spadkobiercę osoby uprawnionej do zachowku tylko wtedy, gdy spadkobierca ten należy do osób uprawnionych do zachowku po pierwszym spadkodawcy,, (art. 1002 KC)
+### Wyniki: {'correct': 28, 'incorrect': 24, 'article_correct': 11}
+--------------------
+# Pytanie 53
+### Udzielona odpowiedz: Odpowiedź: c) urodzenia.
+### Judge: Tak.
+### Poprawna odpowiedz: c) urodzenia., (art. 8 § 1 KC)
+### Wyniki: {'correct': 29, 'incorrect': 24, 'article_correct': 12}
+--------------------
+# Pytanie 54
+### Udzielona odpowiedz: Dokument 1: Art. 179. Małoletni, który ukończył trzynaście lat, może być ubezwłasnowolniony całkowicie, jeżeli wskutek choroby psychicznej albo niedorozwoju umysłowego nie jest w stanie kierować swym postępowaniem.    Art. 180. Jeżeli ubezwłasnowolnienie całkowite jest tymczasowo niepożądane, ale wskazane jest ustanowienie opieki, sąd może ubezwłasnowolnionego całkowicie ubezwłasnowolnić częściowo.
+                
+### Judge: Nie
+### Poprawna odpowiedz: b) opiekę, chyba że pozostaje on jeszcze pod władzą rodzicielską,, (art. 13 § 2 KC)
+### Wyniki: {'correct': 29, 'incorrect': 25, 'article_correct': 12}
+--------------------
+# Pytanie 55
+### Udzielona odpowiedz: Dokument 1: Art. 15. Małoletni, których ukończył lat trzynaście, może bez zgody przedstawiciela ustawowego zawierać umowy należące do umów powszechnie zawieranych w drobnych bieżących sprawach życia codziennego.    Art. 16. Małoletni, który uzyskał zgodę przedstawiciela ustawowego na zawarcie umowy, może ją wyznaczyć w umowie termin, do którego ma ona trwać.
+### Judge: Nie
+### Poprawna odpowiedz: a) lat trzynaście,, (art. 15 KC)
+### Wyniki: {'correct': 29, 'incorrect': 26, 'article_correct': 12}
+--------------------
+# Pytanie 56
+### Udzielona odpowiedz: Odpowiedź: a)
+### Judge: Tak
+### Poprawna odpowiedz: a) należące do umów powszechnie zawieranych w drobnych bieżących sprawach życia codziennego,, (art. 20 KC)
+### Wyniki: {'correct': 30, 'incorrect': 26, 'article_correct': 12}
+--------------------
+# Pytanie 57
+### Udzielona odpowiedz: Dokument 1: Art. 26. $\S~2$. Miejscem zamieszkania osoby pod opieką jest miejsce zamieszkania opiekuna.
+
+                ### Odpowiedź:
+c) miejsce zamieszkania opiekuna
+### Judge: Tak
+### Poprawna odpowiedz: c) miejsce zamieszkania opiekuna., (art. 27 KC)
+### Wyniki: {'correct': 31, 'incorrect': 26, 'article_correct': 12}
+--------------------
+# Pytanie 58
+### Udzielona odpowiedz: Dokument 1: Art. 25. $\S~1$. Miejscem zamieszkania osoby fizycznej jest miejscowość, w której osoba ta przebywa z zamiarem stałego pobytu.
+                 ## Odpowiedź:
+                b) dwa miejsca zamieszkania
+### Judge: Nie
+### Poprawna odpowiedz: a) tylko jedno miejsce zamieszkania,, (art. 28 KC)
+### Wyniki: {'correct': 31, 'incorrect': 27, 'article_correct': 12}
+--------------------
+# Pytanie 59
+### Udzielona odpowiedz: Dokument 1: Art. 33. $\S~1$. Osoba prawna jest to jednostka organizacyjna, posiadająca zdolność prawną.
+                 Dokument 2: Art. 44. $\S~1$. Skarb Państwa jest osobą prawną.
+                 Dokument 3: Art. 44. $\S~2$. Skarb Państwa nie ponosi odpowiedzialności za zobowiązania innych państwowych osób prawnych, chyba że przepis odrębny stanowi inaczej.
+                 Dokument 4: Art. 44. $\S~3$. Państwowe osoby prawne nie ponoszą odpowiedzialności za zobowiązania Skarbu Państwa.
+
+                ### Odpowiedź:
+b) osobą prawną
+### Judge: Tak
+### Poprawna odpowiedz: b) osobą prawną,, (art. 33 KC)
+### Wyniki: {'correct': 32, 'incorrect': 27, 'article_correct': 12}
+--------------------
+# Pytanie 60
+### Udzielona odpowiedz: Odpowiedź: b) ponoszą odpowiedzialność za zobowiązania Skarbu Państwa bez ograniczenia.
+### Judge: Nie
+### Poprawna odpowiedz: a) nie ponoszą odpowiedzialności za zobowiązania Skarbu Państwa,, (art. 40 § 1 KC)
+### Wyniki: {'correct': 32, 'incorrect': 28, 'article_correct': 12}
+--------------------
+# Pytanie 61
+### Udzielona odpowiedz: Odpowiedź: b) zarządzający
+### Judge: Tak
+### Poprawna odpowiedz: b) zarządzający,, (art. 41 KC)
+### Wyniki: {'correct': 33, 'incorrect': 28, 'article_correct': 12}
+--------------------
+# Pytanie 62
+### Udzielona odpowiedz: Podaję odpowiedź na podstawie art. 43.
+### Judge: Nie
+### Poprawna odpowiedz: b) jej imię i nazwisko,, (art. 43(4) KC)
+### Wyniki: {'correct': 33, 'incorrect': 29, 'article_correct': 12}
+--------------------
+# Pytanie 63
+### Udzielona odpowiedz: Odpowiedź: b) jej płody i inne odłączone od niej części składowe, o ile według zasad prawidłowej gospodarki stanowią normalny dochód z rzeczy
+### Judge: Tak
+### Poprawna odpowiedz: b) jej płody i inne odłączone od niej części składowe, o ile według zasad prawidłowej gospodarki stanowią normalny dochód z rzeczy,, (art. 53 § 1 KC)
+### Wyniki: {'correct': 34, 'incorrect': 29, 'article_correct': 13}
+--------------------
+# Pytanie 64
+### Udzielona odpowiedz: Dokument 1: Art. $\mathbf{70}$. $\S$ 1. Jeżeli wskutek przyjęcia oferty doszło do zawarcia umowy, strona, która ofertę otrzymała, nie może powoływać się wobec drugiej strony na oświadczenia, które złożyła w toku negocjacji, z wyjątkiem przypadku, gdy druga strona potwierdzi, że oświadczenia te są jej znane.
+                
+### Judge: Nie
+### Poprawna odpowiedz: b) udzielenia przybicia,, (art. 70² § 2 KC)
+### Wyniki: {'correct': 34, 'incorrect': 30, 'article_correct': 13}
+--------------------
+# Pytanie 65
+### Udzielona odpowiedz: Odpowiedź: b) sześć lat
+### Judge: Tak
+### Poprawna odpowiedz: b) sześć lat,, (art. 118 KC)
+### Wyniki: {'correct': 35, 'incorrect': 30, 'article_correct': 14}
+--------------------
+# Pytanie 66
+### Udzielona odpowiedz: Odpowiedź: c) rzeczy oznaczonej tylko co do gatunku
+### Judge: Nie
+### Poprawna odpowiedz: a) rzeczy oznaczonej co do tożsamości,, (art. 155 § 2 KC)
+### Wyniki: {'correct': 35, 'incorrect': 31, 'article_correct': 14}
+--------------------
+# Pytanie 67
+### Udzielona odpowiedz: Dokument 1: Art. 158. § 1. Umowa zobowiązująca do przeniesienia własności nieruchomości powinna być zawarta w formie aktu notarialnego.
+Dokument 2: Art. 73. § 2. Jeżeli do ważności czynności prawnej wymaga się formy pisemnej, czynność ta nie może być udowodniona zeznaniami świadków.
+
+### Twoja odpowiedź:
+b) aktu notarialnego
+### Judge: Tak
+### Poprawna odpowiedz: b) aktu notarialnego,, (art. 158 KC)
+### Wyniki: {'correct': 36, 'incorrect': 31, 'article_correct': 15}
+--------------------
+# Pytanie 68
+### Udzielona odpowiedz: Dokument 1: Art. 389. Jeżeli termin, w ciągu którego ma być zawarta umowa przyrzeczona, nie został oznaczony, nie można żądać jej zawarcia po upływie roku od dnia zawarcia umowy przedwstępnej.
+### Judge: Tak.
+### Poprawna odpowiedz: a) roku od dnia zawarcia umowy przedwstępnej,, (art. 389 § 2 KC)
+### Wyniki: {'correct': 37, 'incorrect': 31, 'article_correct': 16}
+--------------------
+# Pytanie 69
+### Udzielona odpowiedz: Odpowiedź: a) sumy dwukrotnie wyższej
+### Judge: Tak
+### Poprawna odpowiedz: a) sumy dwukrotnie wyższej,, (art. 394 § 1 KC)
+### Wyniki: {'correct': 38, 'incorrect': 31, 'article_correct': 17}
+--------------------
+# Pytanie 70
+### Udzielona odpowiedz: Dokument 1: Art. 359. $\S~1$. Odsetki od sumy pieniężnej należą się tylko wtedy, gdy to wynika z czynności prawnej, ustawy, orzeczenia sądu lub decyzji innego właściwego organu.
+                 $\S~2$. Jeżeli wysokość odsetek nie jest w inny sposób określona, należą się odsetki ustawowe w wysokości równej sumie stopy referencyjnej Narodowego Banku Polskiego i 3,5 punktów procentowych.
+                 $\S~3$. Odsetki prawnie określone mogą być ustalone na wyższym poziomie.
+                 $\S~4$. Odsetki należą się tylko w stosunku rocznym lub w stosunku dziennym.
+                 $\S~5$. Odsetki za opóźnienie nie mogą być wyższe niż odsetki maksymalne za opóźnienie, które są równe dwukrotności odsetek ustawowych.
+                 $\S~6$. Minister Sprawiedliwości ogłasza, w drodze obwieszczenia, w Dzienniku Urzędowym Rzeczypospolitej Polskiej "Monitor Polski", wysokość odsetek ustawowych i odsetek maksymalnych za opóźnienie.
+
+                ### Twoja odpowiedź:
+b) odsetek ustawowych za opóźnienie
+### Judge: Nie
+### Poprawna odpowiedz: c) pokwitowania., (art. 462 § 1 KC)
+### Wyniki: {'correct': 38, 'incorrect': 32, 'article_correct': 17}
+--------------------
+# Pytanie 71
+### Udzielona odpowiedz: Odpowiedź: c) zarówno umyślnie, jak i nieumyślnie
+### Judge: Nie
+### Poprawna odpowiedz: b) umyślnie,, (art. 473 § 2 KC)
+### Wyniki: {'correct': 38, 'incorrect': 33, 'article_correct': 17}
+--------------------
+# Pytanie 72
+### Udzielona odpowiedz: Odpowiedź: a) śmierci spadkodawcy.
+### Judge: Tak
+### Poprawna odpowiedz: a) śmierci spadkodawcy,, (art. 924 KC)
+### Wyniki: {'correct': 39, 'incorrect': 33, 'article_correct': 18}
+--------------------
+# Pytanie 73
+### Udzielona odpowiedz: Odpowiedź: b) małżonka spadkodawcy pozostającego w separacji
+### Judge: Tak
+### Poprawna odpowiedz: b) małżonka spadkodawcy pozostającego w separacji,, (art. 935¹ KC)
+### Wyniki: {'correct': 40, 'incorrect': 33, 'article_correct': 18}
+--------------------
+# Pytanie 74
+### Udzielona odpowiedz: Odpowiedź: b) tylko jednego spadkodawcy
+### Judge: Tak.
+### Poprawna odpowiedz: b) tylko jednego spadkodawcy,, (art. 942 KC)
+### Wyniki: {'correct': 41, 'incorrect': 33, 'article_correct': 19}
+--------------------
+# Pytanie 75
+### Udzielona odpowiedz: Dokument 1: Art. 991. § 1. Zstępnym, małżonkowi oraz rodzicom spadkodawcy, którzy byliby powołani do spadku z ustawy, należą się, jeżeli uprawniony jest trwale niezdolny do pracy albo jeżeli zstępny uprawniony jest małoletni – dwie trzecie wartości udziału spadkowego, który by mu przypadał przy dziedziczeniu ustawowym, w innych zaś wypadkach – połowa wartości tego udziału (zachowek).
+                ### Odpowiedź:
+b) trzy piąte wartości udziału spadkowego, który by mu przypadał przy dziedziczeniu ustawowym
+### Judge: Nie
+### Poprawna odpowiedz: a) dwie trzecie wartości udziału spadkowego, który by mu przypadał przy dziedziczeniu ustawowym,, (art. 991 § 1 KC)
+### Wyniki: {'correct': 41, 'incorrect': 34, 'article_correct': 19}
+--------------------
+# Pytanie 76
+### Udzielona odpowiedz: Odpowiedź: c) sześciu miesięcy od dnia, w którym spadkobierca dowiedział się o tytule swego powołania.
+### Judge: Tak.
+### Poprawna odpowiedz: c) sześciu miesięcy od dnia, w którym spadkobierca dowiedział się o tytule swego powołania., (art. 1015 § 1 KC)
+### Wyniki: {'correct': 42, 'incorrect': 34, 'article_correct': 20}
+--------------------
+{'correct': 42, 'incorrect': 34, 'article_correct': 20}
+
+LLM Judge pomylil sie w ocenie wiekszosci artykułów:
+1,2,6,12,15,17,19,24,26,40,42,52,53,59,63,65,69,72,74,76
+
+I w ocenie odpowiedzi na pytanie:
+43
+
+Finalny wynik:
+Correct: 41
+Incorrect: 35
+Article correct:4 

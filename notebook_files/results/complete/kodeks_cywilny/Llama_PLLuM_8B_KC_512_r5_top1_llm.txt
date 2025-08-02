@@ -1,0 +1,535 @@
+# Pytanie 1
+### Udzielona odpowiedz: Odpowiedź: c) może bez zgody przedstawiciela ustawowego rozporządzać swoim zarobkiem, chyba że sąd opiekuńczy z ważnych powodów inaczej postanowi.
+### Judge: Tak
+### Poprawna odpowiedz: c) może bez zgody przedstawiciela ustawowego rozporządzać swoim zarobkiem, chyba że sąd opiekuńczy z ważnych powodów inaczej postanowi., (art. 21 KC)
+### Wyniki: {'correct': 1, 'incorrect': 0, 'article_correct': 1}
+--------------------
+# Pytanie 2
+### Udzielona odpowiedz: Odpowiedź: b) koniec tego dnia
+### Judge: Tak
+### Poprawna odpowiedz: b) koniec tego dnia,, (art. 31 § 3 KC)
+### Wyniki: {'correct': 2, 'incorrect': 0, 'article_correct': 1}
+--------------------
+# Pytanie 3
+### Udzielona odpowiedz: Odpowiedź: a)
+### Judge: Tak
+### Poprawna odpowiedz: a) wszystko, co nie może być od niej odłączone bez uszkodzenia lub istotnej zmiany całości albo bez uszkodzenia lub istotnej zmiany przedmiotu odłączonego i nie jest z nią połączone tylko dla przemijającego użytku,, (art. 47 § 2 i 3 KC)
+### Wyniki: {'correct': 3, 'incorrect': 0, 'article_correct': 2}
+--------------------
+# Pytanie 4
+### Udzielona odpowiedz: Odpowiedź: c)
+### Judge: Tak
+### Poprawna odpowiedz: c) wystarcza złożenie oświadczenia woli w postaci dokumentu, w sposób umożliwiający ustalenie osoby składającej oświadczenie., (art. 77² KC)
+### Wyniki: {'correct': 4, 'incorrect': 0, 'article_correct': 2}
+--------------------
+# Pytanie 5
+### Udzielona odpowiedz: Odpowiedź: b) czynność prawna jest ważna, chyba że druga strona o wygaśnięciu umocowania wiedziała lub z łatwością mogła się dowiedzieć.
+### Judge: Tak
+### Poprawna odpowiedz: b) czynność prawna jest ważna, chyba że druga strona o wygaśnięciu umocowania wiedziała lub z łatwością mogła się dowiedzieć,, (art. 105 KC)
+### Wyniki: {'correct': 5, 'incorrect': 0, 'article_correct': 3}
+--------------------
+# Pytanie 6
+### Udzielona odpowiedz: Odpowiedź: c) umocowanie takie wynika z treści pełnomocnictwa, z ustawy lub ze stosunku prawnego będącego podstawą pełnomocnictwa.
+### Judge: Tak.
+### Poprawna odpowiedz: c) umocowanie takie wynika z treści pełnomocnictwa, z ustawy lub ze stosunku prawnego będącego podstawą pełnomocnictwa., (art. 106 KC)
+### Wyniki: {'correct': 6, 'incorrect': 0, 'article_correct': 4}
+--------------------
+# Pytanie 7
+### Udzielona odpowiedz: Odpowiedź: a)
+### Judge: Tak
+### Poprawna odpowiedz: a) wszystkich współwłaścicieli, a w braku takiej zgody współwłaściciele, których udziały wynoszą co najmniej połowę, mogą żądać rozstrzygnięcia przez sąd,, (art. 199 KC)
+### Wyniki: {'correct': 7, 'incorrect': 0, 'article_correct': 4}
+--------------------
+# Pytanie 8
+### Udzielona odpowiedz: Odpowiedź: a) ulegają przedawnieniu w terminie 10 lat
+### Judge: Nie
+### Poprawna odpowiedz: c) nie ulegają przedawnieniu., (art. 223  § 1 w zw. z art. 222 § 2 KC)
+### Wyniki: {'correct': 7, 'incorrect': 1, 'article_correct': 4}
+--------------------
+# Pytanie 9
+### Udzielona odpowiedz: Odpowiedź: a)
+### Judge: Tak.
+### Poprawna odpowiedz: a) wygasa najpóźniej ze śmiercią tej osoby,, (art. 266 KC)
+### Wyniki: {'correct': 8, 'incorrect': 1, 'article_correct': 4}
+--------------------
+# Pytanie 10
+### Udzielona odpowiedz: Odpowiedź: a)
+### Judge: Nie
+### Poprawna odpowiedz: b) roku od dnia zwrotu rzeczy,, (art. 322 § 1 KC)
+### Wyniki: {'correct': 8, 'incorrect': 2, 'article_correct': 4}
+--------------------
+# Pytanie 11
+### Udzielona odpowiedz: Odpowiedź: b) posiadaczem zależnym
+### Judge: Nie
+### Poprawna odpowiedz: c) dzierżycielem., (art. 338 KC)
+### Wyniki: {'correct': 8, 'incorrect': 3, 'article_correct': 4}
+--------------------
+# Pytanie 12
+### Udzielona odpowiedz: Odpowiedź: a) ma skutek także względem współdłużników
+### Judge: Tak
+### Poprawna odpowiedz: a) ma skutek także względem współdłużników,, (art. 374 § 2 KC)
+### Wyniki: {'correct': 9, 'incorrect': 3, 'article_correct': 4}
+--------------------
+# Pytanie 13
+### Udzielona odpowiedz: Dokument 1: Art. 387. Jeżeli wskutek wypowiedzenia z winy dłużnika zobowiązanie wygasa, wierzyciel może żądać odszkodowania za szkodę, którą wskutek tego poniósł.    Art. 387$^{1}$. $\S~1$ 1. Jeżeli wskutek wypowiedzenia zobowiązania wzajemnego przez jedną ze stron nastąpiło znaczne pogorszenie sytuacji drugiej strony, ta druga strona może żądać odszkodowania, jeżeli wskutek wypowiedzenia poniosła szkodę.    Art. 387$^{2}$. $\S~2$ 2. Przepis powyższy nie wyłącza możliwości przyznania przez sąd odpowiedniej sumy pieniężnej stronie, która wskutek wypowiedzenia zobowiązania poniosła szkodę, a której nie da się zakwalifikować jako odszkodowanie.    Art. 387$^{3}$. $\S~3$ 3. Przepisy powyższe stosuje się odpowiednio w wypadku wypowiedzenia zobowiązania bezterminowego.    Art. 387$^{4}$. $\S~4$ 4. Przepisy powyższe stosuje się odpowiednio do zobowiązań z umów, które nie mogą być wypowiedziane.    Art. 387$^{5}$. $\S~5$ 5. Przepisy powyższe stosuje się odpowiednio do zobowiązań z umów, które mogą być wypowiedziane tylko z ważnych powodów.    Art. 387$^{6}$. $\S~6$ 6. Przepisy powyższe stosuje się odpowiednio do zobowiązań z umów, które mogą być wypowiedziane tylko z zachowaniem terminu wypowiedzenia.    Art. 387$^{7}$. $\S~7$ 7. Przepisy powyższe stosuje się odpowiednio do zobowiązań z umów, które mogą być wypowiedziane tylko z zachowaniem terminu wypowiedzenia, jeżeli wypowiedzenie nastąpiło z powodu, który uzasadniałby wypowiedzenie natychmiastowe.    Art. 387$^{8}$. $\S~8$ 8. Przepisy powyższe stosuje się odpowiednio do zobowiązań z umów, które mogą być wypowiedziane tylko z ważnych powodów, jeżeli wypowiedzenie nastąpiło z powodu uzasadniającego wypowiedzenie natychmiastowe.    Art. 387$^{9}$. $\S~9$ 9. Przepisy powyższe stosuje się odpowiednio do zobowiązań z umów, które mogą być wypowiedziane tylko z zachowaniem terminu wypowiedzenia, jeżeli wypowiedzenie nastąpiło z powodu uzasadniającego wypowiedzenie natychmiastowe.    Art. 387$^{10}$. $\S~10$ 10. Przepisy powyższe stosuje się odpowiednio do zobowiązań z umów, które mogą być wypowiedziane tylko z ważnych powodów, jeżeli wypowiedzenie nastąpiło z powodu uzasadniającego wypowiedzenie natychmiastowe.    Art. 387$^{11}$. $\S~11$ 11. Przepisy powyższe stosuje się odpowiednio do zobowiązań z umów, które mogą być wypowiedziane tylko z zachowaniem terminu wypowiedzenia, jeżeli wypowiedzenie nastąpiło z powodu uzasadniającego wypowiedzenie natychmiastowe.    Art. 387$^{12}$. $\S~12$ 12. Przepisy powyższe stosuje się odpowiednio do zobowiązań z umów, które mog
+### Judge: Nie
+### Poprawna odpowiedz: b) jest nieważna,, (art. 387 § 1 KC)
+### Wyniki: {'correct': 9, 'incorrect': 4, 'article_correct': 4}
+--------------------
+# Pytanie 14
+### Udzielona odpowiedz: Odpowiedź: a)
+### Judge: Tak
+### Poprawna odpowiedz: a) nie jest odpowiedzialny za szkodę wyrządzoną napastnikowi,, (art. 423 KC)
+### Wyniki: {'correct': 10, 'incorrect': 4, 'article_correct': 4}
+--------------------
+# Pytanie 15
+### Udzielona odpowiedz: Odpowiedź: c) może powstrzymać się z jego spełnieniem, dopóki druga strona nie zaofiaruje świadczenia wzajemnego lub nie da zabezpieczenia; te uprawnienia nie przysługują stronie, która w chwili zawarcia umowy wiedziała o złym stanie majątkowym drugiej strony.
+### Judge: Tak
+### Poprawna odpowiedz: c) może powstrzymać się z jego spełnieniem, dopóki druga strona nie zaofiaruje świadczenia wzajemnego lub nie da zabezpieczenia; te uprawnienia nie przysługują stronie, która w chwili zawarcia umowy wiedziała o złym stanie majątkowym drugiej strony., (art. 490 § 1 i 2  KC)
+### Wyniki: {'correct': 11, 'incorrect': 4, 'article_correct': 5}
+--------------------
+# Pytanie 16
+### Udzielona odpowiedz: Odpowiedź: a)
+### Judge: Tak
+### Poprawna odpowiedz: a) pod nieważnością na piśmie; to samo dotyczy zgody wierzyciela na przejęcie długu,, (art. 522 KC)
+### Wyniki: {'correct': 12, 'incorrect': 4, 'article_correct': 5}
+--------------------
+# Pytanie 17
+### Udzielona odpowiedz: Dokument 1: Art. ${535^{1}}$. Kto bez podstawy prawnej uzyskał korzyść majątkową kosztem innej osoby, obowiązany jest do wydania korzyści w naturze, a gdyby to nie było możliwe, do zwrotu jej wartości.    # ZNACZENIE: Kto bez podstawy prawnej uzyskał korzyść majątkową kosztem innej osoby, obowiązany jest do wydania korzyści w naturze, a gdyby to nie było możliwe, do zwrotu jej wartości.
+                
+### Judge: Nie
+### Poprawna odpowiedz: b) sprzedaży,, (art. 604 KC)
+### Wyniki: {'correct': 12, 'incorrect': 5, 'article_correct': 5}
+--------------------
+# Pytanie 18
+### Udzielona odpowiedz: Odpowiedź: b) umowa zostaje zawarta na czas oznaczony wskazany przez strony
+### Judge: Nie
+### Poprawna odpowiedz: c) poczytuje się umowę za zawartą na czas nieoznaczony., (art. 660 KC)
+### Wyniki: {'correct': 12, 'incorrect': 6, 'article_correct': 5}
+--------------------
+# Pytanie 19
+### Udzielona odpowiedz: Odpowiedź: c) zezwolić biorącemu, przez czas oznaczony lub nieoznaczony, na bezpłatne używanie oddanej mu w tym celu rzeczy.
+### Judge: Tak
+### Poprawna odpowiedz: c) zezwolić biorącemu, przez czas oznaczony lub nieoznaczony, na bezpłatne używanie oddanej mu w tym celu rzeczy., (art. 710 KC)
+### Wyniki: {'correct': 13, 'incorrect': 6, 'article_correct': 6}
+--------------------
+# Pytanie 20
+### Udzielona odpowiedz: Odpowiedź: b) w żadnym wypadku nie wolno używać rzeczy bez zgody składającego
+### Judge: Nie
+### Poprawna odpowiedz: c) nie wolno używać rzeczy bez zgody składającego, chyba że jest to konieczne do jej zachowania w stanie niepogorszonym., (art. 839 KC)
+### Wyniki: {'correct': 13, 'incorrect': 7, 'article_correct': 6}
+--------------------
+# Pytanie 21
+### Udzielona odpowiedz: Odpowiedź: b) spółka ulega rozwiązaniu.
+### Judge: Tak.
+### Poprawna odpowiedz: b) spółka ulega rozwiązaniu,, (art. 874 § 2 KC)
+### Wyniki: {'correct': 14, 'incorrect': 7, 'article_correct': 6}
+--------------------
+# Pytanie 22
+### Udzielona odpowiedz: Odpowiedź: a) ulega odpowiedniemu zmniejszeniu
+### Judge: Tak
+### Poprawna odpowiedz: a) ulega odpowiedniemu zmniejszeniu,, (art. 911 KC)
+### Wyniki: {'correct': 15, 'incorrect': 7, 'article_correct': 6}
+--------------------
+# Pytanie 23
+### Udzielona odpowiedz: Odpowiedź: b) jest skuteczne, gdy nastąpiło z dostatecznym rozeznaniem
+### Judge: Tak
+### Poprawna odpowiedz: b) jest skuteczne, gdy nastąpiło z dostatecznym rozeznaniem,, (art. 930 § 1 i 2 KC)
+### Wyniki: {'correct': 16, 'incorrect': 7, 'article_correct': 6}
+--------------------
+# Pytanie 24
+### Udzielona odpowiedz: Odpowiedź: b) ma moc wsteczną, jeżeli wynika to z jej brzmienia lub celu
+### Judge: Tak
+### Poprawna odpowiedz: b) ma moc wsteczną, jeżeli wynika to z jej brzmienia lub celu,, (art. 3 KC)
+### Wyniki: {'correct': 17, 'incorrect': 7, 'article_correct': 7}
+--------------------
+# Pytanie 25
+### Udzielona odpowiedz: Odpowiedź: c) ustanawia dla niej kuratora
+### Judge: Tak
+### Poprawna odpowiedz: c) ustanawia dla niej kuratora., (art. 42 § 1 KC)
+### Wyniki: {'correct': 18, 'incorrect': 7, 'article_correct': 8}
+--------------------
+# Pytanie 26
+### Udzielona odpowiedz: Dokument 1: Art. $23$. § 1. Do osób prawnych stosuje się odpowiednio przepisy o ochronie dóbr osobistych osób fizycznych.
+
+### Twoja odpowiedź:
+b) stosuje się odpowiednio przepisy o ochronie dóbr osobistych osób fizycznych
+### Judge: Tak
+### Poprawna odpowiedz: b) stosuje się odpowiednio przepisy o ochronie dóbr osobistych osób fizycznych,, (art. 43 KC)
+### Wyniki: {'correct': 19, 'incorrect': 7, 'article_correct': 8}
+--------------------
+# Pytanie 27
+### Udzielona odpowiedz: Dokument 1: Art. 55. Firma może być zbyta.
+                 Dokument 2: Art. 74. § 1. Oświadczenie woli złożone w formie pisemnej bez podpisu notarialnie poświadczonego nie wywołuje skutków prawnych dla osoby, która zaprzeczy, że złożyła oświadczenie zawarte w dokumencie, jeżeli zaprzeczy, że dokument pochodzi od niej, albo jeżeli nabywca w dobrej wierze zaprzeczy, że doszło do przeniesienia oświadczenia na dokument.
+                 Dokument 3: Art. 78. § 1. Do zachowania formy pisemnej wystarcza złożenie własnoręcznego podpisu na dokumencie obejmującym treść oświadczenia woli.
+                 Dokument 4: Art. 79. Do zachowania formy notarialnej wystarcza złożenie oświadczenia woli w obecności notariusza lub przedstawiciela dyplomatycznego polskiego w państwie, w którym forma ta jest wymagana. § 2. Forma aktu notarialnego jest zachowana także wtedy, gdy dokument został podpisany przez notariusza, a następnie podpisem własnoręcznym przez osobę składającą oświadczenie woli.
+
+### Odpowiedź:
+b) może być zbyta, przy czym zbycie firmy powinno być dokonane w formie pisemnej z podpisami notarialnie poświadczonymi
+### Judge: Nie
+### Poprawna odpowiedz: a) nie może być zbyta,, (art. 43^{9} § 1 KC)
+### Wyniki: {'correct': 19, 'incorrect': 8, 'article_correct': 8}
+--------------------
+# Pytanie 28
+### Udzielona odpowiedz: Odpowiedź: b)
+### Judge: Nie
+### Poprawna odpowiedz: c) do przeniesienia własności nieruchomości potrzebne jest dodatkowe porozumienie stron obejmujące ich bezwarunkową zgodę na niezwłoczne przejście własności., (art. 157 § 2 KC)
+### Wyniki: {'correct': 19, 'incorrect': 9, 'article_correct': 8}
+--------------------
+# Pytanie 29
+### Udzielona odpowiedz: Podaję odpowiedź na podstawie artykułu 173 Kodeksu Cywilnego.
+### Judge: Nie
+### Poprawna odpowiedz: c) z upływem dwóch lat od uzyskania pełnoletności przez właściciela., (art. 173 KC)
+### Wyniki: {'correct': 19, 'incorrect': 10, 'article_correct': 8}
+--------------------
+# Pytanie 30
+### Udzielona odpowiedz: Odpowiedź: b) tylko wtedy, gdy nie można uzyskać zgody większości współwłaścicieli w sprawach, które przekraczają zakres zwykłego zarządu
+### Judge: Nie
+### Poprawna odpowiedz: a) jeżeli nie można uzyskać zgody większości współwłaścicieli w istotnych sprawach dotyczących zwykłego zarządu,, (art. 203 KC)
+### Wyniki: {'correct': 19, 'incorrect': 11, 'article_correct': 8}
+--------------------
+# Pytanie 31
+### Udzielona odpowiedz: Odpowiedź: a)
+### Judge: Tak
+### Poprawna odpowiedz: a) może żądać od pozostałych współwłaścicieli wynagrodzenia odpowiadającego uzasadnionemu nakładowi jego pracy,, (art. 205 KC)
+### Wyniki: {'correct': 20, 'incorrect': 11, 'article_correct': 8}
+--------------------
+# Pytanie 32
+### Udzielona odpowiedz: Odpowiedź: b) chyba że celem zbycia jest zapewnienie racjonalnego prowadzenia tego gospodarstwa
+### Judge: Tak
+### Poprawna odpowiedz: b) chyba że celem zbycia jest zapewnienie racjonalnego prowadzenia tego gospodarstwa,, (art. 217 KC)
+### Wyniki: {'correct': 21, 'incorrect': 11, 'article_correct': 8}
+--------------------
+# Pytanie 33
+### Udzielona odpowiedz: Odpowiedź: b) jeżeli nabywca o nich wiedział lub z łatwością mógł się dowiedzieć
+### Judge: Tak
+### Poprawna odpowiedz: b) jeżeli nabywca o nich wiedział lub z łatwością mógł się dowiedzieć,, (art. 221 KC)
+### Wyniki: {'correct': 22, 'incorrect': 11, 'article_correct': 8}
+--------------------
+# Pytanie 34
+### Udzielona odpowiedz: Odpowiedź: a)
+### Judge: Nie
+### Poprawna odpowiedz: b) właściciela nieruchomości władnącej,, (art. 289 § 1 KC)
+### Wyniki: {'correct': 22, 'incorrect': 12, 'article_correct': 8}
+--------------------
+# Pytanie 35
+### Udzielona odpowiedz: Odpowiedź: b) nie może być przeniesione przez czynność prawną
+### Judge: Tak
+### Poprawna odpowiedz: b) nie może być przeniesione przez czynność prawną,, (art. 300 KC)
+### Wyniki: {'correct': 23, 'incorrect': 12, 'article_correct': 8}
+--------------------
+# Pytanie 36
+### Udzielona odpowiedz: Odpowiedź: c)
+### Judge: Tak
+### Poprawna odpowiedz: c) należą się odsetki ustawowe w wysokości równej sumie stopy referencyjnej Narodowego Banku Polskiego i 3,5 punktów procentowych., (art. 359 § 1 i 2 KC)
+### Wyniki: {'correct': 24, 'incorrect': 12, 'article_correct': 8}
+--------------------
+# Pytanie 37
+### Udzielona odpowiedz: Odpowiedź: b) według swego wyboru, do rąk któregokolwiek z wierzycieli solidarnych
+### Judge: Nie
+### Poprawna odpowiedz: a) do rąk wierzyciela, który wytoczył powództwo,, (art. 367 § 2 KC)
+### Wyniki: {'correct': 24, 'incorrect': 13, 'article_correct': 8}
+--------------------
+# Pytanie 38
+### Udzielona odpowiedz: Odpowiedź: a)
+### Judge: Nie
+### Poprawna odpowiedz: b) może żądać naprawienia szkody, którą poniosła przez to, że liczyła na zawarcie umowy przyrzeczonej,, (art. 390 § 1 i 2 KC)
+### Wyniki: {'correct': 24, 'incorrect': 14, 'article_correct': 8}
+--------------------
+# Pytanie 39
+### Udzielona odpowiedz: Odpowiedź: b) wierzyciel przez oświadczenie złożone dłużnikowi w czasie właściwym, jednakże powinien uwzględnić możliwości dłużnika oraz sposób spełnienia świadczenia
+### Judge: Tak
+### Poprawna odpowiedz: b) wierzyciel przez oświadczenie złożone dłużnikowi w czasie właściwym, jednakże powinien uwzględnić możliwości dłużnika oraz sposób spełnienia świadczenia,, (art. 456 KC)
+### Wyniki: {'correct': 25, 'incorrect': 14, 'article_correct': 9}
+--------------------
+# Pytanie 40
+### Udzielona odpowiedz: Odpowiedź: a)
+### Judge: Tak
+### Poprawna odpowiedz: a) może żądać odsetek za czas opóźnienia, chociażby nie poniósł żadnej szkody i chociażby opóźnienie było następstwem okoliczności, za które dłużnik odpowiedzialności nie ponosi,, (art. 481 § 1 KC)
+### Wyniki: {'correct': 26, 'incorrect': 14, 'article_correct': 9}
+--------------------
+# Pytanie 41
+### Udzielona odpowiedz: Odpowiedź: a)
+### Judge: Tak.
+### Poprawna odpowiedz: a) w razie zwłoki drugiej strony odstąpić od umowy bez wyznaczenia terminu dodatkowego,, (art. 492 KC)
+### Wyniki: {'correct': 27, 'incorrect': 14, 'article_correct': 9}
+--------------------
+# Pytanie 42
+### Udzielona odpowiedz: Odpowiedź: a)
+### Judge: Tak
+### Poprawna odpowiedz: a) bez zgody dłużnika przenieść wierzytelność na osobę trzecią (przelew), chyba że sprzeciwiałoby się to ustawie, zastrzeżeniu umownemu albo właściwości zobowiązania,, (art. 509 § 1 KC)
+### Wyniki: {'correct': 28, 'incorrect': 14, 'article_correct': 9}
+--------------------
+# Pytanie 43
+### Udzielona odpowiedz: Dokument 1: Art. 551. § 1. Jeżeli w obrocie między przedsiębiorcami rzecz sprzedawana ma być przesłana do miejsca, które nie jest miejscem spełnienia świadczenia, a z umowy ani z zarządzeń określających cenę nie wynika inaczej, koszty ubezpieczenia i przesłania ponosi sprzedawca.
+Dokument 2: Art. 552. § 1. Jeżeli w umowie sprzedaży zastrzeżona została na rzecz kupującego wyłączność bądź w ten sposób, że sprzedawca nie będzie dostarczał rzeczy określonego rodzaju innym osobom, bądź też w ten sposób, że kupujący będzie jedynym odprzedawcą zakupionych rzeczy na oznaczonym obszarze, sprzedawca nie może w zakresie, w którym wyłączność została zastrzeżona, ani bezpośrednio, ani pośrednio zawierać umów sprzedaży, które mogłyby naruszyć wyłączność przysługującą kupującemu.
+Dokument 3: Art. 553. § 1. Jeżeli w umowie sprzedaży zastrzeżona została na rzecz kupującego wyłączność bądź w ten sposób, że sprzedawca nie będzie dostarczał rzeczy określonego rodzaju innym osobom, bądź też w ten sposób, że kupujący będzie jedynym odprzedawcą zakupionych rzeczy na oznaczonym obszarze, sprzedawca nie może w zakresie, w którym wyłączność została zastrzeżona, ani bezpośrednio, ani pośrednio zawierać umów sprzedaży, które mogłyby naruszyć wyłączność przysługującą kupującemu.
+Dokument 4: Art. 554. § 1. Jeżeli w umowie sprzedaży zastrzeżona została na rzecz kupującego wyłączność bądź w ten sposób, że sprzedawca nie będzie dostarczał rzeczy określonego rodzaju innym osobom, bądź też w ten sposób, że kupujący będzie jedynym odprzedawcą zakupionych rzeczy na oznaczonym obszarze, sprzedawca nie może w zakresie, w którym wyłączność została zastrzeżona, ani bezpośrednio, ani pośrednio zawierać umów sprzedaży, które mogłyby naruszyć wyłączność przysługującą kupującemu.
+Dokument 5: Art. 555. § 1. Jeżeli w umowie sprzedaży zastrzeżona została na rzecz kupującego wyłączność bądź w ten sposób, że sprzedawca nie będzie dostarczał rzeczy określonego rodzaju innym osobom, bądź też w ten sposób, że kupujący będzie jedynym odprzedawcą zakupionych rzeczy na oznaczonym obszarze, sprzedawca nie może w zakresie, w którym wyłączność została zastrzeżona, ani bezpośrednio, ani pośrednio zawierać umów sprzedaży, które mogłyby naruszyć wyłączność przysługującą kupującemu.
+Dokument 6: Art. 556. § 1. Jeżeli w umowie sprzedaży zastrzeżona została na rzecz kupującego wyłączność bądź w ten sposób, że sprzedawca nie będzie dostarczał rzeczy określonego rodzaju innym osobom, bądź też w ten sposób, że kupujący będzie jedynym odprzedawcą zakupionych rzeczy na oznaczonym obszarze, sprzedawca nie może w zakresie, w którym wyłączność została zastrzeżona, ani bezpośrednio, ani pośrednio zawierać umów sprzedaży,
+### Judge: Nie
+### Poprawna odpowiedz: b) ponosi kupujący,, (art. 547 § 1 i 2 KC)
+### Wyniki: {'correct': 28, 'incorrect': 15, 'article_correct': 9}
+--------------------
+# Pytanie 44
+### Udzielona odpowiedz: Odpowiedź: a)
+### Judge: Tak
+### Poprawna odpowiedz: a) zwykłe wynagrodzenie za dzieło tego rodzaju,, (art. 628 § 1 KC)
+### Wyniki: {'correct': 29, 'incorrect': 15, 'article_correct': 9}
+--------------------
+# Pytanie 45
+### Udzielona odpowiedz: Dokument 1: Art. 688. $\S~1$. Jeżeli lokalem mieszkalnym jest lokal służący zaspokojeniu potrzeb mieszkaniowych najemcy, do podnajmu takiego lokalu stosuje się przepisy dotyczące najmu lokali mieszkalnych.
+                
+### Judge: Nie
+### Poprawna odpowiedz: b) nie wymaga zgody wynajmującego,, (art. 668 § 1 KC)
+### Wyniki: {'correct': 29, 'incorrect': 16, 'article_correct': 9}
+--------------------
+# Pytanie 46
+### Udzielona odpowiedz: Dokument 1: Art. 864. § 1. Kto z mocy ustawy lub umowy jest zobowiązany do nadzoru nad osobą, która ze względu na niezdolność do spostrzegania lub komunikowania swoich spostrzeżeń albo ze względu na defekt psychiki lub chorobę psychiczną jest niezdolna do rachowania się ze swoim postępowaniem, odpowiada za szkodę wyrządzoną przez tę osobę, chyba że uczynił zadość obowiązkowi nadzoru.
+                 Dokument 2: Art. 864. § 2. Kto z mocy ustawy lub umowy jest zobowiązany do nadzoru nad osobą, która nie jest zdolna do rachowania się ze swoim postępowaniem, odpowiada za szkodę wyrządzoną przez tę osobę, chyba że uczynił zadość obowiązkowi nadzoru.
+                 Dokument 3: Art. 864. § 3. Kto z mocy ustawy lub umowy jest zobowiązany do nadzoru nad małoletnim lub inną osobą nie mającą zdolności do czynności prawnych, odpowiada za szkodę wyrządzoną przez tę osobę, chyba że uczynił zadość obowiązkowi nadzoru.
+                 Dokument 4: Art. 864. § 4. Kto z mocy ustawy lub umowy jest zobowiązany do nadzoru nad osobą, która ukończyła trzynaście lat, lecz nie ponosi winy w wykonywaniu nadzoru, odpowiada za szkodę wyrządzoną przez tę osobę, chyba że uczynił zadość obowiązkowi nadzoru.
+                 Dokument 5: Art. 864. § 5. Kto z mocy ustawy lub umowy jest zobowiązany do nadzoru nad osobą, która ukończyła trzynaście lat, lecz nie ponosi winy w wykonywaniu nadzoru, odpowiada za szkodę wyrządzoną przez tę osobę, chyba że uczynił zadość obowiązkowi nadzoru.
+                 Dokument 6: Art. 864. § 6. Kto z mocy ustawy lub umowy jest zobowiązany do nadzoru nad osobą, która ukończyła trzynaście lat, lecz nie ponosi winy w wykonywaniu nadzoru, odpowiada za szkodę wyrządzoną przez tę osobę, chyba że uczynił zadość obowiązkowi nadzoru.
+                 Dokument 7: Art. 864. § 7. Kto z mocy ustawy lub umowy jest zobowiązany do nadzoru nad osobą, która ukończyła trzynaście lat, lecz nie ponosi winy w wykonywaniu nadzoru, odpowiada za szkodę wyrządzoną przez tę osobę, chyba że uczynił zadość obowiązkowi nadzoru.
+                 Dokument 8: Art. 864. § 8. Kto z mocy ustawy lub umowy jest zobowiązany do nadzoru nad osobą, która ukończyła trzynaście lat, lecz nie ponosi winy w wykonywaniu nadzoru, odpowiada za szkodę wyrządzoną przez tę osobę, chyba że uczynił zadość obowiązkowi nadzoru.
+                 Dokument 9: Art. 864. § 9. Kto z mocy ustawy lub umowy jest zobowiązany do nadzoru nad osobą, która ukończyła trzynaście lat, lecz nie ponosi winy w wykonywaniu nadzoru, odpowiada za szkodę wyrządzoną przez tę osobę, chyba że uczynił zadość obowiązkowi nadzoru.
+                 Dokument
+### Judge: Nie
+### Poprawna odpowiedz: c) solidarnie., (art. 864 KC)
+### Wyniki: {'correct': 29, 'incorrect': 17, 'article_correct': 9}
+--------------------
+# Pytanie 47
+### Udzielona odpowiedz: Dokument 1: Art. 935. Jeżeli ojcostwo rodzica, który żył w chwili otwarcia spadku, nie zostało ustalone, udział spadkowy matki i rodzeństwa oraz ich zstępnych wynosi po 1/2 części spadku.
+                 ## Odpowiedź:
+b) jedną trzecią spadku
+### Judge: Nie
+### Poprawna odpowiedz: c) połowę spadku., (art. 932 § 1 i 2 zdanie 2 KC)
+### Wyniki: {'correct': 29, 'incorrect': 18, 'article_correct': 9}
+--------------------
+# Pytanie 48
+### Udzielona odpowiedz: Odpowiedź: b) sekretarza gminy.
+### Judge: Tak
+### Poprawna odpowiedz: b) sekretarza gminy,, (art. 951 § 1 KC)
+### Wyniki: {'correct': 30, 'incorrect': 18, 'article_correct': 9}
+--------------------
+# Pytanie 49
+### Udzielona odpowiedz: Dokument 1: Art. 981. § 1. Zapis windykacyjny może być uczyniony tylko na rzecz osoby żyjącej w chwili otwarcia spadku.
+Dokument 2: Art. 982. Zapis windykacyjny powinien oznaczać zapisobiercę oraz przedmiot zapisu.
+Dokument 3: Art. 983. § 1. Zapis windykacyjny może być uczyniony na rzecz wierzyciela spadkodawcy, jeżeli w chwili otwarcia spadku dług jest już wymagalny.
+Dokument 4: Art. 984. § 1. Zapis windykacyjny może być uczyniony na rzecz spadkobiercy tylko w postaci zapisu zwykłego.
+Dokument 5: Art. 985. § 1. Zapis windykacyjny może być uczyniony na rzecz zapisobiercy, który nie jest spadkobiercą, także w testamencie, który sporządzono wyłącznie w celu dokonania tego zapisu.
+Dokument 6: Art. 986. § 1. Zapis windykacyjny powinien być dokonany w testamencie, który został sporządzony w formie aktu notarialnego albo testamentach, o których mowa w art. 949 § 1 pkt 1-3.
+Dokument 7: Art. 987. § 1. Zapis windykacyjny może być ustanowiony na rzecz kilku osób tylko wtedy, gdy ich prawa są równe.
+### Judge: Nie
+### Poprawna odpowiedz: b) tylko w testamencie sporządzonym w formie aktu notarialnego,, (art. 981¹ § 1 KC)
+### Wyniki: {'correct': 30, 'incorrect': 19, 'article_correct': 9}
+--------------------
+# Pytanie 50
+### Udzielona odpowiedz: Odpowiedź: b) mogą zwolnić wszyscy spadkobiercy
+### Judge: Nie
+### Poprawna odpowiedz: a) może zwolnić sąd,, (art. 990 KC)
+### Wyniki: {'correct': 30, 'incorrect': 20, 'article_correct': 9}
+--------------------
+# Pytanie 51
+### Udzielona odpowiedz: Odpowiedź: c) według stanu z chwili jej dokonania, a według cen z chwili otwarcia spadku.
+### Judge: Nie
+### Poprawna odpowiedz: b) według stanu z chwili jej dokonania, a według cen z chwili ustalania zachowku,, (art. 995 § 1 KC)
+### Wyniki: {'correct': 30, 'incorrect': 21, 'article_correct': 9}
+--------------------
+# Pytanie 52
+### Udzielona odpowiedz: Odpowiedź: b) przechodzi na spadkobiercę osoby uprawnionej do zachowku tylko wtedy, gdy spadkobierca ten należy do osób uprawnionych do zachowku po pierwszym spadkodawcy
+### Judge: Tak
+### Poprawna odpowiedz: b) przechodzi na spadkobiercę osoby uprawnionej do zachowku tylko wtedy, gdy spadkobierca ten należy do osób uprawnionych do zachowku po pierwszym spadkodawcy,, (art. 1002 KC)
+### Wyniki: {'correct': 31, 'incorrect': 21, 'article_correct': 10}
+--------------------
+# Pytanie 53
+### Udzielona odpowiedz: Odpowiedź: c) urodzenia.
+### Judge: Tak
+### Poprawna odpowiedz: c) urodzenia., (art. 8 § 1 KC)
+### Wyniki: {'correct': 32, 'incorrect': 21, 'article_correct': 11}
+--------------------
+# Pytanie 54
+### Udzielona odpowiedz: Dokument 1: Art. 13. Małoletni, który ukończył trzynaście lat, może być ubezwłasnowolniony całkowicie, jeżeli wskutek choroby psychicznej albo niedorozwoju umysłowego nie jest w stanie kierować swoim postępowaniem.    Art. 14. Jeżeli w chwili dokonywania czynności prawnej stan psychiczny albo niedorozwój umysłowy osoby, która ma być ubezwłasnowolniona, nie uzasadnia jeszcze ubezwłasnowolnienia, lecz istnieją podstawy do przypuszczenia, że stan taki będzie trwał nadal, sąd może odroczyć ubezwłasnowolnienie na czas nie dłuższy niż trzy lata.    Art. 16. Sąd może ustanowić dla osoby, która ma być ubezwłasnowolniona, kuratora, jeżeli tego wymaga dobro tej osoby lub ochrona praw osób trzecich.    Art. 156. $\S$ 1. Jeżeli wskutek ubezwłasnowolnienia całkowitego uprawnienia osoby dotkniętej ubezwłasnowolnieniem przechodzą na inna osobę, osoba ta może żądać zniesienia współwłasności przez podział fizyczny rzeczy wspólnej.    Art. 167. Jeżeli ubezwłasnowolnienie całkowite zostało orzeczone z powodu choroby psychicznej, sąd może w uzasadnionych przypadkach zezwolić ubezwłasnowolnionemu na zawarcie związku małżeńskiego, jeżeli uzna, że stan zdrowia ubezwłasnowolnionego pozwala na wyciąganie od niego skutków prawnych z oświadczeń woli złożonych przy zawarciu małżeństwa.    Art. 171. Jeżeli ubezwłasnowolnienie całkowite zostało orzeczone z powodu choroby psychicznej lub niedorozwoju umysłowego, sąd może w uzasadnionych przypadkach zezwolić ubezwłasnowolnionemu na dokonanie czynności prawnej, jeżeli uzna, że stan zdrowia ubezwłasnowolnionego pozwala na wyciąganie od niego skutków prawnych z oświadczeń woli złożonych przy dokonaniu tej czynności prawnej.    Art. 179. Jeżeli ubezwłasnowolnienie całkowite zostało orzeczone z powodu choroby psychicznej lub niedorozwoju umysłowego, sąd może w uzasadnionych przypadkach zezwolić ubezwłasnowolnionemu na zawarcie małżeństwa, jeżeli uzna, że stan zdrowia ubezwłasnowolnionego pozwala na wyciąganie od niego skutków prawnych z oświadczeń woli złożonych przy zawarciu małżeństwa.    Art. 180. Jeżeli ubezwłasnowolnienie całkowite zostało orzeczone z powodu choroby psychicznej lub niedorozwoju umysłowego, sąd może w uzasadnionych przypadkach zezwolić ubezwłasnowolnionemu na dokonanie czynności prawnej, jeżeli uzna, że stan zdrowia ubezwłasnowolnionego pozwala na wyciąganie od niego skutków prawnych z oświadczeń woli złożonych przy dokonaniu tej czynności prawnej.    Art. 181. Jeżeli ubezwłasnowolnienie całkowite zostało orzeczone z powodu choroby psychicznej lub niedorozwoju umysłowego, sąd może w uzasadnionych przypadkach zezwolić ubezwłasnowolnionemu na zaw
+### Judge: Nie
+### Poprawna odpowiedz: b) opiekę, chyba że pozostaje on jeszcze pod władzą rodzicielską,, (art. 13 § 2 KC)
+### Wyniki: {'correct': 32, 'incorrect': 22, 'article_correct': 11}
+--------------------
+# Pytanie 55
+### Udzielona odpowiedz: Odpowiedź: a) lat trzynaście.
+### Judge: Tak
+### Poprawna odpowiedz: a) lat trzynaście,, (art. 15 KC)
+### Wyniki: {'correct': 33, 'incorrect': 22, 'article_correct': 11}
+--------------------
+# Pytanie 56
+### Udzielona odpowiedz: Odpowiedź: a)
+### Judge: Tak
+### Poprawna odpowiedz: a) należące do umów powszechnie zawieranych w drobnych bieżących sprawach życia codziennego,, (art. 20 KC)
+### Wyniki: {'correct': 34, 'incorrect': 22, 'article_correct': 11}
+--------------------
+# Pytanie 57
+### Udzielona odpowiedz: Odpowiedź: c) miejsce zamieszkania opiekuna.
+### Judge: Tak
+### Poprawna odpowiedz: c) miejsce zamieszkania opiekuna., (art. 27 KC)
+### Wyniki: {'correct': 35, 'incorrect': 22, 'article_correct': 12}
+--------------------
+# Pytanie 58
+### Udzielona odpowiedz: Odpowiedź: b) dwa miejsca zamieszkania.
+### Judge: Nie.
+### Poprawna odpowiedz: a) tylko jedno miejsce zamieszkania,, (art. 28 KC)
+### Wyniki: {'correct': 35, 'incorrect': 23, 'article_correct': 12}
+--------------------
+# Pytanie 59
+### Udzielona odpowiedz: Odpowiedź: c) jednostką organizacyjną, której przepisy szczególne przyznają zdolność prawną.
+### Judge: Nie.
+### Poprawna odpowiedz: b) osobą prawną,, (art. 33 KC)
+### Wyniki: {'correct': 35, 'incorrect': 24, 'article_correct': 12}
+--------------------
+# Pytanie 60
+### Udzielona odpowiedz: Odpowiedź: b) ponoszą odpowiedzialność za zobowiązania Skarbu Państwa bez ograniczenia.
+### Judge: Nie.
+### Poprawna odpowiedz: a) nie ponoszą odpowiedzialności za zobowiązania Skarbu Państwa,, (art. 40 § 1 KC)
+### Wyniki: {'correct': 35, 'incorrect': 25, 'article_correct': 12}
+--------------------
+# Pytanie 61
+### Udzielona odpowiedz: Odpowiedź: b) zarządzający
+### Judge: Tak
+### Poprawna odpowiedz: b) zarządzający,, (art. 41 KC)
+### Wyniki: {'correct': 36, 'incorrect': 25, 'article_correct': 12}
+--------------------
+# Pytanie 62
+### Udzielona odpowiedz: Podaję odpowiedź na podstawie art. 43.
+### Judge: Nie.
+### Poprawna odpowiedz: b) jej imię i nazwisko,, (art. 43(4) KC)
+### Wyniki: {'correct': 36, 'incorrect': 26, 'article_correct': 12}
+--------------------
+# Pytanie 63
+### Udzielona odpowiedz: Odpowiedź: b) jej płody i inne odłączone od niej części składowe, o ile według zasad prawidłowej gospodarki stanowią normalny dochód z rzeczy
+### Judge: Tak
+### Poprawna odpowiedz: b) jej płody i inne odłączone od niej części składowe, o ile według zasad prawidłowej gospodarki stanowią normalny dochód z rzeczy,, (art. 53 § 1 KC)
+### Wyniki: {'correct': 37, 'incorrect': 26, 'article_correct': 13}
+--------------------
+# Pytanie 64
+### Udzielona odpowiedz: Dokument 1: Art. 70. § 2. W wypadku aukcji i przetargu umowa zostaje zawarta z chwilą przybicia albo przekazania pisemnej oferty zawarcia umowy właściwemu organowi, który ją przeprowadza.
+                 ## Odpowiedź:
+b) udzielenia przybicia
+### Judge: Tak
+### Poprawna odpowiedz: b) udzielenia przybicia,, (art. 70² § 2 KC)
+### Wyniki: {'correct': 38, 'incorrect': 26, 'article_correct': 14}
+--------------------
+# Pytanie 65
+### Udzielona odpowiedz: Odpowiedź: b) sześć lat
+### Judge: Tak
+### Poprawna odpowiedz: b) sześć lat,, (art. 118 KC)
+### Wyniki: {'correct': 39, 'incorrect': 26, 'article_correct': 14}
+--------------------
+# Pytanie 66
+### Udzielona odpowiedz: Dokument 1: Art. 155. Przepisy regulujące przeniesienie posiadania stosuje się odpowiednio do rozszerzenia i ograniczenia posiadania.
+Dokument 2: Art. 45. Przepisy regulujące przeniesienie posiadania stosuje się odpowiednio do posiadania zależnego.
+Dokument 3: Art. 348. Przepisy regulujące przeniesienie posiadania stosuje się odpowiednio do posiadania zwierząt.
+Dokument 4: Art. 349. Przepisy regulujące przeniesienie posiadania stosuje się odpowiednio do posiadania energii.
+Dokument 5: Art. 350. Przepisy regulujące przeniesienie posiadania stosuje się odpowiednio do posiadania lokali.
+Dokument 6: Art. 351. Przepisy regulujące przeniesienie posiadania stosuje się odpowiednio do posiadania statków morskich.
+Dokument 7: Art. 352. Przepisy regulujące przeniesienie posiadania stosuje się odpowiednio do posiadania statków powietrznych.
+Dokument 8: Art. 353. Przepisy regulujące przeniesienie posiadania stosuje się odpowiednio do posiadania pojazdów mechanicznych.
+Dokument 9: Art. 354. Przepisy regulujące przeniesienie posiadania stosuje się odpowiednio do posiadania książek i innych przedmiotów, które są zwracane po ustaniu stosunku prawnego, w którym służą one do używania lub pobierania z nich pożytków.
+Dokument 10: Art. 355. Przepisy regulujące przeniesienie posiadania stosuje się odpowiednio do posiadania przedsiębiorstwa.
+Dokument 11: Art. 356. Przepisy regulujące przeniesienie posiadania stosuje się odpowiednio do posiadania żywego inwentarza.
+Dokument 12: Art. 357. Przepisy regulujące przeniesienie posiadania stosuje się odpowiednio do posiadania wierzytelności.
+Dokument 13: Art. 358. Przepisy regulujące przeniesienie posiadania stosuje się odpowiednio do posiadania praw z papierów wartościowych.
+Dokument 14: Art. 359. Przepisy regulujące przeniesienie posiadania stosuje się odpowiednio do posiadania praw z instrumentów finansowych.
+Dokument 15: Art. 360. Przepisy regulujące przeniesienie posiadania stosuje się odpowiednio do posiadania udziałów w spółce.
+Dokument 16: Art. 361. Przepisy regulujące przeniesienie posiadania stosuje się odpowiednio do posiadania wkładów w spółdzielni.
+Dokument 17: Art. 362. Przepisy regulujące przeniesienie posiadania stosuje się odpowiednio do posiadania skrzynek depozytowych.
+Dokument 18: Art. 363. Przepisy regulujące przeniesienie posiadania stosuje się odpowiednio do posiadania garaży.
+Dokument 19: Art. 364. Przepisy regulujące przeniesienie posiadania stosuje się odpowiednio do posiadania miejsc postojowych.
+Dokument 20: Art. 365. Przepisy regulujące przeniesienie posiadania stosuje się odpowiednio do posiadania praw do materiałów gromadzonych na rachunku papierów wartościowych.
+Dokument 21: Art. 366. Przepisy regulujące przeniesienie posiadania stosuje się odpowiednio do posiadania praw do materiałów gromadzonych na rachunku zbiorczym.
+Dokument 22: Art. 367. Przepisy regulujące przeniesienie posiadania stosuje się odpowiednio do posiadania praw do materiałów gromadzonych na rachunku pieniężnym.
+Dokument 23: Art. 368. Przepisy regulujące
+### Judge: Nie
+### Poprawna odpowiedz: a) rzeczy oznaczonej co do tożsamości,, (art. 155 § 2 KC)
+### Wyniki: {'correct': 39, 'incorrect': 27, 'article_correct': 14}
+--------------------
+# Pytanie 67
+### Udzielona odpowiedz: Dokument 1: $\S3$. Umowa zobowiązująca do przeniesienia własności nieruchomości, która nie została zawarta w formie aktu notarialnego, jest nieważna.
+                 ## Odpowiedź:
+b) aktu notarialnego
+### Judge: Tak
+### Poprawna odpowiedz: b) aktu notarialnego,, (art. 158 KC)
+### Wyniki: {'correct': 40, 'incorrect': 27, 'article_correct': 15}
+--------------------
+# Pytanie 68
+### Udzielona odpowiedz: Dokument 1: Art. 389. Jeżeli termin, w ciągu którego ma być zawarta umowa przyrzeczona, nie został oznaczony, nie można żądać jej zawarcia po upływie roku od dnia zawarcia umowy przedwstępnej.
+### Judge: Tak.
+### Poprawna odpowiedz: a) roku od dnia zawarcia umowy przedwstępnej,, (art. 389 § 2 KC)
+### Wyniki: {'correct': 41, 'incorrect': 27, 'article_correct': 16}
+--------------------
+# Pytanie 69
+### Udzielona odpowiedz: Odpowiedź: a) sumy dwukrotnie wyższej
+### Judge: Tak
+### Poprawna odpowiedz: a) sumy dwukrotnie wyższej,, (art. 394 § 1 KC)
+### Wyniki: {'correct': 42, 'incorrect': 27, 'article_correct': 16}
+--------------------
+# Pytanie 70
+### Udzielona odpowiedz: Dokument 1: Art. 359. $\S~1$. Odsetki od sumy pieniężnej należą się tylko wtedy, gdy to wynika z czynności prawnej, ustawy, orzeczenia sądu lub decyzji innego właściwego organu.
+                 $\S~2$. Jeżeli wysokość odsetek nie jest w inny sposób określona, należą się odsetki ustawowe w wysokości równej sumie stopy referencyjnej Narodowego Banku Polskiego i 3,5 punktów procentowych.
+                 $\S~3$. Odsetki prawnie określone mogą być ustalone na wyższym poziomie.
+                 $\S~4$. Odsetki należą się tylko w stosunku rocznym lub w stosunku dziennym.
+                 $\S~5$. Odsetki za opóźnienie nie mogą być wyższe niż odsetki maksymalne za opóźnienie, które są równe dwukrotności odsetek ustawowych.
+                 $\S~6$. Minister Sprawiedliwości ogłasza, w drodze obwieszczenia, w Dzienniku Urzędowym Rzeczypospolitej Polskiej "Monitor Polski", wysokość odsetek ustawowych i odsetek maksymalnych za opóźnienie.
+
+                ### Twoja odpowiedź:
+b) odsetek ustawowych za opóźnienie
+### Judge: Nie.
+### Poprawna odpowiedz: c) pokwitowania., (art. 462 § 1 KC)
+### Wyniki: {'correct': 42, 'incorrect': 28, 'article_correct': 16}
+--------------------
+# Pytanie 71
+### Udzielona odpowiedz: Odpowiedź: c) zarówno umyślnie, jak i nieumyślnie
+### Judge: Nie
+### Poprawna odpowiedz: b) umyślnie,, (art. 473 § 2 KC)
+### Wyniki: {'correct': 42, 'incorrect': 29, 'article_correct': 16}
+--------------------
+# Pytanie 72
+### Udzielona odpowiedz: Odpowiedź: a) śmierci spadkodawcy.
+### Judge: Tak
+### Poprawna odpowiedz: a) śmierci spadkodawcy,, (art. 924 KC)
+### Wyniki: {'correct': 43, 'incorrect': 29, 'article_correct': 17}
+--------------------
+# Pytanie 73
+### Udzielona odpowiedz: Odpowiedź: b) małżonka spadkodawcy pozostającego w separacji
+### Judge: Tak
+### Poprawna odpowiedz: b) małżonka spadkodawcy pozostającego w separacji,, (art. 935¹ KC)
+### Wyniki: {'correct': 44, 'incorrect': 29, 'article_correct': 17}
+--------------------
+# Pytanie 74
+### Udzielona odpowiedz: Odpowiedź: b) tylko jednego spadkodawcy
+### Judge: Tak
+### Poprawna odpowiedz: b) tylko jednego spadkodawcy,, (art. 942 KC)
+### Wyniki: {'correct': 45, 'incorrect': 29, 'article_correct': 18}
+--------------------
+# Pytanie 75
+### Udzielona odpowiedz: Odpowiedź: b) trzy piąte wartości udziału spadkowego, który by mu przypadał przy dziedziczeniu ustawowym
+### Judge: Nie
+### Poprawna odpowiedz: a) dwie trzecie wartości udziału spadkowego, który by mu przypadał przy dziedziczeniu ustawowym,, (art. 991 § 1 KC)
+### Wyniki: {'correct': 45, 'incorrect': 30, 'article_correct': 18}
+--------------------
+# Pytanie 76
+### Udzielona odpowiedz: Odpowiedź: c) sześciu miesięcy od dnia, w którym spadkobierca dowiedział się o tytule swego powołania.
+### Judge: Tak
+### Poprawna odpowiedz: c) sześciu miesięcy od dnia, w którym spadkobierca dowiedział się o tytule swego powołania., (art. 1015 § 1 KC)
+### Wyniki: {'correct': 46, 'incorrect': 30, 'article_correct': 19}
+--------------------
+{'correct': 46, 'incorrect': 30, 'article_correct': 19}
+
+
+LLM Judge pomylil sie w ocenie wiekszosci artykułów:
+1,3,5,6,15,19,24,25,39,52,53,57,63,67,72,74,76
+
+
+
+Finalny wynik:
+Correct: 46
+Incorrect: 30
+Article correct:2
