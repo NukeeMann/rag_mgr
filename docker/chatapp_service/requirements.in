@@ -18,3 +18,6 @@ tokenizers==0.21.1
 morfeusz2==1.99.9
 beautifulsoup4==4.13.3
 accelerate==1.3.0
+lxml==5.3.1
+pinecone==6.0.2
+streamlit-extras==0.7.1

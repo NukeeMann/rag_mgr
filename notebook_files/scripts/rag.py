@@ -91,7 +91,7 @@ Suggested models for text generation:
 - CYFRAGOVPL/PLLuM-12B-instruct
 '''
 class RAG:
-    def __init__(self, es_index='kodeks_cywilny_256', gen_model='speakleash/Bielik-11B-v2.3-Instruct', llm_url=None):
+    def __init__(self, es_index='kodeks-cywilny-256', gen_model='speakleash/Bielik-11B-v2.3-Instruct', llm_url=None):
         # Inicjalizacja zmiennych środowiskowych i załadowanie modeli
         self.morf = morfeusz2.Morfeusz()
 
@@ -131,6 +131,9 @@ class RAG:
     # Set the Pinecone database credentials
     def set_database(self, api_key):
         self.pinecone_client = Pinecone(api_key=api_key)
+
+    def get_index_list(self):
+        return list(map(lambda index: index["name"], self.pinecone_client.list_indexes()))
 
     # Set the ElasticSearch database credentials
     # def set_database(self, es_url, es_key):
@@ -748,6 +751,7 @@ class RAG:
         if use_rag:
             # Retrieve documents
             retrieved_docs = self.retrieve(query, ret_fun=ret_fun, search_embed=search_embed, query_cleaned=query_cleaned, retrieve_size=retrieve_size)
+
             # Re-rank documents
             reranked_docs = self.rerank(retrieved_docs, query, top_k, rr_entities, rr_keywords, rr_llm)
         else:
@@ -759,5 +763,5 @@ class RAG:
         else:
             answer = self.send_message(query, reranked_docs, additional_instruct=additional_instruct, use_rag=use_rag)
 
-        return reranked_docs
+        return answer
     

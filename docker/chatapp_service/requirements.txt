@@ -272,7 +272,7 @@ protobuf==5.29.1
     #   streamlit
 psutil==7.0.0
     # via accelerate
-pyarrow==19.0.1
+pyarrow==18.1.0
     # via streamlit
 pycparser==2.22
     # via cffi
@@ -483,6 +483,8 @@ yarl==1.19.0
     # via aiohttp
 zstandard==0.23.0
     # via langsmith
-
+lxml==5.3.1
+pinecone==6.0.2
+streamlit-extras==0.7.1
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
