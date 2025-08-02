@@ -450,7 +450,11 @@ class RAG:
                 #messages.append({"role": "system", "content": f"Na podstawie dostarczonych poniżej dokumentów odpowiedz na pytanie użytkownika które znajduję się na samym dole. Wnioskuj wyłącznie na podstawie dostarczonego kontekstu. Jeżeli nie jesteś w stanie odpowiedzieć na podstawie otrzymanych dokumentów uczciwie to powiedz. {additional_instruct}"})
                 context_text = ""
                 for id, doc in enumerate(documents):
-                    context_text += f"# Dokument {id}: {doc['_source'].get('source_text')} "
+                    context_text += f'''
+# Dokument {id}
+# Źrodło: {self.convert_source_to_link(doc['_source'].get('source'))}
+# Treść dokumentu: {doc['_source'].get('source_text')}'''
+                    
                     #messages.append({"role": "system", "content": f"Dokument {id}: {doc['_source'].get('source_text')}"})
 
                 # if additional_instruct:
@@ -561,6 +565,7 @@ class RAG:
                     matching_entities_score += 0.2
             
             # Adjust the score by adding the matching entity score
+            doc['_score_entities'] = matching_entities_score
             doc['_score'] += matching_entities_score
         
         # Sort documents based on the adjusted score
@@ -593,7 +598,15 @@ class RAG:
         scores = np.squeeze(scores).tolist()
         paired_docs_score = list(zip(documents, scores))
         sorted_paired_docs_score = sorted(paired_docs_score, key=lambda x: x[1], reverse=True)
-        selected_documents = [document for document, score in sorted_paired_docs_score if score > 0]
+        #selected_documents = [document for document, score in sorted_paired_docs_score if score > 0]
+
+        selected_documents = []
+        for document, score in sorted_paired_docs_score:
+            # if score > 0:
+            #     document['_score_llm'] = score
+            #     selected_documents.append(document)
+            document['_score_llm'] = score
+            selected_documents.append(document)
 
         del output
         del scores
@@ -616,6 +629,22 @@ class RAG:
 
         return reranked_documents[:top_k]
     
+    def convert_source_to_link(delf, source: str) -> str:
+        base_url = "https://"
+
+        if source.endswith("content.txt"):
+            source_url = source.removesuffix("content.txt")
+            return f"{base_url}{source_url}/"
+        elif source.endswith(".pdf.txt"):
+            split_source = source.split("/")
+            pdf_txt = split_source[-1]
+            document_name = pdf_txt.replace(".txt", "")
+            source_url = "/".join(split_source[:-1])
+            return f"{base_url}{source_url}/ - {document_name}"
+        else:
+            return source
+
+    
     def infer(self, query_text, additional_instruct="", max_new_tokens_v=1000, use_rag=True, top_k=5, retrieve_size=5, rr_entities=False, rr_keywords=False, rr_llm=True, ret_fun='similarity', search_embed=True, query_cleaned=False, verbose=0):
 
         # Retrieve documents
@@ -628,6 +657,47 @@ class RAG:
             answer = self.generate_answer(query, reranked_docs, additional_instruct=additional_instruct, max_new_tokens_v=max_new_tokens_v, use_rag=use_rag, verbose=verbose)
         else:
             answer = self.send_message(query, reranked_docs, additional_instruct=additional_instruct, use_rag=use_rag)
+        
 
-        return answer
+        # docs_text = ""
+        # for id, doc in enumerate(reranked_docs):
+        #     docs_text += f'''
+        #     ### Dokument {id}: 
+        #     # Score bazowy: {doc['_score']}
+        #     # Score LLM: {doc['_score_llm']}
+        #     # Treść dokumentu:
+        #     {doc['_source'].get('source_text')}
+
+        #     '''
+        
+        docs_text = ""
+        for id, doc in enumerate(reranked_docs):
+            entities = doc['_source'].get('entities', [])
+            if entities:
+                entity_names = ', '.join(e['entity_name'] for e in entities)
+                entity_line = f"# Entitys: {entity_names}"
+            else:
+                entity_line = "# Entitys: brak"
+
+            docs_text += f'''
+## Dokument {id}: 
+# Score bazowy: {doc['_score']}
+# Score entities: {doc['_score_entities']}
+# Score LLM: {doc['_score_llm']}
+{entity_line}
+# Źródło dokumentu: {self.convert_source_to_link(doc['_source']['source'])}
+# Treść dokumentu: 
+{doc['_source'].get('source_text')}
+'''
+
+        output_msg = f'''
+====================================================
+### Pytanie: {query['source_text']}
+### Przytoczone dokumenty
+{docs_text}
+### Odpowiedź modelu:
+{answer}
+'''
+
+        return output_msg
     
