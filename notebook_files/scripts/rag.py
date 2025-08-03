@@ -452,7 +452,6 @@ class RAG:
                 for id, doc in enumerate(documents):
                     context_text += f'''
 # Dokument {id}
-# Źrodło: {self.convert_source_to_link(doc['_source'].get('source'))}
 # Treść dokumentu: {doc['_source'].get('source_text')}'''
                     
                     #messages.append({"role": "system", "content": f"Dokument {id}: {doc['_source'].get('source_text')}"})
@@ -685,7 +684,6 @@ class RAG:
 # Score entities: {doc['_score_entities']}
 # Score LLM: {doc['_score_llm']}
 {entity_line}
-# Źródło dokumentu: {self.convert_source_to_link(doc['_source']['source'])}
 # Treść dokumentu: 
 {doc['_source'].get('source_text')}
 '''
